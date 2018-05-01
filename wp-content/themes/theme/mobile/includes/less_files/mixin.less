@@ -1,0 +1,160 @@
+.mx_image_background {
+  background-color: #f2f2f2;
+}
+
+
+.td-visibility-hidden { //used to hide date from tc
+  visibility: hidden;
+}
+
+
+
+
+/*  ----------------------------------------------------------------------------
+    from bootstrap
+*/
+
+// Clearfix
+// --------
+// For clearing floats like a boss h5bp.com/q
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    // Fixes Opera/contenteditable bug:
+    // http://nicolasgallagher.com/micro-clearfix-hack/#comment-36952
+    line-height: 0;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+
+// Border Radius
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+// Transitions
+.transition(@transition) {
+  -webkit-transition: @transition;
+  -moz-transition: @transition;
+  -o-transition: @transition;
+  transition: @transition;
+}
+
+.transition(@transition1, @transition2) {
+  -webkit-transition: @transition1, @transition2;
+  -moz-transition: @transition1, @transition2;
+  -o-transition: @transition1, @transition2;
+  transition: @transition1, @transition2;
+}
+
+// Transition delay
+.transition-delay(@transition1) {
+  -webkit-transition-delay: @transition1;
+  -moz-transition-delay: @transition1;
+  -o-transition-delay: @transition1;
+  transition-delay: @transition1;
+}
+
+
+// Drop shadows
+.box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow;
+  -moz-box-shadow: @shadow;
+  box-shadow: @shadow;
+}
+
+// Box sizing
+.box-sizing(@boxmodel) {
+  -webkit-box-sizing: @boxmodel;
+  -moz-box-sizing: @boxmodel;
+  box-sizing: @boxmodel;
+}
+
+
+.scale (@factor) {
+  -webkit-transform: scale(@factor);
+  -moz-transform: 	 scale(@factor);
+  -ms-transform: 		 scale(@factor);
+  -o-transform: 		 scale(@factor);
+}
+
+
+.toRGBA( @color, @alpha) {
+  color: rgba(red(@color), green(@color), blue(@color), @alpha)
+}
+
+
+
+/*
+usage:
+.td-block-row {
+  .mx-row(td-block-span);
+}
+
+@all_span_selector - is the begining of the span selector
+ */
+.mx-row-and-span(@all_span_selector) {
+  .mx-row();
+
+  [class*="@{all_span_selector}"] {
+    .mx-span();
+  }
+}
+
+//make a single row
+.mx-row() {
+  //width: 100%;
+  *zoom: 1;
+
+  &:before,
+  &:after
+  {
+    display: table;
+    content: "";
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+//make all the spans put it in [class*="span_prefix"] selector
+.mx-span() {
+  display: block;
+  min-height: 1px;
+  float: left;
+  padding-right: 0;
+  padding-left: 0
+}
+
+
+.transform(@string){
+  transform: @string;
+  -webkit-transform: @string;
+  -moz-transform: 	 @string;
+  -ms-transform: 		 @string;
+  -o-transform: 		 @string;
+}
+
+.transform-origin(@string) {
+  -webkit-transform-origin: @string;
+  -moz-transform-origin: @string;
+  -o-transform-origin: @string;
+  transform-origin: @string;
+}
+
+.transform_important(@string){
+  transform: @string !important;
+  -webkit-transform: @string !important;
+  -moz-transform: 	 @string !important;
+  -ms-transform: 		 @string !important;
+  -o-transform: 		 @string !important;
+}

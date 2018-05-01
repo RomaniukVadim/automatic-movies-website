@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el\n"
+
+#: no reference:
+msgid "View all results"
+msgstr "Προβολή όλων των αποτελεσμάτων"
+
+#: no reference:
+msgid "No results"
+msgstr "Κανένα αποτέλεσμα"
+
+#: no reference:
+msgid "Home"
+msgstr "Αρχική"
+
+#: no reference:
+msgid "CLOSE"
+msgstr "ΚΛΕΙΣΙΜΟ"
+
+#: no reference:
+msgid "Page"
+msgstr "Σελίδα"
+
+#: no reference:
+msgid "All"
+msgstr "Όλα"
+
+#: no reference:
+msgid "By"
+msgstr "Από"
+
+#: no reference:
+msgid "Load more"
+msgstr "Φόρτωση περισσοτέρων"
+
+#: no reference:
+msgid "View all posts in"
+msgstr "Προβολή"
+
+#: no reference:
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: no reference:
+msgid "Previous article"
+msgstr "Προηγούμενο άρθρο"
+
+#: no reference:
+msgid "Next article"
+msgstr "Επόμενο άρθρο"
+
+#: no reference:
+msgid "Authors"
+msgstr "Δημιουργοί"
+
+#: no reference:
+msgid "Author"
+msgstr "Δημιουργός"
+
+#: no reference:
+msgid "RELATED ARTICLES"
+msgstr "ΠΑΡΟΜΟΙΑ ΑΡΘΡΑ"
+
+#: no reference:
+msgid "MORE FROM AUTHOR"
+msgstr "ΠΕΡΙΣΣΟΤΕΡΑ ΑΠΟ ΤΟΝ ΔΗΜΙΟΥΡΓΟ"
+
+#: no reference:
+msgid "VIA"
+msgstr "ΜΕΣΩ"
+
+#: no reference:
+msgid "SOURCE"
+msgstr "ΠΗΓΗ"
+
+#: no reference:
+msgid "TAGS"
+msgstr "ΕΤΙΚΕΤΕΣ"
+
+#: no reference:
+msgid "SHARE"
+msgstr "ΚΟΙΝΟΠΟΙΗΣΗ"
+
+#: no reference:
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: no reference:
+msgid "Read more"
+msgstr "Διαβάστε περισσότερα"
+
+#: no reference:
+msgid "Name:"
+msgstr "Όνομα:"
+
+#: no reference:
+msgid "Email:"
+msgstr "Email:"
+
+#: no reference:
+msgid "Website:"
+msgstr "Ιστοσελίδα:"
+
+#: no reference:
+msgid "Comment:"
+msgstr "Σχόλιο:"
+
+#: no reference:
+msgid "LEAVE A REPLY"
+msgstr "ΑΦΗΣΤΕ ΜΙΑ ΑΠΑΝΤΗΣΗ"
+
+#: no reference:
+msgid "Post Comment"
+msgstr "Δημοσίευση σχολίου"
+
+#: no reference:
+msgid "Cancel reply"
+msgstr "Ακύρωση απάντησης"
+
+#: no reference:
+msgid "Reply"
+msgstr "Απάντηση"
+
+#: no reference:
+msgid "Log in to leave a comment"
+msgstr "Συνδεθείτε για να αφήσετε ένα σχόλιο"
+
+#: no reference:
+msgid "NO COMMENTS"
+msgstr "ΚΑΝΕΝΑ ΣΧΟΛΙΟ"
+
+#: no reference:
+msgid "1 COMMENT"
+msgstr "1 ΣΧΟΛΙΟ"
+
+#: no reference:
+msgid "COMMENTS"
+msgstr "ΣΧΟΛΙΑ"
+
+#: no reference:
+msgid "REVIEW OVERVIEW"
+msgstr "ΣΥΝΟΨΗ ΚΡΙΤΙΚΗΣ"
+
+#: no reference:
+msgid "SUMMARY"
+msgstr "ΠΕΡΙΛΗΨΗ"
+
+#: no reference:
+msgid "OVERALL SCORE"
+msgstr "ΣΥΝΟΛΙΚΗ ΒΑΘΜΟΛΟΓΙΑ"
+
+#: no reference:
+msgid "Ooops... Error 404"
+msgstr "Ουπς... Σφάλμα 404"
+
+#: no reference:
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr "Συγνώμη, αλλά η σελίδα που ψάχνετε δεν υπάρχει."
+
+#: no reference:
+msgid "You can go to the"
+msgstr "Μπορείτε να πάτε στην"
+
+#: no reference:
+msgid "HOMEPAGE"
+msgstr "ΑΡΧΙΚΗ ΣΕΛΙΔΑ"
+
+#: no reference:
+msgid "OUR LATEST POSTS"
+msgstr "ΟΙ ΤΕΛΕΥΤΑΙΕΣ ΜΑΣ ΔΗΜΟΣΙΕΥΣΕΙΣ"
+
+#: no reference:
+msgid "Posts by"
+msgstr "Δημοσιεύσεις από"
+
+#: no reference:
+msgid "POSTS"
+msgstr "ΔΗΜΟΣΙΕΥΣΕΙΣ"
+
+#: no reference:
+msgid "Posts tagged with"
+msgstr "Δημοσιεύσεις με ετικέτες"
+
+#: no reference:
+msgid "Tag"
+msgstr "Ετικέτα"
+
+#: no reference:
+msgid "Daily Archives:"
+msgstr "Ημερήσιο Αρχείο:"
+
+#: no reference:
+msgid "Monthly Archives:"
+msgstr "Μηνιαίο Αρχείο:"
+
+#: no reference:
+msgid "Yearly Archives:"
+msgstr "Ετήσιο Αρχείο:"
+
+#: no reference:
+msgid "Archives"
+msgstr "Αρχείο"
+
+#: no reference:
+msgid "LATEST ARTICLES"
+msgstr "ΤΕΛΕΥΤΑΙΑ ΑΡΘΡΑ"
+
+#: no reference:
+msgid "search results"
+msgstr "αποτελέσματα αναζήτησης"
+
+#: no reference:
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: no reference:
+msgid "If you're not happy with the results, please do another search"
+msgstr "Αν δεν είστε ευχαριστημένοι με τα αποτελέσματα, παρακαλούμε πραγματοποιήστε μια άλλη αναζήτηση"
+
+#: no reference:
+msgid "Contact us"
+msgstr "Επικοινωνία"
+
+#: no reference:
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Σελίδα %CURRENT_PAGE% από %TOTAL_PAGES%"
+
+#: no reference:
+msgid "Next"
+msgstr "Επόμενο"
+
+#: no reference:
+msgid "Prev"
+msgstr "Προηγούμενο"
+
+#: no reference:
+msgid "No results for your search"
+msgstr "Κανένα αποτέλεσμα για την αναζήτησή σας"
+
+#: no reference:
+msgid "No posts to display"
+msgstr "Καμία δημοσίευση για προβολή"
+
+#: no reference:
+msgid "LOG IN"
+msgstr "ΣΥΝΔΕΣΗ"
+
+#: no reference:
+msgid "Sign in / Join"
+msgstr "Σύνδεση / Εγγραφή"
+
+#: no reference:
+msgid "Log In"
+msgstr "Σύνδεση"
+
+#: no reference:
+msgid "REGISTER"
+msgstr "ΕΓΓΡΑΦΗ"
+
+#: no reference:
+msgid "Send My Pass"
+msgstr "Στείλε τον κωδικό μου"
+
+#: no reference:
+msgid "Forgot your password?"
+msgstr "Ξεχάσατε τον κωδικό σας;"
+
+#: no reference:
+msgid "Please wait..."
+msgstr "Παρακαλούμε περιμένετε..."
+
+#: no reference:
+msgid "User or password incorrect!"
+msgstr "Χρήστης ή κωδικός λανθασμένος!"
+
+#: no reference:
+msgid "Email or username incorrect!"
+msgstr "Email ή όνομα χρήστη λανθασμένο!"
+
+#: no reference:
+msgid "Email incorrect!"
+msgstr "Email λανθασμένο!"
+
+#: no reference:
+msgid "User or email already exists!"
+msgstr "Ο χρήστης ή το email υπάρχει ήδη!"
+
+#: no reference:
+msgid "Please check your email (index or spam folder), the password was sent there."
+msgstr "Παρακαλούμε ελέγξτε το email σας (φάκελος εισερχομένων ή spam), ο κωδικός πρόσβασης στάλθηκε εκεί."
+
+#: no reference:
+msgid "Email address not found!"
+msgstr "Η διεύθυνση email δεν βρέθηκε!"
+
+#: no reference:
+msgid "Your password is reset, check your email."
+msgstr "Ο κωδικός σας επαναφέρθηκε, ελέγξτε το email σας."
+
+#: no reference:
+msgid "Welcome! Log into your account"
+msgstr "Καλωσήρθατε! Συνδεθείτε στον λογαριασμό σας"
+
+#: no reference:
+msgid "Register for an account"
+msgstr "Εγγραφείτε για έναν λογαριασμό"
+
+#: no reference:
+msgid "Recover your password"
+msgstr "Ανακτήστε τον κωδικό σας"
+
+#: no reference:
+msgid "your username"
+msgstr "το όνομα χρήστη σας"
+
+#: no reference:
+msgid "your password"
+msgstr "ο κωδικός πρόσβασης σας"
+
+#: no reference:
+msgid "your email"
+msgstr "το email σας"
+
+#: no reference:
+msgid "A password will be e-mailed to you."
+msgstr "Ένας κωδικός πρόσβασης θα σταλθεί με e-mail σε εσάς."
+
+#: no reference:
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: no reference:
+msgid "Like"
+msgstr "Κάντε Like"
+
+#: no reference:
+msgid "Fans"
+msgstr "Υποστηρικτές"
+
+#: no reference:
+msgid "Follow"
+msgstr "Ακολουθήστε"
+
+#: no reference:
+msgid "Followers"
+msgstr "Ακόλουθοι"
+
+#: no reference:
+msgid "Subscribe"
+msgstr "Γίνετε συνδρομητής"
+
+#: no reference:
+msgid "Subscribers"
+msgstr "Συνδρομητές"
+
+#: no reference:
+msgid "MORE STORIES"
+msgstr "ΠΕΡΙΣΣΟΤΕΡΑ ΘΕΜΑΤΑ"
+
+#: no reference:
+msgid "Latest"
+msgstr "Τελευταία"
+
+#: no reference:
+msgid "Featured posts"
+msgstr "Προτεινόμενες δημοσιεύσεις"
+
+#: no reference:
+msgid "Most popular"
+msgstr "Τα πιο δημοφιλή"
+
+#: no reference:
+msgid "7 days popular"
+msgstr "Δημοφιλή 7 ημερών"
+
+#: no reference:
+msgid "By review score"
+msgstr "Κατά βαθμολογία κριτικής"
+
+#: no reference:
+msgid "Random"
+msgstr "Τυχαίο"
+
+#: no reference:
+msgid "Trending Now"
+msgstr "Οι Τάσεις Τώρα"
+
+#: no reference:
+msgid "POPULAR CATEGORY"
+msgstr "ΔΗΜΟΦΙΛΗ ΚΑΤΗΓΟΡΙΑ"
+
+#: no reference:
+msgid "EVEN MORE NEWS"
+msgstr "ΑΚΟΜΑ ΠΕΡΙΣΣΟΤΕΡΑ ΝΕΑ"
+
+#: no reference:
+msgid "Previous (Left arrow key)"
+msgstr "Προηγούμενο (Κουμπί αριστερού βέλους)"
+
+#: no reference:
+msgid "Next (Right arrow key)"
+msgstr "Επόμενο (Κουμπί δεξιού βέλους)"
+
+#: no reference:
+msgid "%curr% of %total%"
+msgstr "%curr% από %total%"
+
+#: no reference:
+msgid "The content from %url% could not be loaded."
+msgstr "Το περιεχόμενο από %url% δεν ήταν δυνατό να φορτωθεί."
+
+#: no reference:
+msgid "The image #%curr% could not be loaded."
+msgstr "Η εικόνα #%curr% δεν ήταν δυνατό να φορτωθεί."
+
+#: no reference:
+msgid "Blog"
+msgstr "Blog"
+
+#: no reference:
+msgid "Share on Facebook"
+msgstr "Κοινοποίηση στο Facebook"
+
+#: no reference:
+msgid "Tweet on Twitter"
+msgstr "Κάντε Tweet στο Twitter"
+
+#: no reference:
+msgid "EDITOR PICKS"
+msgstr "ΕΠΙΛΟΓΈΣ ΣΥΝΤΆΚΤΗ"
+
+#: no reference:
+msgid "POPULAR POSTS"
+msgstr "ΔΗΜΟΦΙΛΕΊΣ ΘΈΣΕΙΣ"
+
+#: no reference:
+msgid "FOLLOW US"
+msgstr "ΑΚΟΛΟΥΘΗΣΕ ΜΑΣ"
+
+#: no reference:
+msgid "ABOUT US"
+msgstr "ΣΧΕΤΙΚΆ ΜΕ ΕΜΆΣ"
+
+#: no reference:
+msgid "More"
+msgstr "περισσότερο"
+
+#: no reference:
+msgid "Featured"
+msgstr "Προτεινόμενο"
+
+#: no reference:
+msgid "All time popular"
+msgstr "όλων των εποχών δημοφιλή"
+
+#: no reference:
+msgid "Likes"
+msgstr "όμοιούς"
+
+#: no reference:
+msgid "Register"
+msgstr "μητρώο"
+

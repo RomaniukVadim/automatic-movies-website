@@ -1,0 +1,78 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/* Cars demo */
+.td-cars .td-header-style-10 .sf-menu > li > a::after {
+  display: none;
+}
+.td-cars .td-main-page-wrap {
+  padding-top: 0 !important;
+}
+.td-cars .td-header-style-10 .td-header-gradient:before {
+  display: none;
+}
+.td-cars .td-header-style-10 .td-header-sp-logo img {
+  width: 100%;
+}
+.td-cars .td-black-row {
+  margin-bottom: 24px !important;
+  padding-top: 30px !important;
+  background-color: #111111 !important;
+}
+.td-cars .td-black-row .td_block_big_grid_1,
+.td-cars .td-black-row .td_block_big_grid_2,
+.td-cars .td-black-row .td_block_big_grid_3,
+.td-cars .td-black-row .td_block_big_grid_4,
+.td-cars .td-black-row .td_block_big_grid_5,
+.td-cars .td-black-row .td_block_big_grid_6,
+.td-cars .td-black-row .td_block_big_grid_7,
+.td-cars .td-black-row .td_block_big_grid_8 {
+  padding-bottom: 30px;
+}
+.td-cars .td-trending-now-title {
+  font-family: Droid Serif;
+  font-size: 13px;
+  padding: 2px 12px;
+}
+.td-cars .td-black-video-playlist {
+  margin-bottom: 30px !important;
+  padding-top: 30px !important;
+  background-color: #111;
+}
+.td-cars .td_block_video_playlist {
+  padding-bottom: 30px;
+}
+.td-cars .td_video_title_text {
+  font-family: Droid Serif !important;
+  font-size: 18px !important;
+  font-weight: normal !important;
+}
+.td-cars .td-pb-span4 .td_module_10 .entry-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.td-cars .td-sml-current-item-title {
+  font-weight: bold;
+  font-family: Droid Serif;
+}
+.td-cars #td-theme-settings .td-skin-buy a {
+  background-color: #ef3726;
+}
+.td-cars .td-module-comments a,
+.td-cars .td_video_playlist_title {
+  background-color: #ef3726;
+}
+.td-cars .td-module-comments a:after {
+  border-color: #ef3726 transparent transparent transparent;
+}
+.td-cars .td-header-style-10 .sf-menu > li > a:hover,
+.td-cars .td-header-style-10 .sf-menu > .sfHover > a,
+.td-cars .td-header-style-10 .sf-menu > .current-menu-item > a,
+.td-cars .td-header-style-10 .sf-menu > .current-menu-ancestor > a,
+.td-cars .td-header-style-10 .sf-menu > .current-category-ancestor > a,
+.td-cars .td-header-style-10 .header-search-wrap .td-icon-search:hover {
+  color: #000;
+}

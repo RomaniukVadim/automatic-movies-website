@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+
+#: no reference:
+msgid "View all results"
+msgstr "Просмотреть все результаты"
+
+#: no reference:
+msgid "No results"
+msgstr "Нет результатов"
+
+#: no reference:
+msgid "Home"
+msgstr "Домой"
+
+#: no reference:
+msgid "CLOSE"
+msgstr "ЗАКРЫТЬ"
+
+#: no reference:
+msgid "Page"
+msgstr "Страница"
+
+#: no reference:
+msgid "All"
+msgstr "Все"
+
+#: no reference:
+msgid "By"
+msgstr "По"
+
+#: no reference:
+msgid "Load more"
+msgstr "Загрузить больше"
+
+#: no reference:
+msgid "View all posts in"
+msgstr "Просмотреть все посты в"
+
+#: no reference:
+msgid "Tags"
+msgstr "Теги"
+
+#: no reference:
+msgid "Previous article"
+msgstr "Предыдущая статья"
+
+#: no reference:
+msgid "Next article"
+msgstr "Следующая статья"
+
+#: no reference:
+msgid "Authors"
+msgstr "Авторы"
+
+#: no reference:
+msgid "Author"
+msgstr "Автор"
+
+#: no reference:
+msgid "RELATED ARTICLES"
+msgstr "СХОЖИЕ СТАТЬИ"
+
+#: no reference:
+msgid "MORE FROM AUTHOR"
+msgstr "БОЛЬШЕ ОТ АВТОРА"
+
+#: no reference:
+msgid "VIA"
+msgstr "ЧЕРЕЗ"
+
+#: no reference:
+msgid "SOURCE"
+msgstr "ИСТОЧНИК"
+
+#: no reference:
+msgid "TAGS"
+msgstr "ТЕГИ"
+
+#: no reference:
+msgid "SHARE"
+msgstr "ПОДЕЛИТЬСЯ"
+
+#: no reference:
+msgid "Continue"
+msgstr "Продолжить"
+
+#: no reference:
+msgid "Read more"
+msgstr "Узнать больше"
+
+#: no reference:
+msgid "Name:"
+msgstr "Имя:"
+
+#: no reference:
+msgid "Email:"
+msgstr "Электронная почта:"
+
+#: no reference:
+msgid "Website:"
+msgstr "Веб-Сайт:"
+
+#: no reference:
+msgid "Comment:"
+msgstr "Комментарий:"
+
+#: no reference:
+msgid "LEAVE A REPLY"
+msgstr "ОСТАВЬТЕ ОТВЕТ"
+
+#: no reference:
+msgid "Post Comment"
+msgstr "Опубликовать Комментарий"
+
+#: no reference:
+msgid "Cancel reply"
+msgstr "Отменить ответ"
+
+#: no reference:
+msgid "Reply"
+msgstr "Ответить"
+
+#: no reference:
+msgid "Log in to leave a comment"
+msgstr "Войдите, чтобы оставить комментарий"
+
+#: no reference:
+msgid "NO COMMENTS"
+msgstr "НЕТ КОММЕНТАРИЕВ"
+
+#: no reference:
+msgid "1 COMMENT"
+msgstr "1 КОММЕНТАРИЙ"
+
+#: no reference:
+msgid "COMMENTS"
+msgstr "КОММЕНТАРИИ"
+
+#: no reference:
+msgid "REVIEW OVERVIEW"
+msgstr "ОЦЕНИТЬ ОБЗОР"
+
+#: no reference:
+msgid "SUMMARY"
+msgstr "ИТОГ"
+
+#: no reference:
+msgid "OVERALL SCORE"
+msgstr "КОНЕЧНЫЙ РЕЗУЛЬТАТ"
+
+#: no reference:
+msgid "Ooops... Error 404"
+msgstr "Упс... Ошибка 404"
+
+#: no reference:
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr "Извините, но страница, которую Вы ищете, не существует."
+
+#: no reference:
+msgid "You can go to the"
+msgstr "Вы можете перейти на"
+
+#: no reference:
+msgid "HOMEPAGE"
+msgstr "ГЛАВНАЯ СТРАНИЦА"
+
+#: no reference:
+msgid "OUR LATEST POSTS"
+msgstr "НАШИ ПОСЛЕДНИЕ ПОСТЫ"
+
+#: no reference:
+msgid "Posts by"
+msgstr "Посты от"
+
+#: no reference:
+msgid "POSTS"
+msgstr "ПОСТЫ"
+
+#: no reference:
+msgid "Posts tagged with"
+msgstr "Посты с тегами"
+
+#: no reference:
+msgid "Tag"
+msgstr "Тег"
+
+#: no reference:
+msgid "Daily Archives:"
+msgstr "Ежедневные Архивы:"
+
+#: no reference:
+msgid "Monthly Archives:"
+msgstr "Ежемесячные Архивы:"
+
+#: no reference:
+msgid "Yearly Archives:"
+msgstr "Ежегодные Архивы:"
+
+#: no reference:
+msgid "Archives"
+msgstr "Архивы"
+
+#: no reference:
+msgid "LATEST ARTICLES"
+msgstr "САМЫЕ ПОСЛЕДНИЕ СТАТЬИ"
+
+#: no reference:
+msgid "search results"
+msgstr "результаты поиска"
+
+#: no reference:
+msgid "Search"
+msgstr "Поиск"
+
+#: no reference:
+msgid "If you're not happy with the results, please do another search"
+msgstr "Если результаты Вас не удовлетворяют, пожалуйста, попробуйте еще раз"
+
+#: no reference:
+msgid "Contact us"
+msgstr "Свяжитесь с нами"
+
+#: no reference:
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Страница %CURRENT_PAGE% из %TOTAL_PAGES%"
+
+#: no reference:
+msgid "Next"
+msgstr "След"
+
+#: no reference:
+msgid "Prev"
+msgstr "Пред"
+
+#: no reference:
+msgid "No results for your search"
+msgstr "Нет результатов по Вашему запросу"
+
+#: no reference:
+msgid "No posts to display"
+msgstr "Нет постов для отображения"
+
+#: no reference:
+msgid "LOG IN"
+msgstr "ВОЙТИ"
+
+#: no reference:
+msgid "Sign in / Join"
+msgstr "Зарегистрироваться/Присоединиться"
+
+#: no reference:
+msgid "Log In"
+msgstr "Войти"
+
+#: no reference:
+msgid "REGISTER"
+msgstr "ЗАРЕГИСТРИРОВАТЬСЯ"
+
+#: no reference:
+msgid "Send My Pass"
+msgstr "Отправить Мой Пароль"
+
+#: no reference:
+msgid "Forgot your password?"
+msgstr "Вы забыли свой пароль?"
+
+#: no reference:
+msgid "Please wait..."
+msgstr "Пожалуйста, подождите..."
+
+#: no reference:
+msgid "User or password incorrect!"
+msgstr "Неверное имя пользователя или пароль!"
+
+#: no reference:
+msgid "Email or username incorrect!"
+msgstr "Неверный адрес электронной почты или пароль!"
+
+#: no reference:
+msgid "Email incorrect!"
+msgstr "Неверный адрес электронной почты!"
+
+#: no reference:
+msgid "User or email already exists!"
+msgstr "Пользователь или адрес электронной почты уже существует!"
+
+#: no reference:
+msgid "Please check your email (index or spam folder), the password was sent there."
+msgstr "Пожалуйста, проверьте свою электронную почту (входящие или спам), пароль был выслан по Вашему адресу."
+
+#: no reference:
+msgid "Email address not found!"
+msgstr "Адрес электронной почты не найден!"
+
+#: no reference:
+msgid "Your password is reset, check your email."
+msgstr "Ваш пароль сброшен, проверьте свою электронную почту."
+
+#: no reference:
+msgid "Welcome! Log into your account"
+msgstr "Добро пожаловать! Войдите в свою учётную запись"
+
+#: no reference:
+msgid "Register for an account"
+msgstr "Зарегистрируйтесь для создания учетной записи"
+
+#: no reference:
+msgid "Recover your password"
+msgstr "Восстановите свой пароль"
+
+#: no reference:
+msgid "your username"
+msgstr "Ваше имя пользователя"
+
+#: no reference:
+msgid "your password"
+msgstr "Ваш пароль"
+
+#: no reference:
+msgid "your email"
+msgstr "Ваш адрес электронной почты"
+
+#: no reference:
+msgid "A password will be e-mailed to you."
+msgstr "Пароль будет выслан Вам по электронной почте."
+
+#: no reference:
+msgid "Logout"
+msgstr "Выйти"
+
+#: no reference:
+msgid "Like"
+msgstr "Мне нравится"
+
+#: no reference:
+msgid "Fans"
+msgstr "Фанаты"
+
+#: no reference:
+msgid "Follow"
+msgstr "Читать"
+
+#: no reference:
+msgid "Followers"
+msgstr "Читатели"
+
+#: no reference:
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#: no reference:
+msgid "Subscribers"
+msgstr "Подписчики"
+
+#: no reference:
+msgid "MORE STORIES"
+msgstr "БОЛЬШЕ ИСТОРИЙ"
+
+#: no reference:
+msgid "Latest"
+msgstr "Последнее"
+
+#: no reference:
+msgid "Featured posts"
+msgstr "Обсуждаемые посты"
+
+#: no reference:
+msgid "Most popular"
+msgstr "Самое популярное"
+
+#: no reference:
+msgid "7 days popular"
+msgstr "Популярное за 7 дней"
+
+#: no reference:
+msgid "By review score"
+msgstr "По оценкам в отзывах"
+
+#: no reference:
+msgid "Random"
+msgstr "Случайно"
+
+#: no reference:
+msgid "Trending Now"
+msgstr "В Тренде Сейчас"
+
+#: no reference:
+msgid "POPULAR CATEGORY"
+msgstr "ПОПУЛЯРНАЯ КАТЕГОРИЯ"
+
+#: no reference:
+msgid "EVEN MORE NEWS"
+msgstr "ЕЩЁ БОЛЬШЕ НОВОСТЕЙ"
+
+#: no reference:
+msgid "Previous (Left arrow key)"
+msgstr "Предыдущий (Кнопка влево)"
+
+#: no reference:
+msgid "Next (Right arrow key)"
+msgstr "Следующий (Кнопка вправо)"
+
+#: no reference:
+msgid "%curr% of %total%"
+msgstr "%curr% из %total%"
+
+#: no reference:
+msgid "The content from %url% could not be loaded."
+msgstr "Содержимое %url% не может быть загружено."
+
+#: no reference:
+msgid "The image #%curr% could not be loaded."
+msgstr "Изображение #%curr% не удалось загрузить."
+
+#: no reference:
+msgid "Blog"
+msgstr "Блог"
+
+#: no reference:
+msgid "Share on Facebook"
+msgstr "Поделиться в Facebook"
+
+#: no reference:
+msgid "Tweet on Twitter"
+msgstr "Твитнуть в Twitter"
+
+#: no reference:
+msgid "EDITOR PICKS"
+msgstr "ВЫБОР РЕДАКТОРА"
+
+#: no reference:
+msgid "POPULAR POSTS"
+msgstr "ПОПУЛЯРНЫЕ СООБЩЕНИЯ"
+
+#: no reference:
+msgid "FOLLOW US"
+msgstr "СЛЕДУЙ ЗА НАМИ"
+
+#: no reference:
+msgid "ABOUT US"
+msgstr "О НАС"
+
+#: no reference:
+msgid "More"
+msgstr "Больше"
+
+#: no reference:
+msgid "Featured"
+msgstr "Показанный"
+
+#: no reference:
+msgid "All time popular"
+msgstr "все время популярным"
+
+#: no reference:
+msgid "Likes"
+msgstr "Понравилось"
+
+#: no reference:
+msgid "Register"
+msgstr "регистр"
+

@@ -1,0 +1,235 @@
+
+/*  ----------------------------------------------------------------------------
+    panel navigation
+*/
+
+
+
+
+//fake nav icon
+.td-sp-nav-icon {
+  display: inline-block;
+  background-color: darkgray;
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+  position: absolute;
+  top:10px;
+  left:10px;
+}
+
+.td-ico-welcome {
+  background: transparent url("../images/panel/panel-icons/ico-welcome.png") no-repeat;
+}
+.td-ico-header {
+  background: transparent url("../images/panel/panel-icons/ico-header.png") no-repeat;
+}
+.td-ico-ads {
+  background: transparent url("../images/panel/panel-icons/ico-ads.png") no-repeat;
+}
+.td-ico-footer {
+  background: transparent url("../images/panel/panel-icons/ico-footer.png") no-repeat;
+}
+.td-ico-post {
+  background: transparent url("../images/panel/panel-icons/ico-post.png") no-repeat;
+}
+.td-ico-categories {
+  background: transparent url("../images/panel/panel-icons/ico-categories.png") no-repeat;
+}
+.td-ico-template {
+  background: transparent url("../images/panel/panel-icons/ico-template.png") no-repeat;
+}
+.td-ico-background {
+  background: transparent url("../images/panel/panel-icons/ico-background.png") no-repeat;
+}
+.td-ico-excerpts {
+  background: transparent url("../images/panel/panel-icons/ico-excerpts.png") no-repeat;
+}
+.td-ico-translation {
+  background: transparent url("../images/panel/panel-icons/ico-translation.png") no-repeat;
+}
+.td-ico-color {
+  background: transparent url("../images/panel/panel-icons/ico-color.png") no-repeat;
+}
+.td-ico-block {
+  background: transparent url("../images/panel/panel-icons/ico-block.png") no-repeat;
+}
+.td-ico-typography {
+  background: transparent url("../images/panel/panel-icons/ico-typography.png") no-repeat;
+}
+.td-ico-code {
+  background: transparent url("../images/panel/panel-icons/ico-code.png") no-repeat;
+}
+.td-ico-analytics {
+  background: transparent url("../images/panel/panel-icons/ico-analytics.png") no-repeat;
+}
+.td-ico-responsive {
+  background: transparent url("../images/panel/panel-icons/ico-responsive.png") no-repeat;
+}
+.td-ico-back {
+  background: transparent url("../images/panel/panel-icons/ico-back.png") no-repeat;
+}
+.td-ico-social {
+  background: transparent url("../images/panel/panel-icons/ico-social.png") no-repeat;
+}
+.td-ico-export {
+  background: transparent url("../images/panel/panel-icons/ico-export.png") no-repeat;
+}
+.td-ico-cpt {
+  background: transparent url("../images/panel/panel-icons/ico-cpt.png") no-repeat;
+}
+.td-ico-label {
+  background: transparent url("../images/panel/panel-icons/ico-label.png") no-repeat;
+}
+.td-ico-invoice {
+  background: transparent url("../images/panel/panel-icons/ico-invoice.png") no-repeat;
+}
+.td-ico-mobile {
+  background: transparent url("../images/panel/panel-icons/ico-mobile.png") no-repeat;
+}
+
+
+
+
+.td-panel-menu {
+  margin: 0;
+
+  li {
+    margin: 0;
+  }
+
+  /* navigation links */
+  a {
+    display: block;
+    position: relative;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    padding: 17px 23px 18px 60px;
+
+    margin-bottom: 1px;
+    outline: 0;
+    background-color: rgba(0,0,0,0.1);
+
+    font-family:@font_ubuntu;
+    font-size:13px;
+    font-weight: bold;
+    color:white;
+
+
+    .td-panel-remove-transitions();
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.25);
+    }
+
+
+  }
+
+  .td-panel-menu-sep {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px 10px 7px 10px;
+    margin: 11px 0 1px 0;
+    outline: 0;
+    background-color: rgba(30, 30, 30, 0.5);
+    font-family: @font_ubuntu;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+  }
+
+  .td-welcome-menu {
+    .td-arrow {
+      background: transparent url("../images/panel/panel-wrap/menu-arrow-no-shadow.png") no-repeat;
+    }
+  }
+
+  .td-arrow {
+    display: none;
+    position: absolute;
+    right: -5px;
+    top:0;
+    background-color: darkgray;
+    width: 32px;
+    height: 53px;
+    background: transparent url("../images/panel/panel-wrap/menu-arrow.png") no-repeat;
+  }
+
+  .td-no-arrow {
+    display: none;
+    position: absolute;
+    right: -5px;
+    top:0;
+    width: 32px;
+    height: 53px;
+    background: transparent url("../images/panel/panel-wrap/menu-no-arrow.png") no-repeat;
+  }
+
+  .td-panel-menu-active {
+    background-color: #ededed !important;
+    color:#494949;
+
+    .td-arrow,
+    .td-no-arrow {
+      display: block;
+    }
+
+    .td-sp-nav-icon {
+      background-position: 0px -32px;
+    }
+
+    &:before {
+      position:absolute;
+      top:0;
+      left:0;
+
+      display:block;
+      content:'';
+      height:4px;
+      width:100%;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      //background-color: blue;
+      pointer-events:none;
+
+      background: transparent url("../images/panel/panel-wrap/menu-shadow-top.png") repeat-x;
+    }
+
+    &:after {
+      position:absolute;
+      bottom:0;
+      left:0;
+
+      display:block;
+      content:'';
+      height:4px;
+      width:100%;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      //background-color: red;
+      pointer-events:none;
+
+      background: transparent url("../images/panel/panel-wrap/menu-shadow-bottom.png") repeat-x;
+    }
+  }
+
+  .td-separator {
+    background-color: rgba(73, 73, 73, 0.5);
+    color:white;
+    padding: 5px 5px 5px 5px;
+    margin-top: 10px;
+  }
+}
+
+/* remove the top shadow on the first menu item */
+.td-welcome-menu .td-panel-menu-active:before {
+  background: none;
+}
+
+

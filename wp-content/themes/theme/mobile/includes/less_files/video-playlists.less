@@ -1,0 +1,234 @@
+/*
+video list player
+*/
+
+/*
+
+    player size configuration variable
+
+*/
+.td_block_video_playlist {
+  padding-bottom: 30px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+// player title
+.td_video_playlist_title {
+  position: relative;
+  z-index: 1;
+  background-color: #222;
+
+  .td_video_title_text {
+    font-weight: bold;
+    font-size: 15px;
+    color:#ffffff;
+    margin-left: 17px;
+    margin-right: 17px;
+    vertical-align: middle;
+    line-height: 24px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+  }
+}
+
+.td_wrapper_video_playlist {
+  z-index: 1;
+  position: relative;
+
+  .td_video_controls_playlist_wrapper {
+    background-color: @td_theme_color;
+    position: relative;
+
+    &:before {
+      content: '';
+      background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAGBAMAAADwPukCAAAAElBMVEUAAAAAAAAAAAAAAAAAAAAAAADgKxmiAAAABnRSTlM9KRgMBADiSB2HAAAAFElEQVR4XmNgYBBgUGAwYHBgCAAAA3wA8fpXm6EAAAAASUVORK5CYII=) repeat-x;
+      width: 100%;
+      height: 6px;
+      position: absolute;
+      bottom: -6px;
+      z-index: 1;
+    }
+  }
+
+  .td_video_stop_play_control {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    outline: 0 !important;
+
+    &:after {
+      content: '';
+      width: 1px;
+      height: 37px;
+      background-color: rgba(255, 255 ,255 ,0.2);
+      position: absolute;
+      top: 14px;
+      right: 0;
+    }
+  }
+
+  .td_youtube_control,
+  .td_vimeo_control {
+    position: relative;
+    top: 12px;
+    left: 11px;
+    cursor: pointer;
+
+  }
+
+  .td_video_title_playing {
+    position: absolute;
+    left:80px;
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-right: 7px;
+    overflow: hidden;
+    max-height: 20px;
+    top: 23px;
+
+    @media (max-width: 480px) {
+      max-height: 37px;
+      top: 13px;
+    }
+  }
+
+  .td_video_time_playing {
+    position: absolute;
+    bottom:0;
+    right:5px;
+    font-size: 10px;
+    font-style: italic;
+    color: #ffffff;
+    line-height: 17px;
+    padding-right: 1px
+  }
+
+  //this will be added from javascript for current video playing
+  .td_video_currently_playing {
+    background-color: #404040;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-left: 3px solid @td_theme_color;
+      width: 3px;
+      height: inherit;
+    }
+  }
+
+  .td_click_video {
+    height: 60px;
+    display: block;
+    width: 100%;
+    position: relative;
+
+    &:hover {
+      background-color: #333333;
+      cursor: pointer;
+    }
+  }
+
+  .td_video_thumb {
+    position: relative;
+    top:10px;
+    width: 72px;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 16px;
+
+    img {
+      position: relative;
+      top: -6px;
+    }
+  }
+
+  .td_video_title_and_time {
+    position: absolute;
+    top: 10px;
+    margin: 0 30px 0 103px;
+
+    .td_video_title {
+      font-size: 12px;
+      color: #ffffff;
+      line-height: 15px;
+      max-height: 30px;
+      overflow: hidden;
+    }
+  }
+
+  .td_video_time {
+    font-size: 10px;
+    font-style: italic;
+    color: #777777;
+    line-height: 13px;
+  }
+
+  .td_wrapper_player {
+    background-color: #000;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .td_container_video_playlist {
+    background-color: #222;
+    vertical-align: top;
+    overflow: hidden;
+  }
+
+  .td_playlist_clickable {
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+
+
+// size parameters
+.td_block_video_playlist {
+
+  .td_wrapper_video_playlist {
+    left: 0;
+  }
+
+  .td_video_title_playing {
+    max-height: 20px;
+    top: 23px;
+
+    @media (max-width: 480px) {
+      max-height: 37px;
+      top: 13px;
+    }
+  }
+
+  .td_wrapper_player {
+    display: block;
+    height: 210px;
+
+    @media (max-width: 360px) {
+      height: 190px;
+    }
+  }
+
+  .td_container_video_playlist {
+    display: block;
+    height: 305px;
+
+    .td_playlist_clickable {
+      height: 240px;
+    }
+  }
+}
+
+//wp embed video - remove blue outline
+.wp-video-shortcode:focus {
+  outline: 0 !important;
+}

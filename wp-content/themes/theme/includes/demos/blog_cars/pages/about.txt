@@ -1,0 +1,5 @@
+[vc_row][vc_column][vc_single_image image="iii_td_pic_about_iii" img_size="full"][/vc_column][/vc_row][vc_row][vc_column][vc_column_text]Alex Reeve is the Editor in Chief of Cars Blog. His first automobile was a Mercedes Benz Cobra. It was during that time that he fell in love with automobiles.
+
+Alex's career in journalism started as a reporter at Auto Magazine, followed by a brief internship at CARNY in New York. He was on staff during the Magazine's short time on earth and more recently worked for Driver Car and Popular Mechatronix.
+
+This blog is intended to fuel the need of fresh, good information about cars, with test drives, reviews and many more from the automobile industry.[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][td_block_12 custom_title="Featured Posts by Alex Reeve" sort="random_posts" td_ajax_filter_ids="" td_ajax_preloading="preload" ajax_pagination="next_prev"][/vc_column][/vc_row]

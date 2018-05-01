@@ -1,0 +1,69 @@
+.td-boxed-layout {
+  #td-outer-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1164px;
+
+    @media (max-width: 1180px) {
+        width: 100%;
+    }
+  }
+}
+
+// backstretch image
+.backstretch {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -99999;
+  //text-align: center;
+  top: 0;
+}
+
+.td-backstretch {
+  max-width: none;
+  opacity: 0;
+  transition: opacity 2s;
+  display: block;
+}
+
+.td-stretch-width {
+  height: auto;
+  width: 100.03%;
+  margin: 0;
+  position: relative;
+
+  left: 50%;
+  .transform(translateX(-50%));
+}
+
+.td-stretch-height {
+  position: relative;
+  height: 100%;
+  width: auto;
+  //margin: 0 -1000%;
+
+  //  // or this  @todo verifica asta (50% + -5o%)
+  left: 50%;
+  .transform(translateX(-50%));
+}
+
+
+// this method can cause elements to be blurry due to the element being placed on a “half pixel”. A solution for this is to set its parent element to preserve-3d.
+//#td-full-screen-header-image {
+//  -webkit-transform-style: preserve-3d;
+//  -moz-transform-style: preserve-3d;
+//  transform-style: preserve-3d;
+//}
+
+
+// background ad click cursor
+body {
+  &.td-ad-background-link {
+    cursor: pointer;
+  }
+
+  &.td-ad-background-link #td-outer-wrap {
+    cursor: auto;
+  }
+}

@@ -1,0 +1,51 @@
+[vc_row el_class="td-menu-products"][vc_column width="1/3" el_class="td-menu-images"][vc_single_image image="iii_coffee_iii" img_size="full"][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="product-wrap">
+<h3 class="product">Espresso</h3>
+<p class="price">2.99$</p>
+<p class="description">Organic Arabian Coffee, Water</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Latte</h3>
+<p class="price">3.99$</p>
+<p class="description">Organic Arabian Coffee, Water, Milk</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Irish</h3>
+<p class="price">3.99$</p>
+<p class="description">Organic Arabian Coffee, Water, Rum</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Classic</h3>
+<p class="price">2.99$</p>
+<p class="description">Organic Arabian Coffee, Water</p>
+
+</div>
+[/vc_column_text][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="product-wrap">
+<h3 class="product">Cappuccino</h3>
+<p class="price">3.99$</p>
+<p class="description">Organic Arabian Coffee, Water, Vanilla</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Frappe</h3>
+<p class="price">5.99$</p>
+<p class="description">Organic Arabian Coffee, Milk, Ice Cream</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Macciatto</h3>
+<p class="price">4.99$</p>
+<p class="description">Organic Arabian Coffee, Chocolate, Milk</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Delice</h3>
+<p class="price">7.99$</p>
+<p class="description">Organic Arabian Coffee, Candy, Ice Cream</p>
+
+</div>
+[/vc_column_text][/vc_column][/vc_row][vc_row el_class="td-ss-row"][vc_column width="2/3"][td_block_16 custom_title="Latest Blog Posts" limit="6" ajax_pagination="next_prev" sort="random_posts"][/vc_column][vc_column width="1/3"][td_block_social_counter custom_title="Get in Touch" facebook="tagdiv" twitter="envato" youtube="tagdiv"][td_block_7 custom_title="Most Popular" sort="random_posts" limit="3" ajax_pagination="next_prev"][/vc_column][/vc_row]

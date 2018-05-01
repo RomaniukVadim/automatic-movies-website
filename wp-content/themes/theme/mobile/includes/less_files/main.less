@@ -1,0 +1,113 @@
+@import "variables.less";
+@import "mixin.less";
+@import "normalize.less";
+@import "type.less";
+@import "review.less";
+@import "font-icons.less";
+@import "modules.less";
+@import "blocks.less";
+@import "page.less";
+@import "login.less";
+
+
+@import "menu.less";
+@import "footer.less";
+@import "post.less";
+@import "smart-lists.less";
+@import "galleries.less";
+@import "gallery-slider.less";
+@import "video-playlists.less";
+@import "plugins.less";
+@import "retina.less";
+@import "td-detect.less";
+
+
+
+
+
+// Reset the box-sizing
+//
+// Heads up! This reset may cause conflicts with some third-party widgets.
+// For recommendations on resolving such conflicts, see
+// http://getbootstrap.com/getting-started/#third-box-sizing
+
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  width : auto\9;
+  height: auto;
+}
+
+
+body {
+  visibility: visible !important;
+  background-color: #c1c1c1;
+}
+
+// mobile theme grid
+#td-outer-wrap {
+  overflow: auto;
+  margin: auto;
+  width: 100%;
+  background-color: #fff;
+  //position: relative;
+  .transition(transform 0.7s ease);
+  .transform-origin(50% 200px 0);
+}
+.td-container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+
+// fix when a photo is float
+.post footer {
+  clear: both;
+}
+// the to top is hidden
+.td-scroll-up {
+  cursor: pointer;
+  position:fixed;
+  bottom:4px;
+  right:5px;
+  width: 40px;
+  height:40px;
+  background-color: @td_theme_color;
+  z-index: 9999;
+  .transform(translate3d(0, 70px, 0));
+  .transition(transform 0.4s cubic-bezier(.55,0,.1,1) 0s);
+
+  .td-icon-menu-up {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    text-align: center ;
+    width: 40px;
+    top: 7px;
+  }
+}
+// back to the top is visible
+.td-scroll-up-visible {
+  .transform(translate3d(0, 0, 0));
+}
+
+// custom html
+.td-custom-html-mob {
+  text-align: center;
+  margin: 0 auto;
+}

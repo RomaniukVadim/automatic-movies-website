@@ -1,0 +1,61 @@
+/*  ----------------------------------------------------------------------------
+    Module 5
+*/
+.td_module_5 {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #f2f2f2;
+  margin-bottom: 17px;
+
+  .td-module-meta-info {
+    margin-bottom: 17px;
+  }
+
+  .td-module-thumb {
+    margin-bottom: 14px;
+  }
+
+  .td-excerpt {
+    margin-top: 0;
+  }
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    .entry-title {
+      font-size: 17px;
+      line-height: 22px;
+      font-weight: 500;
+    }
+  }
+
+  /* responsive landscape tablet */
+  @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+    .entry-title {
+      font-weight: 400;
+    }
+  }
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    .entry-thumb {
+      width: 100%;
+    }
+  }
+
+  // fix module height for slow connection
+  .td-module-thumb {
+    height: 235px;
+
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      height: 218px;
+    }
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      height: 165px;
+    }
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      height: auto;
+    }
+  }
+}

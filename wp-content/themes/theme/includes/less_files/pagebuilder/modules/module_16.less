@@ -1,0 +1,56 @@
+/*  ----------------------------------------------------------------------------
+    Module 16
+*/
+.td_module_16 {
+  padding-bottom: 40px;
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+      padding-bottom: 26px;
+  }
+
+  .td-module-thumb {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      width: 80px;
+    }
+  }
+
+  .item-details {
+    margin-left: 174px;
+    min-height: 150px;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      margin-left: 95px;
+      min-height: 80px;
+    }
+  }
+
+  .entry-title {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 5px;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      font-weight: 500;
+    }
+    /* responsive portrait phone */
+    @media (max-width: 500px) {
+      font-size: 17px;
+      line-height: 22px;
+    }
+  }
+
+  .td-excerpt {
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+        display: none;
+    }
+  }
+}

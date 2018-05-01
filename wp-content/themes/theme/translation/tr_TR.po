@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+
+#: no reference:
+msgid "View all results"
+msgstr "Tüm sonuçları göster"
+
+#: no reference:
+msgid "No results"
+msgstr "Sonuç yok"
+
+#: no reference:
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: no reference:
+msgid "CLOSE"
+msgstr "SCHLIESSEN"
+
+#: no reference:
+msgid "Page"
+msgstr "Sayfa"
+
+#: no reference:
+msgid "All"
+msgstr "Tümü"
+
+#: no reference:
+msgid "By"
+msgstr "By"
+
+#: no reference:
+msgid "Load more"
+msgstr "Devamını yükle"
+
+#: no reference:
+msgid "View all posts in"
+msgstr "Şuradaki tüm içerikleri göster"
+
+#: no reference:
+msgid "Tags"
+msgstr "Etiketler"
+
+#: no reference:
+msgid "Previous article"
+msgstr "Önceki İçerik"
+
+#: no reference:
+msgid "Next article"
+msgstr "Sonraki İçerik"
+
+#: no reference:
+msgid "Authors"
+msgstr "Yazarlar"
+
+#: no reference:
+msgid "Author"
+msgstr "Yazar"
+
+#: no reference:
+msgid "RELATED ARTICLES"
+msgstr "İLGİLİ İÇERİKLER"
+
+#: no reference:
+msgid "MORE FROM AUTHOR"
+msgstr "YAZARIN DİĞER İÇERİKLERİ"
+
+#: no reference:
+msgid "VIA"
+msgstr "ÜBER"
+
+#: no reference:
+msgid "SOURCE"
+msgstr "KAYNAK"
+
+#: no reference:
+msgid "TAGS"
+msgstr "SCHLAGWORTE"
+
+#: no reference:
+msgid "SHARE"
+msgstr "TEILEN"
+
+#: no reference:
+msgid "Continue"
+msgstr "Weiter"
+
+#: no reference:
+msgid "Read more"
+msgstr "Devamını Oku"
+
+#: no reference:
+msgid "Name:"
+msgstr "İsim:"
+
+#: no reference:
+msgid "Email:"
+msgstr "E-Mail:"
+
+#: no reference:
+msgid "Website:"
+msgstr "Web:"
+
+#: no reference:
+msgid "Comment:"
+msgstr "Yorum:"
+
+#: no reference:
+msgid "LEAVE A REPLY"
+msgstr "CEVAP VER"
+
+#: no reference:
+msgid "Post Comment"
+msgstr "Yorum Gönder"
+
+#: no reference:
+msgid "Cancel reply"
+msgstr "İptal"
+
+#: no reference:
+msgid "Reply"
+msgstr "Yorumu Cevapla"
+
+#: no reference:
+msgid "Log in to leave a comment"
+msgstr "Yorum Yapmak İçin Giriş Yapın"
+
+#: no reference:
+msgid "NO COMMENTS"
+msgstr "HENÜZ YORUM YOK"
+
+#: no reference:
+msgid "1 COMMENT"
+msgstr "1 YORUM"
+
+#: no reference:
+msgid "COMMENTS"
+msgstr "YORUMLAR"
+
+#: no reference:
+msgid "REVIEW OVERVIEW"
+msgstr "DEĞERLENDİRME"
+
+#: no reference:
+msgid "SUMMARY"
+msgstr "ÖZET"
+
+#: no reference:
+msgid "OVERALL SCORE"
+msgstr "GENEL PUAN"
+
+#: no reference:
+msgid "Ooops... Error 404"
+msgstr "404 HATASI !"
+
+#: no reference:
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr "Üzgünüz, ama aradığın sayfa mevcut değil."
+
+#: no reference:
+msgid "You can go to the"
+msgstr "İstersen buraya bakabilirsin:"
+
+#: no reference:
+msgid "HOMEPAGE"
+msgstr "ANA SAYFA"
+
+#: no reference:
+msgid "OUR LATEST POSTS"
+msgstr "EN YENİ İÇERİKLER"
+
+#: no reference:
+msgid "Posts by"
+msgstr "Yazar:"
+
+#: no reference:
+msgid "POSTS"
+msgstr "İÇERİKLER"
+
+#: no reference:
+msgid "Posts tagged with"
+msgstr "Etiketler:"
+
+#: no reference:
+msgid "Tag"
+msgstr "Etiket"
+
+#: no reference:
+msgid "Daily Archives:"
+msgstr "Günlük Arşiv:"
+
+#: no reference:
+msgid "Monthly Archives:"
+msgstr "Aylık Arşiv:"
+
+#: no reference:
+msgid "Yearly Archives:"
+msgstr "Yıllık Arşiv:"
+
+#: no reference:
+msgid "Archives"
+msgstr "Arşiv"
+
+#: no reference:
+msgid "LATEST ARTICLES"
+msgstr "EN YENİ İÇERİKLER"
+
+#: no reference:
+msgid "search results"
+msgstr "Arama Sonuçları"
+
+#: no reference:
+msgid "Search"
+msgstr "ARA"
+
+#: no reference:
+msgid "If you're not happy with the results, please do another search"
+msgstr "Aradığını bulamadıysan, yeni bir arama yap"
+
+#: no reference:
+msgid "Contact us"
+msgstr "Bizimle iletişime geç"
+
+#: no reference:
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "%TOTAL_PAGES% Sayfanın %CURRENT_PAGE%. Sayfası"
+
+#: no reference:
+msgid "Next"
+msgstr "Sonraki"
+
+#: no reference:
+msgid "Prev"
+msgstr "Önceki"
+
+#: no reference:
+msgid "No results for your search"
+msgstr "Aramana uygun bir sonuç yok"
+
+#: no reference:
+msgid "No posts to display"
+msgstr "Gösterilecek bir içerik yok"
+
+#: no reference:
+msgid "LOG IN"
+msgstr "GİRİŞ YAP"
+
+#: no reference:
+msgid "Sign in / Join"
+msgstr "Kayıt Ol / Katıl"
+
+#: no reference:
+msgid "Log In"
+msgstr "Oturum Aç"
+
+#: no reference:
+msgid "REGISTER"
+msgstr "KAYIT OL"
+
+#: no reference:
+msgid "Send My Pass"
+msgstr "Şifremi Gönder"
+
+#: no reference:
+msgid "Forgot your password?"
+msgstr "Şifrenizi mi unuttunuz?"
+
+#: no reference:
+msgid "Please wait..."
+msgstr "Lütfen Bekleyin..."
+
+#: no reference:
+msgid "User or password incorrect!"
+msgstr "Kullanıcı adı veya şifre yanlış!"
+
+#: no reference:
+msgid "Email or username incorrect!"
+msgstr "Email veya kullanıcı adı yanlış!"
+
+#: no reference:
+msgid "Email incorrect!"
+msgstr "Email yanlış!"
+
+#: no reference:
+msgid "User or email already exists!"
+msgstr "Bu kullanıcı adı veya email adresi zaten kayıtlı!"
+
+#: no reference:
+msgid "Please check your email (index or spam folder), the password was sent there."
+msgstr "Emaillerini tekrar kontrol et, spam klasörüne bak."
+
+#: no reference:
+msgid "Email address not found!"
+msgstr "Email adresin bulunamadı!"
+
+#: no reference:
+msgid "Your password is reset, check your email."
+msgstr "Şifreni yeniledik, lütfen emaillerini kontrol et."
+
+#: no reference:
+msgid "Welcome! Log into your account"
+msgstr "Hoşgeldin! Haydi hesabına giriş yap."
+
+#: no reference:
+msgid "Register for an account"
+msgstr "Bir hesap oluşturun"
+
+#: no reference:
+msgid "Recover your password"
+msgstr "Şifreni kurtar"
+
+#: no reference:
+msgid "your username"
+msgstr "kullanıcı adınız"
+
+#: no reference:
+msgid "your password"
+msgstr "şifreniz"
+
+#: no reference:
+msgid "your email"
+msgstr "emailin"
+
+#: no reference:
+msgid "A password will be e-mailed to you."
+msgstr "Email adresine yeni bir şifre gönderilecek."
+
+#: no reference:
+msgid "Logout"
+msgstr "Çıkış"
+
+#: no reference:
+msgid "Like"
+msgstr "Beğen"
+
+#: no reference:
+msgid "Fans"
+msgstr "Beğenenler"
+
+#: no reference:
+msgid "Follow"
+msgstr "Takip Et"
+
+#: no reference:
+msgid "Followers"
+msgstr "Takipçiler"
+
+#: no reference:
+msgid "Subscribe"
+msgstr "Abone"
+
+#: no reference:
+msgid "Subscribers"
+msgstr "Aboneler"
+
+#: no reference:
+msgid "MORE STORIES"
+msgstr "DİĞER İÇERİKLER"
+
+#: no reference:
+msgid "Latest"
+msgstr "Son"
+
+#: no reference:
+msgid "Featured posts"
+msgstr "Özel İçerikler"
+
+#: no reference:
+msgid "Most popular"
+msgstr "En Popülerler"
+
+#: no reference:
+msgid "7 days popular"
+msgstr "Haftanın En Popülerleri"
+
+#: no reference:
+msgid "By review score"
+msgstr "Değerlendirme Puanına Göre"
+
+#: no reference:
+msgid "Random"
+msgstr "Rastgele"
+
+#: no reference:
+msgid "Trending Now"
+msgstr "İLGİ ÇEKENLER"
+
+#: no reference:
+msgid "POPULAR CATEGORY"
+msgstr "POPÜLER KATEGORİLER"
+
+#: no reference:
+msgid "EVEN MORE NEWS"
+msgstr "DAHA FAZLA HABER"
+
+#: no reference:
+msgid "Previous (Left arrow key)"
+msgstr "Önceki (Sol ok tuşu)"
+
+#: no reference:
+msgid "Next (Right arrow key)"
+msgstr "Sonraki (Sağ ok tuşu)"
+
+#: no reference:
+msgid "%curr% of %total%"
+msgstr "%curr% / %total%"
+
+#: no reference:
+msgid "The content from %url% could not be loaded."
+msgstr "%url% linkindeki içerik yüklenemedi."
+
+#: no reference:
+msgid "The image #%curr% could not be loaded."
+msgstr "%curr% nolu imaj yüklenemedi."
+
+#: no reference:
+msgid "Blog"
+msgstr "Blog"
+
+#: no reference:
+msgid "Share on Facebook"
+msgstr "Facebook'ta Paylaş"
+
+#: no reference:
+msgid "Tweet on Twitter"
+msgstr "Twitter'da Paylaş"
+
+#: no reference:
+msgid "EDITOR PICKS"
+msgstr "EDITÖR ALIR"
+
+#: no reference:
+msgid "POPULAR POSTS"
+msgstr "POPÜLER MESAJLAR"
+
+#: no reference:
+msgid "FOLLOW US"
+msgstr "BIZI TAKIP EDIN"
+
+#: no reference:
+msgid "ABOUT US"
+msgstr "HAKKIMIZDA"
+
+#: no reference:
+msgid "More"
+msgstr "Daha fazla"
+
+#: no reference:
+msgid "Featured"
+msgstr "özellikli"
+
+#: no reference:
+msgid "All time popular"
+msgstr "Sevilen her zaman"
+
+#: no reference:
+msgid "Likes"
+msgstr "Seviyor"
+
+#: no reference:
+msgid "Register"
+msgstr "Kayıt"
+

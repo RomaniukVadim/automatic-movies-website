@@ -1,0 +1,272 @@
+/*  ----------------------------------------------------------------------------
+    Pages
+*/
+.paged {
+  .td-pb-article-list {
+    padding-top: 30px;
+  }
+}
+// page title
+.td-page-title,
+.page-title { // woocommerce page title
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: bold;
+  margin: 15px 0 20px;
+}
+
+/*  ----------------------------------------------------------------------------
+    Breadcrumbs
+*/
+.td-crumb-container {
+  margin: 15px 0;
+  line-height: 1;
+}
+.single-post .td-bred-no-url-last { // hide breadcrumb parts on single post
+  display: none;
+}
+.entry-crumbs {
+  font-size: 12px;
+  color: #999;
+
+  a {
+    color: #999;
+  }
+
+  .td-bread-sep {
+    font-size: 11px;
+    margin: 0 5px;
+    position: relative;
+    top: 1px;
+  }
+}
+
+/*  ----------------------------------------------------------------------------
+    Pagination
+*/
+.page-nav {
+  margin: 40px auto;
+  font-size: 15px;
+  display: table;
+
+  a,
+  span {
+    padding: 0 11px;
+    display: inline-block;
+    min-width: 40px;
+    text-align: center;
+    color: #666;
+    line-height: 40px;
+    float: left;
+    margin: 0 3px;
+  }
+
+  .first,
+  .last,
+  .extend,
+  .pages {
+    display: none;
+  }
+
+  i {
+    font-size: 18px;
+    line-height: 40px;
+    display: inline-table;
+  }
+
+  .current {
+    border: 1px solid #e5e5e5;
+    line-height: 38px;
+    color: #000;
+  }
+}
+// post pagination
+.page-nav-post > div {
+  padding: 0 11px;
+  display: inline-block;
+  min-width: 40px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  line-height: 38px;
+  color: #000;
+  float: left;
+  margin: 0 3px;
+}
+
+/*  ----------------------------------------------------------------------------
+    Category page
+*/
+.td-subcat-dropdown {
+  display: none;
+}
+.td-category-description {
+  margin-top: 10px;
+
+  p {
+    font-style: italic;
+    color: #777;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+.td-category-header {
+  text-align: center;
+  margin-bottom: 30px;
+
+  .entry-category {
+    line-height: 11px;
+  }
+  .entry-title {
+    text-transform: uppercase;
+    margin: 30px 0 20px;
+  }
+  .td-crumb-container {
+    text-align: left;
+  }
+  .td-category {
+    max-height: 50px;
+
+    a {
+      text-transform: uppercase;
+      background-color: transparent;
+      color: #000;
+      border: 1px solid #ebebeb;
+      padding: 4px 6px;
+      font-weight: bold;
+    }
+  }
+}
+.category {
+  .td_block_big_grid_mob_1 {
+    margin-bottom: 27px;
+  }
+}
+
+/*  ----------------------------------------------------------------------------
+    Author page
+*/
+.author {
+  .td-author-page {
+    margin-bottom: 30px;
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    404 page
+*/
+.td-404-title {
+  font-size: 34px;
+  line-height: 44px;
+  color: #222222;
+  text-align: center;
+  margin: 50px 0 17px 0 ;
+}
+
+.td-404-sub-title {
+  font-size: 17px;
+  line-height: 22px;
+  color: #a6a6a6;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.td-404-sub-sub-title {
+  text-align: center;
+  margin-bottom: 50px;
+
+  a {
+    background-color: @td_black;
+    border: medium none;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 16px;
+    padding: 10px 15px;
+    margin-left: 6px;
+  }
+}
+
+.td-404-head {
+  text-align: center;
+}
+
+/*  ----------------------------------------------------------------------------
+    Attachment page
+*/
+.td-attachment-page-content {
+  p {
+    color: #444;
+    font-size: 11px;
+    font-style: italic;
+    line-height: 17px;
+  }
+}
+
+.td-attachment-prev {
+  display: inline-block;
+  margin: 10px 0 21px 0;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.td-attachment-next {
+  float: right;
+  margin: 10px 0 21px 0;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/*  ----------------------------------------------------------------------------
+    Search page
+*/
+.td-search-query {
+  color: @td_theme_color;
+}
+
+.search-page-search-wrap {
+  margin: 0 0 35px 0;
+}
+
+.td-search-form-widget {
+  position: relative;
+  line-height: 21px;
+
+  .wpb_button {
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-shadow: none;
+    padding: 7px 15px 8px 15px;
+    line-height: 16px;
+    margin: 0;
+  }
+
+  div {
+    text-align: left;
+  }
+
+  .td-widget-search-input {
+    width: 95%;
+    border-right: 0;
+    height: 32px;
+    line-height: 21px;
+    position: relative;
+    top: 0;
+    display: inline-table;
+    vertical-align: middle;
+  }
+}
+
+.td_search_subtitle {
+  position: relative;
+  top: 11px;
+  left: 2px;
+  font-size: 12px;
+}

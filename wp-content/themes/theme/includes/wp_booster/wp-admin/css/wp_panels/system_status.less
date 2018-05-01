@@ -1,0 +1,154 @@
+.td-system-status-table {
+  margin-bottom: 35px;
+
+  tr:nth-child(2n) td, table.wc_status_table tr:nth-child(2n) th {
+    background: #fcfcfc;
+  }
+
+  th {
+    padding: 10px 10px 10px 15px;
+    font-weight: bold;
+  }
+
+  td {
+    padding: 10px;
+  }
+}
+//k,kkj;k;
+
+.td-system-status-name {
+  width: 200px;
+  padding-left: 15px !important;
+
+}
+
+.td-system-status-help {
+  width:20px;
+}
+
+.td-system-status-status {
+  width:50px;
+  text-align: center;
+  font-size:11px !important;
+}
+
+.td-system-status-value {
+
+}
+
+.td-system-status-led {
+  width: 12px;
+  height: 13px;
+  display: inline-block;
+  text-align: center;
+  line-height: 13px;
+  cursor: pointer;
+  position: relative;
+  top: 2px;
+}
+
+.td-system-status-green {
+  background-color: #58AD58;
+}
+
+.td-system-status-yellow {
+  background-color:#F2E132;
+}
+
+.td-system-status-red {
+  background-color: #f2483a;
+}
+
+.td-system-status-info {
+  background-color:silver;
+  color:white;
+  font-size:11px;
+}
+
+.td-status-small-text {
+  font-size:12px;
+  color:#707070;
+  font-style:italic;
+}
+
+/* TD log panel + TD remote cache panel */
+.td-log-header-msg, .td-log-header-more-data, .td-remote-header-value {
+  min-width: 200px;
+}
+.td-log-header_file, .td-log-header_function {
+  min-width: 150px;
+}
+.td-log-header-timestamp,
+.td-remote-header-expires,
+.td-remote-header-timestamp {
+  width: 82px;
+}
+.td-log-more-data-container,
+.td-remote-value-data-container,
+.td_log_more_data_container{
+  position: relative;
+}
+
+// array-object viewer window
+.td-array-viewer {
+  width: 450px;
+  height: 300px;
+  overflow: auto;
+  position: absolute;
+  left: 100px;
+  top: -135px;
+  background-color: #ffffff;
+  z-index: 1;
+  border: 1px solid #000000;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  display: none;
+}
+
+.td-array-viewer-visible {
+  display: block;
+}
+
+// view details button
+.td-button-system-status-details {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 26px;
+  height: 28px;
+  margin: 0;
+  padding: 0 10px 1px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  white-space: nowrap;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #849FA6;
+  border-color: #767E80;
+  -webkit-box-shadow: inset 0 1px 0 rgba(120, 200, 230, .5), 0 1px 0 rgba(0, 0, 0, .15);
+  box-shadow: inset 0 1px 0 rgba(120, 200, 230, .5), 0 1px 0 rgba(0, 0, 0, .15);
+  color: #fff;
+  text-decoration: none;
+}
+.td-button-system-status-details:hover, .td-button-ss-pressed  {
+  background: #9FB8BF;
+  border-color: #8C989B;
+  -webkit-box-shadow: inset 0 1px 0 rgba(120, 200, 230, .6);
+  box-shadow: inset 0 1px 0 rgba(120, 200, 230, .6);
+  color: #fff;
+}
+
+// system status debug area
+.td-debug-area {
+  display: none;
+}
+.td-debug-area-reveal {
+  display: block;
+}

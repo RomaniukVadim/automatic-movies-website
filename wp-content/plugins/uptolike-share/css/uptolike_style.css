@@ -1,0 +1,165 @@
+.id_number {
+    width: 520px;
+}
+
+h2.placeholder {
+    font-size: 1px;
+    padding: 1px;
+    margin: 0;
+    height: 2px;
+}
+
+div.wrapper-tab {
+    display: none;
+}
+
+div.wrapper-tab.active {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.pos1 .field {
+    clear: both;
+    text-align: right;
+}
+
+.pos1 label {
+    float: left;
+}
+
+.pos1 button {
+    float: right;
+}
+
+#uptolike_cryptkey {
+    width: 300px;
+}
+
+#cryptkey_field {
+    display: none;
+}
+
+#key_auth_field {
+    display: none;
+}
+
+#bad_key_field {
+    display: none;
+    color: red;
+}
+
+#foreignAccess_field {
+    display: none;
+    color: red;
+}
+
+iframe#stats_iframe {
+    width: 100%;
+    display: none;
+}
+
+#after_key_req {
+    display: none;
+}
+
+.utl_blok1 {
+    margin-top: 30px;
+    background-color: white;
+    width: 620px;
+    height: 80px;
+    float: left;
+    border-radius: 3px;
+    -webkit-box-shadow: 3px 3px 3px -2px rgba(153, 147, 153, 1);
+    -moz-box-shadow: 3px 3px 3px -2px rgba(153, 147, 153, 1);
+    box-shadow: 3px 3px 3px -2px rgba(153, 147, 153, 1);
+}
+
+.utl_blok2 {
+    width: 70px;
+    height: 100%;
+    float: left;
+    background-color: #cdcdcd;
+    border-radius: 3px;
+    display: block;
+}
+
+.utl_logo {
+    background-image: url('/wp-content/plugins/uptolike-share/images/plg_icons.png');
+    width: 50px;
+    height: 50px;
+    margin-left: 17px;
+    margin-top: 20px;
+}
+
+.utl_i_logo {
+    background-position: 110px 74px;
+}
+
+.utl_like_logo {
+    background-position: 179px 74px;
+}
+
+.utl_mail_logo {
+    background-position: 48px 72px;
+}
+
+.utl_innertext {
+    padding: 15px;
+    margin-left: 70px;
+    vertical-align: middle;
+}
+
+.utl_left_block {
+    width: 460px;
+    float: left;
+}
+
+.utl_right_block {
+    width: 620px;
+    float: left;
+}
+
+span.utl_quest {
+    background: #F8F8F8;
+    border: 5px solid #DFDFDF;
+    color: #717171;
+    font-size: 13px;
+    height: 63px;
+    width: 260px;
+    position: absolute;
+    text-align: center;
+    top: 420px;
+    left: 40px;
+    display: none;
+    z-index: 100;
+}
+
+span.utl_quest:after {
+    position: absolute;
+    bottom: -10px;
+    width: 10px;
+    height: 10px;
+    border-bottom: 5px solid #dfdfdf;
+    border-right: 5px solid #dfdfdf;
+    background: #f8f8f8;
+    left: 50%;
+    margin-left: -10px;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+p.utl_quest {
+    float: none;
+    cursor: pointer;
+    display: inline;
+}
+
+p.utl_quest:hover span.utl_quest {
+    display: block;
+}
+
+img.utl_quest {
+    float: none;
+}

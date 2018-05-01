@@ -1,0 +1,479 @@
+
+.td-admin-title {
+  position: relative;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    progress bar
+*/
+
+.td-progress-bar-wrap {
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  background-color: #efefef;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+}
+
+.td-progress-bar-visible {
+  opacity: 1;
+}
+
+.td-progress-bar {
+  background-color: #4db2ec;
+  height: 5px;
+  position: relative;
+  top:-1px;
+  width: 0;
+  z-index: 1;
+  .transition(width 400ms);
+
+  background-size: 30px 30px;
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+  transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+  transparent 75%, transparent);
+
+  animation: animate-stripes 4s linear infinite;
+}
+
+@keyframes animate-stripes {
+  0% {background-position: 0 0;}
+  100% {background-position: 60px 0;}
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {background-position: 0 0;}
+  100% {background-position: 60px 0;}
+}
+
+/*  ----------------------------------------------------------------------------
+    demo states
+*/
+
+// installed text
+.td-installed-text {
+  //position: absolute !important;
+  //left:12px;
+  //bottom:15px;
+  //top:auto !important;
+  display: none !important;
+}
+
+
+// demo windows
+.td-wp-admin-demo {
+  .transition(opacity 600ms);
+  .td-button-install-demo {
+    display: inline-block;
+  }
+
+  .td-button-uninstall-demo,
+  .td-button-installing-demo,
+  .td-button-demo-disabled,
+  .td-button-uninstalling-demo {
+    display: none;
+  }
+}
+
+// installing
+.td-demo-installing {
+  .td-button-installing-demo {
+    display: inline-block;
+  }
+  .td-button-install-demo,
+  .td-button-demo-preview {
+    display: none;
+  }
+
+  .td-demo-install-content {
+    visibility: hidden;
+  }
+}
+
+// installed
+.td-demo-installed {
+  .td-installed-text {
+    display: block !important;
+  }
+
+  .td-demo-install-content {
+    //visibility: hidden;
+    display: none;
+  }
+
+  .td-button-demo-preview,
+  .td-button-install-demo {
+    display: none;
+  }
+
+  .td-button-uninstall-demo {
+    display: inline-block;
+  }
+}
+
+// uninstalling?
+.td-demo-uninstalling {
+  .td-button-uninstalling-demo,
+  {
+    display: inline-block;
+  }
+
+  .td-button-install-demo,
+  .td-button-demo-preview {
+    display: none;
+  }
+
+  .td-demo-install-content {
+    visibility: hidden;
+  }
+}
+
+// disabled
+.td-demo-disabled {
+  opacity: 0.3;
+
+
+  .td-button-install-demo{
+    display: none;
+  }
+  .td-button-demo-disabled {
+    display: inline-block;
+  }
+}
+
+
+
+
+// Demos page
+.td-demo-page-content {
+  position: relative;
+
+  .td-install-demos {
+    display: inline-block;
+
+    @media (max-width: 1300px) {
+      width: 390px;
+    }
+    @media (max-width: 695px) {
+      display: block;
+    }
+    @media (max-width: 435px) {
+      width: 100%;
+      margin-left: -32px;
+    }
+  }
+
+  .td-demo-install-content {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .theme {
+    width: 390px !important;
+    height: 110px;
+    margin: 0 0 20px 20px !important;
+
+    @media (max-width: 1300px) {
+      margin: 0 0 20px 0 !important;
+    }
+
+    &:nth-of-type(2n+1) {
+      margin-left: 0 !important;
+
+      .theme-screenshot img {
+        display: block;
+      }
+    }
+  }
+
+  .td-wp-admin-demo {
+    position: relative;
+    overflow: hidden;
+
+    &:hover,
+    &.td-demo-installed,
+    &.td-demo-uninstalling,
+    &.td-demo-installing {
+      .td-demo-meta {
+        .transform(translateY(-68px));
+      }
+
+      .theme-screenshot img {
+        .transform(translateY(-37px));
+      }
+    }
+
+    .theme-screenshot {
+      height: 100%;
+
+      img {
+        .transition(transform 0.3s ease);
+      }
+    }
+
+    .td-demo-meta {
+      position: absolute;
+      left: 15px;
+      width: 100%;
+      height: auto;
+      .transform(translateY(-25px));
+      .transition(transform 0.3s ease);
+    }
+  }
+
+  .td-admin-title {
+    display: block;
+    margin-bottom: 11px;
+
+    .theme-name {
+      text-align: left;
+      line-height: 1;
+      background-color: transparent;
+      padding: 0;
+      box-shadow: none;
+    }
+  }
+
+  .td-small-checkbox {
+    padding: 0;
+    border: none;
+
+    @media (max-width: 782px) {
+      .td-installed-text {
+        text-align: left;
+      }
+    }
+
+    .td-checkbox {
+      border-radius: 15px;
+      width: 26px;
+      height: 14px;
+      background: transparent;
+      border: 1px solid #ccc;
+      box-shadow: none;
+    }
+
+    .td-checbox-buton {
+      border-radius: 25px;
+      width: 8px;
+      height: 8px;
+      top: 3px;
+      left: 5px;
+      background-color: #ccc;
+    }
+
+    .td-checbox-buton-active {
+      left: 14px;
+      background-color: #4db2ec;
+    }
+  }
+
+  // new badge
+  .theme-name {
+    span {
+      font-size: 10px;
+      color: #fff;
+      border-radius: 1px;
+      line-height: 1;
+      padding: 3px 6px 4px;
+      position: absolute;
+      left: 0;
+      background-color: #4db2ec;
+      top: -26px;
+    }
+  }
+  // new badge in quick install
+  .td-demos-summary .td-button-install-demo {
+    span {
+      font-size: 10px;
+      color: #fff;
+      background-color: #4db2ec;
+      border-radius: 1px;
+      line-height: 1;
+      padding: 0 4px 1px;
+      margin-left: 10px;
+    }
+  }
+
+  .theme-actions {
+    width: auto !important;
+    height: auto !important;
+    padding: 0 !important;
+    margin-right: 10px;
+    border: none !important;
+    position: static !important;
+    float: left;
+  }
+
+  .button-primary,
+  .button-secondary {
+    line-height: 1;
+    height: 25px;
+    padding: 4px 10px;
+    font-size: 13px !important;
+    box-shadow: none !important;
+  }
+
+  .td-button-demo-preview {
+    margin: 0 auto !important;
+    right: 30px;
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 1);
+    }
+  }
+
+  .td-button-install-demo {
+    background-color: #fff;
+  }
+
+
+
+  // Demos summary  / quick install
+  .td-demos-summary {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #dedede;
+    display: inline-block;
+    width: 188px;
+    padding: 20px 20px 10px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+
+    @media (max-width: 1300px) {
+      right: auto;
+      left: 410px;
+    }
+    @media (max-width: 695px) {
+      position: static;
+    }
+    @media (max-width: 435px) {
+      margin-left: -32px;
+    }
+    @media (max-width: 405px) {
+      width: 100%;
+      padding-right: 40px;
+    }
+
+    span {
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 1;
+    }
+
+    li {
+      margin-left: 3px;
+
+      &:before {
+        content: ' ';
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        float: left;
+        background-color: #4db2ec;
+        position: relative;
+        top: 7px;
+      }
+    }
+
+    a {
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 16px;
+      color: #333;
+      text-decoration: none;
+      margin-left: 10px;
+
+      &:hover {
+        color: #4db2ec;
+      }
+    }
+
+
+    // demo states in summary
+    .td-demo-installed {
+      font-weight: bold;
+      color:#4db2ec;
+      &:hover {
+        text-decoration: none;
+        //color: #333;
+        cursor:default;
+      }
+    }
+
+
+    .td-demo-installing {
+      -webkit-animation: td-flicker-animation 1.5s infinite;
+         -moz-animation: td-flicker-animation 1.5s infinite;
+           -o-animation: td-flicker-animation 1.5s infinite;
+              animation: td-flicker-animation 1.5s infinite;
+
+
+      -webkit-animation-timing-function: ease-in; /* Chrome, Safari, Opera */
+              animation-timing-function: ease-in;
+
+      font-weight: bold;
+      color:#4db2ec;
+
+      &:hover {
+        text-decoration: none;
+        //color: #333;
+        cursor:default;
+      }
+    }
+
+
+
+    .td-demo-disabled {
+      &:hover {
+        text-decoration: none;
+        color: #333;
+        cursor:default;
+      }
+    }
+
+
+
+
+  }
+
+
+
+
+
+
+}
+
+
+@keyframes td-flicker-animation {
+  0%   { opacity:1; }
+  50%  { opacity:0.6; }
+  100% { opacity:1; }
+}
+@-o-keyframes td-flicker-animation{
+  0%   { opacity:1; }
+  50%  { opacity:0.6; }
+  100% { opacity:1; }
+}
+@-moz-keyframes td-flicker-animation{
+  0%   { opacity:1; }
+  50%  { opacity:0.6; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes td-flicker-animation{
+  0%   { opacity:1; }
+  50%  { opacity:0.6; }
+  100% { opacity:1; }
+}

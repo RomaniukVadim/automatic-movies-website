@@ -1,0 +1,214 @@
+/*  ----------------------------------------------------------------------------
+    Default Module - Module 1
+*/
+
+/*  ----------------------------------------------------------------------------
+    Modules
+*/
+.td_module_wrap {
+  position: relative;
+  padding-bottom: 35px;
+
+  .entry-title { /* General Title */
+    font-size: 21px;
+    line-height: 25px;
+    margin: 0 0 6px 0;
+  }
+
+  &:hover .entry-title a {
+    color: @td_theme_color;
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    thumbnail
+*/
+
+.td-module-thumb {
+  position: relative;
+  margin-bottom: 13px;
+
+  .entry-thumb {
+    display: block; //this fixes the white line issue that we had
+  }
+}
+
+.td-video-play-ico > img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+
+/*  ----------------------------------------------------------------------------
+   module meta info
+*/
+
+.td-module-meta-info {
+  font-family: @font1;
+  font-size: 11px;
+  margin-bottom: 7px;
+  line-height: 1;
+  min-height: 17px;
+}
+
+.entry-review-stars {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+}
+
+.td-post-author-name {
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+
+  a {
+    color: #000;
+  }
+
+  span {
+    color: #ccc;
+    margin: 0 2px 0 2px;
+    font-weight: normal;
+  }
+}
+
+.td-post-date {
+  color: #aaa;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+.td-module-comments {
+  position: relative;
+  float: right;
+  font-family: @font1;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1;
+
+  a {
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    min-width: 17px;
+    padding: 3px 4px 4px 5px;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 3px 3px 0 0;
+      border-color: #000 transparent transparent transparent;
+    }
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    excerpt
+*/
+.td-excerpt {
+  font-size: 13px;
+  color: #777;
+  font-family: @font1;
+  margin-top: 9px;
+}
+
+
+
+// read more or more link
+.td-read-more,
+.more-link-wrap {
+  display: inline-block;
+  font-family: @font3;
+  margin-bottom: 20px;
+
+  a {
+    background-color: @td_theme_color;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 10px 15px;
+    .transition(background-color @td_transition_time);
+
+    &:hover {
+      background-color: @td_black !important;
+      text-decoration: none;
+    }
+  }
+}
+
+/*  ----------------------------------------------------------------------------
+    admin edit
+*/
+.td-admin-edit {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff !important;
+  padding: 3px 10px;
+  font-size: 13px;
+  .transition(background-color @td_transition_time);
+
+  &:hover {
+    background-color: #000;
+  }
+}
+
+.td-module-thumb:hover .td-admin-edit {
+  display: block;
+}
+
+
+// category on modules
+.td-post-category {
+  font-family: @font1;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 1;
+  background-color: @td_black;
+  color: #fff;
+  margin-right: 5px;
+  padding: 3px 6px 4px;
+  display: block;
+  vertical-align: top;
+
+  &:hover {
+    background-color: @td_theme_color;
+  }
+}
+// on images
+.td-module-image {
+  position: relative;
+
+  .td-post-category {
+    position: absolute;
+    bottom: 0;
+  }
+}
+// outside
+.td-module-meta-info {
+  .td-post-category {
+    display: inline-block;
+  }
+}

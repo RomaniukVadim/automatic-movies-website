@@ -1,0 +1,149 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/* Travel demo */
+.td-travel .td-travel-header {
+  margin-top: -48px !important;
+  margin-bottom: 48px !important;
+  height: 540px;
+  z-index: 0;
+  /* responsive portrait tablet */
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-travel .td-travel-header {
+    height: 350px;
+  }
+}
+.td-travel .td-travel-header:before {
+  content: '';
+  height: 100%;
+  width: 140%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0.2;
+  background: #ffffff;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, #000000));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#000000', GradientType=0);
+  /* IE6-8 */
+}
+.td-travel .td-header-style-5 .sf-menu > li > a:hover,
+.td-travel .td-header-style-5 .sf-menu > .sfHover > a,
+.td-travel .td-header-style-5 .sf-menu > .current-menu-item > a,
+.td-travel .td-header-style-5 .sf-menu > .current-menu-ancestor > a,
+.td-travel .td-header-style-5 .sf-menu > .current-category-ancestor > a {
+  color: #1AA4CE;
+}
+.td-travel .td-travel-features .td_block_wrap {
+  margin-top: -278px;
+  margin-bottom: 26px;
+  /* responsive landscape tablet */
+  /* responsive portrait tablet */
+  /* responsive portrait phone */
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-travel .td-travel-features .td_block_wrap {
+    margin-top: -261px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-travel .td-travel-features .td_block_wrap {
+    margin-top: -209px;
+  }
+}
+@media (max-width: 767px) {
+  .td-travel .td-travel-features .td_block_wrap {
+    margin-bottom: 0;
+  }
+}
+.td-travel .td-travel-features .td_module_3 {
+  padding: 10px !important;
+  background-color: white;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td-travel .td-travel-features .td_module_3 {
+    margin-bottom: 20px;
+  }
+}
+.td-travel .td-travel-features .td_module_3 .td-module-thumb {
+  height: 220px;
+  /* responsive landscape tablet */
+  /* responsive portrait tablet */
+  /* responsive portrait phone */
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-travel .td-travel-features .td_module_3 .td-module-thumb {
+    height: 200px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-travel .td-travel-features .td_module_3 .td-module-thumb {
+    height: 150px;
+  }
+}
+@media (max-width: 767px) {
+  .td-travel .td-travel-features .td_module_3 .td-module-thumb {
+    height: auto;
+  }
+}
+.td-travel .td-header-style-5 .td-main-menu-logo a {
+  line-height: 66px;
+}
+.td-travel .td-header-style-5 .black-menu .sf-menu > li > a {
+  background-color: transparent !important;
+}
+.td-travel .td-header-style-5 ul.sf-menu > .td-menu-item > a {
+  /* responsive portrait tablet */
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-travel .td-header-style-5 ul.sf-menu > .td-menu-item > a {
+    font-size: 15px;
+  }
+}
+.td-travel .block-title a,
+.td-travel .block-title span,
+.td-travel .block-title label {
+  padding-top: 8px;
+  padding-bottom: 2px;
+}
+.td-travel .td-subcat-filter .td-subcat-dropdown:hover .td-subcat-more {
+  background-color: #222;
+}
+.td-travel .td_block_wrap .td-subcat-filter {
+  top: 5px;
+}
+.td-travel .td_module_11 .td-read-more {
+  display: none;
+}
+.td-travel .block-title,
+.td-travel .td-related-title {
+  margin-bottom: 16px;
+}
+.td-travel .td-related-title > .td-related-left:hover,
+.td-travel .td-related-title > .td-related-right:hover {
+  color: #757575;
+}
+.td-travel .td-subcat-filter .td-subcat-dropdown ul {
+  border-width: 1px 1px 1px;
+}
+.td-travel #td-theme-settings .td-skin-buy a {
+  background-color: #1AA4CE ;
+}

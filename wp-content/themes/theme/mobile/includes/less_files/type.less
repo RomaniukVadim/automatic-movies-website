@@ -1,0 +1,906 @@
+/*
+----------------------------------------------------------------------------
+  Site wide > typography style
+----------------------------------------------------------------------------
+*/
+
+
+body,
+p {
+  font-family: @font1;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 21px;
+}
+
+
+a:active,
+a:focus { /* IE remove focus */
+  outline: none;
+  //ie-dummy: expression(this.hideFocus=true);
+}
+
+
+a {
+  color: @td_theme_color;
+  text-decoration: none;
+}
+
+
+ins {
+  background: white;
+  text-decoration: none;
+}
+
+
+code {
+  position: relative;
+  top:-1px;
+  border: none;
+  background-color: #F1F1F1;
+  padding: 2px 6px;
+}
+
+
+pre {
+  background-color: #f1f1f1;
+  padding: 4px 10px 4px 10px;
+  border: none;
+  border-radius: 0;
+  margin-top: 24px;
+}
+
+
+cite {
+  font-size: 13px; /* ovveride bootstrap */
+  font-style: italic;
+  font-weight: normal;
+  text-transform: none;
+  color:#000;
+  a {
+    color:#000;
+  }
+}
+
+
+q {
+  font-style: italic;
+}
+
+
+ul, ol {
+  padding: 0;
+
+  li {
+    line-height: 24px;
+    margin-left: 21px;
+  }
+}
+
+ol {
+  margin-bottom: 26px;
+}
+
+
+.dl-horizontal {
+  a {
+    font-weight: 500 !important;
+  }
+  dt {
+    width: 70px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 15px;
+  }
+  dd {
+    margin-left: 90px;
+    line-height: 24px;
+    font-size: 14px;
+  }
+}
+
+
+address {
+  font-size: inherit !important;
+  line-height: inherit !important;
+  margin-bottom: 21px;
+}
+
+big {
+  text-transform: uppercase;
+}
+
+
+embed {
+  width: 100%;
+}
+
+
+/*  ----------------------------------------------------------------------------
+     table
+*/
+
+table {
+  width: 100%;
+  margin-bottom: 26px;
+
+  th {
+    text-align: left;
+    border: 1px solid @td_grid_border_color;
+    padding: 2px 8px;
+  }
+
+  td {
+    border: 1px solid @td_grid_border_color;
+    padding: 2px 8px;
+  }
+
+  .odd {
+    td {
+      background-color: #fcfcfc;
+    }
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    h
+*/
+@h1_size:32px;
+@h1_line_height:40px;
+
+h1, h2, h3, h4, h5, h6 {
+  //font-family: @font1;
+  color: @td_text_color;
+  font-weight: bold;
+  margin: 6px 0 6px 0;
+}
+
+h1 > a, h2 > a, h3 > a, h4 > a, h5 > a, h6 > a {
+  color: @td_text_color;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 38px;
+  margin-top: 33px;
+  margin-bottom: 23px;
+}
+
+h2 {
+  font-size: 27px;
+  line-height: 34px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: @h1_size - 10;
+  line-height: @h1_line_height - 11;
+  margin-top: 27px;
+  margin-bottom: 17px;
+}
+
+h4 {
+  font-size: @h1_size - 13;
+  line-height: @h1_line_height - 13;
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+
+h5 {
+  font-size: @h1_size - 15;
+  line-height: @h1_line_height - 17;
+  margin-top: 21px;
+  margin-bottom: 11px;
+}
+
+h6 {
+  font-size: @h1_size - 17;
+  line-height: @h1_line_height - 19;
+  margin-top: 21px;
+  margin-bottom: 11px;
+}
+
+
+
+// videopress from Jetpack
+// @todo verificat daca mai trebuie astea 3 ????
+.videopress-placeholder {
+  width: 100% !important;
+}
+.videopress-poster {
+  height: auto !important;
+  width: 100% !important;
+}
+.video-player {
+  width: 100% !important;
+}
+
+
+
+/*
+----------------------------------------------------------------------------
+  Site wide > Forms
+----------------------------------------------------------------------------
+*/
+textarea {
+  font-size: 16px;
+  line-height: 21px;
+  color: #444;
+  border: 1px solid #e1e1e1;
+  width: 100%;
+  max-width: 100%;
+  height: 168px;
+  min-height: 168px;
+  padding: 6px 9px 6px 9px;
+
+  &:active,
+  &:focus {
+    border-color: #b0b0b0;
+  }
+}
+
+// reset outline focus Chrome
+textarea:focus,
+input:focus,
+input[type]:focus {
+  outline: 0 none;
+}
+
+/* Input buttons */
+input[type=submit] {
+  font-size: 13px;
+  background-color: @td_black;
+  border-radius: 0;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  font-weight: 500;
+  .transition(background-color @td_transition_time);
+}
+
+input[type=text],
+input[type=url],
+input[type=tel],
+input[type=email] {
+  font-size: 16px;
+  line-height: 21px;
+  color: #444;
+  border: 1px solid #e1e1e1;
+  width: 100%;
+  max-width: 100%;
+  height: 34px;
+  padding: 3px 9px;
+
+  &:active,
+  &:focus {
+    border-color: #b0b0b0;
+  }
+}
+
+input[type=password] {
+  width: 100%;
+  position: relative;
+  top: 0;
+  display: inline-table;
+  vertical-align: middle;
+  font-size: 12px;
+  line-height: 21px;
+  color: #444;
+  border: 1px solid #ccc;
+  max-width: 100%;
+  height: 34px;
+  padding: 3px 9px;
+  margin-bottom: 10px;
+
+  &:active,
+  &:focus {
+    border-color: #b0b0b0;
+  }
+}
+
+// buttons
+.td-buttons {
+  padding: 9px 18px;
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+  margin: 10px 10px 10px 0;
+  display: inline-block;
+}
+
+
+
+/*
+----------------------------------------------------------------------------
+  Site wide > WordPress Text, Images & Captions
+----------------------------------------------------------------------------
+*/
+
+
+
+/*  ----------------------------------------------------------------------------
+    text and Images align
+*/
+
+.td-post-content
+.woocommerce #tab-description
+{
+  img {
+    margin-bottom: 21px;
+  }
+
+  // if with caption remove the padding
+  figure {
+    img {
+      margin-bottom: 0;
+    }
+  }
+
+  // recently added - img in p - p have margin already
+  p > img {
+    margin-bottom: 0;
+  }
+}
+
+// featured image caption
+// @todo - trebuie mutat din fisieru' asta ??
+.td-post-featured-image figure img {
+  margin-bottom: 0;
+}
+
+
+
+img.wp-smiley {
+  width: auto;
+}
+
+
+.wp-caption-text,
+.wp-caption-dd  //editor-style
+{
+  text-align: left;
+  margin: 0 0 26px 0;
+  font-size: 12px !important;
+  font-style: italic;
+  font-weight: normal;
+  line-height: 17px !important;
+  color:#444;
+}
+
+
+.wp-caption {
+  text-align: center;
+  max-width: 100% !important;
+
+  img {
+    margin-bottom: 0;
+  }
+}
+
+
+.wp-caption img {
+  max-width: 100% !important;
+}
+
+
+
+.alignnone {
+  margin-top: 0;
+}
+
+
+.aligncenter {
+  text-align: center;
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  margin-bottom: 6px;
+
+}
+
+
+figure.alignright,
+figure.alignleft,
+figure.aligncenter {
+  margin-bottom: 0;
+}
+
+
+// ?
+.alignnone img,
+.aligncenter img {
+  width: 100%;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    align left
+     -> on desktop - the tinyMCE size is used
+     -> on tablet(s) - apply the max-width to make it look nice
+     -> on phones  - center, max width 100%
+        + fix for tinyMCE padding
+     -> on full width td-pb-span12
+*/
+
+.alignleft {
+  float:left;
+  margin-top: 6px;
+  margin-bottom: 6px !important; /* hack for tinyMCE / post content diffs*/
+  margin-left: 0;
+  max-width: 50% !important;
+  margin-right: 21px;
+
+  /* responsive phone CUSTOM - align the image on center */
+  @media (max-width: 400px) {
+    float:none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100% !important;
+    margin-bottom: 21px !important;
+    display: block;
+
+    img {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    figcaption {
+      text-align: center;
+    }
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    Screen reader text
+*/
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    align right
+     -> on desktop - the tinyMCE size is used
+     -> on tablets - apply the max-width to make it look nice
+     -> on phones  - center, max width 100%
+        + fix for tinyMCE padding
+     -> on full width td-pb-span12
+*/
+.alignright {
+  float:right;
+  margin-top: 6px;
+  margin-right: 0;
+  margin-bottom: 6px !important; /* hack for tinyMCE / post content diffs*/
+  max-width: 50% !important;
+  margin-left: 21px;
+
+  /* responsive phone CUSTOM  - align the image on center */
+  @media (max-width: 400px) {
+    float:none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100% !important;
+    margin-bottom: 21px !important;
+    display: block;
+
+    img {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    figcaption {
+      text-align: center;
+    }
+
+  }
+}
+
+/*
+----------------------------------------------------------------------------
+  Css for:
+  Page content
+  Post content
+  TinyMCE content
+----------------------------------------------------------------------------
+*/
+.td-page-content,
+.td-post-content,
+.woocommerce #tab-descriptiony {
+  font-size: 15px;
+  line-height: 26px;
+  color: #222;
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  ul {
+    margin-bottom: 26px;
+
+    ul {
+      margin-bottom: 0;
+    }
+  }
+
+  li {
+    ul,
+    ol {
+      margin-bottom: 0;
+    }
+  }
+
+  p,
+  li {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  p {
+    margin-bottom: 26px;
+  }
+
+  .td-arrow-list {
+    list-style: none;
+    margin-left: 16px;
+
+    li:before {
+      font-family: @font2;
+      content: '\e803';
+      float: left;
+      margin-left: -16px;
+      line-height: 26px;
+      font-size: 14px;
+    }
+  }
+}
+
+
+
+
+
+/*  ----------------------------------------------------------------------------
+    quote
+*/
+.td-page-content,
+.td-post-content,
+.bbpress,
+.woocommerce #tab-description,
+.comment-content {
+  blockquote {
+    padding: 0;
+    position: relative;
+    border-left: none;
+    margin: 20px 3% 18px 3%;
+
+    p {
+      font-weight: 400;
+      font-style: italic;
+      text-align: center;
+      text-transform: uppercase;
+      color: @td_theme_color;
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+
+  // reset twitter quote issue
+  .twitter-tweet p {
+    font-family: initial;
+    font-size: initial;
+    line-height: initial;
+    font-style: initial;
+    text-align: initial;
+    text-transform: initial;
+    color: initial;
+    font-weight: initial;
+  }
+
+  // default blockquote left + right
+  .td_quote_right {
+    margin: 21px 5%;
+    float: none;
+    width: auto;
+  }
+
+  .td_quote_left {
+    margin: 18px 5%;
+    float: none;
+    width: auto;
+
+    p {
+      text-align: center;
+    }
+  }
+
+  // box quote
+  .td_quote_box {
+    margin: 0;
+    background-color: #FCFCFC;
+    border-left: 2px solid @td_theme_color;
+    padding: 15px 23px 0 23px;
+    position: relative;
+    top: 6px;
+    clear: both;
+
+    p {
+      color: #777777;
+      font-size: 13px;
+      line-height: 21px;
+      padding-bottom: 16px;
+      margin: 0;
+      text-transform: none;
+    }
+  }
+
+  .td_box_left {
+    float: none;
+    margin: 0 0 36px 0;
+    width: auto;
+
+    p {
+      text-align: left;
+    }
+  }
+
+  .td_box_right {
+    float: none;
+    margin: 0 0 36px 0;
+    width: auto;
+
+    p {
+      text-align: left;
+    }
+  }
+
+  .td_box_center {
+    margin: 0 0 36px 0;
+  }
+
+  // pull quote
+  .td_pull_quote {
+    padding: 18px 25px;
+    margin: 0;
+    clear: both;
+
+    p {
+      font-size: 14px;
+      line-height: 26px;
+      font-weight: 600;
+      text-transform: none;
+      text-align: center;
+
+      &:first-child:before {
+        position:absolute;
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALBAMAAABSacpvAAAALVBMVEUAAAC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLRK0HxpAAAADnRSTlMAd+67mWZR3SKqMxGIzB8/1rAAAABlSURBVAjXFcexDQEBAAXQd+KCRm4CDZURFGICMYFadTHBxQQmEDHCzWAI9XGJ8s/ANS95FBvccKwYr5kuUQ/5omm5dpQ9Fu+H2efEPX07Sg62f+bJ2T6pJkmnTi5FslM2L56r9geMACBhjTsodgAAAABJRU5ErkJggg==') no-repeat;
+        left: 0;
+        display:block;
+        content:'';
+        width: 15px;
+        height: 15px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+      }
+
+      &:after {
+        position:absolute;
+        bottom: 10px;
+        right: 0;
+        display:block;
+        content:'';
+        width: 15px;
+        height: 15px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALBAMAAABSacpvAAAALVBMVEUAAAC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLRK0HxpAAAADnRSTlMA3ZnuqndmIhG7VYhEMzOiL2oAAABkSURBVAjXY+D1E2PgULZuYGB89+4A07t3AQzn3r1T4Hv3ToCh7t27CUDRBwxAYQe2d+8MGBiuAuWr5BwYGBjeFTAwzEtgYOB6xMDA8RAowGnOwMD6CsjIA4oWKwBFXYGcLQ0MAFHHH+tW1OhlAAAAAElFTkSuQmCC') no-repeat;
+      }
+    }
+  }
+
+  .td_pull_left {
+    float: none;
+    margin: 0 0 30px 0;
+    width: auto;
+  }
+
+  .td_pull_right {
+    float: none;
+    margin: 0 0 30px 0;
+    width: auto;
+  }
+
+  .td_pull_center {
+    margin: 17px 0;
+    padding: 15px 20px;
+  }
+}
+
+blockquote {
+  small {
+    margin-top: 5px;
+    display: block;
+    font-size:13px;
+    font-style: italic;
+    font-weight: normal;
+    text-transform: none;
+    color:#444;
+  }
+}
+
+blockquote.pull-right {
+  padding-left: 20px;
+  border-right: none;
+}
+
+blockquote.pull-right:after {
+  border-right: 2px solid #FB5502;
+  width:40px;
+  right: -40px;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    dropcaps
+*/
+.td-page-content,
+.td-post-content,
+.comment-content {
+  .dropcap {
+    float:left;
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+    background-color: @td_theme_color;
+    color: white;
+    text-align: center;
+    margin: 9px 13px 0 0;
+    padding: 2px 13px 5px 13px;
+    text-transform: uppercase;
+    min-width: 57px;
+  }
+
+  .dropcap1 {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+  }
+
+  .dropcap2 {
+    background-color: transparent !important;
+    color: #4B4B4B;
+    font-size: 79px;
+    line-height: 69px;
+    margin: 0 9px 0 0;
+    padding: 0 13px 0 0;
+  }
+
+  .dropcap3 {
+    background-color: transparent !important;
+    color: #4B4B4B;
+    font-weight: bold;
+    font-size: 79px;
+    line-height: 69px;
+    margin: 0 9px 0 0;
+    padding: 0 13px 0 0;
+  }
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    text columns
+*/
+
+.td_column_count_mixin(@column_count) {
+  -webkit-column-count: @column_count;
+  -moz-column-count: @column_count;
+  column-count: @column_count;
+}
+
+.td_column_gap_mixin(@column_gap_px) {
+  -webkit-column-gap: @column_gap_px;
+  -moz-column-gap: @column_gap_px;
+  column-gap: @column_gap_px;
+}
+
+.td_column_rules_mixin(@column_rule_style) {
+  -webkit-column-rule-style: @column_rule_style;
+  -moz-column-rule-style: @column_rule_style;
+  column-rule-style: @column_rule_style;
+}
+
+.td_column_rules_width_mixin(@column_rule_width) {
+  -webkit-column-rule-width: @column_rule_width;
+  -moz-column-rule-width: @column_rule_width;
+  column-rule-width: @column_rule_width;
+}
+
+.td_column_rules_color(@column_rule_color) {
+  -webkit-column-rule-color: @column_rule_color;
+  -moz-column-rule-color: @column_rule_color;
+  column-rule-color: @column_rule_color;
+}
+
+.td_text_columns_two_cols {
+  .td_column_count_mixin(2);
+  .td_column_gap_mixin(40px);
+  .td_column_rules_mixin(solid);
+  .td_column_rules_width_mixin(1px);
+  .td_column_rules_color(#e9e9e9);
+  margin-bottom: 26px;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    text highlighting
+*/
+.td_text_highlight_0 {
+  background-color: rgba(0, 0, 0, 0.77);
+  padding: 5px 0 6px 0;
+  margin:0 8px 0 8px;
+  box-shadow: 8px 0 0 rgba(0, 0, 0, 0.77), -8px 0 0 rgba(0, 0, 0, 0.77);
+  color:rgb(42, 42, 42);
+  .transition(color 400ms);
+  &:hover {
+    color:#F9F9F9;
+  }
+}
+
+
+.td_text_highlight_marker {
+  padding: 5px 0 6px 0;
+  margin:0 8px 0 8px;
+
+  color:white;
+  .transition(color 400ms);
+  &:hover {
+    color:#F9F9F9;
+  }
+}
+
+.td_text_highlight_marker_red {
+  background-color: rgba(255, 28, 26, 0.62);
+  box-shadow: 8px 0 0 rgba(255, 28, 26, 0.62), -8px 0 0 rgba(255, 28, 26, 0.62);
+}
+
+.td_text_highlight_marker_blue {
+  background-color: rgba(57, 213, 255, 0.75);
+  box-shadow: 8px 0 0 rgba(57, 213, 255, 0.75), -8px 0 0 rgba(57, 213, 255, 0.75);
+}
+
+.td_text_highlight_marker_green {
+  background-color: rgba(77, 216, 69, 0.65);
+  box-shadow: 8px 0 0 rgba(77, 216, 69, 0.65), -8px 0 0 rgba(77, 216, 69, 0.65);
+}
+
+.td_text_highlight_marker_yellow {
+  background-color: rgba(255, 203, 0, 0.75);
+  box-shadow: 8px 0 0 rgba(255, 203, 0, 0.75), -8px 0 0 rgba(255, 203, 0, 0.75);
+}
+
+.td_text_highlight_marker_pink {
+  background-color: rgba(255, 101, 243, 0.75);
+  box-shadow: 8px 0 0 rgba(255, 101, 243, 0.75), -8px 0 0 rgba(255, 101, 243, 0.75);
+}

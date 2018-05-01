@@ -1,0 +1,126 @@
+/* the label */
+.td-page-o-custom-label {
+
+  position: absolute;
+  left:0;
+  top:7px;
+  display: block;
+  width: 120px;
+  font-size:13px;
+  font-weight: bold;
+  line-height: 19px;
+
+
+
+  &.td-full-width-label {
+    width:100%;
+  }
+
+}
+
+
+/* the inline help text */
+.td-page-o-info {
+  color:#c7c7c7;
+  font-size:12px;
+  display: block;
+  max-width: 549px;
+}
+
+.td-meta-box-inside {
+  // drop downs
+  .td-select-style-overwrite {
+    display: inline-block;
+    margin-bottom: 4px;
+    position: relative;
+    top:3px;
+    left:1px;
+  }
+
+
+  // text input
+  input[type=text] {
+
+    height: 32px !important;
+    border: 1px solid #e6e6e6 !important;
+    color: #555555;
+    box-shadow: none !important;
+    padding-left: 10px;
+    width: 549px;
+
+    @media (max-width: 1260px) {
+      width: 100% !important;
+    }
+  }
+
+  // text area style
+  textarea {
+    width: 549px;
+    display: inline-block;
+    height: 103px;
+    min-height: 103px;
+    border: 1px solid #e6e6e6;
+    box-shadow: none;
+    font-size: 12px;
+    color: #555555;
+
+
+    @media (max-width: 1100px) {
+      width: 99%;
+    }
+  }
+
+
+  // visual select
+  .td-page-o-visual-select-modules {
+    max-width: 650px;
+  }
+
+
+  p {
+    max-width: 549px;
+  }
+
+
+  //delete button from review
+  .dodelete {
+    position: relative;
+    top:5px;
+  }
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    review system
+*/
+// fix the reviews (row in row and the labels that are added via js on "add rating category" button)
+.td-meta-box-row {
+  .td-meta-box-row {
+    .td-page-o-custom-label {
+      display: none;
+    }
+    padding-left: 0;
+  }
+
+  .wpa_group {
+    margin: 15px 0 15px 0;
+  }
+}
+
+// fix the button
+.td-page-option-panel {
+  .docopy-p_review_stars,
+  .docopy-p_review_percents,
+  .docopy-p_review_points {
+    position: relative;
+    left:135px;
+  }
+
+  .td-textarea-subtitle {
+    /* responsive portrait phone */
+    @media (max-width: 1260px) {
+        width: 100%;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/* Animals demo */
+.td-animals.td-boxed-layout #td-outer-wrap {
+  box-shadow: 0 0 15px #ddd;
+}
+.td-animals .td-header-style-3 .td-header-sp-logo {
+  margin-left: 0;
+  margin-right: 56px;
+  /* responsive landscape tablet */
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-animals .td-header-style-3 .td-header-sp-logo {
+    margin-right: 28px;
+  }
+}
+.td-animals .td-header-style-3 .sf-menu > li > a {
+  padding-left: 10px;
+}
+.td-animals .td-icons-animals {
+  font-size: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+  position: relative;
+  bottom: 1px;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td-animals .td-icons-animals {
+    margin-right: 6px;
+  }
+}
+.td-animals .td-icons-circus {
+  font-size: 28px;
+}
+.td-animals .td-main-page-wrap > .td-container > .td-pb-row:first-child > .wpb_column > .wpb_wrapper .td_block_trending_now {
+  margin-top: -32px;
+  padding: 0 0 16px 0;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td-animals .td-main-page-wrap > .td-container > .td-pb-row:first-child > .wpb_column > .wpb_wrapper .td_block_trending_now {
+    margin-top: -22px;
+  }
+}
+.td-animals .td-news-ticker .td-trending-now-wrapper {
+  padding: 0 15px;
+}
+.td-animals .td-news-ticker .td-trending-now-wrapper .td-trending-now-title {
+  background-color: transparent;
+  color: #111;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 22px;
+}
+.td-animals .td-news-ticker .td-trending-now-display-area .entry-title {
+  font-size: 13px;
+}
+.td-animals .td-news-ticker .td-next-prev-wrap {
+  right: 24px;
+}
+.td-animals .td-your-pet {
+  padding-top: 48px;
+  margin-bottom: 48px;
+  background-color: #151515;
+}
+.td-animals .td-homepage-ad {
+  margin-bottom: 20px;
+}
+.td-animals #td-theme-settings .td-skin-buy a {
+  background-color: #68c62d;
+}

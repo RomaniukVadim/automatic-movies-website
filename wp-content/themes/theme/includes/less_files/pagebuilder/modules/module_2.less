@@ -1,0 +1,39 @@
+/*  ----------------------------------------------------------------------------
+    Module 2
+*/
+.td_module_2 {
+  padding-bottom: 32px;
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    .entry-title {
+      font-size: 17px;
+      line-height: 22px;
+    }
+  }
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    .entry-thumb {
+      width: 100%;
+    }
+  }
+
+  // fix module height for slow connection
+  .td-module-thumb {
+    height: 160px;
+
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      height: 148px;
+    }
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      height: 113px;
+    }
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,137 @@
+/*  ----------------------------------------------------------------------------
+    Module mx4
+*/
+.td_module_mx4 {
+
+  .td-module-thumb {
+    margin-bottom: 7px;
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      margin-bottom: 0;
+    }
+  }
+
+  .entry-title {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      padding-left: 115px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+
+  .td_quote_on_blocks {
+    margin-top: 10px;
+  }
+
+  .entry-thumb {
+    width: 100%;
+  }
+
+  .td-video-play-ico img {
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      width: 30px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      width: 20px;
+    }
+  }
+
+  /* responsive small portrait phone */
+  @media (max-width: 500px) {
+    min-height: 69px;
+    padding-bottom: 0;
+    margin-bottom: 30px;
+
+    .td-module-image {
+      width: 100px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+}
+
+//Module mx4 on 3 columns
+.td-column-3 .td_module_mx4 {
+
+
+  .entry-title {
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      padding-left: 115px;
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+}
+
+
+//Module mx4 on 1 column
+.td-column-1 .td_module_mx4 {
+  padding-bottom: 22px;
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    padding-bottom: 35px;
+  }
+
+  .entry-title {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 500;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      font-size: 14px;
+      line-height: 21px;
+      padding-left: 0;
+    }
+  }
+
+  .td-video-play-ico img {
+    width: 30px;
+  }
+
+  /* responsive small portrait phone */
+  @media (max-width: 500px) {
+    margin-bottom: 0;
+
+    .td-module-thumb {
+      margin-bottom: 7px;
+    }
+
+    .td-module-image {
+      width: 100%;
+      position: relative;
+    }
+
+    .td-post-category {
+      width: auto;
+    }
+  }
+}
+
+

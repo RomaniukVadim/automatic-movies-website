@@ -1,0 +1,742 @@
+/*  ----------------------------------------------------------------------------
+    style for controls
+*/
+
+
+/* global variables */
+@td_width_input:221px;
+@td_color_border_controls:#e6e6e6;
+@td_color_text:#555555;
+@td_color_description:#999999;
+@td_color_titles:#333333;
+@td_panel_color:#4db2ec;
+
+
+
+
+/*  ----------------------------------------------------------------------------
+    style for input text control
+*/
+
+
+.td-box-control-full .td-panel-input {
+  width: @td_width_input;
+  height: 32px;
+  border: 1px solid @td_color_border_controls !important;
+  margin: 0px 0px 32px 0px;
+  font-family: @font_open_sans;
+  color: @td_color_text;
+  font-size: 12px;
+  box-shadow: none !important;
+  padding-left: 10px;
+}
+
+.td-panel-input-wide input[type=text]{
+  width: 550px !important;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    style for select box control
+*/
+
+
+.td-select-style-overwrite {
+  border: 1px solid @td_color_border_controls;
+  width: 219px;
+  overflow: hidden;
+  background: #ffffff url("../images/panel/select_box_arrow.png") repeat-y 188px 0px;
+  margin: 0px 0px 32px 0px;
+}
+
+.td-select-style-overwrite select:focus {
+  outline: none;
+}
+
+.td-select-style-overwrite select {
+  padding: 5px 0 5px 5px;
+  height: 28px;
+  line-height:17px;
+  max-width: 130%;
+}
+
+.td-panel-dropdown {
+  /*position: relative;*/
+  /*top: -1px;*/
+  width: 110%;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  font-family: @font_open_sans;
+  color: @td_color_text;
+  font-size: 12px;
+}
+
+.td-panel-dropdown:focus {
+  box-shadow: none;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    style for checkbox control
+*/
+
+.td-checkbox {
+  position: relative;
+  display: inline-block;
+  width: 68px;
+  background-color: #b4b4b4;
+  height: 32px;
+  cursor: pointer;
+  margin: 0px 0px 28px 0px;
+  -webkit-box-shadow: inset 1px 1px 6px -2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 1px 1px 6px -2px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 1px 1px 6px -2px rgba(0, 0, 0, 0.4);
+
+  .transition(background-color 0.3s);
+}
+
+.td-checkbox-active {
+  background-color: @td_panel_color;
+
+}
+
+.td-checbox-buton {
+  position: absolute;
+  top: 0px;
+  display: inline-block;
+  width: 36px;
+  height: 32px;
+  cursor: pointer;
+  background: transparent url("../images/panel/check_box_button.png") no-repeat;
+  .transition(left 0.2s);
+
+  -webkit-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+  -moz-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+  -o-transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000);
+  transition-timing-function: cubic-bezier(0.165, 0.840, 0.440, 1.000); /* easeOutQuart */
+
+  left:0px;
+}
+
+.td-checbox-buton-active {
+  left: 32px;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    visual selector orizontaly control
+*/
+
+
+.td-small-wrapper-o {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.td-small-wrapper-o-separator {
+  margin-right: 17px;
+  margin-bottom: 13px;
+}
+
+.td-visual-selector-o-img,
+.td-doc-image-homepage-loop {
+  padding: 5px 5px 5px 5px;
+  border: 1px solid @td_color_border_controls;
+  transition: border-color 0.25s ease-out;
+}
+
+.td-panel-sidebar-pos .td-small-wrapper-o {
+  line-height: 0;
+}
+
+.td-visual-selector-active {
+  padding: 3px 3px 3px 3px !important;
+  border: 3px solid @td_panel_color !important;
+}
+
+.td_vso_caption {
+  font-family: @font_open_sans;
+  font-size: 11px;
+  color: @td_color_text;
+}
+
+/* visual selector verticaly NOT USED RIGHT NOW*/
+.td-visual-selector-v{
+  padding: 10px;
+  text-align: center;
+  width: 90px;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    sidebar pulldown control
+*/
+
+
+.td-pulldown-sidebars-controller{
+  width: 293px;
+  position: relative;
+
+}
+
+.td-wrapper-selected-sidebar{
+  height: 40px;
+  position:relative;
+}
+
+.td-selected-sidebar {
+  border: 1px solid @td_color_border_controls;
+  width: 237px;
+  height: 38px;
+  cursor: pointer;
+  position:absolute;
+  top: 0px;
+  line-height:39px;
+  padding-left: 15px;
+  color: #494949;
+  font-family: @font_open_sans;
+  font-size: 12px;
+}
+
+.td-selected-sidebar:hover {
+  color: #494949;
+}
+
+.td-arrow-pulldown-sidebars {
+  display: inline-block;
+  border-top: 1px solid @td_color_border_controls;
+  border-right: 1px solid @td_color_border_controls;
+  border-bottom: 1px solid @td_color_border_controls;
+  background: #fff url("../images/panel/arrow-sidebar.png") repeat-y 0px -1px;
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  position:absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.td-pulldown-sidebars-list {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  background-color: #FFFFFF;
+  width: 291px;
+  z-index: 999999;/*lam pus cit de mare dar tot nu sare peste panel*/
+  border-left: 1px solid @td_color_border_controls;
+  border-right: 1px solid @td_color_border_controls;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.10);
+
+}
+
+.td-option-sidebar-wrapper{
+  border-bottom:  1px solid @td_color_border_controls;
+}
+
+.td-option-sidebar-wrapper:hover{
+  background-color: #f4f4f4;
+}
+
+.td-option-sidebar{
+  cursor: pointer;
+  color: @td_color_text;
+  padding: 9px 0 7px 15px;
+  display: inline-block;
+  width: 237px;
+  height: 22px;
+  font-family: @font_open_sans;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.td-option-sidebar:hover{
+  color: @td_color_text;
+}
+
+.td-delete-sidebar-option{
+  display: inline-block;
+  position: relative;
+  width: 10px;
+  height: 10px;
+  left: 15px;
+  top: 1px;
+  background-color: #0000C3;
+  cursor: pointer;
+  background: url("../images/panel/del-sidebar-opt.png") no-repeat 100% 50%;
+}
+
+.td-new-sidebar-input{
+  height: 60px;
+  border-bottom:  1px solid @td_color_border_controls;
+}
+
+.td_new_sidebar_field{
+  display: inline-block;
+  margin: 15px 15px 0px 15px;
+  width: 191px !important; //nothing should overwrite this (for page options panel)
+  height: 30px !important; //nothing should overwrite this (for page options panel)
+  border: 1px solid @td_color_border_controls;
+  font-family: @font_open_sans;
+  font-size: 12px;
+  box-shadow: none !important;
+}
+.td_new_sidebar_field:focus {
+  border: 1px solid @td_color_border_controls !important;
+}
+
+.td-button-add-new-sidebar {
+  display: inline-block;
+  width: 55px;
+  background-color: @td_panel_color;
+  color: #FFFFFF;
+  text-align: center;
+  cursor: pointer;
+  font-family: @font_open_sans;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.td-button-add-new-sidebar:hover {
+  color: #ffffff;
+}
+
+
+
+
+/*  ----------------------------------------------------------------------------
+   upload image control
+*/
+
+
+.td_wrapper_upload_control {
+  vertical-align: top;
+  padding-bottom: 28px;
+}
+
+.td_upload_container_for_image {
+  display: inline-block;
+  width: 66px;
+  height: 66px;
+  margin-right: 6px;
+  border: 1px solid @td_color_border_controls;
+  overflow: hidden;
+}
+
+.td_upd_image_display_small_image {
+  height: 66px;
+  width: auto;
+}
+
+.td_upload_image_controls {
+  position: relative;
+  display: inline-block;
+  top: -8px;
+}
+
+.td_upload_field_link_image{
+  width: 471px;
+  height: 32px;
+  border: 1px solid @td_color_border_controls;
+  margin-bottom: 14px;
+  font-family: @font_open_sans;
+  font-size: 12px;
+  box-shadow: none !important;
+  padding-left: 10px;
+  color: @td_color_text !important;
+}
+
+.td_upload_field_link_image:focus {
+  border-color: @td_color_border_controls !important;
+}
+
+.td_upload_button {
+  background-color: @td_panel_color;
+  padding: 4px 7px 4px 7px;
+  color: #ffffff;
+  margin-left: 1px;
+  cursor: pointer;
+  font-family: @font_open_sans;
+  font-size: 12px;
+}
+
+.td_upload_button:hover{
+  color: #ffffff;
+}
+
+.td_delete_image_button{
+  background-color: #7a7a7a;
+  padding: 4px 7px 4px 7px;
+  color: #ffffff;
+  margin-left: 10px;
+  cursor: pointer;
+  font-family: @font_open_sans;
+  font-size: 12px;
+}
+
+.td_delete_image_button:hover{
+  color: #ffffff;
+}
+
+
+
+
+/*  ----------------------------------------------------------------------------
+   radio box control
+*/
+
+
+.td-wrapper-radio-buttons{
+  padding-bottom: 32px;
+}
+
+.td-radio-control-option {
+  display: block;
+  width: 284px;
+  height: 19px;
+  cursor: pointer;
+  border-left: 1px solid @td_color_border_controls;
+  border-right: 1px solid @td_color_border_controls;
+  border-bottom: 1px solid @td_color_border_controls;
+  color: @td_color_text;
+  padding: 6px 0 5px 9px;
+  font-family: @font_open_sans;
+  font-size: 12px;
+  position: relative;
+  transition: background-color 0.2s ease-in !important;
+  transform: translateZ(0);
+  img {
+    position: absolute;
+    right:5px;
+    top:3px;
+    transform: scale(0);
+    opacity: 0;
+    .transition(all 0.2s ease-in);
+  }
+
+
+
+}
+
+.td-radio-control-option:hover {
+  color: @td_color_text;
+}
+
+.td-radio-control-option-border-top {
+  border-top: 1px solid @td_color_border_controls;
+}
+
+.td-radio-control-option-selected {
+  //background: url("../images/panel/radio-check.png") no-repeat 262px 3px;
+
+  img {
+    opacity: 1;
+    transform: scale(1);
+
+  }
+  -webkit-transition-property: initial;
+  -moz-transition-property: initial;
+  transition-property: initial;
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  transition-duration: 0s;
+  -webkit-transition-timing-function: initial;
+  -moz-transition-timing-function: initial;
+  transition-timing-function: initial;
+
+  color: #333333;
+  background-color: #fafbfb;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+   textarea control
+*/
+
+
+.td_textarea_control {
+  width: 549px;
+  max-width: 549px;
+  min-width: 549px;
+  height: 103px;
+  min-height: 103px;
+  border: 1px solid @td_color_border_controls;
+  box-shadow: none;
+  font-size: 12px;
+  color: @td_color_text;
+  margin-bottom: 32px;
+
+  &:focus {
+    box-shadow: none;
+    border-color: @td_color_border_controls;
+  }
+}
+#td-panel-ads .td_textarea_control {
+  height: 175px;
+}
+
+/*
+title one row controls
+*/
+.td-box-description .td-box-title.td-title-on-row {
+  top: 5px;
+}
+
+
+
+
+
+/*  ----------------------------------------------------------------------------
+   buttons
+*/
+
+
+.td-big-button {
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size:13px;
+  text-decoration: none;
+  padding: 10px 14px 11px 14px;
+  background-color: @td_panel_color;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.td-big-button:focus,
+.td-big-button:hover,
+.td-big-button:active {
+  background-color: #444444;
+  color:#FFFFFF;
+}
+
+.td-button-remove-border {
+  border: 0;
+}
+
+.td-medium-button {
+  padding: 7px 10px;
+}
+
+/*  ----------------------------------------------------------------------------
+   color picker
+*/
+
+.toplevel_page_td_theme_panel  .wp-picker-container {
+  margin-bottom: 26px;
+}
+
+.wp-picker-container input.wp-color-picker[type="text"] {
+  height: 32px !important;
+  box-shadow: none !important;
+}
+
+.wp-picker-container .button {
+  color: #FFFFFF;
+  font-size:13px;
+  text-decoration: none;
+  padding: 0px 11px 0px 11px !important;
+  background-color: @td_panel_color !important;
+  display: inline-block;
+  margin: 0px 0px 0px 6px !important;
+  border: 0px !important;
+  height: 32px !important;
+  border-radius: 0px;
+  box-shadow: none !important;
+}
+
+.wp-picker-container .button:hover,
+.wp-picker-container .button:focus,
+.wp-picker-container .button:active,
+.wp-picker-container .button:visited {
+  color: #FFFFFF;
+  background-color: @td_panel_color;
+  border-radius: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.wp-picker-container .wp-color-result {
+  border-radius: 0;
+  height: 32px;
+  border: 0;
+  padding-left: 35px;
+  -webkit-box-shadow: inset 1px 1px 6px -2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 1px 1px 6px -2px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 1px 1px 6px -2px rgba(0, 0, 0, 0.4);
+}
+
+.wp-picker-container .wp-color-result:after {
+  border-radius: 0;
+  display: inline-block;
+  border: 0;
+  background: transparent url("../images/panel/colors-button.png") repeat-x;
+  -webkit-box-shadow: 0.5px 0.2px 3px 0 rgba( 0, 0, 0, 0.28);
+  -moz-box-shadow: 0.5px 0.2px 3px 0 rgba( 0, 0, 0, 0.28);
+  box-shadow: 0.5px 0.2px 3px 0 rgba( 0, 0, 0, 0.28);
+  padding: 0 10px 0 11px;
+  line-height: 26px;
+  margin-right: 3px;
+  position: relative;
+  top: 3px;
+}
+
+// color picker vc
+.wp-picker-container .iris-picker {
+  margin-bottom: 64px;
+}
+// fix the picker color from TP
+.td-panel-content .wp-picker-container .iris-picker {
+  margin-bottom: 0;
+}
+
+
+//used to split the sections
+.td-section-separator {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.td-box-section-separator {
+  clear:left;
+  background-color: #EDEDED;
+  height: 1px;
+  width: 835px;
+  left:-15px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.td-box-section-title {
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  margin-bottom: 23px;
+  text-decoration: underline;
+}
+
+
+// the notice that appears when there are no settings available -> like no CPT installed
+.td-panel-no-settings-found {
+  background-color: white;
+
+  margin: 25px;
+  padding: 18px;
+
+
+  strong {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    line-height: 17px;
+  }
+
+  span {
+    font-family: @font_open_sans;
+    font-size: 12px;
+    color: @td_color_description;
+  }
+  //width:835px;
+}
+
+/* Block settings - Thumbs for modules and blocks */
+
+.td_panel_box_thumb_on_modules {
+
+  .td-box-description {
+    padding: 0;
+    width: 100px;
+
+    .td-box-title {
+      top: 0;
+    }
+  }
+
+  .td-box-control-full {
+    width: 700px;
+    margin-bottom: 10px;
+  }
+
+  .td-checkbox {
+    margin-bottom: 0;
+    float: left;
+    top: -7px;
+  }
+
+  .td-box-content {
+    .td-box-row {
+      border-bottom: 1px dashed #ddd;
+      display: inline-block;
+      margin: 10px 0;
+
+      &:first-child,
+      &:nth-last-child(2) {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .td-help-checkbox-inline {
+    span {
+      float: left;
+      font-weight: bold;
+      margin: 0 20px;
+    }
+
+    ul {
+      display: inline-block;
+      margin: 0;
+      list-style-type: disc;
+    }
+
+    li {
+      margin: 0 16px 0;
+    }
+  }
+}
+
+/* Post settings - Post and Custom Post Types */
+#td-panel-post-settings {
+  .td_panel_box_post_and_custom_post_types {
+    .td-box-description {
+      width: 300px;
+    }
+    .td-box-control-full {
+      width: 470px;
+    }
+  }
+}
+
+/*  ----------------------------------------------------------------------------
+    code editor  (css editor and js editor)
+*/
+
+.td-code-editor-textarea {
+  display:none;
+}
+
+.td-code-editor-wrap {
+  .td-code-editor {
+    height: 450px;
+    margin-right: 14px;
+    border: 1px solid #e6e6e6;
+  }
+}
+
+// fix for mobile menu
+#td-mobile-plugin .td-code-editor-wrap .td-code-editor {
+  height: 250px;
+}
+

@@ -1,0 +1,62 @@
+.td-wp-admin-plugin {
+  .td-button-install-plugin{
+    display: none;
+  }
+
+  .td-button-uninstall-plugin {
+    display: none;
+  }
+
+
+  .td-button-activate-plugin {
+    display: none;
+  }
+}
+
+
+
+.td-plugin-active {
+  .td-button-uninstall-plugin {
+    display: inline-block;
+  }
+}
+
+.td-plugin-inactive {
+  .td-button-activate-plugin {
+    display: inline-block;
+  }
+}
+
+.td-plugin-not-installed {
+  .td-button-install-plugin {
+    display: inline-block;
+  }
+}
+
+.td-plugin-no-install {
+  .theme-actions {
+    display:none;
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    supported plugin list
+*/
+.td-supported-plugin-list {
+  font-size: 14px;
+  width: 600px;
+}
+.td-supported-plugin {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 1px solid #e9e9e9;
+  position: relative;
+  span {
+    position: absolute;
+    left:171px;
+    top:0px;
+    font-size: 13px;
+    color: #797979;
+  }
+}

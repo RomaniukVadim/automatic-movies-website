@@ -1,0 +1,1 @@
+[vc_row][vc_column][rev_slider_vc alias="blog_baby"][vc_empty_space height="24px"][/vc_column][/vc_row]

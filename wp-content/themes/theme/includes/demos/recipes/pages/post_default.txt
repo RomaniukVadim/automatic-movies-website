@@ -1,0 +1,29 @@
+<div class="td-recipe-time">
+<div class="td-recipe-info"><strong>Prepare time</strong>: 20 min</div>
+<div class="td-recipe-info"><strong>Cook</strong>: 2 hr 30 min</div>
+<div class="td-recipe-info"><strong>Ready in</strong>: 2 hr 50 min</div>
+<div class="clearfix"></div>
+</div>
+Pair this delicious dish with a risotto and a nice bottle of wine. This Italian favorite is easy to make and sure to impress your guests.
+<h3>Ingredients</h3>
+<ul class="td-arrow-list">
+	<li>2 cups half and half</li>
+	<li>1/4 cup limoncello</li>
+	<li>3 Tbsp granulated sugar</li>
+	<li>1/4 tsp vanilla extract</li>
+	<li>1/2 tsp finely grated lemon zest</li>
+	<li>1/8 tsp kosher salt</li>
+	<li>3 large eggs</li>
+	<li>Unsalted butter, for buttering the casserole dish</li>
+	<li>5 cups challah (about 8 oz)</li>
+</ul>
+<h3>Directions</h3>
+<span class="dropcap dropcap1">1</span>In a small saucepan, combine the cloves with the cardamom, bay leaf, cinnamon, and 2 cups water and bring to a boil. Add the fish, return to a boil, then reduce the heat to maintain a simmer and poach the fish until cooked through, about 5 minutes.
+
+<span class="dropcap dropcap1">2</span>Meanwhile, cover the potatoes with generously salted water in a medium saucepan, bring to a boil, and cook until tender, about 20 minutes. Drain the potatoes and let them cool completely.
+
+<span class="dropcap dropcap1">3</span>Add the potatoes to the bowl with the fish along with the bread crumbs, lime juice, cilantro, cumin, and chile, season with salt, and lightly mash the potatoes with the other ingredients until evenly combined. Form the mixture into six 3-inch-wide, 3?4-inch-thick patties.
+
+<span class="dropcap dropcap1">4</span>In a 12-inch nonstick skillet, warm the oil over medium heat. Add the patties and cook, flipping once, until golden brown, about 6 minutes. Transfer the fish patties to a serving platter and serve while hot with mint chutney on the side.
+<h3>Video</h3>
+https://www.youtube.com/watch?v=aJdU-Y_4cig

@@ -1,0 +1,144 @@
+@import "../../less_files/variables.less";
+
+
+/*
+Medicine demo
+*/
+
+
+.td-medicine {
+
+//header
+
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    .td-header-style-12 {
+      ul.sf-menu > .td-menu-item > a {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .td-header-style-12 {
+    .td-main-menu-logo img {
+      max-height: 72px;
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+          max-height: 42px;
+      }
+    }
+    .sf-menu .td-icon-menu-down {
+      margin-top: -3px;
+    }
+  }
+  .td_mega_menu_sub_cats .block-mega-child-cats a {
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      font-size: 13px;
+    }
+  }
+
+// body
+  .block-title {
+    border: none;
+
+    a, span, label {
+      padding: 7px 14px;
+    }
+  }
+
+  .td-trending-now-wrapper {
+    padding: 0 24px;
+
+    .td-next-prev-wrap {
+      right: 24px;
+    }
+  }
+
+  .td-trending-now-title {
+    font-size: 13px;
+    line-height: 20px;
+    font-family: @font1;
+  }
+
+  @media (min-width: 1141px) {
+    .td_block_big_grid_7.td-grid-style-1 .td_module_mx6 .entry-title {
+      font-size: 19px;
+      line-height: 23px;
+    }
+  }
+
+  @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+    .td_block_big_grid_7.td-grid-style-1 .td_module_mx12 .entry-title {
+      font-size: 22px;
+      line-height: 26px;
+    }
+
+    .td_block_big_grid_7.td-grid-style-1 .td_module_mx6 .entry-title {
+      font-size: 17px;
+      line-height: 20px;
+    }
+  }
+
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    .td_block_big_grid_7.td-grid-style-1 .td_module_mx12 .entry-title {
+      font-size: 19px;
+      line-height: 21px;
+    }
+
+    .td_block_big_grid_7.td-grid-style-1 .td_module_mx6 .entry-title {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+
+  .td_module_1 .td-module-comments,
+  .td_module_2 .td-module-comments,
+  .td_module_8 .td-module-comments {
+    display: none;
+  }
+
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    .td_module_6 .td-module-title {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+
+  .td-grid-content {
+    padding-top: 30px;
+    background-color: #000;
+
+    .td_block_big_grid_9 {
+      padding-bottom: 30px;
+    }
+  }
+
+  .td-subcat-filter .td-subcat-dropdown ul {
+    border-width: 1px;
+  }
+
+  .td_block_related_posts {
+
+    .td-related-title {
+      border-bottom: none;
+
+      .td-related-left,
+      .td-related-right {
+        padding: 9px 12px;
+      }
+    }
+  }
+
+  // footer
+  .td-footer-wrapper .block-title {
+    a, span, label {
+      padding: 0;
+    }
+  }
+
+  // demos button
+  #td-theme-settings .td-skin-buy a {
+    background-color: #dd3333;
+  }
+}

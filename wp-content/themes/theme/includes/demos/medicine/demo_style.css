@@ -1,0 +1,115 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/*
+Medicine demo
+*/
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-medicine .td-header-style-12 ul.sf-menu > .td-menu-item > a {
+    font-size: 15px;
+  }
+}
+.td-medicine .td-header-style-12 .td-main-menu-logo img {
+  max-height: 72px;
+  /* responsive portrait tablet */
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-medicine .td-header-style-12 .td-main-menu-logo img {
+    max-height: 42px;
+  }
+}
+.td-medicine .td-header-style-12 .sf-menu .td-icon-menu-down {
+  margin-top: -3px;
+}
+.td-medicine .td_mega_menu_sub_cats .block-mega-child-cats a {
+  /* responsive portrait tablet */
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-medicine .td_mega_menu_sub_cats .block-mega-child-cats a {
+    font-size: 13px;
+  }
+}
+.td-medicine .block-title {
+  border: none;
+}
+.td-medicine .block-title a,
+.td-medicine .block-title span,
+.td-medicine .block-title label {
+  padding: 7px 14px;
+}
+.td-medicine .td-trending-now-wrapper {
+  padding: 0 24px;
+}
+.td-medicine .td-trending-now-wrapper .td-next-prev-wrap {
+  right: 24px;
+}
+.td-medicine .td-trending-now-title {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: 'Open Sans', arial, sans-serif;
+}
+@media (min-width: 1141px) {
+  .td-medicine .td_block_big_grid_7.td-grid-style-1 .td_module_mx6 .entry-title {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-medicine .td_block_big_grid_7.td-grid-style-1 .td_module_mx12 .entry-title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .td-medicine .td_block_big_grid_7.td-grid-style-1 .td_module_mx6 .entry-title {
+    font-size: 17px;
+    line-height: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-medicine .td_block_big_grid_7.td-grid-style-1 .td_module_mx12 .entry-title {
+    font-size: 19px;
+    line-height: 21px;
+  }
+  .td-medicine .td_block_big_grid_7.td-grid-style-1 .td_module_mx6 .entry-title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+.td-medicine .td_module_1 .td-module-comments,
+.td-medicine .td_module_2 .td-module-comments,
+.td-medicine .td_module_8 .td-module-comments {
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-medicine .td_module_6 .td-module-title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+.td-medicine .td-grid-content {
+  padding-top: 30px;
+  background-color: #000;
+}
+.td-medicine .td-grid-content .td_block_big_grid_9 {
+  padding-bottom: 30px;
+}
+.td-medicine .td-subcat-filter .td-subcat-dropdown ul {
+  border-width: 1px;
+}
+.td-medicine .td_block_related_posts .td-related-title {
+  border-bottom: none;
+}
+.td-medicine .td_block_related_posts .td-related-title .td-related-left,
+.td-medicine .td_block_related_posts .td-related-title .td-related-right {
+  padding: 9px 12px;
+}
+.td-medicine .td-footer-wrapper .block-title a,
+.td-medicine .td-footer-wrapper .block-title span,
+.td-medicine .td-footer-wrapper .block-title label {
+  padding: 0;
+}
+.td-medicine #td-theme-settings .td-skin-buy a {
+  background-color: #dd3333;
+}

@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi_IN\n"
+
+#: no reference:
+msgid "View all results"
+msgstr "सभी परिणाम दिखाएँ"
+
+#: no reference:
+msgid "No results"
+msgstr "कोई परिणाम नहीं है"
+
+#: no reference:
+msgid "Home"
+msgstr "होम"
+
+#: no reference:
+msgid "CLOSE"
+msgstr "बंद करें"
+
+#: no reference:
+msgid "Page"
+msgstr "पेज"
+
+#: no reference:
+msgid "All"
+msgstr "सभी"
+
+#: no reference:
+msgid "By"
+msgstr "द्वारा"
+
+#: no reference:
+msgid "Load more"
+msgstr "और अधिक लोड करें"
+
+#: no reference:
+msgid "View all posts in"
+msgstr "सभी पोस्ट देखें"
+
+#: no reference:
+msgid "Tags"
+msgstr "टैग्स"
+
+#: no reference:
+msgid "Previous article"
+msgstr "पिछला लेख"
+
+#: no reference:
+msgid "Next article"
+msgstr "अगला लेख"
+
+#: no reference:
+msgid "Authors"
+msgstr "लेखक"
+
+#: no reference:
+msgid "Author"
+msgstr "लेखक"
+
+#: no reference:
+msgid "RELATED ARTICLES"
+msgstr "संबंधित लेख"
+
+#: no reference:
+msgid "MORE FROM AUTHOR"
+msgstr "लेखक से और अधिक"
+
+#: no reference:
+msgid "VIA"
+msgstr "के माध्यम से"
+
+#: no reference:
+msgid "SOURCE"
+msgstr "स्रोत"
+
+#: no reference:
+msgid "TAGS"
+msgstr "टैग्स"
+
+#: no reference:
+msgid "SHARE"
+msgstr "शेयर करें"
+
+#: no reference:
+msgid "Continue"
+msgstr "जारी रखें"
+
+#: no reference:
+msgid "Read more"
+msgstr "और अधिक पढ़ें"
+
+#: no reference:
+msgid "Name:"
+msgstr "नाम:"
+
+#: no reference:
+msgid "Email:"
+msgstr "ईमेल:"
+
+#: no reference:
+msgid "Website:"
+msgstr "वेबसाइट:"
+
+#: no reference:
+msgid "Comment:"
+msgstr "टिप्पणी:"
+
+#: no reference:
+msgid "LEAVE A REPLY"
+msgstr "कोई जवाब दें"
+
+#: no reference:
+msgid "Post Comment"
+msgstr "टिप्पणी पोस्ट करें"
+
+#: no reference:
+msgid "Cancel reply"
+msgstr "जवाब कैंसिल करें"
+
+#: no reference:
+msgid "Reply"
+msgstr "जवाब दें"
+
+#: no reference:
+msgid "Log in to leave a comment"
+msgstr "टिप्पणी करने के लिए लॉग इन करें"
+
+#: no reference:
+msgid "NO COMMENTS"
+msgstr "कोई टिप्पणी नहीं है"
+
+#: no reference:
+msgid "1 COMMENT"
+msgstr "1 टिप्पणी"
+
+#: no reference:
+msgid "COMMENTS"
+msgstr "टिप्पणी"
+
+#: no reference:
+msgid "REVIEW OVERVIEW"
+msgstr "समीक्षा निरीक्षण"
+
+#: no reference:
+msgid "SUMMARY"
+msgstr "सारांश"
+
+#: no reference:
+msgid "OVERALL SCORE"
+msgstr "कुल स्कोर"
+
+#: no reference:
+msgid "Ooops... Error 404"
+msgstr "ऊप्स...त्रुटि 404"
+
+#: no reference:
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr "माफ़ करें, लेकिन आप जो पेज खोज रहे हैं वो मौजूद नहीं है।"
+
+#: no reference:
+msgid "You can go to the"
+msgstr "आप निम्न पर जा सकते हैं"
+
+#: no reference:
+msgid "HOMEPAGE"
+msgstr "होमपेज"
+
+#: no reference:
+msgid "OUR LATEST POSTS"
+msgstr "हमारे नवीनतम पोस्ट"
+
+#: no reference:
+msgid "Posts by"
+msgstr "द्वारा पोस्ट"
+
+#: no reference:
+msgid "POSTS"
+msgstr "पोस्ट"
+
+#: no reference:
+msgid "Posts tagged with"
+msgstr "पोस्ट के साथ टैग"
+
+#: no reference:
+msgid "Tag"
+msgstr "टैग"
+
+#: no reference:
+msgid "Daily Archives:"
+msgstr "दैनिक आर्काइव:"
+
+#: no reference:
+msgid "Monthly Archives:"
+msgstr "मासिक आर्काइव:"
+
+#: no reference:
+msgid "Yearly Archives:"
+msgstr "वार्षिक आर्काइव:"
+
+#: no reference:
+msgid "Archives"
+msgstr "आर्काइव:"
+
+#: no reference:
+msgid "LATEST ARTICLES"
+msgstr "नवीनतम लेख"
+
+#: no reference:
+msgid "search results"
+msgstr "खोज परिणाम"
+
+#: no reference:
+msgid "Search"
+msgstr "खोजें"
+
+#: no reference:
+msgid "If you're not happy with the results, please do another search"
+msgstr "यदि आप परिणामों से खुश नहीं हैं तो कृपया कोई अन्य खोज करें"
+
+#: no reference:
+msgid "Contact us"
+msgstr "हमें संपर्क करें"
+
+#: no reference:
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "पेज %TOTAL_PAGES% का %CURRENT_PAGE%"
+
+#: no reference:
+msgid "Next"
+msgstr "अगला"
+
+#: no reference:
+msgid "Prev"
+msgstr "पिछला"
+
+#: no reference:
+msgid "No results for your search"
+msgstr "इस खोज के लिए कोई परिणाम नहीं है"
+
+#: no reference:
+msgid "No posts to display"
+msgstr "डिस्प्ले करने के लिए कोई पोस्ट नहीं हैं"
+
+#: no reference:
+msgid "LOG IN"
+msgstr "लॉग इन"
+
+#: no reference:
+msgid "Sign in / Join"
+msgstr "साइन इन/ ज्वाइन करें"
+
+#: no reference:
+msgid "Log In"
+msgstr "लॉग इन"
+
+#: no reference:
+msgid "REGISTER"
+msgstr "रजिस्टर करें"
+
+#: no reference:
+msgid "Send My Pass"
+msgstr "मेरा पास भेजें"
+
+#: no reference:
+msgid "Forgot your password?"
+msgstr "अपना पासवर्ड भूल गए?"
+
+#: no reference:
+msgid "Please wait..."
+msgstr "कृपया प्रतीक्षा करें..."
+
+#: no reference:
+msgid "User or password incorrect!"
+msgstr "यूजर या पासवर्ड गलत है!"
+
+#: no reference:
+msgid "Email or username incorrect!"
+msgstr "ईमेल या यूजरनेम गलत है!"
+
+#: no reference:
+msgid "Email incorrect!"
+msgstr "ईमेल गलत है!"
+
+#: no reference:
+msgid "User or email already exists!"
+msgstr "यूजर या ईमेल पहले से मौजूद है!"
+
+#: no reference:
+msgid "Please check your email (index or spam folder), the password was sent there."
+msgstr "कृपया अपना ईमेल देखें (इंडेक्स या स्पैम फोल्डर), पासवर्ड वहां भेजा गया था।"
+
+#: no reference:
+msgid "Email address not found!"
+msgstr "ईमेल एड्रेस नहीं मिला!"
+
+#: no reference:
+msgid "Your password is reset, check your email."
+msgstr "आपका पासवर्ड रीसेट हो गया है, कृपया अपना ईमेल देखें।"
+
+#: no reference:
+msgid "Welcome! Log into your account"
+msgstr "आपका स्वागत है! अपने अकाउंट पर लॉग इन करें"
+
+#: no reference:
+msgid "Register for an account"
+msgstr "अकाउंट के लिए रजिस्टर करें"
+
+#: no reference:
+msgid "Recover your password"
+msgstr "अपना पासवर्ड रिकवर करें"
+
+#: no reference:
+msgid "your username"
+msgstr "आपका यूजरनेम"
+
+#: no reference:
+msgid "your password"
+msgstr "आपका पासवर्ड"
+
+#: no reference:
+msgid "your email"
+msgstr "आपका ईमेल"
+
+#: no reference:
+msgid "A password will be e-mailed to you."
+msgstr "एक पासवर्ड आपको ईमेल कर दिया जाएगा।"
+
+#: no reference:
+msgid "Logout"
+msgstr "लॉगआउट"
+
+#: no reference:
+msgid "Like"
+msgstr "लाइक करें"
+
+#: no reference:
+msgid "Fans"
+msgstr "फैंस"
+
+#: no reference:
+msgid "Follow"
+msgstr "फॉलो करें"
+
+#: no reference:
+msgid "Followers"
+msgstr "फॉलोवर"
+
+#: no reference:
+msgid "Subscribe"
+msgstr "सब्सक्राइब करें"
+
+#: no reference:
+msgid "Subscribers"
+msgstr "सब्सक्राइबर्स"
+
+#: no reference:
+msgid "MORE STORIES"
+msgstr "और अधिक कहानियां"
+
+#: no reference:
+msgid "Latest"
+msgstr "नवीनतम"
+
+#: no reference:
+msgid "Featured posts"
+msgstr "विशेष पोस्ट"
+
+#: no reference:
+msgid "Most popular"
+msgstr "सबसे अधिक लोकप्रिय"
+
+#: no reference:
+msgid "7 days popular"
+msgstr "7 दिनों के लोकप्रिय"
+
+#: no reference:
+msgid "By review score"
+msgstr "समीक्षा स्कोर द्वारा"
+
+#: no reference:
+msgid "Random"
+msgstr "क्रमरहित"
+
+#: no reference:
+msgid "Trending Now"
+msgstr "अभी प्रचलित"
+
+#: no reference:
+msgid "POPULAR CATEGORY"
+msgstr "लोकप्रिय श्रेणी"
+
+#: no reference:
+msgid "EVEN MORE NEWS"
+msgstr "और भी अधिक न्यूज़"
+
+#: no reference:
+msgid "Previous (Left arrow key)"
+msgstr "पिछला (बायीं तीर वाला बटन)"
+
+#: no reference:
+msgid "Next (Right arrow key)"
+msgstr "अगला (दायीं तीर वाला बटन)"
+
+#: no reference:
+msgid "%curr% of %total%"
+msgstr "%total% का %curr%"
+
+#: no reference:
+msgid "The content from %url% could not be loaded."
+msgstr "%url% से कंटेंट लोड नहीं हो पाया।"
+
+#: no reference:
+msgid "The image #%curr% could not be loaded."
+msgstr "इमेज #%curr% लोड नहीं हो पाया।"
+
+#: no reference:
+msgid "Blog"
+msgstr "ब्लॉग"
+
+#: no reference:
+msgid "Share on Facebook"
+msgstr "फेसबुक पर शेयर करें"
+
+#: no reference:
+msgid "Tweet on Twitter"
+msgstr "ट्विटर पर ट्वीट करें"
+
+#: no reference:
+msgid "EDITOR PICKS"
+msgstr "संपादक की पसंद"
+
+#: no reference:
+msgid "POPULAR POSTS"
+msgstr "लोकप्रिय पोस्ट"
+
+#: no reference:
+msgid "FOLLOW US"
+msgstr "हमें का पालन करें"
+
+#: no reference:
+msgid "ABOUT US"
+msgstr "हमारे बारे में"
+
+#: no reference:
+msgid "More"
+msgstr "अधिक"
+
+#: no reference:
+msgid "Featured"
+msgstr "चित्रित किया"
+
+#: no reference:
+msgid "All time popular"
+msgstr "लोकप्रिय सभी समय"
+
+#: no reference:
+msgid "Likes"
+msgstr "पसंद"
+
+#: no reference:
+msgid "Register"
+msgstr "रजिस्टर"
+

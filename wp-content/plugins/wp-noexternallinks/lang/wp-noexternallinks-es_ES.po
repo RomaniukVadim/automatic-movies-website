@@ -1,0 +1,354 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP No External Links v3.3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-12 16:05+0400\n"
+"PO-Revision-Date: 2014-03-12 16:05+0400\n"
+"Last-Translator: Jehy <fate@jehy.ru>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:34 wp-noexternallinks-options.php:35
+msgid "Link masking for this post"
+msgstr "Enmascarar links para esta entrada"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:47
+msgid "Use default policy from plugin settings"
+msgstr "Usa por defecto los ajustes del plugin"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:49
+msgid "Don`t mask links"
+msgstr "No enmascarar los enlaces"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:89 wp-noexternallinks-options.php:143
+msgid "Plugin home page"
+msgstr "Web oficial del plugin"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:90 wp-noexternallinks-options.php:144
+msgid "Feedback"
+msgstr "Feedback"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:92
+msgid "View options"
+msgstr "Ver opciones"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:97
+msgid ""
+"Statistic for plugin is disabled! Please, go to options page and enable it "
+"via checkbox \"Log all outgoing clicks\"."
+msgstr ""
+"¡Las estadísticas del plugin están desactivadas! Por favor, ve a la página "
+"de opciones y activalas marcando la casilla  \"Registra todos los clicks "
+"salientes\"."
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:110
+msgid "View stats from "
+msgstr "Ver las estadísticas de"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:112
+msgid " to "
+msgstr "a"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:112
+msgid "View"
+msgstr "Ver"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:131
+msgid "No statistic for given period."
+msgstr "No hay estadísticas para este periodo de tiempo"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:138
+msgid ""
+"That plugins allows you to mask all external links and make them internal or "
+"hidden - using PHP redirect or special link tags and attributes. Yeah, by "
+"the way - it does not change anything in the base - only replaces links on "
+"output.<br>P.S. It doesn`t mask internal and excluded links."
+msgstr ""
+"Este plugin te permite enmascarar todos los enlaces externos y convertirlos "
+"en internos u ocultos - usando redirección PHP o etiquetas y atributos de "
+"enlaces. No hace ningún cambio en la base de datos  sólo replaza enlaces "
+"salientes. <br>P.D. No enmascara enlaces internos y excluidos."
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:146
+msgid "View Stats"
+msgstr "Ver estadísticas"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-options.php:147
+msgid ""
+"<h3>Global links masking settings</h3>(You can also disable plugin on per-"
+"post basis)"
+msgstr ""
+"<h3>Ajustes globales de enmascarado de enlaces</h3>(Puedes desactivar el "
+"plugin en cada entrada)"
+
+# @ default
+#: wp-noexternallinks-options.php:173
+msgid "Save Changes"
+msgstr "Guarda cambios"
+
+# @ default
+#: wp-noexternallinks-parser.php:61
+msgid "Failed to make masked link. Trying to create table."
+msgstr "Fallo al enmascarar enlace. Tratando de crear tabla."
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-parser.php:66 wp-noexternallinks-parser.php:163
+msgid "Failed to create table. Please, check mysql permissions."
+msgstr "Fallo al crear tabla. Por favor comprueba los permisos de mysql."
+
+#: wp-noexternallinks-parser.php:67 wp-noexternallinks-parser.php:157
+#: wp-noexternallinks-parser.php:164
+msgid "Failed SQL: "
+msgstr ""
+
+#: wp-noexternallinks-parser.php:67 wp-noexternallinks-parser.php:157
+#: wp-noexternallinks-parser.php:164
+msgid "Error was:"
+msgstr ""
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-parser.php:71 wp-noexternallinks-parser.php:168
+msgid "Table created."
+msgstr "Tabla creada."
+
+# @ default
+#: wp-noexternallinks-parser.php:158
+msgid "Failed to save statistic data. Trying to create table."
+msgstr "Fallo al guardar estadísticas. Tratando de crear tabla. "
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-parser.php:184
+msgid "Redirecting..."
+msgstr "Redireccionando..."
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-parser.php:197
+msgid ""
+"You were going to the redirect link, but something did not work properly."
+"<br>Please, click "
+msgstr ""
+"Estabas siendo redirigido al enlace, pero algo no salió correctamente. "
+"<br>Por favor, haz click "
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-parser.php:197
+msgid "HERE "
+msgstr "AQUÍ"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-parser.php:197
+msgid " to go to "
+msgstr "para ir a"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-parser.php:197
+msgid " manually. "
+msgstr "manualmente."
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-parser.php:199
+msgid "Sorry, no url redirect specified. Can`t complete request."
+msgstr ""
+"Lo siento, url de redirección no especificada. No se puede cumplir la "
+"petición."
+
+# @ default
+#: wp-noexternallinks-parser.php:239
+msgid "Can not get output buffer!"
+msgstr "¡No se pudo otener buffer saliente!"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks-parser.php:239 wp-noexternallinks-parser.php:249
+msgid ""
+"WP_NoExternalLinks Can`t use output buffer. Please, disable full masking and "
+"use other filters."
+msgstr ""
+"WP_NoExternalLinks no puede utilizar el buffer saliente. Por favor, "
+"desactiva el enmascarado completo y usa otros filtros."
+
+# @ default
+#: wp-noexternallinks-parser.php:249
+msgid "Output buffer empty!"
+msgstr "¡Buffer saliente vacío!"
+
+# @ default
+#: wp-noexternallinks.php:61
+msgid "Failed to update options!"
+msgstr "¡Fallo al actualizar opciones!"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:69
+msgid "Mask links in your posts"
+msgstr "Enmascara enlaces en las entradas"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:70
+msgid "Mask links in comments"
+msgstr "Enmascara enlaces en comentarios."
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:71
+msgid "Mask comments authors`s links"
+msgstr "Enmascara los enlaces de los autores de los comentarios."
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:72
+msgid "Add <b>rel=nofollow</b> for masked links (for google)"
+msgstr "Añade <b>rel=nofollow</b> a los enlaces enmascarados (para Google)"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:73
+msgid ""
+"Add <b>target=\"blank\"</b> for all links to other sites (links will open in "
+"new window)"
+msgstr ""
+"Añade <b>target=\"blank\"</b> para todos los enlaces a otras páginas (los "
+"enlaces se abrirán en una ventana nueva)"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:74
+msgid ""
+"Surround masked links with <b>&lt;noindex&gt;link&lt;/noindex&gt;</b> tag "
+"(for yandex search engine)"
+msgstr ""
+"Envuelve los enlaces enmascarados con la etiqueta <b>&lt;noindex&gt;link&lt;/"
+"noindex&gt;</b> (para el buscador Yandex)"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:75
+msgid ""
+"Disable url rewrite of all links (you can be OK with just <b>noindex</b> tag "
+"and <b>rel=nofollow</b>)"
+msgstr ""
+"Desactiva reescritura de url de todos los enlaces (puede que te sirva con "
+"sólo la etiqueta <b>noindex</b> y <b>rel=nofollow</b>)"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:76
+msgid "Link separator (default=\"goto\")"
+msgstr "Separador en los enlaces (por defecto=\"goto\")"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:77
+msgid ""
+"Exclude URLs that you don`t want to mask (all urls, beginning with those, "
+"won`t be masked). Put one adress on each line, including prefix (for "
+"example, \"http://jehy.ru\")"
+msgstr ""
+"Excluye urls que no quieras enmascarar (todas las que empien por esto, no se "
+"enmascararán). Pon una dirección en cada línea, incluyendo prefijo. (por "
+"ejemplo, \"http://jehy.ru\")"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:78
+msgid ""
+"Mask ALL links in document (can slow down your blog and conflict with some "
+"cache and other plugins. Please use it on your own risk."
+msgstr ""
+"Enmascara TODOS los enlaces (puede ralentizar tu blog y crear conflicto con "
+"la caché y otros plugins. Por favor usalo bajo tu propio riesgo)"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:79
+msgid "Log all outgoing clicks"
+msgstr "Registra todos los clicks salientes"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:80
+msgid "Days to keep clicks stats"
+msgstr "Dias para guardar las estadísticas de clicks"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:81
+msgid "Do not use 302 redirect, only javascript redirect"
+msgstr "No usar redirección 302, sólo redirección por javascript"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:82
+msgid "Redirect time (seconds) when using javascript redirect instead of 302"
+msgstr ""
+"Tiempo de redirección (en segundos) cuando usas redirección por javascript, "
+"en vez de redirección 302"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:83
+msgid ""
+"Custom redirect text (if 302 redirects disabled). Use word \"LINKURL\" where "
+"you want to use redirect url. For example, <b>CLICK &lt;a href=\"LINK\"&gt;"
+"HERE NOW&lt;/a&gt;</b>"
+msgstr ""
+"Texto de redirección personalizado (si está desactivada la redirección 302). "
+"Usa la palabra \"URLDELENLACE\" dónde quieras usar la url de redirección. "
+"Por ejemplo, <b>CLICK &lt;a href=\"URLDELENLACE\"&gt;AQUÍ Y AHORA &lt;/a&gt;"
+"</b>"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:84
+msgid "Do not mask links when registered users visit site"
+msgstr "No enmascarar enlaces cuando usuarios registrados visitan la página"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:85
+msgid ""
+"Mask url with special numeric code. Be careful, this option may slow down "
+"your blog. Option is design for easy and quick personal use, it is not "
+"secure enough for commercial plans."
+msgstr ""
+"Enmascara urls con un código numérico específico. Ten cuidado esta opción "
+"puede ralentizar tu blog. La opción está diseñada para un uso personal "
+"rápido y sencillo, no es lo suficientemente seguro usarla para usos "
+"comerciales."
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:86
+msgid "Completely remove links from your posts. Someone needed it..."
+msgstr ""
+"Elimina completamente los enlaces de tus entradas. Puede que alguien "
+"necesite esta opción..."
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:87
+msgid "Turn all links into text. For perverts."
+msgstr "Convierte todos los enlaces en texto plano. "
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:88
+msgid ""
+"Use base64 encoding for links (no need for special mysql table but no stats)."
+msgstr ""
+"Usa codificación de base64 para enlaces (no necesita tblas especiales de "
+"mysql, pero no permite estadísticas)"
+
+# @ wpnoexternallinks
+#: wp-noexternallinks.php:89
+msgid ""
+"Debug mode (Adds comments lines like \"&lt;!--wpnoexternallinks debug: some "
+"info--&gt;\" to output. For testing only!)"
+msgstr ""
+"Modo debug (Añade lineas de comentario cómo \"&lt;!--wpnoexternallinks "
+"debug: some info--&gt;\" a enlaces salientes. ¡Sólo para pruebas!)"

@@ -1,0 +1,191 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/* Recipes demo */
+.td-recipes.td-boxed-layout #td-outer-wrap {
+  /* responsive on desktop */
+}
+@media (min-width: 1180px) {
+  .td-recipes.td-boxed-layout #td-outer-wrap {
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+  }
+}
+.td-recipes .td-module-comments a {
+  padding: 4px 4px 4px 5px;
+}
+.td-recipes .block-title {
+  border-bottom: 0;
+}
+.td-recipes .block-title a,
+.td-recipes .block-title span,
+.td-recipes .block-title label {
+  padding: 7px 12px 5px 12px;
+}
+.td-recipes .td_module_wrap .td-post-author-name,
+.td-recipes .td_module_wrap .td-module-comments,
+.td-recipes .td_module_wrap .td-post-date {
+  display: none;
+}
+.td-recipes .td_module_wrap .td-post-category {
+  padding: 4px 6px 4px;
+  /* responsive portrait phone */
+}
+@media (min-width: 768px) {
+  .td-recipes .td_module_wrap .td-post-category {
+    padding: 6px 0;
+    background-color: transparent !important;
+    color: #35a533;
+    position: relative;
+  }
+}
+.td-recipes .td_module_6 .td-post-category {
+  /* responsive portrait phone */
+}
+@media (min-width: 768px) {
+  .td-recipes .td_module_6 .td-post-category {
+    padding: 0;
+  }
+}
+.td-recipes .td_module_mega_menu .td-post-category {
+  padding: 10px 0 0;
+  margin-bottom: -2px;
+  background-color: transparent;
+  color: #35a533;
+  position: relative;
+}
+.td-recipes .widget li {
+  margin-left: 0;
+}
+.td-recipes .td-subcat-filter .td-subcat-dropdown .td-subcat-more {
+  height: 29px !important;
+  padding-top: 4px;
+}
+.td-recipes .td-subcat-filter .td-subcat-dropdown ul {
+  border-width: 1px;
+  top: 29px;
+}
+.td-recipes .td-subcat-filter .td-subcat-list {
+  padding-top: 4px;
+}
+.td-recipes .td_block_big_grid_5 .td-post-category {
+  padding: 4px 7px 2px;
+}
+.td-recipes .td_block_big_grid_5 .td-module-meta-info {
+  display: none;
+}
+.td-recipes .page-nav a,
+.td-recipes .page-nav span {
+  border-radius: 20px;
+}
+.td-recipes .td-footer-wrapper .block-title a,
+.td-recipes .td-footer-wrapper .block-title span,
+.td-recipes .td-footer-wrapper .block-title label {
+  padding: 0;
+}
+.td-recipes.td_category_template_4 .td-category-header {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td-recipes.td_category_template_4 .td-category-header {
+    padding-top: 0;
+    padding-bottom: 23px;
+  }
+}
+.td-recipes.td_category_template_4 .td-category-siblings {
+  width: 100%;
+}
+.td-recipes.td_category_template_4 .td-category-siblings .td-category a {
+  padding: 4px 7px 3px;
+}
+.td-recipes.td_category_template_4 .td-category-siblings .td-category .td-current-sub-category {
+  background-color: #35a533;
+  border-color: #35a533;
+}
+.td-recipes.td_category_template_4 .td-category-description {
+  width: 100%;
+  padding: 0 5%;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td-recipes.td_category_template_4 .td-category-description {
+    padding: 0;
+  }
+}
+.td-recipes .td-recipes-deserts .td_block_15 .td-post-category {
+  /* responsive portrait phone */
+}
+@media (min-width: 768px) {
+  .td-recipes .td-recipes-deserts .td_block_15 .td-post-category {
+    color: #dd4949;
+  }
+}
+.td-recipes .td-recipes-chicken .td_block_15 .td-post-category {
+  /* responsive portrait phone */
+}
+@media (min-width: 768px) {
+  .td-recipes .td-recipes-chicken .td_block_15 .td-post-category {
+    color: #3e8ebc;
+  }
+}
+.td-recipes .td-recipes-instagram .td-instagram-main {
+  /* responsive on desktop */
+}
+@media (min-width: 1180px) {
+  .td-recipes .td-recipes-instagram .td-instagram-main {
+    margin: 0 -48px;
+  }
+}
+.td-recipes .td-social-style3 {
+  padding-bottom: 40px;
+}
+.td-recipes .footer-email-wrap a {
+  color: #35a533;
+}
+.td-recipes .td-recipe-time {
+  width: 100%;
+  border: 1px solid #ededed;
+  padding: 11px 16px;
+  margin-bottom: 26px;
+}
+.td-recipes .td-recipe-time br {
+  display: none;
+}
+.td-recipes .td-recipe-time .td-recipe-info {
+  float: left;
+  width: 33.3333%;
+  /* responsive portrait tablet */
+}
+@media (max-width: 1018px) {
+  .td-recipes .td-recipe-time .td-recipe-info {
+    width: 100%;
+  }
+}
+.td-recipes .td-related-title {
+  border: 0;
+}
+.td-recipes .td-post-template-13 header .td-post-author-name a {
+  font-weight: normal;
+  color: #35a533;
+}
+.td-recipes .dropcap1 {
+  font-size: 21px;
+  line-height: 70px;
+  background-color: transparent;
+  color: black;
+  padding: 0;
+  border: 1px solid #ededed;
+  width: 70px;
+  height: 70px;
+}
+.td-recipes #td-theme-settings .td-skin-buy a {
+  background-color: #35a533;
+}

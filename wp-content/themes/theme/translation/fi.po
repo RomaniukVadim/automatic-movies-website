@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+
+#: no reference:
+msgid "View all results"
+msgstr "Katso kaikki tulokset"
+
+#: no reference:
+msgid "No results"
+msgstr "Ei tuloksia"
+
+#: no reference:
+msgid "Home"
+msgstr "Koti"
+
+#: no reference:
+msgid "CLOSE"
+msgstr "SULJE"
+
+#: no reference:
+msgid "Page"
+msgstr "Sivu"
+
+#: no reference:
+msgid "All"
+msgstr "Kaikki"
+
+#: no reference:
+msgid "By"
+msgstr "Tekijä"
+
+#: no reference:
+msgid "Load more"
+msgstr "Lataa lisää"
+
+#: no reference:
+msgid "View all posts in"
+msgstr "Katso kaikki viestit"
+
+#: no reference:
+msgid "Tags"
+msgstr "Tagit"
+
+#: no reference:
+msgid "Previous article"
+msgstr "Edellinen artikkeli"
+
+#: no reference:
+msgid "Next article"
+msgstr "Seuraava artikkeli"
+
+#: no reference:
+msgid "Authors"
+msgstr "Tekijät"
+
+#: no reference:
+msgid "Author"
+msgstr "Tekijä"
+
+#: no reference:
+msgid "RELATED ARTICLES"
+msgstr "LIITTYVÄT ARTIKKELIT"
+
+#: no reference:
+msgid "MORE FROM AUTHOR"
+msgstr "LISÄÄ TEKIJÄLTÄ"
+
+#: no reference:
+msgid "VIA"
+msgstr "KAUTTA"
+
+#: no reference:
+msgid "SOURCE"
+msgstr "LÄHDE"
+
+#: no reference:
+msgid "TAGS"
+msgstr "TAGIT"
+
+#: no reference:
+msgid "SHARE"
+msgstr "JAA"
+
+#: no reference:
+msgid "Continue"
+msgstr "Jatka"
+
+#: no reference:
+msgid "Read more"
+msgstr "Lue lisää"
+
+#: no reference:
+msgid "Name:"
+msgstr "Nimi:"
+
+#: no reference:
+msgid "Email:"
+msgstr "Sähköposti:"
+
+#: no reference:
+msgid "Website:"
+msgstr "Verkkosivu:"
+
+#: no reference:
+msgid "Comment:"
+msgstr "Kommentti:"
+
+#: no reference:
+msgid "LEAVE A REPLY"
+msgstr "JÄTÄ VASTAUS"
+
+#: no reference:
+msgid "Post Comment"
+msgstr "Lähetä Kommentti"
+
+#: no reference:
+msgid "Cancel reply"
+msgstr "Peruuta vastaus"
+
+#: no reference:
+msgid "Reply"
+msgstr "Vastaus"
+
+#: no reference:
+msgid "Log in to leave a comment"
+msgstr "Kirjaudu sisään jättääksesi kommentin"
+
+#: no reference:
+msgid "NO COMMENTS"
+msgstr "EI KOMMENTTEJA"
+
+#: no reference:
+msgid "1 COMMENT"
+msgstr "1 KOMMENTTI"
+
+#: no reference:
+msgid "COMMENTS"
+msgstr "KOMMENTIT"
+
+#: no reference:
+msgid "REVIEW OVERVIEW"
+msgstr "ARVOSTELUN YLEISNÄKYMÄ"
+
+#: no reference:
+msgid "SUMMARY"
+msgstr "TIIVISTELMÄ"
+
+#: no reference:
+msgid "OVERALL SCORE"
+msgstr "KOKONAISPISTEET"
+
+#: no reference:
+msgid "Ooops... Error 404"
+msgstr "Hups… Error 404"
+
+#: no reference:
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr "Pahoittelut, mutta etsimääsi sivustoa ei ole olemassa."
+
+#: no reference:
+msgid "You can go to the"
+msgstr "Voit mennä kotisivulle"
+
+#: no reference:
+msgid "HOMEPAGE"
+msgstr "KOTISIVU"
+
+#: no reference:
+msgid "OUR LATEST POSTS"
+msgstr "VIIMEISIMMÄT VIESTIT"
+
+#: no reference:
+msgid "Posts by"
+msgstr "Viestit"
+
+#: no reference:
+msgid "POSTS"
+msgstr "VIESTIT"
+
+#: no reference:
+msgid "Posts tagged with"
+msgstr "Viestit, jotka on tagattu"
+
+#: no reference:
+msgid "Tag"
+msgstr "Tagi"
+
+#: no reference:
+msgid "Daily Archives:"
+msgstr "Päivittäiset Arkistot:"
+
+#: no reference:
+msgid "Monthly Archives:"
+msgstr "Kuukausittaiset Arkistot:"
+
+#: no reference:
+msgid "Yearly Archives:"
+msgstr "Vuosittaiset Arkistot:"
+
+#: no reference:
+msgid "Archives"
+msgstr "Arkistot"
+
+#: no reference:
+msgid "LATEST ARTICLES"
+msgstr "VIIMEISIMMÄT ARTIKKELIT"
+
+#: no reference:
+msgid "search results"
+msgstr "hakutulokset"
+
+#: no reference:
+msgid "Search"
+msgstr "Haku"
+
+#: no reference:
+msgid "If you're not happy with the results, please do another search"
+msgstr "Jos et ole tyytyväinen tuloksiin, hae uudelleen"
+
+#: no reference:
+msgid "Contact us"
+msgstr "Ota meihin yhteyttä"
+
+#: no reference:
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Sivu %CURRENT_PAGE% / %TOTAL_PAGES%"
+
+#: no reference:
+msgid "Next"
+msgstr "Seuraava"
+
+#: no reference:
+msgid "Prev"
+msgstr "Edellinen"
+
+#: no reference:
+msgid "No results for your search"
+msgstr "Hakusi ei tuottanut tuloksia"
+
+#: no reference:
+msgid "No posts to display"
+msgstr "Ei näytettäviä viestejä"
+
+#: no reference:
+msgid "LOG IN"
+msgstr "KIRJAUDU SISÄÄN"
+
+#: no reference:
+msgid "Sign in / Join"
+msgstr "Kirjaudu sisään / Liity"
+
+#: no reference:
+msgid "Log In"
+msgstr "Kirjaudu sisään"
+
+#: no reference:
+msgid "REGISTER"
+msgstr "REKISTERÖIDY"
+
+#: no reference:
+msgid "Send My Pass"
+msgstr "Lähetä Salasanani"
+
+#: no reference:
+msgid "Forgot your password?"
+msgstr "Unohditko salasanasi?"
+
+#: no reference:
+msgid "Please wait..."
+msgstr "Odota…"
+
+#: no reference:
+msgid "User or password incorrect!"
+msgstr "Käyttäjänimi tai salasana oli väärä!"
+
+#: no reference:
+msgid "Email or username incorrect!"
+msgstr "Sähköposti tai käyttäjänimi oli väärä!"
+
+#: no reference:
+msgid "Email incorrect!"
+msgstr "Sähköposti oli väärä!"
+
+#: no reference:
+msgid "User or email already exists!"
+msgstr "Käyttäjänimi tai sähköpostiosoite on jo käytössä!"
+
+#: no reference:
+msgid "Please check your email (index or spam folder), the password was sent there."
+msgstr "Tarkista sähköpostisi (saapuvat tai roskapostikansio), salasana lähetettiin sinne."
+
+#: no reference:
+msgid "Email address not found!"
+msgstr "Sähköpostiosoitetta ei löytynyt!"
+
+#: no reference:
+msgid "Your password is reset, check your email."
+msgstr "Salasanasi nollattiin, tarkista sähköpostisi."
+
+#: no reference:
+msgid "Welcome! Log into your account"
+msgstr "Tervetuloa! Kirjaudu sisään käyttäjätilillesi"
+
+#: no reference:
+msgid "Register for an account"
+msgstr "Rekisteröi käyttäjätili"
+
+#: no reference:
+msgid "Recover your password"
+msgstr "Palauta salasanasi"
+
+#: no reference:
+msgid "your username"
+msgstr "käyttäjänimesi"
+
+#: no reference:
+msgid "your password"
+msgstr "salasanasi"
+
+#: no reference:
+msgid "your email"
+msgstr "sähköpostisi"
+
+#: no reference:
+msgid "A password will be e-mailed to you."
+msgstr "Salasana lähetetään sinulla sähköpostitse."
+
+#: no reference:
+msgid "Logout"
+msgstr "Kirjaudu ulos"
+
+#: no reference:
+msgid "Like"
+msgstr "Tykkää"
+
+#: no reference:
+msgid "Fans"
+msgstr "Fanit"
+
+#: no reference:
+msgid "Follow"
+msgstr "Seuraa"
+
+#: no reference:
+msgid "Followers"
+msgstr "Seuraajat"
+
+#: no reference:
+msgid "Subscribe"
+msgstr "Tilaa"
+
+#: no reference:
+msgid "Subscribers"
+msgstr "Tilaajat"
+
+#: no reference:
+msgid "MORE STORIES"
+msgstr "LISÄÄ TARINOITA"
+
+#: no reference:
+msgid "Latest"
+msgstr "Viimeisin"
+
+#: no reference:
+msgid "Featured posts"
+msgstr "Pääviestit"
+
+#: no reference:
+msgid "Most popular"
+msgstr "Suosituin"
+
+#: no reference:
+msgid "7 days popular"
+msgstr "7 päivän suosituin"
+
+#: no reference:
+msgid "By review score"
+msgstr "Arvostelupisteiden mukaan"
+
+#: no reference:
+msgid "Random"
+msgstr "Satunnainen"
+
+#: no reference:
+msgid "Trending Now"
+msgstr "Nouseva Nyt"
+
+#: no reference:
+msgid "POPULAR CATEGORY"
+msgstr "SUOSITTU KATEGORIA"
+
+#: no reference:
+msgid "EVEN MORE NEWS"
+msgstr "LISÄÄ UUTISIA"
+
+#: no reference:
+msgid "Previous (Left arrow key)"
+msgstr "Edellinen (Vasen nuolinäppäin)"
+
+#: no reference:
+msgid "Next (Right arrow key)"
+msgstr "Seuraava (Oikea nuolinäppäin)"
+
+#: no reference:
+msgid "%curr% of %total%"
+msgstr "%curr% / %total%"
+
+#: no reference:
+msgid "The content from %url% could not be loaded."
+msgstr "Sisältöä osoitteesta %url% ei voitu ladata."
+
+#: no reference:
+msgid "The image #%curr% could not be loaded."
+msgstr "Kuvaa #%curr% ei voitu ladata."
+
+#: no reference:
+msgid "Blog"
+msgstr "Blogi"
+
+#: no reference:
+msgid "Share on Facebook"
+msgstr "Jaa Facebookissa"
+
+#: no reference:
+msgid "Tweet on Twitter"
+msgstr "Tweettaa Twitterissä"
+
+#: no reference:
+msgid "EDITOR PICKS"
+msgstr "POIMINTOJA"
+
+#: no reference:
+msgid "POPULAR POSTS"
+msgstr "SUOSITUIMMAT VIESTIT"
+
+#: no reference:
+msgid "FOLLOW US"
+msgstr "SEURAA MEITÄ"
+
+#: no reference:
+msgid "ABOUT US"
+msgstr "MEISTÄ"
+
+#: no reference:
+msgid "More"
+msgstr "Lisää"
+
+#: no reference:
+msgid "Featured"
+msgstr "Varustellun"
+
+#: no reference:
+msgid "All time popular"
+msgstr "Kaikkien aikojen suosituimpia"
+
+#: no reference:
+msgid "Likes"
+msgstr "Tykkää"
+
+#: no reference:
+msgid "Register"
+msgstr "Rekisteri"
+

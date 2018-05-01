@@ -1,0 +1,105 @@
+@import "../../less_files/variables.less";
+
+/* Health demo */
+.td-health {
+  .td-header-style-6 .sf-menu > li > a {
+    background-color: transparent !important;
+  }
+
+  .td-header-style-6 .td-header-top-menu-full {
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      margin-bottom: 0;
+    }
+  }
+
+  .td-main-menu-logo img {
+
+    /* responsive landscape tablet */
+    @media (max-width: 1140px) {
+      max-width: 230px;
+    }
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      max-width: 150px;
+    }
+
+    /* responsive portrait phone */
+    @media (max-width: 767px){
+      max-width: 140px;
+    }
+  }
+
+  .td-header-wrap .td-header-main-menu {
+
+    /* responsive portrait phone */
+    @media (max-width: 767px){
+      background-color: #fff !important;
+    }
+  }
+
+  .header-search-wrap .td-icon-search {
+
+    /* responsive portrait phone */
+    @media (max-width: 767px) {
+      color: #222 !important;
+    }
+  }
+
+  #td-top-mobile-toggle i {
+
+    /* responsive portrait phone */
+    @media (max-width: 767px) {
+      color: #222 !important;
+    }
+  }
+
+  .td-main-page-wrap {
+    padding-top: 20px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      padding-top: 0;
+    }
+
+    /* responsive portrait phone */
+    @media (max-width: 767px) {
+      padding-top: 0;
+    }
+  }
+
+  .td_module_16 .td-module-title {
+    font-weight: bold !important;
+  }
+
+  .td_module_mx8 .td-module-comments a {
+    background-color: transparent;
+  }
+
+  .td-trending-now-wrapper {
+    padding: 0 24px;
+  }
+
+  // demos button
+  #td-theme-settings .td-skin-buy a {
+    background-color: #51E2CD ;
+  }
+}
+
+.td-health .td-module-comments a {
+  background-color: #51E2CD;
+}
+.td-health .td-module-comments a:after {
+  border-color: #51E2CD transparent transparent transparent;
+}
+.td-health .td-header-style-6 .sf-menu > li > a:hover,
+.td-health .td-header-style-6 .sf-menu > .sfHover > a,
+.td-health .td-header-style-6 .sf-menu > .current-menu-item > a,
+.td-health .td-header-style-6 .sf-menu > .current-menu-ancestor > a,
+.td-health .td-header-style-6 .sf-menu > .current-category-ancestor > a {
+  color: #51E2CD !important;
+}

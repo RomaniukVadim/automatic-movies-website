@@ -1,0 +1,328 @@
+// widget container
+
+.td_block_exchange {
+
+  font-family: @font3;
+  padding-bottom: 35px;
+
+  /* Header - Base Currency */
+  .td-exchange-header {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+    z-index: 0;
+
+    &:before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: @td_theme_color;
+      opacity: 0.07;
+      z-index: -1;
+    }
+  }
+
+  .td-base-title {
+    margin-left: 9px;
+  }
+
+  /* 1 Column Title Overflow */
+  .td-column-1 .td-exchange-base {
+    width: 300px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      width: 212px;
+    }
+  }
+
+  /* Body - All Currencies */
+  .td-rate {
+    position: relative;
+    border-bottom: 1px dashed #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .td-rate-currency {
+      font-weight: bold;
+      display: inline-block;
+      margin-left: 34px;
+    }
+
+    .td-exchange-value {
+      float: right;
+    }
+  }
+
+
+  /* Flags */
+
+  .td-flags {
+    background-image: url('@{td_css_path}images/flags/flags.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+
+  .td-flag-header {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+  }
+
+  .td-flags-all {
+    position: absolute;
+    top: 8px;
+    left: 0;
+  }
+
+  .stitches-sprite(@x: 0, @y: 0, @width: 0, @height: 0) {
+    background-position: @x @y;
+    width: @width;
+    height: @height;
+  }
+
+  .td-flag-aud {
+    .stitches-sprite(0, 0, 24px, 24px);
+  }
+
+  .td-flag-bgn {
+    .stitches-sprite(-24px, 0, 24px, 24px);
+  }
+
+  .td-flag-brl {
+    .stitches-sprite(-48px, 0, 24px, 24px);
+  }
+
+  .td-flag-cad {
+    .stitches-sprite(-72px, 0, 24px, 24px);
+  }
+
+  .td-flag-chf {
+    .stitches-sprite(-96px, 0, 24px, 24px);
+  }
+
+  .td-flag-cny {
+    .stitches-sprite(0, -24px, 24px, 24px);
+  }
+
+  .td-flag-czk {
+    .stitches-sprite(-24px, -24px, 24px, 24px);
+  }
+
+  .td-flag-dkk {
+    .stitches-sprite(-48px, -24px, 24px, 24px);
+  }
+
+  .td-flag-eur {
+    .stitches-sprite(-72px, -24px, 24px, 24px);
+  }
+
+  .td-flag-gbp {
+    .stitches-sprite(-96px, -24px, 24px, 24px);
+  }
+
+  .td-flag-hkd {
+    .stitches-sprite(0, -48px, 24px, 24px);
+  }
+
+  .td-flag-hrk {
+    .stitches-sprite(-24px, -48px, 24px, 24px);
+  }
+
+  .td-flag-huf {
+    .stitches-sprite(-48px, -48px, 24px, 24px);
+  }
+
+  .td-flag-idr {
+    .stitches-sprite(-72px, -48px, 24px, 24px);
+  }
+
+  .td-flag-ils {
+    .stitches-sprite(-96px, -48px, 24px, 24px);
+  }
+
+  .td-flag-inr {
+    .stitches-sprite(0, -72px, 24px, 24px);
+  }
+
+  .td-flag-jpy {
+    .stitches-sprite(-24px, -72px, 24px, 24px);
+  }
+
+  .td-flag-krw {
+    .stitches-sprite(-48px, -72px, 24px, 24px);
+  }
+
+  .td-flag-mxn {
+    .stitches-sprite(-72px, -72px, 24px, 24px);
+  }
+
+  .td-flag-myr {
+    .stitches-sprite(-96px, -72px, 24px, 24px);
+  }
+
+  .td-flag-nok {
+    .stitches-sprite(0, -96px, 24px, 24px);
+  }
+
+  .td-flag-nzd {
+    .stitches-sprite(-24px, -96px, 24px, 24px);
+  }
+
+  .td-flag-php {
+    .stitches-sprite(-48px, -96px, 24px, 24px);
+  }
+
+  .td-flag-pln {
+    .stitches-sprite(-72px, -96px, 24px, 24px);
+  }
+
+  .td-flag-ron {
+    .stitches-sprite(-96px, -96px, 24px, 24px);
+  }
+
+  .td-flag-rub {
+    .stitches-sprite(-120px, 0, 24px, 24px);
+  }
+
+  .td-flag-sek {
+    .stitches-sprite(-120px, -24px, 24px, 24px);
+  }
+
+  .td-flag-sgd {
+    .stitches-sprite(-120px, -48px, 24px, 24px);
+  }
+
+  .td-flag-thb {
+    .stitches-sprite(-120px, -72px, 24px, 24px);
+  }
+
+  .td-flag-try {
+    .stitches-sprite(-120px, -96px, 24px, 24px);
+  }
+
+  .td-flag-usd {
+    .stitches-sprite(0, -120px, 24px, 24px);
+  }
+
+  .td-flag-zar {
+    .stitches-sprite(-24px, -120px, 24px, 24px);
+  }
+}
+
+// firefox fix
+@-moz-document url-prefix() {
+  .td_block_exchange {
+    .td-flags-all {
+      top: 9px;
+    }
+  }
+}
+
+
+// 2 columns
+.td_block_exchange {
+  .td-column-2 {
+    overflow: hidden;
+
+    .td-rate {
+      width: 26%;
+      float: left;
+      margin-right: 11%;
+      border-bottom-width: 0;
+      position: relative;
+
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        width: auto;
+        float: none;
+        margin-right: 0;
+        border-bottom-width: 1px;
+      }
+    }
+
+    .td-exchange-rates {
+      .td-rate:nth-child(3n) {
+        margin-right: 0;
+      }
+
+      .td-rate:nth-child(3n + 1) {
+        &:before {
+          content: '';
+          width: 1400px;
+          height: 1px;
+          border-bottom: 1px dashed #F2F2F2;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+
+          /* responsive portrait phone */
+          @media (max-width: @responsive_p_phone_max) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 3 columns
+.td_block_exchange {
+  .td-column-3 {
+    overflow: hidden;
+
+    .td-rate {
+      width: 19%;
+      float: left;
+      margin-right: 8%;
+      border-bottom-width: 0;
+      position: relative;
+
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        width: auto;
+        float: none;
+        margin-right: 0;
+        border-bottom-width: 1px;
+      }
+    }
+
+    .td-exchange-rates {
+      .td-rate:nth-child(4n) {
+        margin-right: 0;
+      }
+
+      .td-rate:nth-child(4n + 1) {
+        &:before {
+          content: '';
+          width: 1400px;
+          height: 1px;
+          border-bottom: 1px dashed #F2F2F2;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+
+          /* responsive portrait phone */
+          @media (max-width: @responsive_p_phone_max) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

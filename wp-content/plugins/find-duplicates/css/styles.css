@@ -1,0 +1,59 @@
+#logtabs {
+    max-width: 350px;
+    width: 350px;
+    float: right;
+    height: 300px;
+}
+
+#log, #cronlog {
+    overflow-y: scroll;
+    height: 238px;
+}
+
+.container {
+    border: 1px dotted #ccc;
+    padding: 5px;
+    margin: 5px
+}
+
+#options {
+    width: 480px;
+    float: left;
+}
+
+#settings li {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #f5f5f5;
+}
+
+li#types {
+    float: left;
+    width: 45%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+li#statuses {
+    float: left;
+    width: 45%;
+    overflow: hidden;
+}
+
+li#dates {
+    clear: left;
+}
+
+
+.clear {
+    clear: both;
+}
+
+div.cron {
+    border: 1px dotted #ccc;
+    padding: 5px;
+}
+
+#deletebutton {
+    margin: 10px;
+}

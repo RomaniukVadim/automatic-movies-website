@@ -1,0 +1,319 @@
+/*
+
+  General CSS for WP admin panel
+
+*/
+
+
+
+
+// admin wrap
+.td-admin-wrap {
+  position: relative;
+  margin: 26px 30px 0 20px;
+  max-width: 1050px;
+  clear: both;
+
+  p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .td-plugin-required {
+    display: inline-block;
+    height: 21px;
+    z-index: 1;
+    position: absolute;
+    padding: 0 15px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: middle;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 21px;
+    letter-spacing: 0.2px;
+
+    &.td-required {
+      background-color: #aa0100;
+    }
+
+    &.td-optional {
+      background-color: #3c80dc;
+    }
+
+    &.td-active {
+      background-color: #b0d029;
+    }
+  }
+
+  .theme-screenshot {
+    background-color: #fff;
+    z-index: -1;
+    overflow: auto;
+    position: relative;
+
+    /* responsive portrait phone  */
+    @media (min-width: 1600px) {
+        height: 213px;
+    }
+  }
+  .theme .theme-actions {
+    opacity: 1;
+    height: 35px;
+    padding-top: 7px;
+
+    /* responsive portrait phone */
+    @media (max-width: 782px) {
+      width: 96%;
+      padding: 12px 2% 0;
+      text-align: center;
+      height: 46px;
+      right: 1px;
+      position: relative;
+      border-top: 1px solid #dadada;
+    }
+
+    .button {
+      margin: 0;
+
+      &:first-child {
+        margin-right: 5px;
+      }
+    }
+  }
+  .theme {
+    cursor: auto !important;
+    margin-bottom: 5%;
+
+    /* responsive portrait phone */
+    @media (min-width: 1600px) {
+      width: 30.6% !important;
+      margin: 0 0 4% 4% !important;
+    }
+
+    .theme-name {
+      text-align: center;
+      padding: 18px 10px;
+      background-color: #f5f5f5;
+    }
+  }
+
+  // buttons
+  .theme:not(.active):hover .theme-actions {
+    /* responsive portrait phone */
+    @media (max-width: 780px) {
+      display: block;
+    }
+  }
+
+  &.td-admin-plugins .theme:nth-of-type(3n+1) {
+    margin-left: 0 !important;
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    ap-admin header tabs
+*/
+
+.td-wp-admin-header {
+  max-width: none;
+  margin: 0 -48px 0 0;
+  padding-left: 28px;
+  padding-top: 28px;
+  position:relative;
+  left:-48px;
+
+  .nav-tab-wrapper {
+    padding-left: 37px !important;
+  }
+}
+
+
+
+
+.td-admin-box-text {
+  float: left;
+  padding: 6px 26px;
+  background-color: #FFF;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+
+  p {
+    font-size: 15px;
+    line-height: 25px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .button {
+    margin-right: 10px;
+    vertical-align: middle !important;
+  }
+
+  h2 {
+    margin: 1em 0 0.5em;
+    color: #111;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.1em;
+    text-align: left;
+  }
+}
+
+
+.td-admin-columns {
+  margin-top: 30px;
+}
+
+// three columns
+.td-admin-box-three {
+  width: 32%;
+  margin-right: 2%;
+
+  /* responsive portrait phone */
+  @media (max-width: 780px) {
+    width: 100%;
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+
+  .button {
+    margin-bottom: 16px;
+    margin-right: 10px;
+  }
+
+  p {
+    margin-right: 0;
+  }
+}
+
+.td-admin-box-last {
+  margin-right: 0;
+}
+
+
+.td-admin-wrap .about-text {
+  width: 100%;
+}
+
+
+// install demos
+.td-admin-wrap {
+
+  // small checkbox
+  .td-small-checkbox {
+    border-top: 1px solid #dadada;
+    padding: 10px;
+    min-height: 22px;
+
+    p {
+      display: inline-block;
+      font-size: 13px;
+      margin: 0 0 0 5px;
+    }
+
+    .td-checbox-buton {
+      top: 3px;
+      width: 16px;
+      height: 16px;
+      left: 3px;
+      background-color: #fff;
+      background-image: none;
+    }
+    .td-checkbox {
+      width: 39px;
+      height: 22px;
+      margin: 0;
+      vertical-align: middle;
+    }
+    .td-checbox-buton-active {
+      left: 20px;
+    }
+    .td-installed-text {
+      /* responsive portrait phone */
+      @media (max-width: 782px) {
+        text-align: center;
+      }
+    }
+  }
+}
+
+// plugins page
+.td-admin-plugins {
+  .theme .theme-screenshot img {
+    width: auto;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    max-width: none;
+
+    /* responsive portrait phone */
+    @media (max-width: 1300px) {
+      max-height: 100%;
+    }
+  }
+}
+
+
+
+// modal gallery WordPress panel
+.media-sidebar .gallery-settings .setting select {
+  float: right;
+}
+
+// wp-admin icon
+@font-face {
+  font-family: 'tagDiv';
+  src:url('../images/font/tagDiv.eot?m8e83u');
+  src:url('../images/font/tagDiv.eot?#iefixm8e83u') format('embedded-opentype'),
+  url('../images/font/tagDiv.ttf?m8e83u') format('truetype'),
+  url('../images/font/tagDiv.woff?m8e83u') format('woff'),
+  url('../images/font/tagDiv.svg?m8e83u#tagDiv') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'tagDiv';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tagdiv-ico:before {
+  content: "\e800";
+}
+
+#toplevel_page_td_cake_panel,
+#toplevel_page_td_theme_welcome {
+  .dashicons-admin-generic:before {
+    font-family: 'tagDiv';
+    content: "\e800";
+    font-size: 14px;
+    top: 3px;
+    position: relative;
+  }
+}
+@-moz-document url-prefix() {
+  #toplevel_page_td_cake_panel .dashicons-admin-generic:before,
+  #toplevel_page_td_theme_welcome .dashicons-admin-generic:before {
+    top: 2px;
+  }
+}
+
+// activate theme button color when active
+#adminmenu #toplevel_page_td_cake_panel.current .wp-menu-name span {
+  color: #fff !important;
+}

@@ -1,0 +1,321 @@
+/*  ----------------------------------------------------------------------------
+    wp-admin mod
+*/
+
+
+//hide all the panels - we will show them on click on navigation
+.td-panel-content > div {
+  display: none;
+}
+
+/* current panel */
+.td-panel-active {
+  display: block !important;
+}
+
+
+
+.td-container-wrap {
+  position: relative;
+  top:20px;
+  left:8px;
+}
+
+
+
+
+
+
+@td_col_left_width:250px;
+@td_col_right_width:885px;
+@td_container_total_width:@td_col_left_width + @td_col_right_width;
+
+
+
+
+#td-container-right {
+  float:left;
+  width: @td_container_total_width;
+  position:relative;
+  right: -@td_col_left_width;
+  min-height: 600px;
+  background: #ededed url("../images/panel/panel-wrap/menu-shadow-vertical.png") repeat-y;
+}
+
+#td-col-left {
+  float:left;
+  width: @td_col_left_width;
+  position:relative;
+  left: -@td_col_left_width;
+  margin-bottom: 52px;
+  //overflow:hidden;
+}
+
+
+
+#td-container-left {
+  clear:left;
+  float:left;
+  width: @td_container_total_width;
+  overflow:hidden;
+  background-color: rgba(34, 34, 34, 0.3);
+  min-height: 600px;
+}
+
+#td-col-right {
+  float:left;
+  width: @td_col_right_width;
+  position:relative;
+  left: -@td_col_left_width;
+  overflow:hidden;
+}
+
+
+
+
+.td-clear {
+  clear:left;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    wp-admin panel - css in panels
+*/
+
+
+/*dafault hidden class*/
+.td-class-hidden {
+  display:none;
+}
+
+/*display inline block*/
+.td-display-inline-block {
+  display: inline-block;
+}
+
+/*used for custom size (width and height) in ads tab*/
+.td-ads-custom-size-fields {
+  width: 120px !important;
+  padding-right: 20px;
+}
+
+.td-ads-custom-size-fields input{
+  width: 60px !important;
+}
+
+
+/*text align right*/
+.td-text-align-right {
+  text-align: right;
+}
+
+/*text align left*/
+.td-text-align-left {
+  text-align: left;
+}
+
+/*float right*/
+.td-content-float-right {
+  float: right;
+  .td-help-text();
+}
+
+/*float left*/
+.td-content-float-left {
+  float: left;
+}
+
+.td_float_clear_both {
+  clear: both;
+}
+
+.td-adsense-size {
+  position: relative;
+  top: 7px;
+  float: left;
+  font-weight: bold;
+}
+
+.td-content-padding-right-40 {
+  padding-right: 40px !important;
+
+}
+
+/*padding right 20px*/
+.td-text-bold {
+  font-weight: bold;
+}
+
+
+
+/*display saving gif when user click save button*/
+.td_displaying_saving {
+  position: absolute;
+  left: -20px;
+  top: 0;
+  width: 101%;
+  height: 102%;
+  background-color: #000000;
+  z-index: 8888;
+  opacity:0.7;
+  display: none;
+}
+
+.td_wrapper_saving_gifs{
+  position: fixed;
+  z-index: 8888;
+  left: 50%;
+  top: 50%;
+  display: none;
+}
+
+.td_displaying_saving_gif{
+  z-index: 88881;
+  display: none;
+  position: relative;
+  left: -75px;
+  top: -75px;
+
+}
+
+.td_displaying_ok_gif{
+  z-index: 88889;
+  display: none;
+  position: relative;
+  left: -75px;
+  top: -75px;
+
+;
+}
+
+
+/*
+.td_displaying_ok_gif{
+  /*position: absolute;* /
+  z-index: 99999;
+  display: none;
+  position: fixed;
+  left: 40%;
+  top: 40%;
+}*/
+
+.td-panel-control-comment {
+  font-size: 10px;
+  font-family: @font_open_sans;
+  color: #4d4d4d;
+}
+
+.td_sidebars_pulldown_align {
+  vertical-align: top;
+  padding-left: 18px;
+}
+#td-panel-template-settings .td_sidebars_pulldown_align {
+  padding-left: 80px;
+}
+
+/*category breadcrumb*/
+.td-panel-breadcrumb {
+  padding: 0 5px 0 9px;
+}
+
+
+#td-panel-theme-colors {
+  .td-box-description {
+    width: 335px;
+  }
+  .td-box-control-full {
+    width: 470px;
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    wp-admin - post panel
+*/
+
+/* post template */
+/*
+.my_meta_control {
+  .td-inline-block-wrap {
+    display: inline-block;
+  }
+
+  .td-post-settings-post-template {
+    width: 120px !important;
+  }
+
+  .td-help-select {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    width: 200px;
+  }
+
+  .td-select-style-overwrite {
+    margin: 11px 0px 0px -77px;
+
+    .td-panel-dropdown {
+      max-width: 120%;
+    }
+  }
+
+  .td-help-info-inline {
+     position: relative;
+     top: -15px;
+     margin-left: 5px;
+  }
+
+  .td-textarea-subtitle {
+    width: 549px;
+    //max-width: 549px;
+    //min-width: 549px;
+    height: 103px;
+    min-height: 103px;
+    border: 1px solid #e6e6e6;
+    box-shadow: none;
+    font-size: 12px;
+    color: #555555;
+    //margin-bottom: 32px;
+
+    @media (max-width: 1100px) {
+      width: 99%;
+    }
+  }
+
+  .td_info_inline_textarea {
+    display: block;
+    margin-bottom: 32px;
+  }
+
+  .td-input-text-post-settings,
+  .td-input-text-backend,
+  .td-input-text-backend-generic-filter {
+    width: 549px !important;
+    height: 32px !important;
+    border: 1px solid #e6e6e6 !important;
+    margin: 0px 0px 32px 0px;
+    //font-family: 'Open Sans', arial, sans-serif;
+    color: #555555;
+    font-size: 12px;
+    box-shadow: none !important;
+    padding-left: 10px;
+
+    @media (max-width: 1100px) {
+      width: 99% !important;
+    }
+  }
+  .td-input-text-backend {
+    width: 224px !important;
+  }
+  .td-input-text-backend-generic-filter {
+    width: 220px !important;
+  }
+
+  .td-new-sidebar-input {
+    .td_new_sidebar_field {
+      width: 191px !important;
+    }
+  }
+
+}
+*/

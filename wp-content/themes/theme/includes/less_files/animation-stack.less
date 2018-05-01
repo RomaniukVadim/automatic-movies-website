@@ -1,0 +1,68 @@
+//body.lazy-animation .td-animation-stack .entry-thumb,
+//body.lazy-animation .post img {
+//  opacity: 0;
+//    transition: @td_lazy_load;
+//    transition-timing-function: cubic-bezier(.39,.76,.51,.56); /* linear */
+//}
+
+
+// fade effect
+
+
+body.td-animation-stack-type0 .td-animation-stack .entry-thumb,
+body.td-animation-stack-type0 .post img {
+  opacity: 0;
+}
+
+.td-animation-stack-type0-1 {
+}
+
+.td-animation-stack-type0-2 {
+  opacity: 1 !important;
+  transition: @td_lazy_load;
+  transition-timing-function: cubic-bezier(.39,.76,.51,.56); /* linear */
+}
+
+
+
+
+
+// fade & scale effect
+body.td-animation-stack-type1 .td-animation-stack .entry-thumb,
+body.td-animation-stack-type1 .post .entry-thumb,
+body.td-animation-stack-type1 .post img[class*="wp-image-"],
+body.td-animation-stack-type1 .post a.td-sml-link-to-image > img {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.td-animation-stack-type1-1 {
+}
+
+.td-animation-stack-type1-2 {
+  opacity: 1 !important;
+  .transform_important(scale(1));
+  .transition(transform 0.5s ease, opacity 0.3s cubic-bezier(0.39, 0.76, 0.51, 0.56) 0s);
+}
+
+
+
+
+
+// up fade
+body.td-animation-stack-type2 .td-animation-stack .entry-thumb,
+body.td-animation-stack-type2 .post .entry-thumb,
+body.td-animation-stack-type2 .post img[class*="wp-image-"],
+body.td-animation-stack-type2 .post a.td-sml-link-to-image > img {
+  opacity: 0;
+  .transform(translate(0px,10px));
+}
+
+.td-animation-stack-type2-1 {
+}
+
+.td-animation-stack-type2-2 {
+  opacity: 1 !important;
+  .transform_important(scale(1));
+  .transition(transform 0.4s cubic-bezier(.13,.43,.57,.88), opacity 0.4s cubic-bezier(.13,.43,.57,.88));
+}

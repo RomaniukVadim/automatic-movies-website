@@ -1,0 +1,229 @@
+/*  ----------------------------------------------------------------------------
+    top-menu grid
+*/
+
+// general color for text, links and icons
+.td-header-top-menu {
+  color: #fff;
+  font-size: 11px;
+
+  // font awesome in menu
+  .fa {
+    text-align: center;
+    min-width: 13px !important;
+    margin-right: 3px;
+  }
+
+  a {
+    color: #fff;
+  }
+
+  @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+    overflow: visible;
+  }
+}
+
+
+/* left menu side */
+.td-header-sp-top-menu {
+  line-height: 24px;
+  padding: 2px 0 !important;
+  z-index: 1000;
+  float: left;
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    display: none !important;
+  }
+
+
+  .td_ul_logout {
+    margin-right: 16px;
+  }
+}
+
+/* right widget side */
+.td-header-sp-top-widget {
+  //width: 300px;
+  text-align: right;
+  padding: 2px 0 !important;
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    top-menu data time
+*/
+.td_data_time {
+  display: inline-block;
+  margin-right: 32px;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    top-menu - login & menu
+*/
+.menu-top-container {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.top-header-menu {
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+
+  li {
+    display: inline-block;
+    position: relative;
+    margin-left: 0;
+
+    li {
+      width: 100%;
+    }
+
+    a {
+      margin-right: 16px;
+      line-height: 1;
+
+      &:hover {
+        color: @td_theme_color;
+      }
+    }
+  }
+
+  .avatar {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+    position: relative;
+    top: -1px;
+  }
+
+  .td-icon-menu-down {
+    padding-left: 6px;
+    font-size: 8px;
+    position: relative;
+    top: -1px;
+  }
+
+  .td-icon-logout {
+    font-size: 10px;
+    position: relative;
+    top: 1px;
+    margin-right: 2px;
+  }
+
+  .sub-menu {
+    display: none;
+    position: absolute;
+    top: 26px;
+    left: -10px;
+    background-color: @td_black;
+    z-index: 1000;
+
+      a {
+        display: block;
+        margin: 0 10px;
+        white-space: nowrap;
+        line-height: 28px;
+      }
+  }
+
+  // current top menu
+  .current-menu-item > a,
+  .current-menu-ancestor > a,
+  .current-category-ancestor > a {
+    color:@td_theme_color;
+  }
+
+  ul .td-icon-menu-down,
+  .td-mega-menu .td-icon-menu-down {
+    display: none;
+  }
+
+  .td-mega-menu ul,
+  ul ul {
+    display: none !important;
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    top-menu social widget
+*/
+.td-social-icon-wrap {
+
+  & > a {
+    display: inline-block;
+  }
+
+  .td-icon-font  {
+    font-size: 12px;
+    width: 30px;
+    height: 24px;
+    line-height: 26px;
+  }
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    margin: 0 3px
+  }
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    Top Bar Style 1
+*/
+.top-bar-style-1 {
+  .td-header-sp-top-widget {
+    float: right;
+  }
+}
+
+/*  ----------------------------------------------------------------------------
+    Top Bar Style 2
+*/
+.top-bar-style-2 {
+
+  .td_ul_login,
+  .td_ul_logout {
+    margin-right: 32px;
+  }
+
+  .td-header-sp-top-menu {
+    float: right;
+
+    ul:last-child,
+    div:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .menu-top-container,
+  .top-header-menu li:last-child a {
+    margin-right: 0;
+  }
+}
+
+/*  ----------------------------------------------------------------------------
+    Top Bar Style 3
+*/
+
+
+
+/*  ----------------------------------------------------------------------------
+    Top Bar Style 4
+*/
+.top-bar-style-4 {
+  .td-header-sp-top-widget,
+  .td-header-sp-top-menu{
+    float: right;
+  }
+}

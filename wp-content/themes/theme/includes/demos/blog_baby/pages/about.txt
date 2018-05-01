@@ -1,0 +1,3 @@
+[vc_row][vc_column][vc_single_image image="iii_td_pic_about_iii" img_size="full" alignment="center"][vc_column_text]
+<p style="text-align: center;">Hello and welcome to my Blog! My name is <b>Emma Clarke</b>, I am a writer, travel enthusiast and a happy mother of a wonderful baby boy, Alex. I love writing useful articles on my blog, things that I encounter in normal day to day life! I hope you will find useful information here!</p>
+[/vc_column_text][/vc_column][/vc_row][vc_row][vc_column][td_block_social_counter custom_title="" style="style9 td-social-boxed td-social-colored" facebook="tagdiv" twitter="envato" youtube="tagdiv" instagram="bluebirdkisses" open_in_new_window="y"][/vc_column][/vc_row]

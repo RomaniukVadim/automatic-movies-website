@@ -1,0 +1,224 @@
+/*
+Theme Name: 	Newspaper
+Theme URI: 		http://themeforest.net/user/tagDiv/portfolio
+Description: 	Premium wordpress template, clean and easy to use.
+Version: 		__td_deploy_version__
+Author: 		tagDiv
+Author URI: 	http://themeforest.net/user/tagDiv/portfolio
+License:
+License URI:
+Tags:black, white, one-column, two-columns, fixed-layout
+*/
+
+
+
+/*
+
+     _ _
+    | \ | ___  _ _ _  ___ ___  ___  ___  ___  _ _
+    |   |/ ._>| | | |<_-<| . \<_> || . \/ ._>| '_>
+    |_\_|\___.|__/_/ /__/|  _/<___||  _/\___.|_|
+                         |_|       |_|
+    ~ tagDiv 2016 ~
+
+  Thanks for using our theme !
+  Our portfolio is here: http://themeforest.net/user/tagDiv/portfolio
+
+*/
+
+
+// speed booster fix
+body {
+  visibility: visible !important;
+}
+
+@import "variables.less";
+@import "mixin.less";
+
+// Reset
+@import "normalize.less";
+
+
+// Reset the box-sizing
+//
+// Heads up! This reset may cause conflicts with some third-party widgets.
+// For recommendations on resolving such conflicts, see
+// http://getbootstrap.com/getting-started/#third-box-sizing
+
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  width : auto\9;
+  height: auto;
+}
+
+.td-main-content-wrap,
+.td-category-grid {
+  background-color: #fff;
+}
+
+
+
+// grid
+@import "grid/grid.less";
+@import "grid/grid_blocks.less";
+@import "grid/grid_responsive.less";
+
+
+// header
+@import "header.less";
+@import "header-style.less";
+@import "menu-header.less";
+@import "menu-top.less";
+@import "menu-mobile.less";
+
+
+// type
+@import "type.less";
+
+
+
+// modules
+@import "pagebuilder/modules/modules.less";
+@import "pagebuilder/modules/module_1.less";
+@import "pagebuilder/modules/module_2.less";
+@import "pagebuilder/modules/module_3.less";
+@import "pagebuilder/modules/module_4.less";
+@import "pagebuilder/modules/module_5.less";
+@import "pagebuilder/modules/module_6.less";
+@import "pagebuilder/modules/module_7.less";
+@import "pagebuilder/modules/module_8.less";
+@import "pagebuilder/modules/module_9.less";
+@import "pagebuilder/modules/module_10.less";
+@import "pagebuilder/modules/module_11.less";
+@import "pagebuilder/modules/module_12.less";
+@import "pagebuilder/modules/module_13.less";
+@import "pagebuilder/modules/module_14.less";
+@import "pagebuilder/modules/module_15.less";
+@import "pagebuilder/modules/module_16.less";
+@import "pagebuilder/modules/module_17.less";
+@import "pagebuilder/modules/module_18.less";
+@import "pagebuilder/modules/module_19.less";
+@import "pagebuilder/modules/module_mx1.less";
+@import "pagebuilder/modules/module_mx2.less"; //search results
+@import "pagebuilder/modules/module_mx3.less";
+@import "pagebuilder/modules/module_mx4.less";
+
+
+@import "pagebuilder/modules/module_mx7.less";
+@import "pagebuilder/modules/module_mx8.less";
+@import "pagebuilder/modules/module_mx16.less";
+@import "pagebuilder/modules/module_mx17.less";
+
+@import "pagebuilder/modules/td-slide.less";
+
+//css splitter for ie8 ie9
+;#td_css_split_separator{visibility: visible};
+
+// blocks
+@import "pagebuilder/shortcodes/blocks.less";
+@import "pagebuilder/shortcodes/big-grids-style.less";
+@import "pagebuilder/shortcodes/big-grids.less";
+@import "pagebuilder/shortcodes/top-authors.less";
+@import "pagebuilder/shortcodes/big-grid-slide.less";
+
+
+
+// post and page
+@import "post.less";
+@import "post-templates.less";
+@import "comments.less";
+@import "page.less";
+@import "review.less";
+@import "galleries.less";
+@import "gallery-slider.less";
+
+
+@import "category-templates.less";
+
+// more stories box
+@import "more-stories.less";
+
+
+//css splitter for ie8 ie9
+;#td_css_split_separator{visibility: visible};
+
+// misc
+@import "font-icons.less";
+@import "magnific-popup.less";
+@import "modal-window.less";
+@import "pagebuilder/shortcodes/td-block-ad-box.less";
+@import "widgets-default.less";
+@import "retina.less";
+@import "social-counter.less";
+@import "boxed.less";
+@import "totop.less";
+@import "style_customizer.less";
+//@import "style_customizer_old.less";
+@import "print.less";
+
+
+// video playlist
+@import "video-playlists.less";
+
+
+// pagebuilder
+@import "pagebuilder-elements.less";
+
+
+// smart lists
+@import "smart-lists.less";
+
+// weather widget
+@import "weather.less";
+
+// instagram widget
+@import "instagram.less";
+
+// exchange widget
+@import "exchange.less";
+
+
+//plugins
+//@import "woocommerce.less";
+@import "bbpress.less";
+@import "buddypress.less";
+
+
+// footer
+@import "footer.less";
+
+
+// scroll effects
+@import "scroll_effects.less";
+
+
+// animations css
+@import "animations_compact.less";
+
+
+// loading box css
+@import "td_loading_box.less";
+
+@import "animation-stack.less";
+
+// custom css for devices
+@import "td-detect.less";
+
+
+
+/* visual composer hack - overwrite the theme display block  @since 18/6/2015 */
+.wpb_single_image .vc_single_image-wrapper {
+  display: inline-block !important;
+}

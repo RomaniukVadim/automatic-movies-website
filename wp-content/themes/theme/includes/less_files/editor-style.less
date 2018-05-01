@@ -1,0 +1,121 @@
+
+/*  ----------------------------------------------------------------------------
+    This editor style is also loaded in the backend to style the posts
+    WARNING: this file is not loaded in the front end
+*/
+
+@import "variables.less";
+@import "type.less";
+@import "font-icons.less";
+@import "mixin.less";
+
+
+
+/*  ----------------------------------------------------------------------------
+    editor style
+*/
+
+/* max width  - content + sidebar */
+html .mceContentBody {
+  max-width: 696px;
+  margin-left: 24px;
+  margin-right: 24px;
+  background: #fff url('images/editor-style/grid-sidebar-desktop.gif') repeat-y left top;
+  font-family: @font2;
+  position: relative;
+
+  &:after {
+    content: 'SIDEBAR';
+    color: #ccc;
+    position: absolute;
+    right: -50px;
+    top: 0;
+    display: block;
+    width: 5px;
+    word-break: break-all;
+  }
+
+  .td-scroll-effect {
+    background-color: rgba(255, 247, 112, 0.29);
+  }
+
+  /* responsive Landscape tablet */
+  @media (max-width: 743px) {
+    background: none;
+
+    &:after {
+      content: '';
+    }
+  }
+}
+
+/* max width  - full content */
+html .mceContentBody-max-width-big {
+  max-width: 1068px;
+  background: #fff url('images/editor-style/grid-no-sidebar-desktop.gif') repeat-y left top;
+
+  &:after {
+    content: '';
+  }
+
+  /* responsive Landscape tablet */
+  @media (max-width: 1115px) {
+    background: none;
+  }
+}
+
+
+.mce-content-body {
+
+  img {
+    height: auto;
+    max-width: 100% !important;
+    display: block;
+  }
+
+  .gallery {
+    margin: 0;
+    padding: 0;
+
+    img {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+  }
+
+  //image gallery
+  .gallery-item {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 20px;
+
+    .wp-caption-text {
+      text-align: center;
+      margin: 0;
+    }
+  }
+
+  .gallery-columns-1 img {
+    width: 100%;
+  }
+}
+
+
+
+// this = wp-caption in editor-style - padding
+.wp-caption-dd {
+  padding: 0 !important;
+}
+
+// this = figure in editor-style - fix bottom
+.wp-caption-dt {
+  a {
+    display: inline-block;
+  }
+
+  img {
+    margin-bottom: 0;
+  }
+}
+

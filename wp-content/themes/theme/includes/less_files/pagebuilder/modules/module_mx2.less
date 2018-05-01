@@ -1,0 +1,75 @@
+/*  ----------------------------------------------------------------------------
+    Module mx2
+*/
+.td_module_mx2 {
+
+  padding-bottom: 0;
+
+  .clearfix();
+
+  .entry-title {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0 0 5px 0;
+  }
+
+  .entry-thumb {
+    width: 80px;
+  }
+
+  .td-module-thumb {
+    position: absolute;
+    margin-bottom: 0;
+  }
+
+  .item-details {
+    margin: 0 0 20px 100px;
+    min-height: 60px;
+    padding-top: 2px;
+  }
+}
+
+//Module mx2 on columns
+.td_block_inner .td_module_mx2 {
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    .item-details {
+      margin-left: 95px;
+    }
+
+    .td-post-category {
+      margin-bottom: 5px;
+    }
+
+    .td-icon-star,
+    .td-icon-star-empty,
+    .td-icon-star-half {
+      font-size: 15px;
+      width: 17px;
+    }
+
+  }
+
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    .entry-title {
+      font-size: 16px;
+      line-height: 22px;
+    }
+
+    .item-details {
+      margin-bottom: 30px;
+    }
+  }
+
+  /* responsive small portrait phone */
+  @media (max-width: 500px) {
+    .entry-title {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+}

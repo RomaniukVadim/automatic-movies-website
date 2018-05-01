@@ -1,0 +1,161 @@
+/*Список пользователей*/
+.userlist{
+	overflow:hidden;
+	clear:both;
+}
+.userlist a {
+    text-decoration: none;
+}
+.userlist .user-single {
+    background: rgba(243, 243, 243, 0.3);
+    box-shadow: 0 0 1px 2px rgb(243, 243, 243);
+	box-sizing: content-box;
+    margin: 5px 3px;
+    overflow: hidden;
+    padding: 5px;
+}
+.userlist .user-single a {
+	border: none;								/*++Twenty15++*/
+	box-shadow: none;							/*++Twenty16++*/
+}
+.userlist.rows-list .user-single {
+    clear: both;
+	margin: 11px 4px;
+}
+.userlist .user-single .thumb-user {
+    float: left;
+	line-height:1;
+    margin: 0;
+    position:relative;
+}
+.userlist .user-single .user-content-rcl {
+    margin: 0 0 0 80px;
+}
+.status_author_mess.online {
+    float: right;
+	font: 16px/1.6 arial;
+    color: #89e535;
+}
+.userlist .status_author_mess.offline {
+    float: right;
+	font-size: 12px;
+}
+.userlist .user-single .user-name {
+    clear: none;
+    font-size: 18px;
+    margin: 0 0 5px;
+    padding: 3px 0 5px;
+    text-transform: none;
+}
+.userlist .ballun-status {
+    clear: none;
+    margin: 0 10px 10px 0;
+    max-width: 450px;
+}
+.userlist.rows-list .user-single .filter-data {
+    background: rgba(219, 219, 219, 0.3);
+    box-shadow: 0 0 1px 1px rgba(219, 219, 219, 0.6);
+    color: #777;
+    display: inline-block;
+    font-size: 12px;
+	line-height:1;
+    margin: 2px 5px 7px;
+    padding: 5px 7px;
+}
+.userlist.rows-list .user-single .filter-data .fa {
+    margin: 0 5px 0 0;
+}
+.user-profile-fields .rcl-custom-fields {
+    clear: none;
+}
+.userlist .user-profile-fields .rcl-custom-fields{
+    margin: 5px 0;
+}
+/* вывод аватарками и mini start */
+.rows-list .thumb-user a,
+.avatars-list .thumb-user a {
+    display: inline-block;
+    height: auto;
+    margin: 0 0 3px;
+    width: 100%;
+}
+.rows-list .thumb-user a img,
+.avatars-list .thumb-user a img {
+	border-radius: 0;							/*++Twenty16++*/
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.userlist.mini-list,
+.userlist.avatars-list,
+.userlist.mini-list .thumb-user,
+.userlist.avatars-list .thumb-user,
+.userlist.mini-list .thumb-user a img,
+.userlist.avatars-list .thumb-user a img {
+	border-radius: 0;							/*++Twenty16++*/
+	display: block;								/*++Twenty16++*/
+	/* float: right; */							/*++Twenty16++*/
+	height: auto;
+	width:100%
+}
+.userlist.avatars-list .user-single {
+    float: left;
+    margin: 5px 1%;
+    padding: 0.8%;
+    width: 13%;
+}
+.userlist.mini-list .user-single:hover,
+.userlist.avatars-list .user-single:hover {
+    box-shadow: 0 0 2px 2px #ccc;
+}
+.userlist .user-single .thumb-user .status_user {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.userlist.mini-list .user-single {
+    float: left;
+    margin: 1%;
+    max-width: 55px;
+    padding: 0;
+    width: 18%;
+}
+/* вывод аватарками и mini end */
+
+
+@media screen and (max-width:480px) {
+	a.data-filter {
+		display: table-cell;
+		padding: 10px 3px;
+	}
+	.userlist .user-single .user-content-rcl {
+		margin: 0 0 0 80px;
+	}
+	.userlist.avatars-list .user-single {
+		padding: 1%;
+		width: 16%;
+	}
+	.userlist .user-single .thumb-user .status_user {
+		font-size: 11px;
+	}
+}
+@media screen and (max-width:360px) {
+	a.data-filter {
+		display: inline-block;
+		padding: 10px 6.5px;
+		text-align: center;
+	}
+	.userlist .user-single .thumb-user {
+		width: 60px;
+	}
+	.userlist .user-single .user-content-rcl {
+		margin: 0 0 0 65px;
+	}
+	.userlist.mini-list .thumb-user,
+	.userlist.avatars-list .thumb-user {
+		width: 100%;
+	}
+	.userlist.avatars-list .user-single {
+		width: 21%;
+	}
+}

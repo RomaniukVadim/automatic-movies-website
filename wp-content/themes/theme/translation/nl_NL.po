@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
+
+#: no reference:
+msgid "View all results"
+msgstr "Bekijk alle resultaten"
+
+#: no reference:
+msgid "No results"
+msgstr "Geen resultaten"
+
+#: no reference:
+msgid "Home"
+msgstr "Home"
+
+#: no reference:
+msgid "CLOSE"
+msgstr "SLUITEN"
+
+#: no reference:
+msgid "Page"
+msgstr "Pagina"
+
+#: no reference:
+msgid "All"
+msgstr "Alle"
+
+#: no reference:
+msgid "By"
+msgstr "Door"
+
+#: no reference:
+msgid "Load more"
+msgstr "Laad meer"
+
+#: no reference:
+msgid "View all posts in"
+msgstr "Bekijk alle posts in"
+
+#: no reference:
+msgid "Tags"
+msgstr "Tags"
+
+#: no reference:
+msgid "Previous article"
+msgstr "Vorig artikel"
+
+#: no reference:
+msgid "Next article"
+msgstr "Volgend artikel"
+
+#: no reference:
+msgid "Authors"
+msgstr "Auteurs"
+
+#: no reference:
+msgid "Author"
+msgstr "Auteur"
+
+#: no reference:
+msgid "RELATED ARTICLES"
+msgstr "GERELATEERDE ARTIKELEN"
+
+#: no reference:
+msgid "MORE FROM AUTHOR"
+msgstr "MEER VAN DEZE AUTEUR"
+
+#: no reference:
+msgid "VIA"
+msgstr "VIA"
+
+#: no reference:
+msgid "SOURCE"
+msgstr "BRON"
+
+#: no reference:
+msgid "TAGS"
+msgstr "TAGS"
+
+#: no reference:
+msgid "SHARE"
+msgstr "DELEN"
+
+#: no reference:
+msgid "Continue"
+msgstr "Verder"
+
+#: no reference:
+msgid "Read more"
+msgstr "Lees meer"
+
+#: no reference:
+msgid "Name:"
+msgstr "Naam:"
+
+#: no reference:
+msgid "Email:"
+msgstr "Email:"
+
+#: no reference:
+msgid "Website:"
+msgstr "Website:"
+
+#: no reference:
+msgid "Comment:"
+msgstr "Opmerking:"
+
+#: no reference:
+msgid "LEAVE A REPLY"
+msgstr "LAAT EEN REACTIE ACHTER"
+
+#: no reference:
+msgid "Post Comment"
+msgstr "Plaats Opmerking"
+
+#: no reference:
+msgid "Cancel reply"
+msgstr "Annuleer reactie"
+
+#: no reference:
+msgid "Reply"
+msgstr "Reageer"
+
+#: no reference:
+msgid "Log in to leave a comment"
+msgstr "Log in om een opmerking achter te laten"
+
+#: no reference:
+msgid "NO COMMENTS"
+msgstr "GEEN REACTIES"
+
+#: no reference:
+msgid "1 COMMENT"
+msgstr "1 REACTIE"
+
+#: no reference:
+msgid "COMMENTS"
+msgstr "REACTIES"
+
+#: no reference:
+msgid "REVIEW OVERVIEW"
+msgstr "RECENSIEOVERZICHT"
+
+#: no reference:
+msgid "SUMMARY"
+msgstr "SAMENVATTING"
+
+#: no reference:
+msgid "OVERALL SCORE"
+msgstr "TOTALE SCORE"
+
+#: no reference:
+msgid "Ooops... Error 404"
+msgstr "Oeps… Error 404"
+
+#: no reference:
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr "Sorry, maar de pagina die je zoekt bestaat niet"
+
+#: no reference:
+msgid "You can go to the"
+msgstr "Je kunt naar de (homepage) gaan"
+
+#: no reference:
+msgid "HOMEPAGE"
+msgstr "HOMEPAGE"
+
+#: no reference:
+msgid "OUR LATEST POSTS"
+msgstr "ONZE LAATSTE POSTS"
+
+#: no reference:
+msgid "Posts by"
+msgstr "Posts van"
+
+#: no reference:
+msgid "POSTS"
+msgstr "POSTS"
+
+#: no reference:
+msgid "Posts tagged with"
+msgstr "Posts getagd met"
+
+#: no reference:
+msgid "Tag"
+msgstr "Tag"
+
+#: no reference:
+msgid "Daily Archives:"
+msgstr "Dagelijke Archieven:"
+
+#: no reference:
+msgid "Monthly Archives:"
+msgstr "Maandelijkse Archieven:"
+
+#: no reference:
+msgid "Yearly Archives:"
+msgstr "Jaarlijkse Archieven:"
+
+#: no reference:
+msgid "Archives"
+msgstr "Archieven"
+
+#: no reference:
+msgid "LATEST ARTICLES"
+msgstr "LAATSTE ARTIKELEN"
+
+#: no reference:
+msgid "search results"
+msgstr "zoekresultaten"
+
+#: no reference:
+msgid "Search"
+msgstr "Zoek"
+
+#: no reference:
+msgid "If you're not happy with the results, please do another search"
+msgstr "Wanneer u niet blij bent met de resultaten, kunt u een nieuwe zoekopdracht geven"
+
+#: no reference:
+msgid "Contact us"
+msgstr "Neem contact met ons op"
+
+#: no reference:
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Pagina %CURRENT_PAGE% van %TOTAL_PAGES%"
+
+#: no reference:
+msgid "Next"
+msgstr "Volgende"
+
+#: no reference:
+msgid "Prev"
+msgstr "Vorige"
+
+#: no reference:
+msgid "No results for your search"
+msgstr "Geen resultaten voor uw zoekopdracht"
+
+#: no reference:
+msgid "No posts to display"
+msgstr "Geen posts om weer te geven"
+
+#: no reference:
+msgid "LOG IN"
+msgstr "LOG IN"
+
+#: no reference:
+msgid "Sign in / Join"
+msgstr "Aanmelden"
+
+#: no reference:
+msgid "Log In"
+msgstr "Log In"
+
+#: no reference:
+msgid "REGISTER"
+msgstr "REGISTREER"
+
+#: no reference:
+msgid "Send My Pass"
+msgstr "Stuur Mijn Pas"
+
+#: no reference:
+msgid "Forgot your password?"
+msgstr "Wachtwoord vergeten?"
+
+#: no reference:
+msgid "Please wait..."
+msgstr "Even geduld…"
+
+#: no reference:
+msgid "User or password incorrect!"
+msgstr "Gebruikersnaam of wachtwoord is incorrect!"
+
+#: no reference:
+msgid "Email or username incorrect!"
+msgstr "Email of gebruikersnaam is incorrect!"
+
+#: no reference:
+msgid "Email incorrect!"
+msgstr "Email is incorrect!"
+
+#: no reference:
+msgid "User or email already exists!"
+msgstr "Gebruikersnaam of email bestaat al!"
+
+#: no reference:
+msgid "Please check your email (index or spam folder), the password was sent there."
+msgstr "Check alsublieft uw mail (inbox of spam), het wachtwoord is daarheen gestuurd"
+
+#: no reference:
+msgid "Email address not found!"
+msgstr "Emailadres niet gevonden!"
+
+#: no reference:
+msgid "Your password is reset, check your email."
+msgstr "Wachtwoord is gereset, check email."
+
+#: no reference:
+msgid "Welcome! Log into your account"
+msgstr "Welkom! Log in op je account"
+
+#: no reference:
+msgid "Register for an account"
+msgstr "Registreer voor een account"
+
+#: no reference:
+msgid "Recover your password"
+msgstr "Vind je wachtwoord terug"
+
+#: no reference:
+msgid "your username"
+msgstr "jouw gebruikersnaam"
+
+#: no reference:
+msgid "your password"
+msgstr "jouw wachtwoord"
+
+#: no reference:
+msgid "your email"
+msgstr "jouw mailadres"
+
+#: no reference:
+msgid "A password will be e-mailed to you."
+msgstr "Er zal een wachtwoord naar je gemaild worden"
+
+#: no reference:
+msgid "Logout"
+msgstr "Log uit"
+
+#: no reference:
+msgid "Like"
+msgstr "Like"
+
+#: no reference:
+msgid "Fans"
+msgstr "Fans"
+
+#: no reference:
+msgid "Follow"
+msgstr "Volg"
+
+#: no reference:
+msgid "Followers"
+msgstr "Volgers"
+
+#: no reference:
+msgid "Subscribe"
+msgstr "Abonneer"
+
+#: no reference:
+msgid "Subscribers"
+msgstr "Abonnees"
+
+#: no reference:
+msgid "MORE STORIES"
+msgstr "MEER VERHALEN"
+
+#: no reference:
+msgid "Latest"
+msgstr "Laatste"
+
+#: no reference:
+msgid "Featured posts"
+msgstr "Aanbevolen posts"
+
+#: no reference:
+msgid "Most popular"
+msgstr "Meest populair"
+
+#: no reference:
+msgid "7 days popular"
+msgstr "7 dagen populair"
+
+#: no reference:
+msgid "By review score"
+msgstr "Op recensiescore"
+
+#: no reference:
+msgid "Random"
+msgstr "Willekeurig"
+
+#: no reference:
+msgid "Trending Now"
+msgstr "Nu Trending"
+
+#: no reference:
+msgid "POPULAR CATEGORY"
+msgstr "POPULAIRE CATEGORIE"
+
+#: no reference:
+msgid "EVEN MORE NEWS"
+msgstr "NOG MEER NIEUWS"
+
+#: no reference:
+msgid "Previous (Left arrow key)"
+msgstr "Vorige (Pijl naar links)"
+
+#: no reference:
+msgid "Next (Right arrow key)"
+msgstr "Volgende (Pijl naar rechts)"
+
+#: no reference:
+msgid "%curr% of %total%"
+msgstr "%curr% van %total%"
+
+#: no reference:
+msgid "The content from %url% could not be loaded."
+msgstr "De inhoud van %url% kan niet worden geladen."
+
+#: no reference:
+msgid "The image #%curr% could not be loaded."
+msgstr "De afbeelding #%curr% kan niet worden geladen."
+
+#: no reference:
+msgid "Blog"
+msgstr "Blog"
+
+#: no reference:
+msgid "Share on Facebook"
+msgstr "Deel op Facebook"
+
+#: no reference:
+msgid "Tweet on Twitter"
+msgstr "Tweet op Twitter"
+
+#: no reference:
+msgid "EDITOR PICKS"
+msgstr "SELECTIE VAN DE REDACTIE"
+
+#: no reference:
+msgid "POPULAR POSTS"
+msgstr "POPULAIRE BERICHTEN"
+
+#: no reference:
+msgid "FOLLOW US"
+msgstr "VOLG ONS"
+
+#: no reference:
+msgid "ABOUT US"
+msgstr "OVER ONS"
+
+#: no reference:
+msgid "More"
+msgstr "Meer"
+
+#: no reference:
+msgid "Featured"
+msgstr "Gekenmerkte"
+
+#: no reference:
+msgid "All time popular"
+msgstr "All time populaire"
+
+#: no reference:
+msgid "Likes"
+msgstr "Sympathieën"
+
+#: no reference:
+msgid "Register"
+msgstr "Registreren"
+

@@ -1,0 +1,135 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/*
+  Cars blog demo
+*/
+.td-blog-cars .td-header-style-2 .sf-menu > li > a:hover,
+.td-blog-cars .td-header-style-2 .sf-menu > .sfHover > a,
+.td-blog-cars .td-header-style-2 .sf-menu > .current-menu-item > a,
+.td-blog-cars .td-header-style-2 .sf-menu > .current-menu-ancestor > a,
+.td-blog-cars .td-header-style-2 .sf-menu > .current-category-ancestor > a {
+  color: #f77b33;
+}
+.td-blog-cars .td-header-style-2 .sf-menu .td-icon-menu-down {
+  margin-top: -4px;
+}
+.td-blog-cars .td-header-style-2 .sf-menu > li > a:after,
+.td-blog-cars .td-header-style-2 .td-header-gradient:before {
+  display: none;
+}
+@media (min-width: 1141px) {
+  .td-blog-cars .td-header-style-2 .td-header-sp-logo {
+    margin: 38px 48px 0 8px;
+    height: 111px;
+  }
+  .td-blog-cars .td-header-style-2 .td-header-sp-logo img {
+    max-height: 111px;
+  }
+  .td-blog-cars .td-header-style-2 .td-header-sp-recs {
+    margin: 48px 0 0 0;
+  }
+}
+.td-blog-cars .td-header-style-2 .td-header-sp-recs {
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td-blog-cars .td-header-style-2 .td-header-sp-recs {
+    margin-top: 10px;
+  }
+}
+.td-blog-cars .td-main-page-wrap {
+  padding-top: 40px;
+  /* responsive landscape tablet */
+  /* responsive portrait tablet */
+  /* responsive portrait phone */
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-blog-cars .td-main-page-wrap {
+    padding-top: 26px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-blog-cars .td-main-page-wrap {
+    padding-top: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .td-blog-cars .td-main-page-wrap {
+    padding-top: 10px;
+  }
+}
+.td-blog-cars .wpb_revslider_element {
+  margin-bottom: 22px;
+}
+.td-blog-cars .td-trending-now-wrapper:hover .td-trending-now-title {
+  background-color: transparent;
+}
+.td-blog-cars .td-trending-now-title {
+  background-color: transparent;
+  color: #111;
+  font-size: 16px;
+  line-height: 18px;
+}
+.td-blog-cars .td-related-title > .td-related-left,
+.td-blog-cars .td-related-title > .td-related-right {
+  padding: 8px 12px;
+}
+.td-blog-cars .block-title {
+  border: none;
+  background-color: #f77b33;
+}
+.td-blog-cars .block-title span {
+  padding: 7px 12px;
+  height: 33px;
+  line-height: 18px;
+}
+.td-blog-cars .td-subcat-filter {
+  top: 2px;
+  right: 12px;
+}
+.td-blog-cars .td-subcat-filter .td-subcat-list a {
+  color: #fff;
+}
+.td-blog-cars .td-subcat-filter .td-subcat-list a:hover {
+  color: #111;
+  text-decoration: none;
+}
+.td-blog-cars .td-subcat-filter .td-subcat-dropdown span,
+.td-blog-cars .td-subcat-filter .td-subcat-dropdown i {
+  color: #fff;
+}
+.td-blog-cars .td-subcat-filter .td-subcat-dropdown:hover span,
+.td-blog-cars .td-subcat-filter .td-subcat-dropdown:hover i {
+  color: #111;
+}
+.td-blog-cars .td-subcat-filter .td-subcat-dropdown .td-subcat-more {
+  height: 32px !important;
+}
+.td-blog-cars .td-subcat-filter .td-subcat-dropdown ul {
+  top: 31px;
+}
+.td-blog-cars .td_module_19 .td-read-more a {
+  background-color: #f77b33;
+}
+.td-blog-cars .td-content-ad {
+  margin-bottom: 24px;
+}
+@media (max-width: 767px) {
+  .td-blog-cars .td-content-ad {
+    margin-bottom: 0;
+  }
+}
+.td-blog-cars .td-footer-wrapper .block-title {
+  background-color: transparent;
+}
+.td-blog-cars .td-footer-wrapper .block-title span {
+  height: auto;
+  padding: 0;
+}
+.td-blog-cars #td-theme-settings .td-skin-buy a {
+  background-color: #f77b33;
+}

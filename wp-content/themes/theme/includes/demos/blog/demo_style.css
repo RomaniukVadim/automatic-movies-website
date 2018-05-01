@@ -1,0 +1,39 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+.td-blog-demo .import_blog_quote {
+  margin-top: -40px;
+  margin-bottom: 48px !important;
+}
+.td-blog-demo .aboutme_content {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+@media (max-width: 767px) {
+  .td-blog-demo .aboutme_content .td-pb-span4 {
+    text-align: center;
+  }
+}
+.td-blog-demo .aboutme_image {
+  margin-bottom: 30px !important;
+}
+@media (max-width: 767px) {
+  .td-blog-demo .aboutme_image {
+    max-width: 400px;
+    display: inline-block;
+  }
+}
+.td-blog-demo .about-me .td-page-title {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .td-blog-demo .td_classic_blog_home {
+    margin-top: -32px;
+  }
+}
+.td-blog-demo #td-theme-settings .td-skin-buy a {
+  background-color: #CB9558;
+}

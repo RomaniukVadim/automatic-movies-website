@@ -1,0 +1,139 @@
+.td_top_authors  {
+  margin-bottom: 16px;
+
+  img {
+    position: absolute;
+    max-width: 70px;
+    left: 0;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      max-width: 55px;
+    }
+  }
+
+  .item-details {
+    margin-left: 85px;
+    position: relative;
+    height: 70px;
+    top: 1px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      height: 55px;
+      margin-left: 70px;
+    }
+
+    span {
+      font-family: @font1;
+      padding: 3px 7px;
+      color: #fff;
+      font-size: 9px;
+      font-style: normal;
+      font-weight: bold;
+      margin-right: 5px;
+    }
+  }
+
+  .td-active {
+    .td-author-post-count {
+      background-color: @td_theme_color;
+    }
+    .td-author-comments-count {
+      background-color: @td_theme_color;
+      opacity: 0.8;
+    }
+    .td-authors-name a {
+      color: @td_theme_color;
+    }
+  }
+
+  .td_mod_wrap {
+    min-height: 70px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border: 1px solid #fff;
+
+    &:hover {
+      border: 1px solid #ededed;
+
+      .td-author-post-count {
+        background-color: @td_theme_color;
+      }
+      .td-author-comments-count {
+        background-color: @td_theme_color;
+        opacity: 0.8;
+      }
+      .td-authors-name a {
+        color: @td_theme_color;
+      }
+    }
+  }
+
+  .block-title {
+    margin-bottom: 16px;
+  }
+
+  .td-authors-url {
+    display: table;
+    position: relative;
+    top: -2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #999;
+
+    a {
+      color: #999;
+      font-family: @font2;
+      font-size: 11px;
+      font-style: italic;
+    }
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      display: none;
+    }
+  }
+
+  .td-authors-name  a {
+    padding-bottom: 4px;
+    font-family: @font1;
+    font-size: 15px;
+    color: #222;
+    line-height: 18px;
+    font-weight: 600;
+    display: inline-block;
+
+    &:after {
+      content: "";
+      height: 96px;
+      position: absolute;
+      right: 0;
+      top: -15px;
+      width: 324px;
+
+      /* responsive landscape tablet */
+      @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+        width: 300px;
+      }
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        width: 228px;
+      }
+
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        width: 100%;
+      }
+    }
+  }
+
+  .td-author-post-count {
+    background-color: #222;
+  }
+  .td-author-comments-count {
+    background-color: #444;
+  }
+}

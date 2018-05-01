@@ -1,0 +1,309 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/* Cafe demo */
+.td-cafe {
+  /* Main Menu */
+  /* Home Page - Global Settings */
+  /* Menu Summary - Coffee - Pastry - Desserts */
+  /* Click Full Menu */
+  /* Product Pages */
+  /* Video Playlist */
+  /* Category Page incl. Sidebar */
+  /* Post Page */
+  /* Footer */
+}
+.td-cafe .td-header-style-10 .sf-menu > .current-menu-item > a:after,
+.td-cafe .td-header-style-10 .sf-menu > .current-menu-ancestor > a:after,
+.td-cafe .td-header-style-10 .sf-menu > .current-category-ancestor > a:after,
+.td-cafe .td-header-style-10 .sf-menu > li:hover > a:after,
+.td-cafe .td-header-style-10 .sf-menu > .sfHover > a:after {
+  background-color: transparent;
+}
+.td-cafe .td-header-style-10 .sf-menu > li > a {
+  padding: 0 20px;
+}
+.td-cafe .td-header-style-10 .td-header-sp-logo img {
+  width: 100%;
+}
+.td-cafe .td-header-style-10 .td-header-menu-wrap {
+  border-top: 1px solid #e3e3e3;
+}
+.td-cafe .td-header-style-10 .td_mega_menu_sub_cats {
+  background-color: #fff9f0;
+}
+.td-cafe .td-header-style-10 .td_mega_menu_sub_cats .block-mega-child-cats a {
+  color: #6d5348;
+}
+.td-cafe .td-post-category:hover {
+  background-color: #000;
+  opacity: 1;
+}
+.td-cafe .td-menu-summary .wpb_single_image {
+  position: relative;
+  margin: 5px;
+}
+.td-cafe .td-menu-summary .wpb_single_image .vc_single_image-wrapper {
+  display: block !important;
+}
+.td-cafe .td-menu-summary .wpb_single_image a {
+  display: block;
+}
+.td-cafe .td-menu-summary .wpb_single_image:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.td-cafe .td-menu-summary .wpb_single_image:hover:before {
+  opacity: 0.6;
+}
+.td-cafe .td-menu-summary .wpb_single_image:hover .wpb_heading:before {
+  opacity: 0;
+}
+@media (max-width: 767px) {
+  .td-cafe .td-menu-summary .wpb_single_image {
+    margin-bottom: 35px;
+  }
+  .td-cafe .td-menu-summary .wpb_single_image:hover:before {
+    display: none;
+  }
+}
+.td-cafe .td-menu-summary .wpb_heading {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  z-index: 1;
+  color: #fff;
+  background-color: transparent;
+  font-family: "Roboto Slab";
+  font-size: 26px;
+  padding: 9px 24px;
+  pointer-events: none;
+}
+.td-cafe .td-menu-summary .wpb_heading:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-cafe .td-menu-summary .wpb_heading {
+    font-size: 22px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-cafe .td-menu-summary .wpb_heading {
+    font-size: 20px;
+  }
+}
+.td-cafe .td-click-menu .wpb_single_image img {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-cafe .td-click-menu .wpb_single_image img {
+    max-width: 70%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-cafe .td-click-menu .wpb_single_image img {
+    max-width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .td-cafe .td-click-menu .wpb_single_image img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.td-cafe .td-menu-products {
+  margin-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .td-cafe .td-menu-products {
+    margin-bottom: 20px;
+  }
+}
+.td-cafe .td-menu-products .product-wrap {
+  position: relative;
+  margin-bottom: 35px;
+  margin-top: 5px;
+}
+.td-cafe .td-menu-products .product-wrap .product {
+  font-family: "Roboto Slab";
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.td-cafe .td-menu-products .product-wrap .price {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  font-size: 14px;
+}
+.td-cafe .td-menu-products .product-wrap .description {
+  font-size: 14px;
+}
+.td-cafe .td-menu-products .td-menu-images .wpb_single_image {
+  position: relative;
+}
+@media (max-width: 767px) {
+  .td-cafe .td-menu-products .td-menu-images .wpb_single_image {
+    margin-bottom: 35px;
+  }
+}
+.td-cafe .td-menu-products .td-menu-images .wpb_heading {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  z-index: 1;
+  color: #fff;
+  background-color: transparent;
+  font-family: "Roboto Slab";
+  font-size: 26px;
+  padding: 9px 24px;
+}
+.td-cafe .td-menu-products .td-menu-images .wpb_heading:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  z-index: -1;
+}
+.td-cafe .td-products-separator {
+  margin-bottom: 48px;
+}
+@media (max-width: 767px) {
+  .td-cafe .td-products-separator {
+    display: none;
+  }
+}
+.td-cafe .td-video-coffee {
+  margin-bottom: 10px;
+}
+.td-cafe .td-video-coffee .td_block_video_playlist .td_video_playlist_title {
+  background-color: #222;
+}
+.td-cafe .td-video-coffee .td_block_video_playlist .td_video_playlist_title .td_video_title_text {
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-weight: normal;
+}
+.td-cafe .entry-title,
+.td-cafe .entry-title a,
+.td-cafe .widget a {
+  color: #6d5348;
+}
+.td-cafe .td-category-header .td-pulldown-filter-display-option {
+  background-color: #6d5348;
+}
+.td-cafe .td-category-header .td-pulldown-filter-list {
+  background-color: #6d5348;
+}
+.td-cafe .td-category-header .td-pulldown-category-filter-link {
+  font-size: 12px;
+}
+.td-cafe .td-ss-main-sidebar .td-search-form-widget input[type=submit]:hover {
+  background-color: #222;
+}
+.td-cafe .td-post-header .td-category a:hover {
+  background-color: #222;
+}
+.td-cafe .td-module-meta-info .td-post-date,
+.td-cafe .td-module-meta-info .td-post-views {
+  color: #6d5348;
+}
+.td-cafe .td-module-meta-info .td-post-comments i {
+  color: #6d5348;
+}
+.td-cafe .td-post-share-title {
+  color: #6d5348;
+}
+.td-cafe .td-post-next-prev-content span {
+  font-size: 14px;
+}
+.td-cafe .td-post-next-prev-content a {
+  color: #6d5348;
+  font-family: "Roboto Slab";
+}
+.td-cafe .author-box-wrap .td-author-description,
+.td-cafe .author-box-wrap .td-author-name a,
+.td-cafe .author-box-wrap .td-author-social i {
+  color: #6d5348;
+}
+.td-cafe .td-related-title .td-related-left,
+.td-cafe .td-related-title .td-related-right {
+  color: #6d5348;
+}
+.td-cafe .td-related-title .td-cur-simple-item {
+  color: #fff;
+}
+.td-cafe .comment-respond #reply-title {
+  color: #6d5348;
+}
+.td-cafe .logged-in-as {
+  color: #6d5348;
+}
+.td-cafe .logged-in-as a {
+  color: #6d5348;
+}
+.td-cafe .comment-respond input[type=submit]:hover {
+  background-color: #222;
+}
+.td-cafe .td-footer-wrapper .entry-title,
+.td-cafe .td-footer-wrapper .entry-title a,
+.td-cafe .td-footer-wrapper .widget a {
+  color: #fff;
+}
+.td-cafe .td-footer-wrapper .td-post-date {
+  color: #c3c3c3;
+}
+.td-cafe #td-theme-settings .td-skin-buy a {
+  background-color: #BA772A;
+}
+.td-cafe .td-header-style-10 .sf-menu > li > a:hover,
+.td-cafe .td-header-style-10 .sf-menu > .sfHover > a,
+.td-cafe .td-header-style-10 .sf-menu > .current-menu-item > a,
+.td-cafe .td-header-style-10 .sf-menu > .current-menu-ancestor > a,
+.td-cafe .td-header-style-10 .sf-menu > .current-category-ancestor > a .td-cafe .td-module-meta-info .td-post-author-name a:hover,
+.td-cafe .td-module-meta-info .td-post-comments i:hover,
+.td-cafe .author-box-wrap .td-author-name a:hover,
+.td-cafe .author-box-wrap .td-author-social i:hover,
+.td-cafe .td-footer-wrapper .widget a:hover {
+  color: #eaa133;
+}
+.td-cafe .td-module-comments a,
+.td-cafe .td-post-category,
+.td-cafe .td-menu-summary .wpb_single_image:before,
+.td-cafe .td-menu-summary .wpb_heading:before,
+.td-cafe .td-menu-products .td-menu-images .wpb_heading:before,
+.td-cafe .td-ss-main-sidebar .td-search-form-widget input[type=submit],
+.td-cafe .comment-respond input[type=submit],
+.td-cafe .td-post-header .td-category a {
+  background-color: #eaa133;
+}
+.td-cafe .td-module-comments a:after {
+  border-color: #eaa133 transparent transparent transparent;
+}
+.ie9 .td-cafe .td-menu-summary .wpb_single_image::before {
+  display: none;
+}

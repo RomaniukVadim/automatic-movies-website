@@ -1,0 +1,7 @@
+Name: User Profile (Профиль пользователя);
+Version: 2.0.0;
+Support Core: 15.0.0;
+Description: Расширение настроек профиля пользователя для wp-recall;
+Author: Плечев Андрей;
+Author URI: http://codeseller.ru/;
+Add-on URI: http://codeseller.ru/products/profile-recall-upravlenie-profilem-polzovatelya-na-sajte-s-pomoshhyu-wp-recall/;

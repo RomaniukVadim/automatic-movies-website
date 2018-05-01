@@ -1,0 +1,7 @@
+Name: Public Wp-Recall (Публикация);
+Version: 3.0.0;
+Support Core: 15.0.0;
+Description: Дайте возможность посетителям вашего сайта публиковать свои записи с помощью плагина wp-recall;
+Author: Плечев Андрей;
+Author URI: http://codeseller.ru/;
+Add-on URI: http://codeseller.ru/products/public-recall-publikaciya-zapisej-na-sajte-s-pomoshhyu-wp-recall/;

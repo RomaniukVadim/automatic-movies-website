@@ -1,0 +1,3 @@
+[vc_row full_width="" parallax="" parallax_image="" el_class="td_classic_blog_home"][vc_column width="1/1"][td_block_big_grid_4 td_grid_style="td-grid-style-1" sort="featured"][vc_column_text  el_class="import_blog_quote"]
+<blockquote>"Sometimes the simplest things are the most profound. My job is to bring out in people &amp; what they wouldn't dare do themselves."</blockquote>
+[/vc_column_text][/vc_column][/vc_row]

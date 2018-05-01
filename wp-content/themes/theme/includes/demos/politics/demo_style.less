@@ -1,0 +1,129 @@
+@import "../../less_files/variables.less";
+
+/*
+Politics demo
+*/
+.td-politics {
+  .td-header-style-11 {
+
+    .sf-menu > li > a:hover,
+    .sf-menu > .sfHover > a,
+    .sf-menu > .current-menu-item > a,
+    .sf-menu > .current-menu-ancestor > a,
+    .sf-menu > .current-category-ancestor > a {
+      background-color: #354dab;
+      color: #fff;
+    }
+
+    .sf-menu > .current-menu-item > a:after,
+    .sf-menu > .current-menu-ancestor > a:after,
+    .sf-menu > .current-category-ancestor > a:after,
+    .sf-menu > li:hover > a:after,
+    .sf-menu > .sfHover > a:after {
+      background-color: transparent;
+    }
+
+    .sf-menu > li > a {
+      padding: 3px 30px 3px 30px;
+
+      @media (max-width: @responsive_l_tablet_max) {
+        padding: 3px 25px 3px 25px;
+      }
+    }
+
+    .td-logo-wrap-full {
+      border-bottom: none;
+      min-height: 200px;
+      line-height: 200px;
+    }
+
+    .td-logo-text {
+      font-size: 77px;
+
+      @media (max-width: @responsive_p_phone_max) {
+        font-size: 50px;
+      }
+    }
+
+    .td-tagline-text {
+      font-size: 20px;
+      font-family: "Arimo";
+      letter-spacing: 2.8px;
+
+      @media (max-width: @responsive_p_phone_max) {
+        font-size: 14px;
+        letter-spacing: 2.2px;
+      }
+    }
+  }
+
+  // Revolution Slider Row
+
+  .td-slider-row {
+    margin-top: -48px;
+    margin-bottom: 20px;
+  }
+
+  // News Ticker Row
+
+  .td-news-ticker {
+    margin-bottom: 20px;
+
+    .td-trending-now-wrapper {
+      padding-left: 24px;
+
+      @media (max-width: @responsive_p_phone_max) {
+        padding-left: 0;
+      }
+
+      &:hover {
+        .td-trending-now-title {
+          background-color: transparent;
+        }
+      }
+    }
+
+    .td-trending-now-title {
+      background-color: transparent;
+      color: #111;
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .td-next-prev-wrap {
+      right: 24px;
+    }
+  }
+
+  // Video Playlist Row
+
+  .td-video-playlist {
+    background-color: #222;
+
+    .td_block_video_playlist {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    .td_video_playlist_title {
+      background-color: #000;
+    }
+
+    .td_wrapper_video_playlist .td_container_video_playlist {
+      background-color: #000;
+    }
+  }
+
+  // Category Page
+
+  &.td_category_template_2 .td-category-header {
+    margin-bottom: 15px;
+  }
+
+  // demos button
+  #td-theme-settings .td-skin-buy a {
+    background-color: #354dab;
+  }
+}

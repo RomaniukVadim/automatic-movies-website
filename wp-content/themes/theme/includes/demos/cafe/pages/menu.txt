@@ -1,0 +1,151 @@
+[vc_row el_class="td-menu-products"][vc_column width="1/3" el_class="td-menu-images"][vc_single_image image="iii_coffee_iii" img_size="full" title="Coffee"][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="product-wrap">
+<h3 class="product">Espresso</h3>
+<p class="price">2.99$</p>
+<p class="description">Organic Arabian Coffee, Water</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Latte</h3>
+<p class="price">3.99$</p>
+<p class="description">Organic Arabian Coffee, Water, Milk</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Irish</h3>
+<p class="price">3.99$</p>
+<p class="description">Organic Arabian Coffee, Water, Rum</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Classic</h3>
+<p class="price">2.99$</p>
+<p class="description">Organic Arabian Coffee, Water</p>
+
+</div>
+[/vc_column_text][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="product-wrap">
+<h3 class="product">Cappuccino</h3>
+<p class="price">3.99$</p>
+<p class="description">Organic Arabian Coffee, Water, Vanilla</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Frappe</h3>
+<p class="price">5.99$</p>
+<p class="description">Organic Arabian Coffee, Milk, Ice Cream</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Macciatto</h3>
+<p class="price">4.99$</p>
+<p class="description">Organic Arabian Coffee, Chocolate, Milk</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Delice</h3>
+<p class="price">7.99$</p>
+<p class="description">Organic Arabian Coffee, Candy, Ice Cream</p>
+
+</div>
+[/vc_column_text][/vc_column][/vc_row][vc_row el_class="td-products-separator"][vc_column][vc_separator color="custom" border_width="2" accent_color="#eaa133"][/vc_column][/vc_row][vc_row el_class="td-menu-products"][vc_column width="1/3" el_class="td-menu-images"][vc_single_image image="iii_pastry_iii" img_size="full" title="Pastry"][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="product-wrap">
+<h3 class="product">Bagle</h3>
+<p class="price">2.99$</p>
+<p class="description">White Flour, Salt, Water</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Loaf</h3>
+<p class="price">3.99$</p>
+<p class="description">Four, Water, Salt, Honey</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Sandwich</h3>
+<p class="price">5.99$</p>
+<p class="description">Bread, Ham, Chese, Mustard</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Croissant</h3>
+<p class="price">4.99$</p>
+<p class="description">Flower, Sugar, Chocolate</p>
+
+</div>
+[/vc_column_text][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="product-wrap">
+<h3 class="product">Bruskette</h3>
+<p class="price">4.99$</p>
+<p class="description">Bread, Salt, Olive Oil</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Pizza</h3>
+<p class="price">8.99$</p>
+<p class="description">Doe, Mozzarella, Ham, Olives</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Chesetti</h3>
+<p class="price">3.99$</p>
+<p class="description">Bread, Chese, Ketchup</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Bread</h3>
+<p class="price">2.99$</p>
+<p class="description">Flower, Salt, Water</p>
+
+</div>
+[/vc_column_text][/vc_column][/vc_row][vc_row el_class="td-products-separator"][vc_column][vc_separator color="custom" border_width="2" accent_color="#eaa133"][/vc_column][/vc_row][vc_row el_class="td-menu-products"][vc_column width="1/3" el_class="td-menu-images"][vc_single_image image="iii_desserts_iii" img_size="full" title="Desserts"][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="product-wrap">
+<h3 class="product">Tiramisu</h3>
+<p class="price">5.99$</p>
+<p class="description">Rum, Sugar, Vanilla, Cocoa</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Cheesecake</h3>
+<p class="price">5.99$</p>
+<p class="description">Doe, Cheese, Sugar, Vanilla, Grapes</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Lava Cake</h3>
+<p class="price">5.99$</p>
+<p class="description">Cocoa, Chocolate, Mint, Cream</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Maccaroons</h3>
+<p class="price">4.99$</p>
+<p class="description">Doe, Sugar, Chocolate, Fruits</p>
+
+</div>
+[/vc_column_text][/vc_column][vc_column width="1/3"][vc_column_text]
+<div class="product-wrap">
+<h3 class="product">Fruit Cake</h3>
+<p class="price">7.99$</p>
+<p class="description">Flour, Sugar, Fruits, Cream</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Chocolate Cake</h3>
+<p class="price">7.99$</p>
+<p class="description">Flour, Sugar, Cocoa, Cream</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Cupcakes</h3>
+<p class="price">5.99$</p>
+<p class="description">Cream, Sugar, Fruits</p>
+
+</div>
+<div class="product-wrap">
+<h3 class="product">Icecream</h3>
+<p class="price">4.99$</p>
+<p class="description">Cream, Sugar, Chocolate, Flavours</p>
+
+</div>
+[/vc_column_text][/vc_column][/vc_row]

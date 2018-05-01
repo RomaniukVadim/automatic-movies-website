@@ -1,0 +1,109 @@
+
+/*  ----------------------------------------------------------------------------
+    container
+*/
+
+.td-container {
+  width: 1068px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*  ----------------------------------------------------------------------------
+    rows
+*/
+.td-pb-row {
+  .mx-row();
+
+  margin-right: -24px;
+  margin-left: -24px;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    all spans
+*/
+
+.td-pb-row [class*="td-pb-span"] {
+  .mx-span();
+
+  padding-right: 24px;
+  padding-left: 24px;
+  position: relative;
+
+}
+
+/*  ----------------------------------------------------------------------------
+    smart sidebar - fix
+*/
+.td-ss-main-sidebar,
+.td-ss-row .td-pb-span4 .wpb_wrapper
+{
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    main grid
+*/
+//.td-pb-span1  {  width: 93px;    }
+//.td-pb-span2  {  width: 186px;   }
+//.td-pb-span3  {  width: 279px;   }
+//.td-pb-span4  {  width: 372px;   } // td-1-col
+//.td-pb-span5  {  width: 455px;   }
+//.td-pb-span6  {  width: 558px;   }
+//.td-pb-span7  {  width: 651px;   }
+//.td-pb-span8  {  width: 744px;   } // td-2-col
+//.td-pb-span9  {  width: 837px;   }
+//.td-pb-span10 {  width: 930px;   }
+//.td-pb-span11 {  width: 1023px;  }
+//.td-pb-span12 {  width: 1116px;  } // td-3-col
+
+.td-pb-span1  {  width: 8.33333333%;   }
+.td-pb-span2  {  width: 16.66666667%;  }
+.td-pb-span3  {  width: 25%;           }
+.td-pb-span4  {  width: 33.33333333%;  } // td-1-col
+.td-pb-span5  {  width: 41.66666667%;  }
+.td-pb-span6  {  width: 50%;           }
+.td-pb-span7  {  width: 58.33333333%;  }
+.td-pb-span8  {  width: 66.66666667%;  } // td-2-col
+.td-pb-span9  {  width: 75%;           }
+.td-pb-span10 {  width: 83.33333333%;  }
+.td-pb-span11 {  width: 91.66666667%;  }
+.td-pb-span12 {  width: 100%;          } // td-3-col
+
+
+/*  ----------------------------------------------------------------------------
+    grid in grid
+*/
+.td-pb-row .td-pb-row {
+
+  .td-pb-span1  {  width: 8.33333333%;   }
+  .td-pb-span2  {  width: 16.66666667%;  }
+  .td-pb-span3  {  width: 25%;           }
+  .td-pb-span4  {  width: 33.33333333%;  } // td-1-col
+  .td-pb-span5  {  width: 41.66666667%;  }
+  .td-pb-span6  {  width: 50%;           }
+  .td-pb-span7  {  width: 58.33333333%;  }
+  .td-pb-span8  {  width: 66.66666667%;  } // td-2-col
+  .td-pb-span9  {  width: 75%;           }
+  .td-pb-span10 {  width: 83.33333333%;  }
+  .td-pb-span11 {  width: 91.66666667%;  }
+  .td-pb-span12 {  width: 100%;          } // td-3-col
+
+}
+
+/*  ----------------------------------------------------------------------------
+    hacks Visual Composer
+*/
+
+.wpb_row {
+  margin-bottom: 0;
+}
+
+// latest version 4.9
+.vc_row .vc_inner .vc_column-inner {
+  padding-left: 0;
+  padding-right: 0;
+}

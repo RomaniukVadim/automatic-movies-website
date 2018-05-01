@@ -1,0 +1,63 @@
+.td-panel-main-footer {
+  background-color: rgba(34, 34, 34, 0.3);
+
+  width: @td_container_total_width;
+
+
+  border-top: 2px solid #383838;
+
+  height: 61px;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+   save button
+*/
+
+
+.td-panel-save-button {
+  position: relative;
+  top:9px;
+  left: 969px;
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.10);
+  background: linear-gradient(bottom, rgba(255,255,255,0.0) -200%,@td_panel_color);
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,0.0) -200%,@td_panel_color);
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,0.0) -200%,@td_panel_color);
+  background-color: @td_panel_color;
+  color: #ffffff;
+  font-size:15px;
+  text-decoration: none;
+  padding: 5px 15px 6px 15px;
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.td-panel-save-button:hover {
+  background: linear-gradient(bottom, rgba(255,255,255,0.0) 100%,@td_panel_color);
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,0.0) 100%,@td_panel_color);
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,0.0) 100%,@td_panel_color);
+  background-color: @td_panel_color;
+  cursor: pointer;
+}
+
+/*  ----------------------------------------------------------------------------
+    floating save button
+*/
+.td-panel-footer-floating {
+  position: fixed;
+  left:1142px;
+  bottom: 25px;
+  top:auto;
+  z-index: 1;
+
+
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+
+}
+

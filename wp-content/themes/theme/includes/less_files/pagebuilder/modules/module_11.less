@@ -1,0 +1,195 @@
+/*  ----------------------------------------------------------------------------
+    Module 11
+*/
+.td_module_11 {
+  padding-bottom: 48px;
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    padding-bottom: 0;
+    border-bottom: 1px dashed #EAEAEA;
+    margin-bottom: 20px;
+
+    &:last-child {
+      border: 0;
+    }
+  }
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+      padding-bottom: 30px;
+  }
+
+  .td-module-thumb {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      width: 200px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      width: 100px;
+    }
+  }
+
+  .item-details {
+    margin-left: 350px;
+    min-height: 235px;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      margin-left: 220px;
+      min-height: 145px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      margin-left: 0;
+      min-height: 73px;
+      padding-left: 110px;
+    }
+  }
+
+  .entry-title {
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 11px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 500;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      font-size: 17px;
+      line-height: 23px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+  }
+
+  .td-post-author-name {
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+        display: none;
+    }
+  }
+
+  .td-excerpt {
+    margin-bottom: 15px;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+        display: none;
+    }
+  }
+
+  .td-read-more {
+    margin-bottom: 0;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      display: none;
+    }
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+        display: none;
+    }
+  }
+}
+
+
+// Module on 3 columns
+.td-pb-span12 .td_module_11 {
+  .entry-title {
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      font-size: 22px;
+      line-height: 28px;
+      font-weight: 400;
+    }
+  }
+}
+
+// Module on 2 columns
+.td-pb-span8 .td_module_11 {
+
+  /* responsive landscape tablet */
+  @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+    .td-module-thumb {
+      width: 300px;
+    }
+
+    .item-details {
+      margin-left: 324px;
+      min-height: 218px;
+    }
+  }
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    .td-module-thumb {
+      width: 192px;
+    }
+
+    .item-details {
+      margin-left: 210px;
+      min-height: 165px;
+    }
+
+    .td-post-author-name {
+      display: none;
+    }
+  }
+}
+
+
+
+// Module on 1 column
+.td-pb-span4 .td_module_11 {
+  .td-module-thumb {
+    position: relative;
+    margin-bottom: 8px;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      position: absolute;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      width: 100px;
+    }
+
+  }
+
+  .item-details {
+    margin-left: 0;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      margin-left: 220px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      margin-left: 0;
+      min-height: 73px;
+    }
+  }
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    .td-post-author-name {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+[vc_row][vc_column][vc_single_image image="iii_td_pic_about_iii" img_size="full"][vc_column_text]
+<p class="lede">Hello! My name is George, and I've been constantly traveling the world for the past 10 years. Adventure travel &amp; photography are my passions.</p>
+<p class="lede">This travel blog is where I share all sorts of stories, tips &amp; photos from my adventures around the world.</p>
+Why have I been traveling so much? Because I'm curious about our planet, I want to take risks, meet interesting people, challenge myself, explore the world, and learn more about myself in the process.
+
+I hope this blog inspires you to do the same![/vc_column_text][/vc_column][/vc_row]

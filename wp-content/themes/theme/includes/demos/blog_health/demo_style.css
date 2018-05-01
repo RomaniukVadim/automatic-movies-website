@@ -1,0 +1,99 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/*
+Health blog demo
+*/
+.td-blog-health {
+  /*
+header--------------------------------
+*/
+  /*
+body--------------------------------
+*/
+  /*
+Sidebar--------------------------------
+*/
+  /*
+Category--------------------------------
+*/
+}
+.td-blog-health .td-header-style-1 .sf-menu > li > a:hover,
+.td-blog-health .td-header-style-1 .sf-menu > .sfHover > a,
+.td-blog-health .td-header-style-1 .sf-menu > .current-menu-item > a,
+.td-blog-health .td-header-style-1 .sf-menu > .current-menu-ancestor > a,
+.td-blog-health .td-header-style-1 .sf-menu > .current-category-ancestor > a {
+  color: #d36ee5;
+}
+.td-blog-health .td-header-style-1 .sf-menu > li > a:after {
+  background-color: transparent;
+}
+.td-blog-health .td-header-style-1 .td-header-menu-wrap {
+  border-bottom-width: 2px;
+  border-bottom-style: solid ;
+  border-bottom-color: #d36ee5;
+}
+.td-blog-health .td-header-style-1 .td-header-gradient:before {
+  display: none;
+}
+.td-blog-health.td-boxed-layout #td-outer-wrap {
+  box-shadow: 0 0 15px #ddd;
+}
+.td-blog-health .td_block_big_grid_9.td-grid-style-4 .td-module-meta-info {
+  display: none;
+}
+.td-blog-health .td_block_trending_now .entry-title a {
+  font-family: 'Roboto', sans-serif;
+}
+.td-blog-health .td_block_trending_now .td-trending-now-title {
+  font-size: 12px;
+}
+.td-blog-health .td_module_17 .entry-title {
+  font-size: 26px;
+}
+.td-blog-health .td_module_17 .td-post-category {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  color: #fff;
+  bottom: 43px;
+  top: auto;
+}
+.td-blog-health .td_module_17 .td-module-meta-holder {
+  height: 43px;
+  padding: 12px 15px;
+  background-color: rgba(229, 94, 227, 0.7);
+}
+.td-blog-health .td_module_17 .td-post-author-name {
+  top: 4px;
+}
+.td-blog-health .td_module_17 .td-post-date {
+  color: #fff;
+  top: 4px;
+}
+.td-blog-health .td_module_17 .td-excerpt {
+  font-size: 14px;
+  line-height: 22px;
+}
+.td-blog-health .td-vlog-container .td_video_playlist_title {
+  background-color: #d36ee5;
+}
+.td-blog-health .td-sidebar-about {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.td-blog-health .td-sidebar-about p {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #111;
+  margin-top: 10px;
+}
+.td-blog-health .td-category-header .td-page-title {
+  text-transform: capitalize;
+  font-weight: normal;
+}
+.td-blog-health #td-theme-settings .td-skin-buy a {
+  background-color: #d36ee5;
+}

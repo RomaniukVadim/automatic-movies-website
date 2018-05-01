@@ -1,0 +1,333 @@
+/*  ----------------------------------------------------------------------------
+    less for gallery slider
+*/
+
+.post_td_gallery {
+  font-family: @font1;
+  color: #fff;
+  margin-bottom: 24px;
+  background-color: #222;
+  overflow: hidden;
+  clear: both;
+}
+
+.td-gallery-slide-top {
+  position: relative;
+  min-height: 44px;
+  background-color: #111;
+}
+
+.td-gallery-title {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  padding: 16px 20px 14px;
+  width: 80%;
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+      width: 65%;
+  }
+}
+
+/* controls wrapper */
+.td-gallery-controls-wrapper {
+  height: 33px;
+  margin: auto !important;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.td-gallery-slide-count {
+  display: inline-block;
+  margin-right: 7px;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 600;
+  position: relative;
+  top: -8px;
+}
+
+.td-gallery-slide-prev-next-but {
+  display: inline-block;
+  margin-right: 12px;
+  position: relative;
+
+  .td-icon-left,
+  .td-icon-right {
+    font-size: 30px;
+    padding: 1px 8px;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
+
+.td-gallery-slide-copywrite {
+  float: right;
+  padding: 4px 6px;
+  text-align: left;
+  font-style: italic;
+  line-height: 1;
+  font-size: 11px;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.td-button {
+  margin: 0 4.2px 0 4.3px;
+}
+
+.td-doubleSlider-1 {
+  width: auto;
+  height: 580px;
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    height: 420px;
+  }
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    height: 180px;
+  }
+
+
+  .td-slide-galery-figure {
+    width: 1068px;
+    height: 580px;
+    text-align: center;
+    position: relative;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      width: 980px;
+    }
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      width: 740px;
+      height: 420px;
+    }
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      width: 100%;
+      height: 180px;
+    }
+  }
+
+
+  .td-slide-item img{
+    max-width: none;
+    max-height: 100%;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      max-width: 100%;
+    }
+  }
+
+  .td-slide-item {
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      width: 100%;
+    }
+
+
+    .td-slide-galery-figure img {
+      margin: auto;
+      overflow: auto;
+      position: absolute;
+      left: -50%;
+      right: -50%;
+      top: -50%;
+      bottom: -50%;
+    }
+
+    .td-slide-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      text-align: left;
+
+      span {
+        font-family: @font1;
+        font-size: 12px;
+        color: #fff;
+        line-height: 18px;
+        width: 100%;
+        float: left;
+        padding: 5px 10px;
+        background-color: rgba(0, 0, 0, 0.6);
+      }
+
+      /* if caption or description text is present */
+      &.td-gallery-slide-content {
+        width: 100%;
+
+
+        /*span {
+          padding: 7px 6px 7px 17px;
+          display: inline-block;
+        }*/
+      }
+    }
+  }
+
+}
+
+.td-slide-on-2-columns {
+
+  .td-gallery-title {
+    width: 73%;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+        width: 65%;
+    }
+  }
+
+  .td-doubleSlider-1 {
+    height: 420px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      height: 320px;
+    }
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      height: 180px;
+    }
+
+    .td-slide-galery-figure {
+      width: 696px;
+      height: 420px;
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+        width: 640px;
+      }
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        width: 484px;
+        height: 320px;
+      }
+
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        width: 100%;
+        height: 180px;
+      }
+    }
+  }
+
+  .td-button {
+    margin: 0 5px;
+  }
+}
+
+
+//end td-doubleSlider-1
+.td-doubleSlider-2 {
+  padding: 20px 0 10px 0;
+  height: 80px !important;
+  width: 100%;
+  background-color: #111;
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    display: none;
+  }
+
+
+  .td-slider {
+    width: 100%;
+    height: 100%;
+    overflow-wrap: normal;
+  }
+
+  .td-button {
+    //position: relative;
+    top: -10px;
+    display: inline-block;
+    //width: 80px !important;
+    //height: 60px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+
+
+  .td-button {
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      top:-9px !important;
+    }
+
+    .td-border {
+      //border: 3px solid #fff;
+      //opacity: 0.5;
+      height: 60px;
+      width: 80px;
+
+      /* responsive landscape tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        height: 58px;
+        width: 56px;
+      }
+
+    }
+  }
+
+
+
+
+  /* if there are not sufficient sliders to fill the td-doubleSlider-2, then move -how many sliders do we have- in the center of td-doubleSlider-2 */
+  &.td_center_slide2{
+    text-align: center;
+    padding: 25px 0 10px 0;
+
+    .td-slider {
+      display: inline-block;
+    }
+
+    .td-button {
+      position: relative;
+      top: -15px;
+      margin: 0 2px 0 3px;
+    }
+  }
+
+}//end td-doubleSlider-2
+
+
+
+/*  ----------------------------------------------------------------------------
+    Fix gallery on td_module_15 in homepage loop - on 3 columns
+*/
+
+.td-pb-span12 .td-slide-on-2-columns {
+  .td-slide-galery-figure {
+    width: 1068px;
+  }
+}
+
+/*  ----------------------------------------------------------------------------
+    Fix gallery on post with VC in text widget
+*/
+.single .td-pb-span12 .wpb_text_column .td-slide-on-2-columns .td-slide-galery-figure {
+  width: 100%;
+}

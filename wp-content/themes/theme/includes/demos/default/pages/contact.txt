@@ -1,0 +1,17 @@
+[vc_row][vc_column width="2/3"][vc_column_text]You are a part of the Rebel Alliance and a traitor so what do you think of her Han. But with the blast shield down even see! How am I supposed to fight need your help Luke. She needs your help getting too old for this sort of thing.
+
+Act so surprised your highness. You mercy mission this time several transmissions were beamed to this ship by Rebel spies.
+<ul>
+	<li>You mean it controls your actions?</li>
+	<li>But with the blast shield down can even see! How am I supposed to fight?</li>
+	<li>I get involved got work to do not that I like the Empire</li>
+	<li>But nothing can do about it right now such a long way from here.</li>
+</ul>
+[/vc_column_text][vc_row_inner][vc_column_inner width="1/2"][td_block_text_with_title custom_title="Contact Details"]<strong>Newspaper Comunication Service</strong>
+123 California St. Doargo
+
+(650) 123-2558 (main number)
+(650) 123-0247 (fax)
+
+Email: <strong><a href="mailto:contact@yoursite.com" target="_blank">contact@yoursite.com</a></strong>[/td_block_text_with_title][/vc_column_inner][vc_column_inner width="1/2"][td_block_text_with_title custom_title="About us"]<strong>Newspaper</strong> is your news entertainment music fashion website. We provide you with the latest breaking news
+and videos straight from entertainment industry world.[/td_block_text_with_title][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/1"][vc_raw_html]JTNDaDQlMjBjbGFzcyUzRCUyMmJsb2NrLXRpdGxlJTIyJTNFJTNDc3BhbiUzRVNlbmQlMjB1cyUyMGElMjBtZXNzYWdlJTIxJTNDJTJGc3BhbiUzRSUzQyUyRmg0JTNF[/vc_raw_html][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner el_class="" width="1/1"][vc_column_text]Install Contact Form 7 Plugin and replace this text block with your contact form[/vc_column_text][/vc_column_inner][/vc_row_inner][/vc_column][vc_column width="1/3"][td_block_2 limit="3" custom_title="LATEST POSTS" td_filter_default_txt="All"][td_block_ad_box spot_id="sidebar" spot_title="- Advertisement -"][/vc_column][/vc_row]

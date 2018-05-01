@@ -1,0 +1,34 @@
+// the to top is hidden
+.td-scroll-up {
+  cursor: pointer;
+  position: fixed;
+  bottom: 4px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  background-color: @td_theme_color;
+  z-index: 9999;
+  .transform(translate3d(0, 70px, 0));
+  .transition(transform 0.4s cubic-bezier(.55,0,.1,1) 0s);
+
+  .td-icon-menu-up {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    text-align: center ;
+    width: 40px;
+    top: 7px;
+  }
+
+  /* responsive phone */
+  @media (max-width: 767px) {
+    display:none;
+  }
+}
+
+
+// the to top is visible
+.td-scroll-up-visible {
+  .transform(translate3d(0, 0, 0));
+}

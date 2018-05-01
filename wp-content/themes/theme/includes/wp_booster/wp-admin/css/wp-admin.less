@@ -1,0 +1,207 @@
+@font_open_sans:'Open Sans', arial, sans-serif;
+@font_ubuntu:'Ubuntu', sans-serif;
+
+
+
+@import "tooltip.less";
+
+//load the panel files
+@import "panel/theme-panel-general.less";
+@import "panel/header.less";
+@import "panel/navigation.less";
+@import "panel/content.less";
+@import "panel/controls.less";
+@import "panel/footer.less";
+@import "panel/box.less";
+@import "panel/page-builder.less";
+@import "panel/help-text.less";
+
+
+@import "panel/import_demo.less";
+@import "panel/color_picker.less";
+
+
+@import "wp_panels/general.less";
+@import "wp_panels/demos.less";
+@import "wp_panels/plugins.less";
+@import "wp_panels/welcome.less";
+@import "wp_panels/system_status.less";
+
+//page options
+@import "page_options/td-metabox.less";
+@import "page_options/td-tabs.less";
+@import "page_options/td-metabox-controls.less";
+
+
+//remove outlines in panel
+.td-container-wrap {
+  a {
+    outline: 0;
+  }
+  direction: ltr !important;
+}
+
+
+
+//hide visual composer
+.vc-license-activation-notice {
+  display: none;
+}
+#vc_properties-panel {
+  .wp-color-result {
+    margin-bottom: 0px;
+  }
+
+  .vc_description {
+    margin-top: 4px;
+  }
+
+
+}
+
+
+/*  ----------------------------------------------------------------------------
+    tinymce
+*/
+
+.mce-td_tinymce_shortcode_dropdown button {
+  padding-right: 25px !important;
+}
+
+.mce-td_tinymce_dropdown_title {
+  background-color: #4db2ec !important;
+  span{
+    font-weight: bold;
+
+    color:white !important;
+  }
+}
+.mce-menu-sub .mce-menu-item .mce-text {
+  font-size: 14px !important;
+  text-transform: none !important;
+}
+
+
+
+
+
+/*  ----------------------------------------------------------------------------
+    MIXING functions
+*/
+
+.td-panel-remove-transitions {
+  -webkit-transition-property: initial;
+  -moz-transition-property: initial;
+  transition-property: initial;
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  transition-duration: 0s;
+  -webkit-transition-timing-function: initial;
+  -moz-transition-timing-function: initial;
+  transition-timing-function: initial;
+}
+
+
+// Transitions
+.transition(@transition) {
+  -webkit-transition: @transition;
+  -moz-transition: @transition;
+  -o-transition: @transition;
+  transition: @transition;
+}
+
+// Transform
+.transform(@string){
+  transform: @string;
+  -webkit-transform: @string;
+  -moz-transform: 	 @string;
+  -ms-transform: 		 @string;
+  -o-transform: 		 @string;
+}
+
+// remove links outline
+.td-visual-selector-o a {
+    outline: 0;
+}
+
+// firefox remove box-shadow on focus
+a:focus {
+  box-shadow: none;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    wordpress wp admin panel style
+*/
+.td-wpa-info {
+  font-size:12px;
+  color:#878787;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  display: block;
+  strong {
+    color:black;
+    font-weight: bold;
+    color:#4db2ec;
+  }
+
+  ul {
+    margin-top: 8px;
+    list-style-type: circle;
+    padding-left: 17px;
+  }
+
+  li {
+    margin-bottom: 3px;
+  }
+}
+
+.widget-inside .td-wpa-info {
+  padding-top: 0px !important;
+  margin-top: -10px !important;
+}
+
+
+.td-theme-panel-body #wpbody-content {
+  //min-height: 1000px;
+}
+
+
+
+/*  ----------------------------------------------------------------------------
+    tgma plugin sh t
+*/
+.td-tgma-tip {
+  color:#4db2ec;
+}
+
+
+#tgmpa-plugins {
+  .install,
+  .activate
+  {
+    visibility: visible;
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    top level icon - panel mod
+*/
+
+.wp-not-current-submenu#toplevel_page_td_theme_panel{
+  .wp-menu-image {
+    &::before {
+      color:#4c96c3 !important;
+    }
+  }
+
+  .wp-menu-name {
+    color:#4c96c3 !important;
+  }
+}
+
+.td-tip-vc-columns {
+  max-width: 100% !important;
+}

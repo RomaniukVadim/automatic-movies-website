@@ -1,0 +1,215 @@
+/* responsive landscape tablet */
+@media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+  /*  ----------------------------------------------------------------------------
+        container
+   */
+  .td-container {
+    width: 980px;
+  }
+
+  /*  ----------------------------------------------------------------------------
+    rows
+  */
+  .td-pb-row {
+    .mx-row();
+
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+
+
+  /*  ----------------------------------------------------------------------------
+      all spans
+  */
+
+  .td-pb-row [class*="td-pb-span"] {
+    .mx-span();
+
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  /*  ----------------------------------------------------------------------------
+    main grid
+  */
+//  .td-pb-span1  {  width: 85px;    }
+//  .td-pb-span2  {  width: 170px;   }
+//  .td-pb-span3  {  width: 255px;   }
+//  .td-pb-span4  {  width: 340px;   } // td-1-col
+//  .td-pb-span5  {  width: 425px;   }
+//  .td-pb-span6  {  width: 510px;   }
+//  .td-pb-span7  {  width: 595px;   }
+//  .td-pb-span8  {  width: 680px;   } // td-2-col
+//  .td-pb-span9  {  width: 765px;   }
+//  .td-pb-span10 {  width: 850px;   }
+//  .td-pb-span11 {  width: 935px;   }
+//  .td-pb-span12 {  width: 1020px;  } // td-3-col
+
+
+  /*  ----------------------------------------------------------------------------
+       blocks grid
+  */
+  /* block row + global block spans */
+  .td-block-row {
+    .mx-row-and-span(td-block-span);
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+
+
+
+
+
+
+/* responsive portrait tablet */
+@media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+
+
+  /*  ----------------------------------------------------------------------------
+      container
+  */
+  .td-container {
+    width: 740px;
+  }
+
+  /*  ----------------------------------------------------------------------------
+    rows
+  */
+  .td-pb-row {
+    .mx-row();
+
+    margin-right: -14px;
+    margin-left: -14px;
+  }
+
+
+  /*  ----------------------------------------------------------------------------
+    all spans
+  */
+  .td-pb-row [class*="td-pb-span"] {
+    .mx-span();
+
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+
+
+  /*  ----------------------------------------------------------------------------
+    main grid
+  */
+
+//  .td-pb-span1  {  width: 64px;   }
+//  .td-pb-span2  {  width: 128px;  }
+//  .td-pb-span3  {  width: 192px;  }
+//  .td-pb-span4  {  width: 256px;  } // td-1-col
+//  .td-pb-span5  {  width: 320px;  }
+//  .td-pb-span6  {  width: 384px;  }
+//  .td-pb-span7  {  width: 448px;  }
+//  .td-pb-span8  {  width: 512px;  } // td-2-col
+//  .td-pb-span9  {  width: 576px;  }
+//  .td-pb-span10 {  width: 640px;  }
+//  .td-pb-span11 {  width: 704px;  }
+//  .td-pb-span12 {  width: 768px;  } // td-3-col
+
+
+
+  /*  ----------------------------------------------------------------------------
+       blocks grid
+  */
+  /* block row + global block spans */
+  .td-block-row {
+    .mx-row-and-span(td-block-span);
+    margin-left: -14px;
+    margin-right: -14px;
+  }
+}
+
+
+
+
+
+
+/* responsive portrait phone */
+@media (max-width: @responsive_p_phone_max) {
+
+  /* container */
+  .td-container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .td-pb-row {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /*  ----------------------------------------------------------------------------
+    all spans
+  */
+  .td-pb-row [class*="td-pb-span"] {
+    .mx-span();
+
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  //disable the span floats
+  .td-pb-row {
+    .td-pb-span1,
+    .td-pb-span2,
+    .td-pb-span3,
+    .td-pb-span4,
+    .td-pb-span5,
+    .td-pb-span6,
+    .td-pb-span7,
+    .td-pb-span8,
+    .td-pb-span9,
+    .td-pb-span10,
+    .td-pb-span11,
+    .td-pb-span12 {
+      float: none;
+      width: 100%;
+    }
+
+    .td-pb-row {
+      padding-right: 0;
+      padding-left: 0;
+
+      .td-pb-span1,
+      .td-pb-span2,
+      .td-pb-span3,
+      .td-pb-span4,
+      .td-pb-span5,
+      .td-pb-span6,
+      .td-pb-span7,
+      .td-pb-span8,
+      .td-pb-span9,
+      .td-pb-span10,
+      .td-pb-span11,
+      .td-pb-span12 {
+        width: 100%;
+      }
+    }
+  }
+
+  /*  ----------------------------------------------------------------------------
+       blocks grid
+  */
+  /* block row + global block spans */
+  .td-block-row {
+    .mx-row-and-span(td-block-span);
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  //disable the span floats in blocks
+  .td-block-span4,
+  .td-block-span6,
+  .td-block-span12 {
+    float: none;
+    width: 100%;
+  }
+}

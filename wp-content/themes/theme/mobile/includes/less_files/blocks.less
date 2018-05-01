@@ -1,0 +1,82 @@
+/*  ----------------------------------------------------------------------------
+    Blocks general
+*/
+.block-title {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 0;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+
+
+
+/*  ----------------------------------------------------------------------------
+    Big grid 1
+*/
+.td_block_big_grid_mob_1 {
+  position: relative;
+  top: -1px; // prevent flicker on IOS devices - is lined with menu
+}
+
+
+/*
+    Ads
+*/
+
+.td-adspot-title {
+  color: #bbb;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+}
+
+.td-a-rec {
+  margin: 30px auto 30px;
+  text-align: center;
+}
+
+// header ad
+.td-a-rec-id-header_mob {
+  margin-top: 25px;
+}
+
+// smart list
+.td-a-rec-id-smart_list_mob {
+  margin: 20px auto 15px;
+}
+
+// post ads
+.td-post-content {
+  .td-a-rec {
+    margin: 20px auto 15px;
+  }
+}
+
+// fix top ad on paged
+.paged.page {
+  .td-a-rec-id-header_mob {
+    margin-bottom: -10px;
+  }
+}
+// on category
+.category {
+  .td-a-rec-id-header_mob {
+    margin-bottom: 0;
+  }
+}
+// on post
+.single {
+  .td-a-rec-id-header_mob {
+    margin-bottom: 15px;
+  }
+}
+
+// author
+.author {
+  .td-a-rec-id-header_mob {
+    margin-bottom: 15px;
+  }
+}

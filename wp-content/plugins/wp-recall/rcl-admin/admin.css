@@ -1,0 +1,394 @@
+#recall{
+    position: relative;
+}
+#rcl-notice{
+	position: fixed;
+    top: 70px;
+	right: 30px;
+    width: 210px;
+	z-index: 999999;
+}
+#rcl-notice .notice-window {
+    line-height: 1;
+    font-size: 14px;
+	margin: 5px 0;
+	padding: 8px 2px 8px 10px;
+	word-wrap: break-word;
+}
+#rcl-notice .type-error{
+	background: rgb(255, 207, 207);
+    color: red;
+	border-left: 3px solid red;
+}
+#rcl-notice .type-warning{
+	background: #fff5ce;
+    color: #333;
+	border-left: 3px solid #333;
+}
+#rcl-notice .type-success{
+	background: #bfffbd;
+    color: #008000;
+	border-left: 3px solid #008000;
+}
+#rcl-notice .notice-window .close-notice{
+    float:right;
+	color:inherit;
+	padding: 0 5px 0 4px;
+}
+body .rcl_preloader{
+    position: absolute!important;
+    height: 100%!important;
+    width: 100%!important;
+    background: rgba(255,255,255,0.5)!important;
+    top: 0!important;
+    left: 0!important;
+    display: block!important;
+    z-index: 99;   
+}
+.rcl_preloader i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -40px 0 0 -40px;
+}
+.rcl_preloader i:before{
+    font: 400 120px/1 dashicons;
+    content:"\f463";
+    -webkit-animation:rotation 2s infinite linear;
+    animation:rotation 2s infinite linear;
+}
+#recall .title-option {
+    border: 1px solid #AAAAAA;
+    box-shadow: 0 0 50px #CCCCCC inset;
+    cursor: pointer;
+    margin: 5px 0 0;
+    padding: 5px 8px;
+    width: 600px;
+    display:block;
+}
+#recall.left-sidebar form{
+    height:870px;
+}
+#recall.left-sidebar .title-option{
+    width: 220px;
+    font-size: 16px;
+}
+#recall.left-sidebar .active{
+    background: #2ea2cc;
+    color: #fff;
+    font-weight: bold;
+    box-shadow:none;
+}
+.wrap-recall-options {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 50px #F0F0F0 inset;
+    display: none;
+    margin: 0 0 5px;
+    padding: 15px;
+    /* width: 600px; */   
+}
+.left-sidebar .wrap-recall-options{
+    position: absolute;
+    left: 250px;
+    top: 0;
+    max-height: 800px;
+    overflow-y: scroll;
+}
+.wrap-recall-options .option-block {
+    background: #eee none repeat scroll 0 0;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+    margin: 8px 0;
+    padding: 5px 15px;
+    width: 500px;
+    /* float: left; */
+}
+.wrap-recall-options .option-block h3 {
+    text-transform: uppercase;
+	
+    margin: 10px 0;
+}
+.wrap-recall-options .option-block label {
+    display: block;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.wrap-recall-options .option-block small {
+    display: block;
+}
+.wrap-recall-options .option-block select, 
+.wrap-recall-options .option-block input[type="text"],
+.wrap-recall-options .option-block input[type="number"]{
+    height: 28px;
+    padding: 5px;
+    width: 300px;
+    height: 30px;
+}
+.wrap-recall-options .option-block input[type="number"]{
+    width: 100px;
+}
+.wrap-recall-options .option-block textarea{
+	height:60px;
+	width: 500px;
+}
+.wrap-recall-options p {
+    overflow: hidden;
+}
+.wrap-recall-options .adm_warn {
+    color: #d32723;
+}
+.wrap-recall-options .adm_succ {
+    color: #52ae02;
+}
+.wrap-recall-options .adm_b14 {
+    font: bold 14px Arial,Georgia,Verdana;
+}
+.wrap-recall-options .adm_b16 {
+    font: bold 16px Arial,Georgia,Verdana;
+}
+.wrap-recall-options .adm_b18 {
+    font: bold 18px Arial,Georgia,Verdana;
+}
+.shift-extend-options > label {
+    background: #f5c0c0;
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-size: 14px;
+    padding: 8px 8px 7px;
+    width: 220px;
+}
+.wrap-recall-options .extend-options.hidden-option{
+    display:none;
+}
+.child-select{
+	display:none;
+}
+.column-thumb .thumbnail{
+    box-shadow: inset 0 0 8px 2px rgba(0,0,0,.1);
+    width:70px;
+    height:70px;
+}
+.wrap .submit-block{
+    width: 600px;
+}
+.left-sidebar .submit-block{
+    width: 200px;
+    margin-top:50px;
+}
+#rcl-options-form .tabs-list-rcl{
+    
+}
+#rcl-options-form .tabs-list-rcl li{
+    border: solid 1px #ccc;
+    padding: 1px 10px;
+    background: #ddd;
+    cursor: move;
+    margin: 3px 5px;
+}
+span.ruble-symbol{
+    position: relative;
+	  font-weight: normal;
+	  font-family:Arial;
+}
+.ruble-symbol span{
+    position: absolute;
+    line-height: 1px;
+    top: 55%;
+    left: 0;
+}
+
+#rcl-custom-fields-editor{
+    width: 500px;
+}
+#rcl-custom-fields-editor input,
+#rcl-custom-fields-editor textarea,
+#rcl-custom-fields-editor select{
+    width: 100%; 
+    box-sizing: border-box;
+}
+#rcl-custom-fields-editor input[type="checkbox"],
+#rcl-custom-fields-editor input[type="radio"]{
+    width: initial;
+}
+#rcl-custom-fields-editor #rcl-sortable-fileds{
+    
+}
+#rcl-custom-fields-editor .rcl-custom-field{
+    margin-bottom: 10px;
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-header{
+    padding: 10px;
+    background: #E4E4E4;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.ui-sortable .rcl-custom-field .field-header{
+    cursor:move;
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-header .field-title{
+    font-weight: bold;
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-header .field-controls{
+    font-family: dashicons;
+    float: right;
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-header .field-control{
+    font-size: 25px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-header .field-type{
+    margin: 0 20px;
+    font-family: arial;
+    display: inline-block;
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-header .field-delete:before{
+    color: rgba(229, 57, 53, 0.7);
+    content: "\f158";
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-header .field-edit:before{
+    content: "\f140";
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-settings{
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #F9F9F9;
+    display: none;
+}
+#rcl-custom-fields-editor .rcl-custom-field.new-field .field-settings{
+    display: block;
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-options-box{
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-options-box .field-label{
+    font-weight:bold;
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-options-box .field-option{
+    margin: 5px 0;
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-options-box .field-option .field-notice{
+    
+}
+#rcl-custom-fields-editor .rcl-custom-field .field-options-box .field-option select{
+    width: 70px;
+}
+#rcl-custom-fields-editor .rcl-custom-field .half-width{
+    width: 47%;
+    display: inline-block;
+    float: left;
+    margin: 0 5px;
+}
+#rcl-custom-fields-editor .add-new-field{
+    margin: 15px 0;
+    overflow: hidden;
+}
+#rcl-custom-fields-editor .fields-submit{
+    
+}
+#rcl-custom-fields-editor .fields-submit input[type="submit"]{
+    
+}
+
+#rcl-custom-fields-editor .ui-sortable-placeholder{
+    border:2px dashed #ccc;
+    height:45px;
+    width:100%;
+    box-sizing:border-box;
+    background:#fff;
+}
+#rcl-sortable-fileds .new-field .field-header .field-control{
+    float: right;
+    margin-top: 20px;
+}
+#rcl-sortable-fileds .new-field .field-header .field-type{
+    float: left;
+    margin: 0;
+    width: 190px;
+}
+
+#rcl-options-form .submit-block > p {
+    margin: 0;
+    width: 236px;
+}
+
+#rcl-options-form .button-large.right {
+    float: right;
+    font-size: 15px;
+    padding: 0 14px;
+    width: 236px;
+}
+
+#rcl-options-form .extend-options {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-left: 2px solid #f8d3d3;
+    margin: 5px 0;
+    padding: 5px 8px;
+}
+#rcl-options-form .help-option{
+    display: inline-block;
+}
+#rcl-options-form .help-option .dashicons{
+    color: #2ea2cc;
+    cursor: pointer;
+    font-size: 18px;
+}
+#rcl-options-form .help-option .help-content{
+    display: none;
+}
+#rcl-options-form .rcl-area{
+    padding: 10px;
+    background: #fff;
+    margin: 20px 0;
+}
+.rcl-help-dialog .help-content{
+    display:block;
+}
+.rcl-help-dialog .ui-dialog-titlebar {
+    font-size:14px;
+}
+.wp-list-table .addon_screen img{
+    width:200px;
+}
+
+/* navigation Start */
+.rcl-navi,
+.rcl-pager{
+    box-shadow: 0 0 1px 1px rgba(219, 219, 219, 0.8);
+    box-sizing: border-box;
+    clear: both;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 10px 0;
+    padding: 6px 5px;
+    width: 100%;
+    text-align: right;
+}
+.rcl-navi a,
+.rcl-navi span,
+.rcl-pager .pager-item span,
+.rcl-pager .pager-item a{
+    display:inline-block;
+    margin: 0 4px;
+    padding: 2px 9px;
+}
+.rcl-navi span{
+    box-shadow: 0 0 1px 1px rgba(219, 219, 219, 0.4);
+}
+.rcl-navi a:link,
+.rcl-pager .pager-item a:link{										/*++hueman++ добавил :link для перевеса*/
+    background: #e4e4e4;
+    border: none;										/*++Twenty15++*/
+    box-shadow: 0 0 1px 1px rgba(219, 219, 219, 0.8);
+    text-decoration: none;
+}
+.rcl-navi a:hover,
+.rcl-pager .pager-item a:hover {
+    box-shadow: 0 0 1px 2px rgb(219, 219, 219);
+}
+/* navigation End */

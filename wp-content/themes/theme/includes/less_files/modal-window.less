@@ -1,0 +1,267 @@
+/*  ----------------------------------------------------------------------------
+  Login window
+*/
+
+@color_gray: #bababa;
+
+
+.white-popup-block {
+  background: none repeat scroll 0 0 white;
+  margin: 0 auto;
+  max-width: 350px;
+  //padding: 1px;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+}
+
+
+.td_sp_login_ico_style {
+  position: absolute;
+  top: 3px;
+  right: -9px;
+  /*left: 39px;*/
+}
+
+.td_sp_logout_ico_style {
+  position: relative;
+  top: 3px;
+  left: 17px;
+}
+
+/* wrapper */
+.mfp-content .td-login-wrap {
+  padding: 14px 21px 17px 21px;
+
+
+  .td-login-input {
+    background-color: #FCFCFC !important;
+    height: 40px;
+    padding: 3px 14px 3px 14px;
+    border: 1px solid #ededed !important;
+    box-shadow: none !important;
+    outline: medium none;
+    color: #555;
+    width: 308px;
+    margin-bottom: 21px;
+    font-size: 12px;
+
+    &:invalid {
+      font-style: italic;
+    }
+
+    &:invalid:focus {
+      color:#555;
+    }
+  }
+
+
+  .td-login-button {
+    float: right;
+    margin: 0;
+  }
+
+  .td-login-info-text {
+    display: inline-block;
+    margin-top: 23px;
+    font-size: 12px;
+    font-style: italic;
+    position: relative;
+    top: -14px;
+    a {
+      color:#3d3d3d;
+
+      &:hover {
+        color: @td_theme_color;
+      }
+    }
+  }
+
+
+  .btn {
+    padding: 5px 12px 6px;
+    background-color: @td_theme_color;
+    color: #fff;
+    border: 0;
+    text-shadow: none;
+    margin-top: 4px;
+    border-radius: 0;
+  }
+}
+
+.mfp-content #login-form {
+  .mfp-close {
+    top: -2px;
+  }
+}
+
+
+/* login tabs */
+.mfp-content .td-login-tabs {
+  margin: 0;
+  list-style-type: none;
+  background-position: bottom;
+  background-color: @color_gray;
+  li {
+
+    position: relative;
+    //left: -40px;
+    text-align: center;
+    display: inline-block;
+    line-height: 20px;
+    a {
+      display: block;
+      font-size:20px;
+      font-family: @font3;
+      color:white;
+      cursor: pointer;
+      padding: 10px 21px 10px 21px;
+      position: relative;
+
+      &:hover {
+        text-decoration: none !important;
+      }
+    }
+  }
+}
+
+
+.mfp-content #register-link.td_login_tab_focus:before {
+  position: absolute;
+  right: 100%;
+  bottom: 0;
+  width: 91px;
+  height: 43px;
+  display: block;
+  content: '';
+  background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAAArCAMAAAAgygRqAAAAkFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9Qh/bAAAAMHRSTlMAAAECAwUGBwQICw4JDQwKDxgREBMXEhUWFBokHR8cGyIgIRkjHiUnKSYrLC8oLjLSemXYAAABR0lEQVR4XrXUR3aDQBBFUQQNIgkBTRA5Kzntf3cuKI4kjgce2P/N6476t/L/7ThVBdoaxGZaAG0dZwsDZ5sWzNZ0F2jbKFvVDA9mi/0BZ1sOzDYtH2e7EmVr+jGE2Yad4Gwvgtj8BDOgnaJs03JOMNv1Y5wtA4jNz3uA2XaSQ2yeTgOyBU2nhtg8nRJnpxPKpulUINu0/LiD2DzLHmbLoAXYPEs5jDA7zAuIzZM/Q2yePMymyd8wtiC7vCg7QPyd/MFWX9K2CZ2mU11/tX/eC85c0jmD23PW0Yny9r61t8zTeNzzKeVSR8qe86jDnLPkyzANpuJNeVCrsyovBgt8Pl/6vpQypJIkiaIoy7I0TU9UTAVzeV12xfVdEeZKLdDKPJGFIIDvl9thyPOmaeq6LMtpqqqq6/q+b9t2HMeCOp9vl4/r/fPrG0FLHMIvAtI9AAAAAElFTkSuQmCC') no-repeat;
+  pointer-events: none;
+}
+
+
+.mfp-content .td_login_tab_focus {
+  background-color: white;
+  color: @td_theme_color !important;
+
+  &:after {
+    position: absolute;
+    left: 100%;
+    bottom: 0;
+    width: 91px;
+    height: 43px;
+    display: block;
+    content: '';
+    background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAAArCAMAAAAgygRqAAAAkFBMVEX///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9Qh/bAAAAMHRSTlMAAAECAwUGBwQICwkODQwKDxgREBMXEhUWFBokHR8cGyIgIRkjHiUnKSYrLC8yLihWK/CyAAABTklEQVR4XrXVaW6DMBSFUYoNYUoC2IEwz5k67X93fbZRmqqVKlW93wLO/cMzlm0/maz/jwFtTjjKdoC2y3G27+Hs0GEwOwDaO5fZKHu74TA78nF27HswW4Q4O907DGVngQuz5Q5nF+ojBNk50D5GvoeyD3EIsxOBsyf1gYPsMgtgdkfHg7JbOh4Osmt9PBh7yXF2Q8eDsodD7Hsge6TDRNl9ImD2PAk6TIxdlSnMPtHRw2x19CD7SkePss812RxlmwcFkHVp6Hgczr5mP/R3+9aXMtr7G5Nrckyejpu+7/5qP1dLkqcijnRb1Y4KVHsqpHzqPn1f/TL505z1cqmGui0T1YE6UnmeF0UhpcyyLKWEEHGs1s2wWX3YXBfXvfuY9fp2u7yfr6dTRc3z3Pf9OI7D0DTNstR13bZd15XlNOntdVdKPfo5uQ7quXXM4x+ZsxzCpsfJUgAAAABJRU5ErkJggg==') no-repeat;
+    pointer-events: none;
+  }
+}
+
+/* the panel title */
+.mfp-content .td-login-panel-title {
+  border-bottom-style: solid;
+  border-width: 2px;
+  border-color: @td_theme_color;
+  color:#3d3d3d;
+  margin-bottom: 21px;
+  padding-bottom: 3px;
+  font-size: 12px;
+}
+
+/* error message */
+
+
+.mfp-content .td_display_err {
+  background-color: @td_theme_color;
+  font-style: italic;
+  color: #fff;
+  padding: 9px 10px;
+  display: none;
+  margin-bottom: 13px;
+  margin-top: 7px;
+}
+.mfp-content .td_display_msg_ok{
+  display: block;
+  font-size: 13px;
+  background-color: @td_theme_color;
+
+}
+
+
+.mfp-content #td-forgot-pass-div {
+  margin-bottom: 42px;
+}
+
+.top-header-menu .td_user_logd_in {
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+
+/**
+tagdiv animations
+-
+- mfp-with-anim - has to be on the wrapper
+*/
+
+.mpf-td-login-effect {
+
+  .mfp-content {
+
+  }
+
+  /* start state */
+  .mfp-with-anim {
+    opacity: 0;
+    //transition: all 0.3s ease-in-out;
+
+    -webkit-transition: all 400ms cubic-bezier(.55,0,.1,1);
+    -moz-transition: all 400ms cubic-bezier(.55,0,.1,1);
+    -o-transition: all 400ms cubic-bezier(.55,0,.1,1);
+    transition: all 400ms cubic-bezier(.55,0,.1,1); /* custom */
+
+
+    //.transform (~"perspective( 600px ) rotateX( 60deg ) scale(0.8)");
+    .transform (~"perspective( 600px ) scale(0.4)");
+
+
+  }
+
+  &.mfp-bg {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+
+  }
+
+  /* animate in */
+  &.mfp-ready {
+    .mfp-with-anim {
+      opacity: 1;
+      //.rotate3dX(0deg);
+      //.transform (~"perspective( 600px ) rotateX( 0deg ) scale(1)");
+      .transform (~"perspective( 600px ) scale(1)");
+
+
+    }
+    &.mfp-bg {
+      opacity: 0.8;
+    }
+  }
+
+  /* animate out */
+  &.mfp-removing {
+
+    .mfp-with-anim {
+      //.transform (~"perspective( 600px ) rotateX( 60deg ) scale(0.8)");
+      .transform (~"perspective( 600px ) scale(0.4)");
+      opacity: 0;
+    }
+    &.mfp-bg {
+      opacity: 0;
+    }
+
+  }
+
+}

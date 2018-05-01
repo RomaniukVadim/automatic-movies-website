@@ -1,0 +1,48 @@
+@import "../../less_files/variables.less";
+
+
+.td-blog-demo {
+
+  // Blog Demo
+  .import_blog_quote {
+    margin-top: -40px;
+    margin-bottom: 48px !important;
+  }
+
+  .aboutme_content {
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    @media (max-width: @responsive_p_phone_max) {
+      .td-pb-span4 {
+        text-align: center;
+      }
+    }
+  }
+
+  .aboutme_image {
+    margin-bottom: 30px !important;
+
+    @media (max-width: @responsive_p_phone_max) {
+      max-width: 400px;
+      display: inline-block;
+    }
+  }
+
+  .about-me .td-page-title {
+    text-align: center;
+  }
+
+  // Mobile custom css
+  @media (max-width: @responsive_p_phone_max) {
+    .td_classic_blog_home {
+      margin-top: -32px;
+    }
+  }
+
+  // demos button
+  #td-theme-settings .td-skin-buy a {
+    background-color: #CB9558;
+  }
+
+}

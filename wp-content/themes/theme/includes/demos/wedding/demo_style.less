@@ -1,0 +1,133 @@
+@import "../../less_files/variables.less";
+
+/* Wedding demo */
+
+.td-wedding {
+
+  // header
+
+  .td-header-style-10 {
+    .sf-menu > li > a:hover,
+    .sf-menu > .sfHover > a,
+    .sf-menu > .current-menu-item > a,
+    .sf-menu > .current-menu-ancestor > a,
+    .sf-menu > .current-category-ancestor > a {
+      color: #f49586;
+    }
+
+    .sf-menu > .current-menu-item > a:after,
+    .sf-menu > .current-menu-ancestor > a:after,
+    .sf-menu > .current-category-ancestor > a:after,
+    .sf-menu > li:hover > a:after,
+    .sf-menu > .sfHover > a:after {
+      background-color: transparent;
+    }
+
+    .td-header-gradient {
+      border-bottom: 1px solid #e0e0e0;
+
+      // shadow under menu
+      &:before {
+        display: none;
+      }
+    }
+  }
+
+  // body
+
+  // border from dashed to solid
+
+  .td_module_8,
+  .td_module_9,
+  .td_module_13 {
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .widget_recent_entries li,
+  .widget_recent_comments li,
+  .comment {
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  // page and category title from bold to normal
+
+  .td-category-header .td-page-title {
+    font-weight: 500;
+  }
+
+  .wpb_content_element {
+
+    @media (max-width: @responsive_p_phone_max) {
+      margin-bottom: 0;
+    }
+  }
+
+  // full width ad with parallax
+
+  .td-newspaper-ad {
+    padding-top: 80px;
+    padding-bottom: 45px;
+    text-align: center;
+
+    @media (max-width: @responsive_p_phone_max) {
+      padding-bottom: 80px;
+    }
+
+    .small-title {
+      font-family: @font1;
+      font-size: 20px;
+      line-height: 1;
+      color: #444;
+      margin-bottom: 16px;
+
+      @media (max-width: @responsive_p_phone_max) {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    .big-title {
+      font-family: "Cinzel";
+      font-size: 84px;
+      line-height: 1;
+      margin-bottom: 16px;
+
+      @media (max-width: @responsive_p_phone_max) {
+        font-size: 42px;
+      }
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+
+    .after-title {
+      font-family: @font1;
+      font-size: 20px;
+      line-height: 1;
+      color: #333;
+
+      @media (max-width: @responsive_p_phone_max) {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+  }
+
+  // photo gallery
+
+  .td-homepage-gallery {
+    padding-top: 34px;
+    background-color: #f2f2f2;
+
+  }
+
+  // demos button
+  #td-theme-settings .td-skin-buy a {
+    background-color: #f49586;
+  }
+}

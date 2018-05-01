@@ -1,0 +1,152 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/*
+  Baby blog demo
+*/
+.td-blog-baby .td-header-style-11 .sf-menu > li > a:hover,
+.td-blog-baby .td-header-style-11 .sf-menu > .sfHover > a,
+.td-blog-baby .td-header-style-11 .sf-menu > .current-menu-item > a,
+.td-blog-baby .td-header-style-11 .sf-menu > .current-menu-ancestor > a,
+.td-blog-baby .td-header-style-11 .sf-menu > .current-category-ancestor > a {
+  color: #ff9bd2;
+}
+.td-blog-baby .td-header-style-11 .sf-menu > li > a:after {
+  display: none;
+}
+@media (min-width: 768px) {
+  .td-blog-baby .td-header-style-11 #td-header-menu {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .td-blog-baby .td-header-style-11 .td-header-main-menu {
+    padding-left: 48px;
+  }
+}
+.td-blog-baby .td-header-style-11 .td-logo-wrap-full {
+  border-bottom: none;
+}
+.td-blog-baby .td-header-style-11 .td-header-gradient:before {
+  background: none !important;
+  box-shadow: 0 3px 5px rgba(190, 190, 190, 0.3);
+  -webkit-box-shadow: 0 3px 5px rgba(190, 190, 190, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(190, 190, 190, 0.3);
+  bottom: 0;
+}
+@media (min-width: 768px) {
+  .td-blog-baby .td-header-style-11 .td-affix .td-logo-sticky {
+    position: absolute;
+    left: 10px;
+  }
+}
+.td-blog-baby .td-header-style-11 .td-affix:after {
+  display: none;
+}
+.td-blog-baby .td-main-page-wrap {
+  padding-top: 0;
+}
+.td-blog-baby .td_module_4 .td-module-image {
+  text-align: center;
+}
+.td-blog-baby .td_module_4 .td-post-category {
+  position: relative;
+  font-size: 11px;
+  font-weight: 500;
+  background: none;
+  color: #ff9bd2;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 0;
+}
+.td-blog-baby .td_module_4 .td-module-title,
+.td-blog-baby .td_module_4 .td-module-meta-info,
+.td-blog-baby .td_module_4 .td-excerpt {
+  text-align: center;
+}
+.td-blog-baby .td_module_4 .td-post-author-name {
+  margin-left: 20px;
+}
+.td-blog-baby .td-ss-main-content .block-title,
+.td-blog-baby .td-ss-main-sidebar .block-title {
+  text-align: center;
+  border: none;
+  margin-bottom: 25px;
+}
+.td-blog-baby .td-ss-main-content .block-title span,
+.td-blog-baby .td-ss-main-sidebar .block-title span {
+  background: transparent;
+  color: #222;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ff9bd2;
+  padding: 10px 0 8px 0;
+  width: 100%;
+}
+.td-blog-baby .td-module-comments a {
+  background: transparent;
+  color: #222;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ff9bd2;
+  padding: 4px 6px 4px 6px;
+  border-radius: 20px;
+}
+.td-blog-baby .td-module-comments a:after {
+  bottom: -4px;
+  left: 8px;
+  border-width: 4px 4px 0 0;
+  border-color: #ff9bd2 transparent transparent transparent;
+}
+.td-blog-baby .td-category-header .td-page-title {
+  font-weight: normal;
+}
+.td-blog-baby .page-nav a,
+.td-blog-baby .page-nav span {
+  border-radius: 20px;
+}
+.td-blog-baby .td-related-title {
+  border-width: 1px;
+}
+.td-blog-baby .td-cur-simple-item {
+  background-color: transparent !important;
+  color: #ff9bd2;
+}
+.td-blog-baby .td-related-left:hover,
+.td-blog-baby .td-related-right:hover {
+  color: #ff9bd2;
+}
+.td-blog-baby .td-sidebar-about {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.td-blog-baby .td-sidebar-about img {
+  border-radius: 50%;
+}
+.td-blog-baby .td-sidebar-about p {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  color: #111;
+  margin-top: 10px;
+}
+.td-blog-baby .td-footer-wrapper .td-pb-span12 .td_block_instagram .block-title {
+  text-align: center;
+}
+.td-blog-baby .td-footer-bottom-full {
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.td-blog-baby .td-footer-bottom-full .td-container:before {
+  display: none;
+}
+.td-blog-baby .td-social-style-2 .td-icon-font:after {
+  border-radius: 100%;
+}
+.td-blog-baby #td-theme-settings .td-skin-buy a {
+  background-color: #ff9bd2;
+}

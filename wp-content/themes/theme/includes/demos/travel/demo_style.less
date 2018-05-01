@@ -1,0 +1,145 @@
+@import "../../less_files/variables.less";
+
+/* Travel demo */
+.td-travel {
+  // header parallax
+  .td-travel-header {
+    margin-top: -48px !important;
+    margin-bottom: 48px !important;
+    height: 540px;
+    z-index: 0;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      height: 350px;
+    }
+  }
+
+  .td-travel-header:before {
+    content: '';
+    height: 100%;
+    width: 140%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.2;
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
+  }
+
+  .td-header-style-5 .sf-menu > li > a:hover,
+  .td-header-style-5 .sf-menu > .sfHover > a,
+  .td-header-style-5 .sf-menu > .current-menu-item > a,
+  .td-header-style-5 .sf-menu > .current-menu-ancestor > a,
+  .td-header-style-5 .sf-menu > .current-category-ancestor > a {
+    color: #1AA4CE;
+  }
+
+  // header featured posts block 5
+  .td-travel-features {
+    .td_block_wrap {
+      margin-top: -278px;
+      margin-bottom: 26px;
+
+      /* responsive landscape tablet */
+      @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+        margin-top: -261px;
+      }
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        margin-top: -209px;
+      }
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        margin-bottom: 0;
+      }
+    }
+
+    .td_module_3 {
+      padding: 10px !important;
+      background-color: white;
+      box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        margin-bottom: 20px;
+      }
+
+      .td-module-thumb {
+        height: 220px;
+
+        /* responsive landscape tablet */
+        @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+          height: 200px;
+        }
+        /* responsive portrait tablet */
+        @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+          height: 150px;
+        }
+        /* responsive portrait phone */
+        @media (max-width: @responsive_p_phone_max) {
+          height: auto;
+        }
+      }
+    }
+  }
+
+
+  // main menu + logo
+  .td-header-style-5 .td-main-menu-logo a {
+    line-height: 66px;
+  }
+  .td-header-style-5 .black-menu .sf-menu > li > a {
+    background-color: transparent !important;
+  }
+
+  .td-header-style-5 ul.sf-menu > .td-menu-item > a {
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      font-size: 15px;
+    }
+  }
+
+  // widgets
+  .block-title a,
+  .block-title span,
+  .block-title label {
+    padding-top: 8px;
+    padding-bottom: 2px;
+  }
+  .td-subcat-filter .td-subcat-dropdown:hover .td-subcat-more {
+    background-color: #222;
+  }
+  .td_block_wrap .td-subcat-filter {
+    top: 5px;
+  }
+
+  // modules
+  .td_module_11 .td-read-more {
+    display: none;
+  }
+  .block-title,
+  .td-related-title {
+    margin-bottom: 16px;
+  }
+  .td-related-title > .td-related-left:hover,
+  .td-related-title > .td-related-right:hover {
+    color: #757575;
+  }
+  .td-subcat-filter .td-subcat-dropdown ul {
+    border-width: 1px 1px 1px;
+  }
+
+  // demos button
+  #td-theme-settings .td-skin-buy a {
+    background-color: #1AA4CE ;
+  }
+}

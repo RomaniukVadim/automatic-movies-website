@@ -1,0 +1,104 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/* Wedding demo */
+.td-wedding .td-header-style-10 .sf-menu > li > a:hover,
+.td-wedding .td-header-style-10 .sf-menu > .sfHover > a,
+.td-wedding .td-header-style-10 .sf-menu > .current-menu-item > a,
+.td-wedding .td-header-style-10 .sf-menu > .current-menu-ancestor > a,
+.td-wedding .td-header-style-10 .sf-menu > .current-category-ancestor > a {
+  color: #f49586;
+}
+.td-wedding .td-header-style-10 .sf-menu > .current-menu-item > a:after,
+.td-wedding .td-header-style-10 .sf-menu > .current-menu-ancestor > a:after,
+.td-wedding .td-header-style-10 .sf-menu > .current-category-ancestor > a:after,
+.td-wedding .td-header-style-10 .sf-menu > li:hover > a:after,
+.td-wedding .td-header-style-10 .sf-menu > .sfHover > a:after {
+  background-color: transparent;
+}
+.td-wedding .td-header-style-10 .td-header-gradient {
+  border-bottom: 1px solid #e0e0e0;
+}
+.td-wedding .td-header-style-10 .td-header-gradient:before {
+  display: none;
+}
+.td-wedding .td_module_8,
+.td-wedding .td_module_9,
+.td-wedding .td_module_13 {
+  border-bottom: 1px solid #f2f2f2;
+}
+.td-wedding .widget_recent_entries li,
+.td-wedding .widget_recent_comments li,
+.td-wedding .comment {
+  border-bottom: 1px solid #f2f2f2;
+}
+.td-wedding .td-category-header .td-page-title {
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .td-wedding .wpb_content_element {
+    margin-bottom: 0;
+  }
+}
+.td-wedding .td-newspaper-ad {
+  padding-top: 80px;
+  padding-bottom: 45px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .td-wedding .td-newspaper-ad {
+    padding-bottom: 80px;
+  }
+}
+.td-wedding .td-newspaper-ad .small-title {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  color: #444;
+  margin-bottom: 16px;
+}
+@media (max-width: 767px) {
+  .td-wedding .td-newspaper-ad .small-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+.td-wedding .td-newspaper-ad .big-title {
+  font-family: "Cinzel";
+  font-size: 84px;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+@media (max-width: 767px) {
+  .td-wedding .td-newspaper-ad .big-title {
+    font-size: 42px;
+  }
+}
+.td-wedding .td-newspaper-ad .big-title a {
+  text-decoration: none;
+}
+.td-wedding .td-newspaper-ad .big-title a:hover {
+  opacity: 0.8;
+}
+.td-wedding .td-newspaper-ad .after-title {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  color: #333;
+}
+@media (max-width: 767px) {
+  .td-wedding .td-newspaper-ad .after-title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+.td-wedding .td-homepage-gallery {
+  padding-top: 34px;
+  background-color: #f2f2f2;
+}
+.td-wedding #td-theme-settings .td-skin-buy a {
+  background-color: #f49586;
+}

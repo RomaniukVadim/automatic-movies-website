@@ -1,0 +1,98 @@
+@import "../../less_files/variables.less";
+
+/* Local news demo */
+.td-local-news {
+  .td-header-style-3 .td-header-menu-wrap {
+    &:before {
+      content: '';
+      width: 100%;
+      height: 3px;
+      background-color: #f4511e;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        display: none;
+      }
+    }
+
+    &.td-affix:before {
+      display: none;
+    }
+  }
+
+  .td-header-style-3 .sf-menu > li > a:hover,
+  .td-header-style-3 .sf-menu > .sfHover > a,
+  .td-header-style-3 .sf-menu > .current-menu-item > a,
+  .td-header-style-3 .sf-menu > .current-menu-ancestor > a,
+  .td-header-style-3 .sf-menu > .current-category-ancestor > a {
+    background-color: #424242 !important;
+  }
+
+  .td-grid-style-4 .td-big-grid-post .td-post-category {
+    background-color: #f4511e;
+  }
+  .td-grid-style-4 .td-big-grid-post .entry-title {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .td-header-style-3 .td-header-sp-logo {
+    padding: 0;
+    margin: 28px 56px 28px 0;
+
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      margin-right: 28px;
+    }
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      margin: 14px 56px 14px 0;
+    }
+  }
+
+  /* Block pulldown */
+  .td_block_wrap .td-subcat-dropdown .td-subcat-more {
+    height: 35px !important;
+    padding-top: 5px;
+  }
+  .td_block_wrap .td-subcat-filter .td-subcat-list {
+    padding-top: 5px;
+  }
+  .td_block_wrap .td-subcat-filter .td-subcat-dropdown ul {
+    top: 35px;
+  }
+
+  /* Modules */
+  .td_module_10 .td-module-title,
+  .td_module_6 .td-module-title {
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+  .td_module_10 {
+    .td-module-comments,
+    .td-post-author-name {
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        display: none;
+      }
+    }
+  }
+
+  /* Homepage */
+  .td-playlist-full {
+    margin-bottom: 48px;
+    padding-top: 24px;
+    background-color: #222;
+  }
+
+  // demos button
+  #td-theme-settings .td-skin-buy a {
+    background-color: #f4511e;
+  }
+}

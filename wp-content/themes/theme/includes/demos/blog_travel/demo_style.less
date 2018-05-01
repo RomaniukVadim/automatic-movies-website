@@ -1,0 +1,166 @@
+@import "../../less_files/variables.less";
+
+
+/*
+Travel blog demo
+*/
+.td-blog-travel {
+
+  // header
+  .td-header-style-8 {
+    .sf-menu > li > a:hover,
+    .sf-menu > .sfHover > a,
+    .sf-menu > .current-menu-item > a,
+    .sf-menu > .current-menu-ancestor > a,
+    .sf-menu > .current-category-ancestor > a {
+      color: #008ca8;
+    }
+
+    .sf-menu > li > a:after {
+      display: none;
+    }
+
+    .td-header-top-menu {
+      border-bottom: 1px dashed #e0e0e0;
+    }
+
+    .td-header-top-menu-full {
+      @media (min-width: @responsive_p_tablet_min) {
+        margin-top: 48px;
+      }
+    }
+
+    // Logo
+    @media (min-width: 1141px) {
+      .td-header-sp-logo {
+        width: 250px;
+      }
+    }
+    @media (max-width: @responsive_l_tablet_max) and (min-width: @responsive_p_tablet_min) {
+      .td-header-sp-logo {
+        top: -12px;
+      }
+    }
+
+    // shadow under menu
+    .td-header-gradient:before {
+        display: none;
+    }
+  }
+
+ // body
+  .td-travel-slider {
+
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_l_tablet_max) {
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: @responsive_p_phone_max) {
+      margin-top: -32px;
+      margin-bottom: -10px;
+    }
+
+    .tp-leftarrow.tparrows.uranus {
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        transform: matrix(1, 0, 0, 1, -5, -25) !important;
+      }
+    }
+    .tp-rightarrow.tparrows.uranus {
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        transform: matrix(1, 0, 0, 1, -50, -25) !important;
+      }
+    }
+  }
+  .td-travel-boxes {
+    margin-bottom: 48px;
+
+    /* responsive landscape tablet */
+    @media (max-width: @responsive_l_tablet_max) {
+        margin-bottom: 12px;
+    }
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+        margin-bottom: 48px;
+    }
+  }
+
+  .td-big-grid-post .td-post-category {
+    font-size: 10px;
+    padding: 2px 7px 3px;
+  }
+
+  .td-post-template-7 {
+    margin-top: 48px;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      margin-top: 0;
+    }
+  }
+
+  .td_module_18 {
+    .meta-info-container {
+      border-bottom: 1px dashed #e0e0e0;
+    }
+  }
+
+  .td-blog-single {
+    border: 1px dashed #e0e0e0;
+    margin-bottom: 24px !important;
+  }
+
+  .td-blog-single-last {
+    border: 1px dashed #e0e0e0;
+    margin-bottom: 0 !important;
+  }
+
+
+
+  .block-title {
+    border-bottom-width: 3px;
+
+    span {
+      padding: 0 0 8px 10px;
+      background-color: transparent;
+    }
+  }
+
+  .td-related-title {
+    border-bottom-width: 3px;
+
+    .td-cur-simple-item {
+      color: #fff;
+    }
+  }
+
+  // about box
+  .td-social-style8 .td_social_type .td-social-box {
+    border-style: dashed;
+  }
+
+  .td-sidebar-about {
+    margin-bottom: 25px;
+    text-align: center;
+
+    p {
+      font-family: @font1;
+      font-size: 14px;
+      line-height: 22px;
+      color: #777;
+      margin-top: 10px;
+    }
+  }
+
+  // widget borders
+  .td_module_8 {
+    border-bottom: 1px dashed #e0e0e0;
+  }
+
+  // demos button
+  #td-theme-settings .td-skin-buy a {
+    background-color: #008ca8;
+  }
+}

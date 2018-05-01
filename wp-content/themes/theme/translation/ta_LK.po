@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ta_LK\n"
+
+#: no reference:
+msgid "View all results"
+msgstr "எல்லா முடிவுகளையும் காண்க"
+
+#: no reference:
+msgid "No results"
+msgstr "முடிவுகள் இல்லை"
+
+#: no reference:
+msgid "Home"
+msgstr "முகப்பு"
+
+#: no reference:
+msgid "CLOSE"
+msgstr "வெளியேறு"
+
+#: no reference:
+msgid "Page"
+msgstr "பக்கம்"
+
+#: no reference:
+msgid "All"
+msgstr "அனைத்தும்"
+
+#: no reference:
+msgid "By"
+msgstr "மூலம்"
+
+#: no reference:
+msgid "Load more"
+msgstr "மேலும் ஏற்றுக"
+
+#: no reference:
+msgid "View all posts in"
+msgstr "உள்ள அனைத்துச் செய்திகளையும் பார்க்க"
+
+#: no reference:
+msgid "Tags"
+msgstr "குறிச்சொற்கள்"
+
+#: no reference:
+msgid "Previous article"
+msgstr "முந்தைய கட்டுரை"
+
+#: no reference:
+msgid "Next article"
+msgstr "அடுத்த கட்டுரை"
+
+#: no reference:
+msgid "Authors"
+msgstr "எழுத்தாளர்கள்"
+
+#: no reference:
+msgid "Author"
+msgstr "எழுத்தாளர்"
+
+#: no reference:
+msgid "RELATED ARTICLES"
+msgstr "தொடர்புடைய கட்டுரைகள்"
+
+#: no reference:
+msgid "MORE FROM AUTHOR"
+msgstr "ஆசிரியரிடமிருந்து மிகவும்"
+
+#: no reference:
+msgid "VIA"
+msgstr "மூலமாக"
+
+#: no reference:
+msgid "SOURCE"
+msgstr "மற்ற ஆதாரங்கள்"
+
+#: no reference:
+msgid "TAGS"
+msgstr "குறிகள்"
+
+#: no reference:
+msgid "SHARE"
+msgstr "பகிர்ந்து"
+
+#: no reference:
+msgid "Continue"
+msgstr "தொடர்க"
+
+#: no reference:
+msgid "Read more"
+msgstr "மேலும் வாசிக்க"
+
+#: no reference:
+msgid "Name:"
+msgstr "பெயர்:"
+
+#: no reference:
+msgid "Email:"
+msgstr "மின்னஞ்சல்:"
+
+#: no reference:
+msgid "Website:"
+msgstr "வலைத்தளம்:"
+
+#: no reference:
+msgid "Comment:"
+msgstr "கருத்து:"
+
+#: no reference:
+msgid "LEAVE A REPLY"
+msgstr "ஒரு பதிலை விடவும்"
+
+#: no reference:
+msgid "Post Comment"
+msgstr "கருத்து தெரிவிக்க"
+
+#: no reference:
+msgid "Cancel reply"
+msgstr "பதில் ரத்து"
+
+#: no reference:
+msgid "Reply"
+msgstr "பதிலளிக்க"
+
+#: no reference:
+msgid "Log in to leave a comment"
+msgstr "ஒரு கருத்தை விட உள் நுழையவும்"
+
+#: no reference:
+msgid "NO COMMENTS"
+msgstr "கருத்துகள் இல்லை"
+
+#: no reference:
+msgid "1 COMMENT"
+msgstr "1 கருத்து"
+
+#: no reference:
+msgid "COMMENTS"
+msgstr "கருத்துக்கள்"
+
+#: no reference:
+msgid "REVIEW OVERVIEW"
+msgstr "சி.ஆர்.டி. கண்ணோட்டம்"
+
+#: no reference:
+msgid "SUMMARY"
+msgstr "சுருக்கமான விபரம்"
+
+#: no reference:
+msgid "OVERALL SCORE"
+msgstr "ஒட்டுமொத்த ஸ்கோர்"
+
+#: no reference:
+msgid "Ooops... Error 404"
+msgstr "அச்சச்சோ ... 404 பிழை"
+
+#: no reference:
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr "மன்னிக்கவும், நீங்கள் தேடும் பக்கம் இல்லை."
+
+#: no reference:
+msgid "You can go to the"
+msgstr "நீங்கள் செல்லலாம்"
+
+#: no reference:
+msgid "HOMEPAGE"
+msgstr "முகப்பு பக்கம்"
+
+#: no reference:
+msgid "OUR LATEST POSTS"
+msgstr "எங்கள் சமீபத்திய இடுகைகள்"
+
+#: no reference:
+msgid "Posts by"
+msgstr "இடுகைகள் மூலம்"
+
+#: no reference:
+msgid "POSTS"
+msgstr "இடுகைகள்"
+
+#: no reference:
+msgid "Posts tagged with"
+msgstr "இடுகைகளுடன் குறியிடபட்டுவிட்டது"
+
+#: no reference:
+msgid "Tag"
+msgstr "குறிச்சொல்"
+
+#: no reference:
+msgid "Daily Archives:"
+msgstr "தினசரி தொகுப்புகள்:"
+
+#: no reference:
+msgid "Monthly Archives:"
+msgstr "மாதாந்திர தொகுப்புகள்:"
+
+#: no reference:
+msgid "Yearly Archives:"
+msgstr "வருடாந்திர தொகுப்புகள்:"
+
+#: no reference:
+msgid "Archives"
+msgstr "தொகுப்புகள்"
+
+#: no reference:
+msgid "LATEST ARTICLES"
+msgstr "சமீபத்திய கட்டுரைகள்"
+
+#: no reference:
+msgid "search results"
+msgstr "தேடல் முடிவுகள்"
+
+#: no reference:
+msgid "Search"
+msgstr "தேடல்"
+
+#: no reference:
+msgid "If you're not happy with the results, please do another search"
+msgstr "நீங்கள் முடிவுகளள் மகிழ்ச்சியாக இல்லை என்றால், தயவுசெய்த  மற்றொரு தேடலை செய்யவும்"
+
+#: no reference:
+msgid "Contact us"
+msgstr "எங்களை தொடர்பு கொள்ளுங்கள்"
+
+#: no reference:
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "பக்கம்%தற்போதைய பக்கம்% இன் மொத்த பக்கங்கள்%"
+
+#: no reference:
+msgid "Next"
+msgstr "அடுத்த"
+
+#: no reference:
+msgid "Prev"
+msgstr "முன்"
+
+#: no reference:
+msgid "No results for your search"
+msgstr "உங்கள் தேடல் க்கான முடிவுகள் ஏதுமில்லை"
+
+#: no reference:
+msgid "No posts to display"
+msgstr "பதிவுகள் காண்பிக்க இல்லை"
+
+#: no reference:
+msgid "LOG IN"
+msgstr "உள்நுழைக"
+
+#: no reference:
+msgid "Sign in / Join"
+msgstr "உள்நுழையவும் / சேரவும்"
+
+#: no reference:
+msgid "Log In"
+msgstr "உள்நுழைய"
+
+#: no reference:
+msgid "REGISTER"
+msgstr "பதிவு"
+
+#: no reference:
+msgid "Send My Pass"
+msgstr "என் பாஸ் அனுப்பவும்"
+
+#: no reference:
+msgid "Forgot your password?"
+msgstr "உங்கள் கடவுச்சொல்லை மறந்து விட்டீர்களா?"
+
+#: no reference:
+msgid "Please wait..."
+msgstr "தயவு செய்து காத்திருக்கவும் …"
+
+#: no reference:
+msgid "User or password incorrect!"
+msgstr "பயனர் அல்லது கடவுச்சொல் தவறானது!"
+
+#: no reference:
+msgid "Email or username incorrect!"
+msgstr "மின்னஞ்சல் அல்லது பயனர் பெயர் தவறானது!"
+
+#: no reference:
+msgid "Email incorrect!"
+msgstr "மின்னஞ்சல் தவறானது!"
+
+#: no reference:
+msgid "User or email already exists!"
+msgstr "பயனர் அல்லது மின்னஞ்சல் ஏற்கனவே உள்ளது!"
+
+#: no reference:
+msgid "Please check your email (index or spam folder), the password was sent there."
+msgstr "உங்கள் மின்னஞ்சல் சரிபார்க்கவும்(குறியீடு அல்லது ஸ்பேம் கோப்புறை) கடவுச்சொல் அனுப்பப்பட்டது."
+
+#: no reference:
+msgid "Email address not found!"
+msgstr "மின்னஞ்சல் முகவரி காணப்படவில்லை!"
+
+#: no reference:
+msgid "Your password is reset, check your email."
+msgstr "உங்கள் கடவுச்சொல் மீட்டமைக்கப்பட்டது, உங்கள் மின்னஞ்சல் சரிபார்க்கவும்."
+
+#: no reference:
+msgid "Welcome! Log into your account"
+msgstr "வரவேற்கிறோம்! உங்கள் கணக்கில் உள்நுழைவு"
+
+#: no reference:
+msgid "Register for an account"
+msgstr "ஒரு கணக்கை பதிவு செய்யவும்"
+
+#: no reference:
+msgid "Recover your password"
+msgstr "உங்கள் கடவுச்சொல்லை மீட்டெடுக்கவும்"
+
+#: no reference:
+msgid "your username"
+msgstr "உங்கள் பயனர் பெயர்"
+
+#: no reference:
+msgid "your password"
+msgstr "உங்கள் கடவுச்சொல்"
+
+#: no reference:
+msgid "your email"
+msgstr "உங்கள் மின்னஞ்சல்"
+
+#: no reference:
+msgid "A password will be e-mailed to you."
+msgstr "ஒரு கடவுச்சொல்லை உங்களுக்கு மின்னஞ்சல் மூலம் அனுப்பப்படும்."
+
+#: no reference:
+msgid "Logout"
+msgstr "வெளியேறு"
+
+#: no reference:
+msgid "Like"
+msgstr "லைக்"
+
+#: no reference:
+msgid "Fans"
+msgstr "ரசிகர்கள்"
+
+#: no reference:
+msgid "Follow"
+msgstr "பின்பற்றவும்"
+
+#: no reference:
+msgid "Followers"
+msgstr "பின்பற்றுபவர்கள்"
+
+#: no reference:
+msgid "Subscribe"
+msgstr "குழுசேர்"
+
+#: no reference:
+msgid "Subscribers"
+msgstr "சந்தாதாரர்கள்"
+
+#: no reference:
+msgid "MORE STORIES"
+msgstr "இன்னும் கதைகள்"
+
+#: no reference:
+msgid "Latest"
+msgstr "சமீபத்திய"
+
+#: no reference:
+msgid "Featured posts"
+msgstr "சிறப்பு பதிவுகள்"
+
+#: no reference:
+msgid "Most popular"
+msgstr "மிகவும் பிரபலமான"
+
+#: no reference:
+msgid "7 days popular"
+msgstr "7 நாட்கள் பிரபலமான"
+
+#: no reference:
+msgid "By review score"
+msgstr "விமர்சனம் ஸ்கோர் மூலம்"
+
+#: no reference:
+msgid "Random"
+msgstr "ராண்டம்"
+
+#: no reference:
+msgid "Trending Now"
+msgstr "இப்போது பிரபலமாகும்"
+
+#: no reference:
+msgid "POPULAR CATEGORY"
+msgstr "பிரபலமான வகை"
+
+#: no reference:
+msgid "EVEN MORE NEWS"
+msgstr "இன்னும் அதிக செய்திகள்"
+
+#: no reference:
+msgid "Previous (Left arrow key)"
+msgstr "முந்தைய (இடது அம்புக்குறி விசையை)"
+
+#: no reference:
+msgid "Next (Right arrow key)"
+msgstr "அடுத்து (வலது அம்பு விசை)"
+
+#: no reference:
+msgid "%curr% of %total%"
+msgstr "%curr% இன் %total%"
+
+#: no reference:
+msgid "The content from %url% could not be loaded."
+msgstr "உள்ளடக்கத்தை இருந்து %url%  இருந்து ஏற்ற முடியவில்லை."
+
+#: no reference:
+msgid "The image #%curr% could not be loaded."
+msgstr "படம் #%curr% ஏற்ற முடியவில்லை."
+
+#: no reference:
+msgid "Blog"
+msgstr "வலைப்பதிவு"
+
+#: no reference:
+msgid "Share on Facebook"
+msgstr "Facebook இல் பகிர்ந்துகொல்லவும்"
+
+#: no reference:
+msgid "Tweet on Twitter"
+msgstr "Twitter இல் ட்வீட் செய்யவும்"
+
+#: no reference:
+msgid "EDITOR PICKS"
+msgstr "ஆசிரியர் தேர்வு"
+
+#: no reference:
+msgid "POPULAR POSTS"
+msgstr "பிரபலமான பதிவுகள்"
+
+#: no reference:
+msgid "FOLLOW US"
+msgstr "நம்மை பின்பற்ற"
+
+#: no reference:
+msgid "ABOUT US"
+msgstr "எங்களை பற்றி"
+
+#: no reference:
+msgid "More"
+msgstr "மேலும்"
+
+#: no reference:
+msgid "Featured"
+msgstr "சிறப்பு"
+
+#: no reference:
+msgid "All time popular"
+msgstr "பிரபலமான அனைத்து நேரம்"
+
+#: no reference:
+msgid "Likes"
+msgstr "விருப்பு"
+
+#: no reference:
+msgid "Register"
+msgstr "பதிவு"
+

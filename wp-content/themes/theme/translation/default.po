@@ -1,0 +1,507 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Newsmag\n"
+"POT-Creation-Date: 2014-11-28 13:30+0200\n"
+"PO-Revision-Date: 2015-06-15 10:11+0200\n"
+"Last-Translator: \n"
+"Language-Team: tagDiv\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../includes/wp_booster/external\n"
+"X-Poedit-SearchPathExcluded-1: ../includes/td_theme_init.php\n"
+"X-Poedit-SearchPathExcluded-2: ../includes/wp_booster/td_wp_booster_init.php\n"
+
+#: ../includes/wp_booster/td_login.php:105
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: ../includes/wp_booster/td_login.php:107
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: ../includes/wp_booster/td_login.php:108
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: ../includes/wp_booster/td_login.php:109
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: ../includes/wp_booster/td_login.php:119
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: ../includes/wp_booster/td_login.php:125
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: ../includes/wp_booster/td_login.php:125
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:9
+msgid "View all results"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:10
+msgid "No results"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:12
+msgid "Home"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:16
+msgid "CLOSE"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:19
+msgid "Page"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:23
+msgid "All"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:24
+msgid "By"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:25
+msgid "Load more"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:28
+msgid "View all posts in"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:29
+msgid "Tags"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:32
+msgid "Previous article"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:33
+msgid "Next article"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:34
+msgid "Authors"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:35
+msgid "RELATED ARTICLES"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:36
+msgid "MORE FROM AUTHOR"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:37
+msgid "VIA"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:38
+msgid "SOURCE"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:39
+msgid "TAGS"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:40
+msgid "Continue"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:41
+msgid "Read more"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:46
+msgid "Name:"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:47
+msgid "Email:"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:48
+msgid "Website:"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:50
+msgid "LEAVE A REPLY"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:51
+msgid "Post Comment"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:52
+msgid "Cancel reply"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:53
+msgid "Reply"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:54
+msgid "Log in to leave a comment"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:55
+msgid "NO COMMENTS"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:56
+msgid "1 COMMENT"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:57
+#: ../includes/wp_booster/td_translate.php:77
+msgid "COMMENTS"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:61
+msgid "REVIEW OVERVIEW"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:62
+msgid "SUMMARY"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:63
+msgid "OVERALL SCORE"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:66
+msgid "Ooops... Error 404"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:67
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:68
+msgid "You can go to the"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:69
+msgid "HOMEPAGE"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:72
+msgid "OUR LATEST POSTS"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:75
+msgid "Posts by "
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:76
+msgid "POSTS"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:80
+msgid "Posts tagged with"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:81
+msgid "Tag"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:84
+msgid "Daily Archives:"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:85
+msgid "Monthly Archives:"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:86
+msgid "Yearly Archives:"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:87
+msgid "Archives"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:91
+msgid "LATEST ARTICLES"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:94
+msgid "search results"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:95
+msgid "Search"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:96
+msgid "If you're not happy with the results, please do another search"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:99
+msgid "Contact us"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:102
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:103
+msgid "Next"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:104
+msgid "Prev"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:107
+msgid "No results for your search"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:108
+msgid "No posts to display"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:111
+msgid "LOG IN"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:112
+msgid "Sign in / Join"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:113
+msgid "JOIN"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:114
+#: ../includes/wp_booster/td_translate.php:139
+msgid "Log In"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:115
+msgid "REGISTER"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:116
+#: ../includes/wp_booster/td_translate.php:141
+msgid "Register"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:117
+#: ../includes/wp_booster/td_translate.php:145
+msgid "Send My Pass"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:118
+#: ../includes/wp_booster/td_translate.php:140
+msgid "Forgot your password?"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:121
+msgid "Please wait..."
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:122
+msgid "User or password incorrect!"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:123
+msgid "Email or username incorrect!"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:124
+msgid "Email incorrect!"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:125
+msgid "User or email already exists!"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:128
+msgid "Please check your email (index or spam folder), the password was sent there."
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:129
+msgid "Email address not found!"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:130
+msgid "Your password is reset, check your email."
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:132
+msgid "Welcome! Login in to your account"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:133
+msgid "Register for an account"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:134
+msgid "Recover your password"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:136
+msgid "your username"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:137
+msgid "your password"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:138
+msgid "your email"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:144
+msgid "A password will be e-mailed to you."
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:146
+msgid "Logout"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:150
+msgid "Like"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:151
+msgid "Fans"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:152
+msgid "Follow"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:153
+msgid "Followers"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:154
+msgid "Subscribe"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:155
+msgid "Subscribers"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:158
+msgid "MORE STORIES"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:161
+msgid "Latest"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:162
+msgid "Featured posts"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:163
+msgid "Most popular"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:164
+msgid "7 days popular"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:165
+msgid "By review score"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:166
+msgid "Random"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:168
+msgid "Trending Now"
+msgstr ""
+
+#: ../includes/wp_booster/td_translate.php:171
+msgid "POPULAR CATEGORY"
+msgstr ""
+
+#: no reference:
+msgid "EVEN MORE NEWS"
+msgstr ""
+
+#: no reference:
+msgid "Previous (Left arrow key)"
+msgstr ""
+
+#: no reference:
+msgid "Next (Right arrow key)"
+msgstr ""
+
+#: no reference:
+msgid "%curr% of %total%"
+msgstr ""
+
+#: no reference:
+msgid "The content from %url% could not be loaded."
+msgstr ""
+
+#: no reference:
+msgid "The image #%curr% could not be loaded."
+msgstr ""
+
+#: no reference:
+msgid "Blog"
+msgstr ""
+
+#: no reference:
+msgid "Share on Facebook"
+msgstr ""
+
+#: no reference:
+msgid "Tweet on Twitter"
+msgstr ""
+
+#: no reference:
+msgid "EDITOR PICKS"
+msgstr ""
+
+#: no reference:
+msgid "POPULAR POSTS"
+msgstr ""
+
+#: no reference:
+msgid "FOLLOW US"
+msgstr ""
+
+#: no reference:
+msgid "ABOUT US"
+msgstr ""
+
+#: no reference:
+msgid "More"
+msgstr ""
+
+#: no reference:
+msgid "Featured"
+msgstr ""
+
+#: no reference:
+msgid "All time popular"
+msgstr ""
+
+#: no reference:
+msgid "Likes"
+msgstr ""

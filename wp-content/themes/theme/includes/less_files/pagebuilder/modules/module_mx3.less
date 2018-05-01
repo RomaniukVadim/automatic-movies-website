@@ -1,0 +1,129 @@
+/*  ----------------------------------------------------------------------------
+    Module mx3
+*/
+.td_module_mx3 {
+  position: relative;
+  padding-bottom: 53px;
+  margin-bottom: 18px;
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    width: 48%;
+    float: left;
+    padding-bottom: 73px;
+    margin-bottom: 0;
+
+    &:nth-child(even) {
+      margin-left: 4%;
+    }
+  }
+
+  /* responsive small portrait phone */
+  @media (max-width: 500px) {
+    width: 100%;
+    float: left;
+    padding-bottom: 75px;
+
+    &:nth-child(even) {
+      margin-left: 0;
+    }
+  }
+
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .td-module-meta-info {
+    position: absolute;
+    bottom: 7px;
+    width: 284px;
+    background-color: #fff;
+    border-bottom: 1px dashed #f1f1f1;
+    margin: 0 20px;
+    padding: 14px 20px 25px 20px;
+
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      width: 270px;
+      margin: 0 15px;
+    }
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      width: 208px;
+      margin: 0 10px;
+      padding: 9px 16px 25px;
+
+      .td-post-category {
+        display: none;
+      }
+    }
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      width: 90%;
+      margin: 0 5%;
+      bottom: 33px;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 20px;
+      border-bottom: 0;
+    }
+  }
+
+  .td-post-category {
+    /* responsive max portrait tablet */
+    @media (max-width: @responsive_p_tablet_max) {
+      display: none;
+    }
+  }
+
+  .entry-title {
+    position: relative;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21px;
+    font-style: normal;
+    margin: 0 0 12px 0;
+    height: auto;
+    bottom: 0;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        font-size: 15px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 500;
+    }
+  }
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    .entry-thumb {
+      width: 100%;
+    }
+  }
+
+  // fix module height for slow connection
+  .td-module-thumb {
+    height: 235px;
+
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      height: 218px;
+    }
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      height: 165px;
+    }
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      height: auto;
+    }
+  }
+}

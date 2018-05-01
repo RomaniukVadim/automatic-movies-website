@@ -1,0 +1,5 @@
+[vc_row][vc_column][vc_single_image image="iii_td_pic_about_iii" img_size="full"][vc_column_text]
+<p class="lede">Hello!</p>
+<p class="lede">I'm Sarah Main, a passionate health, fitness and nutrition enthusiast. I started writing 10 years ago and I loved it since day one. The way that this lifestyle has benefited me has been truly amazing and the best part of all this experience has been seeing others inspired by me and my blog.</p>
+<p class="lede">I hope you discover a lot of useful information here, so please enjoy your stay!</p>
+[/vc_column_text][/vc_column][/vc_row]

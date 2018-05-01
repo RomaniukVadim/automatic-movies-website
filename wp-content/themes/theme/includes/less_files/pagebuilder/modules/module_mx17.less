@@ -1,0 +1,114 @@
+/*  ----------------------------------------------------------------------------
+    Module MX17
+*/
+.td_module_mx17 {
+
+  .td-module-image {
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    position: relative;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      height: auto;
+      margin-bottom: 0;
+    }
+  }
+
+  .entry-thumb {
+    max-width: none;
+    position: absolute;
+    margin: 0 auto;
+    left: -9999px;
+    right: -9999px;
+    width: auto;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      width: 100%;
+      left: auto;
+      right: auto;
+      position: relative;
+    }
+  }
+
+  .td-post-category {
+    display: inline-block;
+    padding: 5px 8px 6px;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 1;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    z-index: 1;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      padding: 4px 7px;
+      font-size: 9px;
+      bottom: 15px;
+    }
+  }
+
+  .entry-title {
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+
+  .td-video-play-ico > img {
+    top: 20px;
+    right: 20px;
+    bottom: auto;
+    left: auto;
+  }
+
+  .td-module-meta-info {
+    position: relative;
+  }
+
+  .td-post-author-name {
+    font-size: 13px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      font-size: 12px;
+    }
+
+    &:hover {
+      color: @td_theme_color;
+    }
+  }
+
+  .td-post-date {
+    font-size: 13px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      font-size: 12px;
+    }
+  }
+
+  .td-module-comments {
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+  }
+}

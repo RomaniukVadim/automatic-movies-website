@@ -1,0 +1,251 @@
+/*  ----------------------------------------------------------------------------
+    header
+*/
+.td-review {
+  width: 100%;
+  margin-bottom: 34px;
+  font-size: 13px;
+
+  td {
+    padding: 7px 14px;
+  }
+
+  .td-review-summary {
+    padding: 21px 14px;
+
+    @media (max-width: @responsive_p_phone_max) {
+      padding: 0;
+    }
+  }
+
+  i {
+    margin-top: 5px;
+  }
+
+  .td-review-row-stars:hover {
+    background-color: #fcfcfc;
+  }
+
+  .td-review-percent-sign {
+    font-size: 15px;
+    line-height: 1;
+  }
+}
+
+.td-review-header {
+  .block-title {
+    background-color: #222;
+    color: #fff;
+    display: inline-block;
+    line-height: 16px;
+    padding: 8px 12px 6px;
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+
+  td {
+    padding: 26px 0 26px 0;
+    border: 0;
+  }
+}
+// firefox fix
+@-moz-document url-prefix() {
+  .td-review-header .block-title {
+    padding: 7px 12px;
+  }
+}
+
+// review stars icon size
+.td-icon-star,
+.td-icon-star-empty,
+.td-icon-star-half {
+  font-size: 15px;
+  width: 20px;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    rating stars
+*/
+.td-review-stars {
+  text-align: center;
+
+  @media (max-width: @responsive_p_phone_max) {
+    width: 134px;
+  }
+}
+
+.td-review-final-score {
+  line-height: 80px;
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    review bars
+*/
+.td-rating-bar-wrap {
+  margin: 0 0 7px 0;
+  background-color: #f5f5f5;
+
+  div {
+    height: 20px;
+    background-color: @td_theme_color;
+    max-width: 100%;
+  }
+}
+
+.td-review-row-bars {
+    .td-review-desc {
+    display: inline-block;
+    padding-bottom: 2px;
+  }
+}
+
+
+/*  ----------------------------------------------------------------------------
+    percent
+*/
+.td-review-percent {
+  float: right;
+  padding-bottom: 2px;
+}
+
+
+/*  ----------------------------------------------------------------------------
+    footer
+*/
+@media (max-width: @responsive_p_phone_max) {
+  .td-review-footer {
+    border-left: 1px solid #ededed;
+    position: relative;
+    display: block;
+
+    &:after {
+      content: '';
+      width: 1px;
+      background-color: #ededed;
+      position: absolute;
+      right: -1px;
+      top: 0;
+      height: 100%;
+    }
+  }
+}
+
+.td-review-summary {
+  padding: 21px 0 0 0;
+  vertical-align: top;
+
+  @media (max-width: @responsive_p_phone_max) {
+    display: block;
+    width: 100%;
+    clear: both;
+    border: 0;
+  }
+
+  .block-title {
+    background-color: #222;
+    color: #fff;
+    display: inline-block;
+    line-height: 16px;
+    padding: 8px 12px 6px;
+    margin-bottom: 13px;
+    position: relative;
+    border-bottom: 0;
+
+    @media (max-width: @responsive_p_phone_max) {
+      margin: 14px 0 0 14px;
+    }
+  }
+}
+// firefox fix
+@-moz-document url-prefix() {
+  .td-review-summary .block-title {
+    padding: 7px 12px;
+  }
+}
+
+.td-review-summary-content {
+  font-size: 12px;
+  margin-right: 21px;
+
+  @media (max-width: @responsive_p_phone_max) {
+    margin: 14px;
+  }
+}
+
+.td-review-score {
+  font-family:@font1;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  vertical-align: bottom;
+  width: 150px;
+
+  @media (max-width: @responsive_p_phone_max) {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+}
+
+.td-review-overall {
+  padding: 0 0 28px 0;
+  line-height: 14px;
+
+  span {
+    font-size: 11px;
+  }
+}
+
+.td-review-final-star {
+  margin-bottom: 5px;
+}
+
+//Star Review Mobile
+@media (max-width: @responsive_p_phone_max) {
+  .td-review-row-stars {
+    display: block;
+    width: 100%;
+    clear: both;
+    float: left;
+    border: 1px solid #ededed;
+    border-bottom: 0;
+    border-right: 0;
+
+    td {
+      float: left;
+      border: 0;
+    }
+
+    .td-review-desc {
+      width: 70%;
+      padding: 9px 14px;
+    }
+
+    .td-review-stars {
+      width: 30%;
+      text-align: right;
+    }
+
+    &:nth-last-of-type(2) {
+      border-bottom: 1px solid #ededed;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .td-review-row-stars {
+
+    .td-review-desc {
+      width: 55%;
+    }
+    .td-review-stars {
+      width: 45%;
+    }
+  }
+}

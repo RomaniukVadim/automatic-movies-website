@@ -1,0 +1,10 @@
+<h3>Cats</h3>
+<a href="xxx_td_pic_s1_xxx"><img class="td-modal-image alignnone size-full" src="xxx_td_pic_s1_xxx" alt="" width="" height="" /></a>A cat has 32 muscles in each ear. All the better for them to eavesdrop on your conversations and plot your demise.
+<h3>Elephants</h3>
+<a href="xxx_td_pic_s2_xxx"><img class="td-modal-image alignnone size-full" src="xxx_td_pic_s2_xxx" alt="" width="" height="" /></a>Elephants can smell water up to 3 miles away. They are also one of the three mammals that undergo menopause  the other two being humpback whales and human females.
+<h3>Beavers</h3>
+<a href="xxx_td_pic_s3_xxx"><img class="td-modal-image alignnone size-full" src="xxx_td_pic_s3_xxx" alt="" width="" height="" /></a>Because beavers teeth never stop growing, they must constantly gnaw on objects to keep them at a manageable length. Their teeth would eventually grow into their brain if they didn't maintain them.
+<h3>Turtles</h3>
+<a href="xxx_td_pic_s4_xxx"><img class="td-modal-image alignnone size-full" src="xxx_td_pic_s4_xxx" alt="" width="" height="" /></a>You can tell a turtle's gender by the noise it makes. Males grunt and females hiss.
+<h3>Giraffes</h3>
+<a href="xxx_td_pic_s5_xxx"><img class="td-modal-image alignnone size-full" src="xxx_td_pic_s5_xxx" alt="" width="" height="" /></a>Giraffes have no vocal cords and their tongues are blue-black in color.

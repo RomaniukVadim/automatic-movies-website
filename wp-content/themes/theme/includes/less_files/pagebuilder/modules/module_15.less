@@ -1,0 +1,68 @@
+/*  ----------------------------------------------------------------------------
+    Module 15
+*/
+.td_module_15 {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #f2f2f2;
+  margin-bottom: 40px;
+
+  .entry-title {
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 8px;
+    margin-top: 0;
+
+    /* responsive max portrait tablet */
+    @media (max-width: @responsive_p_tablet_max) {
+      font-size: 26px;
+      line-height: 36px;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  .td-module-meta-info {
+
+    a:hover {
+      text-decoration: none;
+    }
+  }
+
+  &.post {
+    margin-top: 0;
+
+    .td-post-comments {
+      display: inline-block;
+      float: none;
+      margin-left: 22px;
+      vertical-align: top;
+      position: relative;
+      top: 2px;
+
+      a {
+        color: #444;
+      }
+    }
+
+    .td-module-meta-info {
+      margin-bottom: 21px;
+    }
+  }
+
+  .entry-review-stars {
+    top: 5px;
+  }
+
+  .td-post-content {
+    padding-bottom: 0;
+  }
+
+
+  .td-icon-comments {
+    font-size: 9px;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+}

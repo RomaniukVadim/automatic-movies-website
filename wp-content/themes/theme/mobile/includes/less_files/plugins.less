@@ -1,0 +1,378 @@
+/*
+  Woocommerce
+*/
+/* woocommerce breadcrumbs */
+.woocommerce-breadcrumb .td-bread-sep {
+  font-size: 11px;
+  margin: 0 5px;
+  position: relative;
+  top: 1px;
+}
+
+.woocommerce .woocommerce-breadcrumb {
+  color: #999;
+  margin: 15px 0;
+  font-size: 12px;
+  line-height: 1;
+
+  a {
+    color: #999;
+  }
+}
+
+// pagination
+.woocommerce nav.woocommerce-pagination ul,
+.woocommerce nav.woocommerce-pagination ul li {
+  border: none;
+}
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {
+  padding: 0.9em;
+}
+.woocommerce nav.woocommerce-pagination {
+  margin-bottom: 26px;
+  margin-top: 26px;
+}
+// products
+.woocommerce ul.products {
+  margin: 0px -2% !important;
+}
+.woocommerce ul.products li.product {
+  width: 46% !important;
+  float: left !important;
+  margin: 0 2% 3% !important;
+  clear: none;
+  text-align: center;
+
+  &:nth-child(2n+1) {
+    clear: both;
+  }
+}
+.woocommerce ul.products li.product a img {
+  margin: 0 0 3px;
+}
+.woocommerce ul.products li.product .price {
+  font-size: 1em;
+}
+// title
+.woocommerce ul.products li.product h3 {
+  line-height: 20px;
+}
+.woocommerce ul.products li.product .button {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.woocommerce ul.products li.product .star-rating {
+  margin: 0 auto 12px;
+}
+.woocommerce a.added_to_cart {
+  padding-top: 0;
+  width: 100%;
+}
+
+// cart
+.woocommerce table.shop_table {
+  font-size: 13px;
+  line-height: 16px;
+
+  td {
+    padding: 6px;
+  }
+}
+.woocommerce td.product-quantity {
+  min-width: 60px;
+}
+.woocommerce td.product-name dl.variation dd,
+.woocommerce td.product-name dl.variation dt {
+  margin-bottom: 0;
+
+  p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+.woocommerce td.product-name dl.variation dd {
+  margin-left: 6px;
+  float: right;
+}
+.woocommerce {
+  .product-price,
+  .product-subtotal {
+    text-align: right;
+  }
+  .product-quantity {
+    text-align: center;
+  }
+}
+.woocommerce a.remove:hover {
+  text-decoration: none;
+}
+
+// product page
+.woocommerce div.product div.images div.thumbnails {
+  padding-top: 0;
+}
+.woocommerce div.product div.images,
+.woocommerce div.product div.summary {
+  margin-bottom: 16px;
+}
+.woocommerce div.product .product_title {
+  margin-bottom: 10px;
+  font-size: 28px;
+  line-height: 32px;
+}
+.woocommerce div.product .woocommerce-product-rating {
+  margin-bottom: 14px;
+}
+.woocommerce {
+  .must-log-in {
+    background-color: transparent;
+    line-height: 24px;
+
+    a {
+      display: inline;
+      color: @td_theme_color;
+    }
+  }
+}
+.woocommerce .product {
+  h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+.woocommerce p.stars {
+  font-size: 11px;
+}
+.woocommerce ul.products li.product .price {
+  margin-top: -7px;
+}
+
+
+
+/*
+  bbPress
+*/
+// breadcrumb
+.bbp-breadcrumb-sep {
+  margin: 0 5px;
+  position: relative;
+  top: 1px;
+  font-size: 17px;
+}
+
+.bbp-breadcrumb {
+  color: #999;
+  font-size: 12px;
+  line-height: 1;
+
+  a {
+    color: #999;
+  }
+}
+#bbpress-forums div.bbp-breadcrumb p,
+#bbpress-forums div.bbp-topic-tags p {
+  margin-bottom: 15px;
+  margin-top: 3px;
+}
+#bbpress-forums div.bbp-search-form {
+   margin-bottom: 10px;
+}
+.bbp-search-form {
+  float: none !important;
+
+  div {
+    position: relative;
+  }
+  #bbp_search {
+    width: 100% !important;
+    height: 33px;
+  }
+  .button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    padding: 8px 15px;
+  }
+}
+#bbpress-forums {
+  li {
+    line-height: 17px;
+  }
+  textarea {
+    border: 1px solid #E1E1E1;
+  }
+  .bbp-form button {
+    font-size: 13px;
+    padding: 8px 15px;
+    background-color: #222;
+    color: #fff;
+    display: block;
+    border: none;
+    width: 100%;
+  }
+  div.bbp-submit-wrapper {
+    width: 100%;
+  }
+  .bbp-header .bbp-reply-author {
+    display: none;
+  }
+  .bbp-header .bbp-reply-content {
+    margin-left: 6px !important;
+  }
+  .bbp-footer {
+    display: none;
+  }
+  .bbp-user-section {
+    .bbp-user-forum-role,
+    .bbp-user-topic-count,
+    .bbp-user-reply-count {
+      margin-bottom: 5px;
+    }
+  }
+  #bbp-user-body {
+    margin-left: 0;
+  }
+}
+#bbpress-forums p.bbp-topic-meta img.avatar,
+#bbpress-forums ul.bbp-reply-revision-log img.avatar,
+#bbpress-forums ul.bbp-topic-revision-log img.avatar,
+#bbpress-forums div.bbp-template-notice img.avatar,
+#bbpress-forums .widget_display_topics img.avatar,
+#bbpress-forums .widget_display_replies img.avatar {
+  border: none;
+  margin: 0 4px -3px;
+}
+#subscription-toggle {
+  display: block;
+  clear: both;
+}
+#bbpress-forums div.bbp-reply-author a.bbp-author-name {
+  margin-bottom: 3px;
+}
+#bbpress-forums .bbp-body div.bbp-reply-author {
+  font-size: 16px;
+  font-weight: bold;
+}
+#bbpress-forums div.bbp-reply-author img.avatar {
+  top: 5px;
+}
+#bbpress-forums .bbp-body div.bbp-reply-author {
+  margin-top: -10px;
+}
+
+// profile page
+.bbp-user-page,
+.bbp-user-edit {
+  .td-page-title {
+    text-align: center;
+  }
+}
+#bbpress-forums #bbp-single-user-details {
+  float: none;
+  text-align: center;
+  margin: 0 auto;
+}
+#bbpress-forums #bbp-single-user-details #bbp-user-avatar img.avatar {
+  border-radius: 100%;
+}
+#bbpress-forums #bbp-single-user-details #bbp-user-navigation {
+  margin-bottom: 20px;
+}
+#bbpress-forums #bbp-your-profile fieldset input,
+#bbpress-forums #bbp-your-profile fieldset textarea {
+  width: 100%;
+}
+#bbpress-forums fieldset.bbp-form label {
+  width: auto !important;
+}
+#bbpress-forums #bbp-your-profile fieldset {
+  padding: 5px 15px 0;
+
+  &.submit {
+    border: none;
+    margin: 0;
+    padding: 0;
+
+    button {
+      font-size: 13px;
+      padding: 8px 15px;
+      background-color: #222;
+      color: #fff;
+      display: block;
+      border: none;
+      width: 100%;
+    }
+  }
+}
+#bbpress-forums #bbp-your-profile fieldset select {
+  width: 100%;
+}
+#bbpress-forums #bbp-your-profile fieldset fieldset.password {
+  width: auto;
+}
+
+
+/*
+  buddyPress
+*/
+// search
+#buddypress div.dir-search {
+  float: none;
+  position: relative;
+  margin-top: 0;
+
+  input[type="text"] {
+    width: 100% !important;
+    height: 33px;
+    margin-bottom: 20px;
+  }
+  input[type="submit"] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    padding: 8px 15px;
+    background-color: #222;
+    color: #fff;
+    display: block;
+    border: none;
+  }
+}
+
+#buddypress {
+  margin-bottom: 30px;
+
+  // registration page
+  #register-page {
+    input {
+      width: 100% !important;
+      font-size: 16px;
+    }
+
+    input[type="submit"] {
+      padding: 18px 15px;
+      background-color: #222;
+      color: #fff;
+      display: block;
+      border: none;
+      margin-bottom: 26px;
+    }
+
+    #signup_form.standard-form div.submit {
+      float: none;
+    }
+    .register-section {
+      float: none !important;
+      width: 100% !important;
+    }
+  }
+}
+#buddypress ul.item-list li div.item-title {
+  width: 100%;
+  line-height: 18px;
+}
+#buddypress div#item-header div#item-meta #latest-update {
+  line-height: 18px;
+}

@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id_ID\n"
+
+#: no reference:
+msgid "View all results"
+msgstr "Lihat semua hasil"
+
+#: no reference:
+msgid "No results"
+msgstr "Tidak ada hasil"
+
+#: no reference:
+msgid "Home"
+msgstr "Beranda"
+
+#: no reference:
+msgid "CLOSE"
+msgstr "TUTUP"
+
+#: no reference:
+msgid "Page"
+msgstr "Halaman"
+
+#: no reference:
+msgid "All"
+msgstr "Semua"
+
+#: no reference:
+msgid "By"
+msgstr "Penulis"
+
+#: no reference:
+msgid "Load more"
+msgstr "Muat lebih"
+
+#: no reference:
+msgid "View all posts in"
+msgstr "Lihat semua kiriman dalam"
+
+#: no reference:
+msgid "Tags"
+msgstr "Label"
+
+#: no reference:
+msgid "Previous article"
+msgstr "Berita sebelumya"
+
+#: no reference:
+msgid "Next article"
+msgstr "Berita berikutnya"
+
+#: no reference:
+msgid "Authors"
+msgstr "Penulis"
+
+#: no reference:
+msgid "Author"
+msgstr "Penulis"
+
+#: no reference:
+msgid "RELATED ARTICLES"
+msgstr "BERITA TERKAIT"
+
+#: no reference:
+msgid "MORE FROM AUTHOR"
+msgstr "DARI PENULIS"
+
+#: no reference:
+msgid "VIA"
+msgstr "VIA"
+
+#: no reference:
+msgid "SOURCE"
+msgstr "SUMBER"
+
+#: no reference:
+msgid "TAGS"
+msgstr "LABEL"
+
+#: no reference:
+msgid "SHARE"
+msgstr "BAGIKAN"
+
+#: no reference:
+msgid "Continue"
+msgstr "Lanjutkan"
+
+#: no reference:
+msgid "Read more"
+msgstr "Baca Selengkapnya"
+
+#: no reference:
+msgid "Name:"
+msgstr "Nama:"
+
+#: no reference:
+msgid "Email:"
+msgstr "Email:"
+
+#: no reference:
+msgid "Website:"
+msgstr "Website"
+
+#: no reference:
+msgid "Comment:"
+msgstr "Komentar:"
+
+#: no reference:
+msgid "LEAVE A REPLY"
+msgstr "LEAVE A REPLY"
+
+#: no reference:
+msgid "Post Comment"
+msgstr "Kirim Komentar"
+
+#: no reference:
+msgid "Cancel reply"
+msgstr "Batal balasan"
+
+#: no reference:
+msgid "Reply"
+msgstr "Balas"
+
+#: no reference:
+msgid "Log in to leave a comment"
+msgstr "Login untuk meninggalkan komentar"
+
+#: no reference:
+msgid "NO COMMENTS"
+msgstr "TIDAK ADA KOMENTAR"
+
+#: no reference:
+msgid "1 COMMENT"
+msgstr "1 KOMENTAR"
+
+#: no reference:
+msgid "COMMENTS"
+msgstr "KOMENTAR"
+
+#: no reference:
+msgid "REVIEW OVERVIEW"
+msgstr "TINJAUAN IKHTISAR"
+
+#: no reference:
+msgid "SUMMARY"
+msgstr "RINGKASAN"
+
+#: no reference:
+msgid "OVERALL SCORE"
+msgstr "NILAI KESELURUHAN"
+
+#: no reference:
+msgid "Ooops... Error 404"
+msgstr "Ooops ... Kesalahan 404"
+
+#: no reference:
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr "Maaf, tapi halaman yang Anda cari tidak ada."
+
+#: no reference:
+msgid "You can go to the"
+msgstr "Anda dapat pergi ke"
+
+#: no reference:
+msgid "HOMEPAGE"
+msgstr "HALAMAN AWAL"
+
+#: no reference:
+msgid "OUR LATEST POSTS"
+msgstr "KIRIMAN TERBARU KAMI"
+
+#: no reference:
+msgid "Posts by"
+msgstr "Dikirim oleh"
+
+#: no reference:
+msgid "POSTS"
+msgstr "KIRIMAN"
+
+#: no reference:
+msgid "Posts tagged with"
+msgstr "Kiriman ditandai dengan"
+
+#: no reference:
+msgid "Tag"
+msgstr "Label"
+
+#: no reference:
+msgid "Daily Archives:"
+msgstr "Arsip Harian:"
+
+#: no reference:
+msgid "Monthly Archives:"
+msgstr "Arsip Bulanan:"
+
+#: no reference:
+msgid "Yearly Archives:"
+msgstr "Arsip Tahunan:"
+
+#: no reference:
+msgid "Archives"
+msgstr "Arsip"
+
+#: no reference:
+msgid "LATEST ARTICLES"
+msgstr "BERITA TERBARU"
+
+#: no reference:
+msgid "search results"
+msgstr "hasil pencarian"
+
+#: no reference:
+msgid "Search"
+msgstr "pencarian"
+
+#: no reference:
+msgid "If you're not happy with the results, please do another search"
+msgstr "Jika Anda tidak puas dengan hasilnya, silakan melakukan pencarian lain"
+
+#: no reference:
+msgid "Contact us"
+msgstr "Hubungi kami"
+
+#: no reference:
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Halaman %CURRENT_PAGE% dari %TOTAL_PAGES%"
+
+#: no reference:
+msgid "Next"
+msgstr "Berikutnya"
+
+#: no reference:
+msgid "Prev"
+msgstr "Sebelumnya"
+
+#: no reference:
+msgid "No results for your search"
+msgstr "Tidak ada hasil untuk pencarian Anda"
+
+#: no reference:
+msgid "No posts to display"
+msgstr "Tidak ada kiriman yang ditampilkan"
+
+#: no reference:
+msgid "LOG IN"
+msgstr "MASUK"
+
+#: no reference:
+msgid "Sign in / Join"
+msgstr "Masuk / Bergabung"
+
+#: no reference:
+msgid "Log In"
+msgstr "Masuk"
+
+#: no reference:
+msgid "REGISTER"
+msgstr "DAFTAR"
+
+#: no reference:
+msgid "Send My Pass"
+msgstr "Kirim Kata Sandi Saya"
+
+#: no reference:
+msgid "Forgot your password?"
+msgstr "Lupa kata sandi Anda?"
+
+#: no reference:
+msgid "Please wait..."
+msgstr "Mohon Tunggu…"
+
+#: no reference:
+msgid "User or password incorrect!"
+msgstr "Pengguna dan password salah!"
+
+#: no reference:
+msgid "Email or username incorrect!"
+msgstr "Email atau nama pengguna salah!"
+
+#: no reference:
+msgid "Email incorrect!"
+msgstr "Email tidak benar!"
+
+#: no reference:
+msgid "User or email already exists!"
+msgstr "Pengguna atau email sudah ada!"
+
+#: no reference:
+msgid "Please check your email (index or spam folder), the password was sent there."
+msgstr "Silakan cek email (indeks atau folder spam), password dikirim ke sana."
+
+#: no reference:
+msgid "Email address not found!"
+msgstr "Alamat email tidak ditemukan!"
+
+#: no reference:
+msgid "Your password is reset, check your email."
+msgstr "Kata sandi Anda diatur ulang, cek email Anda."
+
+#: no reference:
+msgid "Welcome! Log into your account"
+msgstr "Selamat Datang! Masuk ke akun Anda"
+
+#: no reference:
+msgid "Register for an account"
+msgstr "Mendaftar membuat akun"
+
+#: no reference:
+msgid "Recover your password"
+msgstr "Memulihkan kata sandi anda"
+
+#: no reference:
+msgid "your username"
+msgstr "nama pengguna"
+
+#: no reference:
+msgid "your password"
+msgstr "kata sandi Anda"
+
+#: no reference:
+msgid "your email"
+msgstr "email Anda"
+
+#: no reference:
+msgid "A password will be e-mailed to you."
+msgstr "Sebuah kata sandi akan dikirimkan ke email Anda."
+
+#: no reference:
+msgid "Logout"
+msgstr "Keluar"
+
+#: no reference:
+msgid "Like"
+msgstr "Suka"
+
+#: no reference:
+msgid "Fans"
+msgstr "Fans"
+
+#: no reference:
+msgid "Follow"
+msgstr "Mengikuti"
+
+#: no reference:
+msgid "Followers"
+msgstr "Pengikut"
+
+#: no reference:
+msgid "Subscribe"
+msgstr "Berlangganan"
+
+#: no reference:
+msgid "Subscribers"
+msgstr "Pelanggan"
+
+#: no reference:
+msgid "MORE STORIES"
+msgstr "BERITA TERKAIT"
+
+#: no reference:
+msgid "Latest"
+msgstr "terbaru"
+
+#: no reference:
+msgid "Featured posts"
+msgstr "Kiriman menarik"
+
+#: no reference:
+msgid "Most popular"
+msgstr "Terpopuler"
+
+#: no reference:
+msgid "7 days popular"
+msgstr "7 hari populer"
+
+#: no reference:
+msgid "By review score"
+msgstr "Dengan nilai peninjauan"
+
+#: no reference:
+msgid "Random"
+msgstr "Acak"
+
+#: no reference:
+msgid "Trending Now"
+msgstr "Breaking News"
+
+#: no reference:
+msgid "POPULAR CATEGORY"
+msgstr "KATEGORI POPULER"
+
+#: no reference:
+msgid "EVEN MORE NEWS"
+msgstr "BERITA LEBIH"
+
+#: no reference:
+msgid "Previous (Left arrow key)"
+msgstr "Sebelumnya (tombol panah kiri)"
+
+#: no reference:
+msgid "Next (Right arrow key)"
+msgstr "Berikutnya (tombol panah kanan)"
+
+#: no reference:
+msgid "%curr% of %total%"
+msgstr "%curr% dari %total%"
+
+#: no reference:
+msgid "The content from %url% could not be loaded."
+msgstr "Isi dari %url% tidak dapat dimuat."
+
+#: no reference:
+msgid "The image #%curr% could not be loaded."
+msgstr "Gambar #%curr% tidak dapat dimuat."
+
+#: no reference:
+msgid "Blog"
+msgstr "blog"
+
+#: no reference:
+msgid "Share on Facebook"
+msgstr "Berbagi di Facebook"
+
+#: no reference:
+msgid "Tweet on Twitter"
+msgstr "Tweet di Twitter"
+
+#: no reference:
+msgid "EDITOR PICKS"
+msgstr "PICKS EDITOR"
+
+#: no reference:
+msgid "POPULAR POSTS"
+msgstr "POSTING POPULER"
+
+#: no reference:
+msgid "FOLLOW US"
+msgstr "IKUTI KAMI"
+
+#: no reference:
+msgid "ABOUT US"
+msgstr "TENTANG KITA"
+
+#: no reference:
+msgid "More"
+msgstr "Lebih"
+
+#: no reference:
+msgid "Featured"
+msgstr "Fitur"
+
+#: no reference:
+msgid "All time popular"
+msgstr "Sepanjang waktu populer"
+
+#: no reference:
+msgid "Likes"
+msgstr "Seperti"
+
+#: no reference:
+msgid "Register"
+msgstr "Daftar"
+

@@ -1,0 +1,311 @@
+/*
+    Animation
+*/
+// hide mobile menu content
+.td-mobile-container {
+  opacity: 1;
+  .transition(all 0.5s ease 0.5s);
+}
+.td-hide-menu-content {
+  .td-mobile-container {
+    opacity: 0;
+    visibility: hidden;
+    .transition(all 0.5s ease 0s);
+  }
+
+  .td-mobile-content {
+    display: none; // prevent height of the container when login is open
+  }
+}
+
+.td-login-animation {
+  opacity: 0;
+  .transition(all 0.5s ease 0.5s);
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.td-login-hide {
+  .transition(all 0.5s ease 0s);
+  visibility: hidden !important;
+}
+
+.td-login-show {
+  visibility: visible !important;
+  opacity: 1;
+}
+
+
+/*
+    Logged section
+*/
+.td-menu-login-section {
+  list-style: none;
+  position: relative;
+  margin-top: 20px;
+
+  .td-logged-wrap {
+    height: 60px;
+    line-height: 60px;
+
+    /* responsive portrait phone */
+    @media (max-width: 320px) {
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+
+  a {
+    color: #fff;
+  }
+}
+// avatar
+.td-menu-avatar {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  margin: 0;
+
+  .td-avatar-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    .box-shadow(0 0 0 4px rgba(255,255,255,0.1));
+    overflow: hidden;
+    position: relative;
+
+    /* responsive portrait phone */
+    @media (max-width: 320px) {
+      .box-shadow(0 0 0 3px rgba(255,255,255,0.1));
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .avatar {
+    position: absolute;
+    margin: 0 auto;
+    left: -9999px;
+    right: -9999px;
+    max-width: none;
+    width: 100%;
+    height: 100%;
+  }
+}
+// username
+.td-menu-username {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 100px 0 95px;
+  overflow: hidden;
+  height: 60px;
+
+  /* responsive portrait phone */
+  @media (max-width: 320px) {
+    height: 40px;
+    margin: 0 100px 0 75px;
+  }
+}
+// logout
+.td-menu-logout {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  margin: 0;
+  a {
+    padding: 7px 14px;
+    border: 1px solid rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.03);
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+
+
+/*
+    Guest section
+*/
+.td-guest-wrap {
+  height: 40px;
+  text-align: center;
+
+  .td-menu-avatar {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    top: auto;
+    left: auto;
+    margin-right: 15px;
+
+    .td-avatar-container {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .td-menu-login {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    vertical-align: middle;
+
+    span {
+      background-color: #fff;
+      width: 1px;
+      height: 20px;
+      display: inline-block;
+      margin: 0 13px;
+      line-height: 20px;
+      position: relative;
+      top: 3px;
+      opacity: 0.3;
+    }
+
+    a {
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+/*
+    Register section
+*/
+.td-register-section {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  width: 100%;
+  z-index: -1;
+
+  a {
+    color: #fff;
+  }
+
+  // back button
+  .td-icon-read-down {
+    font-size: 23px;
+    .transform(rotate(90deg));
+    line-height: 74px;
+    width: 74px;
+  }
+
+  // input
+  .td-login-input {
+    color: #fff;
+    font-weight: normal;
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    background: transparent;
+    outline: 0;
+    margin: 18px 0;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0;
+    box-shadow: none;
+
+    &:focus,
+    &:valid {
+      ~ label {
+        top: -6px;
+        font-size: 14px;
+        opacity: 0.4;
+      }
+    }
+  }
+
+  .td-login-form-wrap {
+    padding: 0 30px;
+  }
+
+  // login button
+  .td-login-button {
+    display: block;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 50px;
+    color: #000;
+    border: none;
+    .box-shadow(0 0 8px rgba(0, 0, 0, 0.36));
+    margin: 17px 0 15px;
+    font-size: 17px;
+    border-radius: 0;
+    background-color: #fff;
+    opacity: 0.8;
+    text-shadow: none;
+  }
+
+  // forgot pass button
+  .td-login-info-text {
+    text-align: center;
+  }
+}
+
+// page top title
+.td-login-title {
+  position: absolute;
+  top: 0;
+  padding: 0 50px;
+  text-align: center;
+  line-height: 74px;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 17px;
+  height: 74px;
+  overflow: hidden;
+  z-index: -1;
+}
+
+// description page
+.td-login-panel-title {
+  text-align: center;
+  font-size: 16px;
+  padding: 30px 10px;
+
+  span {
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+// Error log
+.td_display_err {
+  text-align: center;
+  color: #fff;
+  border: none;
+  .box-shadow(0 0 8px rgba(0, 0, 0, 0.16));
+  margin: -9px -30px 24px;
+  font-size: 14px;
+  border-radius: 0;
+  padding: 12px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.06);
+  display: none;
+}
+
+// placeholders
+.td-login-form-wrap {
+  label {
+    position: absolute;
+    top: 26px;
+    left: 10px;
+    font-size: 17px;
+    color: #fff;
+    opacity: 0.6;
+    pointer-events: none;
+    .transition(all 0.2s ease);
+  }
+}
+.td-login-inputs {
+  position: relative;
+}

@@ -1,0 +1,142 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/*
+Travel blog demo
+*/
+.td-blog-travel .td-header-style-8 .sf-menu > li > a:hover,
+.td-blog-travel .td-header-style-8 .sf-menu > .sfHover > a,
+.td-blog-travel .td-header-style-8 .sf-menu > .current-menu-item > a,
+.td-blog-travel .td-header-style-8 .sf-menu > .current-menu-ancestor > a,
+.td-blog-travel .td-header-style-8 .sf-menu > .current-category-ancestor > a {
+  color: #008ca8;
+}
+.td-blog-travel .td-header-style-8 .sf-menu > li > a:after {
+  display: none;
+}
+.td-blog-travel .td-header-style-8 .td-header-top-menu {
+  border-bottom: 1px dashed #e0e0e0;
+}
+@media (min-width: 768px) {
+  .td-blog-travel .td-header-style-8 .td-header-top-menu-full {
+    margin-top: 48px;
+  }
+}
+@media (min-width: 1141px) {
+  .td-blog-travel .td-header-style-8 .td-header-sp-logo {
+    width: 250px;
+  }
+}
+@media (max-width: 1140px) and (min-width: 768px) {
+  .td-blog-travel .td-header-style-8 .td-header-sp-logo {
+    top: -12px;
+  }
+}
+.td-blog-travel .td-header-style-8 .td-header-gradient:before {
+  display: none;
+}
+.td-blog-travel .td-travel-slider {
+  /* responsive landscape tablet */
+}
+@media (min-width: 768px) and (max-width: 1140px) {
+  .td-blog-travel .td-travel-slider {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .td-blog-travel .td-travel-slider {
+    margin-top: -32px;
+    margin-bottom: -10px;
+  }
+}
+.td-blog-travel .td-travel-slider .tp-leftarrow.tparrows.uranus {
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td-blog-travel .td-travel-slider .tp-leftarrow.tparrows.uranus {
+    transform: matrix(1, 0, 0, 1, -5, -25) !important;
+  }
+}
+.td-blog-travel .td-travel-slider .tp-rightarrow.tparrows.uranus {
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td-blog-travel .td-travel-slider .tp-rightarrow.tparrows.uranus {
+    transform: matrix(1, 0, 0, 1, -50, -25) !important;
+  }
+}
+.td-blog-travel .td-travel-boxes {
+  margin-bottom: 48px;
+  /* responsive landscape tablet */
+  /* responsive portrait phone */
+}
+@media (max-width: 1140px) {
+  .td-blog-travel .td-travel-boxes {
+    margin-bottom: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .td-blog-travel .td-travel-boxes {
+    margin-bottom: 48px;
+  }
+}
+.td-blog-travel .td-big-grid-post .td-post-category {
+  font-size: 10px;
+  padding: 2px 7px 3px;
+}
+.td-blog-travel .td-post-template-7 {
+  margin-top: 48px;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td-blog-travel .td-post-template-7 {
+    margin-top: 0;
+  }
+}
+.td-blog-travel .td_module_18 .meta-info-container {
+  border-bottom: 1px dashed #e0e0e0;
+}
+.td-blog-travel .td-blog-single {
+  border: 1px dashed #e0e0e0;
+  margin-bottom: 24px !important;
+}
+.td-blog-travel .td-blog-single-last {
+  border: 1px dashed #e0e0e0;
+  margin-bottom: 0 !important;
+}
+.td-blog-travel .block-title {
+  border-bottom-width: 3px;
+}
+.td-blog-travel .block-title span {
+  padding: 0 0 8px 10px;
+  background-color: transparent;
+}
+.td-blog-travel .td-related-title {
+  border-bottom-width: 3px;
+}
+.td-blog-travel .td-related-title .td-cur-simple-item {
+  color: #fff;
+}
+.td-blog-travel .td-social-style8 .td_social_type .td-social-box {
+  border-style: dashed;
+}
+.td-blog-travel .td-sidebar-about {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.td-blog-travel .td-sidebar-about p {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #777;
+  margin-top: 10px;
+}
+.td-blog-travel .td_module_8 {
+  border-bottom: 1px dashed #e0e0e0;
+}
+.td-blog-travel #td-theme-settings .td-skin-buy a {
+  background-color: #008ca8;
+}

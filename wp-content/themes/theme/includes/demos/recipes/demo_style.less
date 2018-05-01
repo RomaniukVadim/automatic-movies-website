@@ -1,0 +1,224 @@
+@import "../../less_files/variables.less";
+
+/* Recipes demo */
+.td-recipes {
+  &.td-boxed-layout #td-outer-wrap {
+    /* responsive on desktop */
+    @media (min-width: 1180px) {
+      -webkit-box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+      -moz-box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+      box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+      margin-top: 40px;
+    }
+  }
+
+
+  // blocks and modules
+  .td-module-comments a {
+    padding: 4px 4px 4px 5px;
+  }
+  .block-title {
+    border-bottom: 0;
+
+    a,
+    span,
+    label {
+      padding: 7px 12px 5px 12px;
+    }
+  }
+  .td_module_wrap {
+    .td-post-author-name,
+    .td-module-comments,
+    .td-post-date {
+      display: none;
+    }
+    .td-post-category {
+      padding: 4px 6px 4px;
+
+      /* responsive portrait phone */
+      @media (min-width: 768px) {
+        padding: 6px 0;
+        background-color: transparent !important;
+        color: #35a533;
+        position: relative;
+      }
+    }
+  }
+  .td_module_6 .td-post-category {
+    /* responsive portrait phone */
+    @media (min-width: 768px) {
+      padding: 0;
+    }
+  }
+  .td_module_mega_menu {
+    .td-post-category {
+      padding: 10px 0 0;
+      margin-bottom: -2px;
+      background-color: transparent;
+      color: #35a533;
+      position: relative;
+    }
+  }
+  .widget li {
+    margin-left: 0;
+  }
+  .td-subcat-filter {
+    .td-subcat-dropdown {
+      .td-subcat-more {
+        height: 29px !important;
+        padding-top: 4px;
+      }
+      ul {
+        border-width: 1px;
+        top: 29px;
+      }
+    }
+    .td-subcat-list {
+      padding-top: 4px;
+    }
+  }
+
+  // big grid
+  .td_block_big_grid_5 {
+    .td-post-category {
+      padding: 4px 7px 2px;
+    }
+    .td-module-meta-info {
+      display: none;
+    }
+  }
+
+  // pagination
+  .page-nav a,
+  .page-nav span {
+    border-radius: 20px;
+  }
+
+  // footer
+  .td-footer-wrapper {
+    .block-title {
+      a,
+      span,
+      label {
+        padding: 0;
+      }
+    }
+  }
+
+  // category page
+  &.td_category_template_4 {
+    .td-category-header {
+      text-align: center;
+      padding-bottom: 40px;
+      padding-top: 20px;
+
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        padding-top: 0;
+        padding-bottom: 23px;
+      }
+    }
+    .td-category-siblings {
+      width: 100%;
+
+      .td-category a {
+        padding: 4px 7px 3px;
+      }
+
+      .td-category .td-current-sub-category {
+        background-color: #35a533;
+        border-color: #35a533;
+      }
+    }
+    .td-category-description {
+      width: 100%;
+      padding: 0 5%;
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+          padding: 0;
+      }
+    }
+  }
+
+  // custom blocks colors
+  .td-recipes-deserts .td_block_15 .td-post-category {
+    /* responsive portrait phone */
+    @media (min-width: 768px) {
+      color: #dd4949;
+    }
+  }
+  .td-recipes-chicken .td_block_15 .td-post-category {
+    /* responsive portrait phone */
+    @media (min-width: 768px) {
+      color: #3e8ebc;
+    }
+  }
+
+  // instagram full
+  .td-recipes-instagram {
+    .td-instagram-main {
+      /* responsive on desktop */
+      @media (min-width: 1180px) {
+        margin: 0 -48px;
+      }
+    }
+  }
+
+  // social counter
+  .td-social-style3 {
+    padding-bottom: 40px;
+  }
+
+  // footer
+  .footer-email-wrap {
+    a {
+      color: #35a533;
+    }
+  }
+
+  // post
+  .td-recipe-time {
+    width: 100%;
+    border: 1px solid #ededed;
+    padding: 11px 16px;
+    margin-bottom: 26px;
+
+    br {
+      display: none;
+    }
+
+    .td-recipe-info {
+      float: left;
+      width: 33.3333%;
+
+      /* responsive portrait tablet */
+      @media (max-width: @responsive_p_tablet_max) {
+          width: 100%;
+      }
+    }
+  }
+  .td-related-title {
+    border: 0;
+  }
+  .td-post-template-13 header .td-post-author-name a {
+    font-weight: normal;
+    color: #35a533;
+  }
+
+  // dropcap
+  .dropcap1 {
+    font-size: 21px;
+    line-height: 70px;
+    background-color: transparent;
+    color: black;
+    padding: 0;
+    border: 1px solid #ededed;
+    width: 70px;
+    height: 70px;
+  }
+
+  // demos button
+  #td-theme-settings .td-skin-buy a {
+    background-color: #35a533;
+  }
+}

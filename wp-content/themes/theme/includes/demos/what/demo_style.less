@@ -1,0 +1,246 @@
+@import "../../less_files/variables.less";
+
+
+/*
+Say what demo
+*/
+
+
+.td-what {
+
+  // header
+  .td-header-style-6 {
+    .black-menu .sf-menu > li > a:hover,
+    .black-menu .sf-menu > .sfHover > a,
+    .black-menu .sf-menu > .current-menu-item > a,
+    .black-menu .sf-menu > .current-menu-ancestor > a,
+    .black-menu .sf-menu > .current-category-ancestor > a {
+      background-color: transparent;
+      color: #ff036e;
+    }
+  }
+
+  // body
+  .td-grid-what {
+    margin-top: -48px;
+  }
+
+  .td_block_big_grid_4 {
+    padding-bottom: 22px;
+
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      .td-big-grid-meta .entry-title {
+        font-size: 34px;
+        line-height: 1;
+      }
+    }
+
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      .td-big-grid-meta .entry-title {
+        font-size: 28px;
+        line-height: 1;
+      }
+    }
+  }
+
+  @media (max-width: @responsive_p_phone_max) {
+    .td_block_trending_now {
+      padding-bottom: 18px;
+    }
+  }
+
+  .td-trending-now-title {
+    color: #fff;
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+  .block-title {
+    border-bottom: none;
+
+    span {
+      padding: 0;
+      background-color: transparent;
+
+    }
+  }
+
+  .td_block_5 {
+    padding-bottom: 0;
+  }
+
+  .td_module_mx5 .td-meta-info-container .td-post-category {
+    background-color: #000;
+  }
+
+  .td_module_3 {
+      padding-bottom: 16px;
+
+    .td-module-image .td-post-category {
+      background-color: transparent;
+      position: relative;
+      color: #ff036e;
+      margin-right: 0;
+      padding: 0 0 8px 0;
+    }
+  }
+
+  .td_module_11 {
+    .td-post-category {
+      background-color: transparent;
+      color: #ff036e;
+      padding: 0;
+      font-size: 24px;
+      line-height: 1;
+    }
+
+    .td-excerpt {
+      font-size: 18px;
+      line-height: 22px;
+      color: #111;
+    }
+
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      .td-module-title {
+        font-size: 26px;
+        line-height: 1;
+      }
+
+      .td-post-category {
+        font-size: 18px;
+        line-height: 1;
+      }
+
+      .td-excerpt {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+
+    @media (max-width: @responsive_p_phone_max) {
+      .td-module-title {
+        font-size: 22px;
+        line-height: 1;
+      }
+
+      .td-post-category {
+        font-size: 16px;
+        line-height: 1;
+      }
+    }
+  }
+
+  .td_module_18 {
+    .meta-info-container {
+      text-align: left;
+      border-bottom: none;
+    }
+
+    .td-post-category {
+      color: #ff036e;
+      font-size: 32px;
+      padding: 0 0 2px 0;
+
+      &:hover {
+        color: #ff036e;
+        opacity: 1;
+      }
+    }
+
+    .td-module-meta-info {
+      margin-bottom: 22px;
+    }
+
+    .td-excerpt {
+      font-size: 22px;
+      line-height: 26px;
+      color: #111;
+    }
+
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      .td-module-title {
+        font-size: 38px;
+        line-height: 1;
+      }
+
+      .td-post-category {
+        font-size: 24px;
+        line-height: 1;
+      }
+    }
+
+    @media (max-width: @responsive_p_phone_max) {
+      .td-module-title {
+        font-size: 30px;
+        line-height: 1;
+      }
+
+      .td-post-category {
+        font-size: 24px;
+        line-height: 1;
+      }
+    }
+  }
+
+  .td_module_8 {
+    padding-bottom: 0;
+
+    .entry-title {
+      margin-bottom: 0;
+    }
+  }
+
+  .td-read-more {
+    display: none;
+  }
+
+  .td_module_wrap,
+  .td-big-grid-post {
+    .td-post-author-name,
+    .td-post-date,
+    .td-module-comments {
+      display: none;
+    }
+  }
+
+  .td-related-title {
+    border: none;
+
+    .td-cur-simple-item {
+      background-color: transparent;
+
+      &:hover {
+        color: #ff036e;
+      }
+    }
+  }
+
+  //sidebar
+  .td_block_popular_categories .block-title span {
+    background-color: transparent !important;
+  }
+
+  .td_block_popular_categories ul {
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .widget li {
+    margin-left: 0 !important;
+  }
+
+  .widget_recent_comments {
+    li {
+      border: none;
+      font-size: 16px;
+    }
+    a {
+      font-size: 16px;
+    }
+  }
+
+  // demos button
+  #td-theme-settings .td-skin-buy a {
+    background-color: #ff036e;
+  }
+}

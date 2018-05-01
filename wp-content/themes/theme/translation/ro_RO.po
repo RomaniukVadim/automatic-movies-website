@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro_RO\n"
+
+#: no reference:
+msgid "View all results"
+msgstr "Vedeți toate rezultatele"
+
+#: no reference:
+msgid "No results"
+msgstr "Niciun rezultat"
+
+#: no reference:
+msgid "Home"
+msgstr "Acasă"
+
+#: no reference:
+msgid "CLOSE"
+msgstr "ÎNCHIDEȚI"
+
+#: no reference:
+msgid "Page"
+msgstr "Pagina"
+
+#: no reference:
+msgid "All"
+msgstr "Toate"
+
+#: no reference:
+msgid "By"
+msgstr "De către"
+
+#: no reference:
+msgid "Load more"
+msgstr "Încărcați mai multe"
+
+#: no reference:
+msgid "View all posts in"
+msgstr "Vedeți toate articolele în"
+
+#: no reference:
+msgid "Tags"
+msgstr "Etichete"
+
+#: no reference:
+msgid "Previous article"
+msgstr "Articolul precedent"
+
+#: no reference:
+msgid "Next article"
+msgstr "Articolul următor"
+
+#: no reference:
+msgid "Authors"
+msgstr "Autori"
+
+#: no reference:
+msgid "Author"
+msgstr "Autor"
+
+#: no reference:
+msgid "RELATED ARTICLES"
+msgstr "ARTICOLE SIMILARE"
+
+#: no reference:
+msgid "MORE FROM AUTHOR"
+msgstr "DE LA ACELAȘI AUTOR"
+
+#: no reference:
+msgid "VIA"
+msgstr "VIA"
+
+#: no reference:
+msgid "SOURCE"
+msgstr "SURSĂ"
+
+#: no reference:
+msgid "TAGS"
+msgstr "ETICHETE"
+
+#: no reference:
+msgid "SHARE"
+msgstr "DISTRIBUIȚI"
+
+#: no reference:
+msgid "Continue"
+msgstr "Continuați"
+
+#: no reference:
+msgid "Read more"
+msgstr "Citiți mai mult"
+
+#: no reference:
+msgid "Name:"
+msgstr "Nume:"
+
+#: no reference:
+msgid "Email:"
+msgstr "Email:"
+
+#: no reference:
+msgid "Website:"
+msgstr "Website:"
+
+#: no reference:
+msgid "Comment:"
+msgstr "Comentariu:"
+
+#: no reference:
+msgid "LEAVE A REPLY"
+msgstr "LĂSAȚI UN MESAJ"
+
+#: no reference:
+msgid "Post Comment"
+msgstr "Trimiteți comentariu"
+
+#: no reference:
+msgid "Cancel reply"
+msgstr "Renunțați la răspuns"
+
+#: no reference:
+msgid "Reply"
+msgstr "Răspundeți"
+
+#: no reference:
+msgid "Log in to leave a comment"
+msgstr "Autentificați-vă pentru a lăsa un comentariu"
+
+#: no reference:
+msgid "NO COMMENTS"
+msgstr "NICIUN COMENTARIU"
+
+#: no reference:
+msgid "1 COMMENT"
+msgstr "1 COMENTARIU"
+
+#: no reference:
+msgid "COMMENTS"
+msgstr "COMENTARII"
+
+#: no reference:
+msgid "REVIEW OVERVIEW"
+msgstr "REVEDEȚI PREZENTAREA"
+
+#: no reference:
+msgid "SUMMARY"
+msgstr "CUPRINS"
+
+#: no reference:
+msgid "OVERALL SCORE"
+msgstr "SCOR GENERAL"
+
+#: no reference:
+msgid "Ooops... Error 404"
+msgstr "Upps ... Eroare 404"
+
+#: no reference:
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr "Ne pare rău, dar pagina pe care o cautați nu există."
+
+#: no reference:
+msgid "You can go to the"
+msgstr "Puteți merge la"
+
+#: no reference:
+msgid "HOMEPAGE"
+msgstr "HOMEPAGE"
+
+#: no reference:
+msgid "OUR LATEST POSTS"
+msgstr "ULTIMELE NOASTRE ARTICOLE"
+
+#: no reference:
+msgid "Posts by"
+msgstr "Articole adaugate de către"
+
+#: no reference:
+msgid "POSTS"
+msgstr "ARTICOLE"
+
+#: no reference:
+msgid "Posts tagged with"
+msgstr "Articole etichetate cu"
+
+#: no reference:
+msgid "Tag"
+msgstr "Etichetă"
+
+#: no reference:
+msgid "Daily Archives:"
+msgstr "Arhive Zilnice:"
+
+#: no reference:
+msgid "Monthly Archives:"
+msgstr "Arhive Lunare:"
+
+#: no reference:
+msgid "Yearly Archives:"
+msgstr "Arhive Anuale:"
+
+#: no reference:
+msgid "Archives"
+msgstr "Arhive"
+
+#: no reference:
+msgid "LATEST ARTICLES"
+msgstr "ULTIMELE ARTICOLE"
+
+#: no reference:
+msgid "search results"
+msgstr "rezultatele căutării"
+
+#: no reference:
+msgid "Search"
+msgstr "Căutați"
+
+#: no reference:
+msgid "If you're not happy with the results, please do another search"
+msgstr "Dacă nu sunteți mulțumiți de rezultate, vă rugăm folosiți alt criteriu de căutare"
+
+#: no reference:
+msgid "Contact us"
+msgstr "Contactați-ne"
+
+#: no reference:
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Pagina %CURRENT_PAGE% din %TOTAL_PAGES%"
+
+#: no reference:
+msgid "Next"
+msgstr "Înainte"
+
+#: no reference:
+msgid "Prev"
+msgstr "Înapoi"
+
+#: no reference:
+msgid "No results for your search"
+msgstr "Niciun rezultat pentru căutarea dvs"
+
+#: no reference:
+msgid "No posts to display"
+msgstr "Niciun articol afișat"
+
+#: no reference:
+msgid "LOG IN"
+msgstr "AUTENTIFICAȚI-VĂ"
+
+#: no reference:
+msgid "Sign in / Join"
+msgstr "Autentificați-vă / Înregistrați-vă"
+
+#: no reference:
+msgid "Log In"
+msgstr "Autentificați-vă"
+
+#: no reference:
+msgid "REGISTER"
+msgstr "ÎNREGISTRAȚI-VĂ"
+
+#: no reference:
+msgid "Send My Pass"
+msgstr "Trimiteți-mi parola"
+
+#: no reference:
+msgid "Forgot your password?"
+msgstr "V-ați uitat parola?"
+
+#: no reference:
+msgid "Please wait..."
+msgstr "Vă rugăm așteptați..."
+
+#: no reference:
+msgid "User or password incorrect!"
+msgstr "Nume de utilizator sau parola incorectă!"
+
+#: no reference:
+msgid "Email or username incorrect!"
+msgstr "Email sau nume de utilizator incorect!"
+
+#: no reference:
+msgid "Email incorrect!"
+msgstr "Email incorect!"
+
+#: no reference:
+msgid "User or email already exists!"
+msgstr "Nume de utilizator sau email deja existent!"
+
+#: no reference:
+msgid "Please check your email (index or spam folder), the password was sent there."
+msgstr "Vă rugăm verificați-vă email-ul (directorul index sau spam), parola v-a fost trimisă într-unul dintre acestea"
+
+#: no reference:
+msgid "Email address not found!"
+msgstr "Adresa de email nu a fost gasită!"
+
+#: no reference:
+msgid "Your password is reset, check your email."
+msgstr "Parola dvs a fost resetată, verificați-vă adresa de email."
+
+#: no reference:
+msgid "Welcome! Log into your account"
+msgstr "Bine ați venit! Autentificați-vă in contul dvs"
+
+#: no reference:
+msgid "Register for an account"
+msgstr "Inregistrați-vă pentru un cont"
+
+#: no reference:
+msgid "Recover your password"
+msgstr "Recuperați-vă parola"
+
+#: no reference:
+msgid "your username"
+msgstr "numele dvs de utilizator"
+
+#: no reference:
+msgid "your password"
+msgstr "parola dvs"
+
+#: no reference:
+msgid "your email"
+msgstr "adresa dvs de email"
+
+#: no reference:
+msgid "A password will be e-mailed to you."
+msgstr "O parola va fi trimisă pe adresa dvs de email."
+
+#: no reference:
+msgid "Logout"
+msgstr "Ieșire"
+
+#: no reference:
+msgid "Like"
+msgstr "Îmi place"
+
+#: no reference:
+msgid "Fans"
+msgstr "Fani"
+
+#: no reference:
+msgid "Follow"
+msgstr "Conectați-vă"
+
+#: no reference:
+msgid "Followers"
+msgstr "Cititori"
+
+#: no reference:
+msgid "Subscribe"
+msgstr "Abonați-vă"
+
+#: no reference:
+msgid "Subscribers"
+msgstr "Abonați"
+
+#: no reference:
+msgid "MORE STORIES"
+msgstr "MAI MULTE ARTICOLE"
+
+#: no reference:
+msgid "Latest"
+msgstr "Ultimele"
+
+#: no reference:
+msgid "Featured posts"
+msgstr "Articole recomandate"
+
+#: no reference:
+msgid "Most popular"
+msgstr "Cele mai populare"
+
+#: no reference:
+msgid "7 days popular"
+msgstr "Cele mai populare din ultimele 7 zile"
+
+#: no reference:
+msgid "By review score"
+msgstr "După recenzie"
+
+#: no reference:
+msgid "Random"
+msgstr "Aleator"
+
+#: no reference:
+msgid "Trending Now"
+msgstr "De Actualitate"
+
+#: no reference:
+msgid "POPULAR CATEGORY"
+msgstr "CATEGORIE POPULARĂ"
+
+#: no reference:
+msgid "EVEN MORE NEWS"
+msgstr "ȘI MAI MULTE ȘTIRI"
+
+#: no reference:
+msgid "Previous (Left arrow key)"
+msgstr "Înainte (Tasta direcționare stânga)"
+
+#: no reference:
+msgid "Next (Right arrow key)"
+msgstr "Înapoi (Tasta direcționare dreapta)"
+
+#: no reference:
+msgid "%curr% of %total%"
+msgstr "%curr% din %total%"
+
+#: no reference:
+msgid "The content from %url% could not be loaded."
+msgstr "Conținutul de la %url% nu poate fi încărcat."
+
+#: no reference:
+msgid "The image #%curr% could not be loaded."
+msgstr "Imaginea #%curr% nu poate fi încărcată."
+
+#: no reference:
+msgid "Blog"
+msgstr "Blog"
+
+#: no reference:
+msgid "Share on Facebook"
+msgstr "Distribuiți pe Facebook"
+
+#: no reference:
+msgid "Tweet on Twitter"
+msgstr "Distribuiți pe Twitter"
+
+#: no reference:
+msgid "EDITOR PICKS"
+msgstr "ALEGEREA EDITORULUI"
+
+#: no reference:
+msgid "POPULAR POSTS"
+msgstr "POSTURI POPULARE"
+
+#: no reference:
+msgid "FOLLOW US"
+msgstr "URMAȚI-NE"
+
+#: no reference:
+msgid "ABOUT US"
+msgstr "DESPRE NOI"
+
+#: no reference:
+msgid "More"
+msgstr "Mai mult"
+
+#: no reference:
+msgid "Featured"
+msgstr "Recomandate"
+
+#: no reference:
+msgid "All time popular"
+msgstr "Tot timpul populare"
+
+#: no reference:
+msgid "Likes"
+msgstr "Likes"
+
+#: no reference:
+msgid "Register"
+msgstr "Înregistrare"
+

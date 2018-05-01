@@ -1,0 +1,66 @@
+@media print {
+
+  html,body {
+    background-color:#FFF;
+    color:#000;
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    page-break-after: avoid;
+  }
+
+  ul, ol, li {
+    page-break-inside: avoid;
+  }
+
+  table,tr,td {
+    page-break-before: avoid;
+  }
+
+  .single-post {
+    .td-header-wrap,
+    .td-main-sidebar,
+    #td-theme-settings,
+    .td-header-top-menu,
+    .td-header-menu-wrap,
+    .td-header-sp-ads,
+    .td-main-sidebar,
+    .td-post-source-tags,
+    .td-post-sharing,
+    .td-post-next-prev,
+    .td_block_related_posts,
+    #comments,
+    .td-footer-container,
+    .td-footer-wrapper,
+    .td-sub-footer-container,
+    .td-category,
+    .td-post-views,
+    .td-post-comments,
+    .td-scroll-up,
+    iframe,
+    .td-more-articles-box,
+    .td_block_video_playlist,
+    .td-crumb-container,
+    .td-g-rec,
+    .td-a-rec,
+    .author-box-wrap .avatar {
+      display: none !important;
+    }
+  }
+
+  .backstretch {
+    display: none;
+  }
+
+  .td-main-content,
+  header {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,491 @@
+/*  ----------------------------------------------------------------------------
+    IOS Slider
+*/
+.td_block_slide {
+  position: relative;
+  overflow: hidden;
+
+  .td-module-thumb,
+  .td-video-play-ico,
+  .td-slide-meta,
+  i {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .td-module-thumb {
+    margin-bottom: 0;
+    z-index: -1;
+    position: static;
+  }
+  &.td_block_wrap {
+    padding-bottom: 48px;
+  }
+
+  // video icon
+  .td-video-play-ico img {
+    width: 40px !important;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_tablet_max) {
+      bottom: auto;
+      top: 12px;
+      left: auto;
+      right: 12px;
+    }
+  }
+
+  .td-admin-edit {
+    height: auto !important;
+  }
+
+  .td_module_slide {
+    z-index: 1;
+  }
+
+  .td-image-gradient:before {
+    height: 50%;
+
+    @media (max-width: @responsive_p_tablet_max) {
+      height: 100%;
+    }
+  }
+
+  .td-slide-meta {
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 0 22px;
+    color: #fff;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      padding: 0 12px;
+      bottom: 3px;
+    }
+
+    a,  span {
+      color: #fff;
+    }
+  }
+
+  .entry-title {
+    margin: 5px 0;
+  }
+
+
+  .entry-review-stars {
+    margin-right: 22px;
+    top: 0;
+  }
+
+  .td-post-date {
+    margin-right: 22px;
+    color: #fff;
+    margin-left: 4px;
+  }
+
+  .td-post-views {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 22px;
+    line-height: 15px;
+  }
+
+  .td-icon-views {
+    position: relative;
+    line-height: 17px;
+    font-size: 14px;
+    margin-right: 5px;
+    vertical-align: top;
+  }
+
+  .td-post-comments {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .td-icon-comments {
+    margin-right: 5px;
+    font-size: 9px;
+    position: relative;
+    top: 1px;
+  }
+
+
+  .td-icon-left,
+  .td-icon-right {
+    padding: 20px;
+    position: absolute;
+    display: block;
+    height: 80px;
+    margin-top: -40px;
+    top: 50%;
+    font-size: 38px;
+    color: #fff;
+    opacity: 0;
+    .transition(opacity 0.4s);
+  }
+
+  .td-icon-left {
+    left: 0;
+  }
+
+  .td-icon-right {
+    right: 0;
+  }
+
+  .td_module_wrap:hover {
+    .entry-title a {
+      color: #fff;
+    }
+  }
+}
+
+.td-ss-main-sidebar .td_block_slide,
+.td-ss-row .td-pb-span4 .td_block_slide {
+  overflow: visible;
+}
+
+.td-theme-slider {
+
+  /* Slider Category */
+  .slide-meta-cat {
+    a {
+      font-family: @font3;
+      font-size: 12px;
+      font-weight: 500;
+      text-transform: uppercase;
+      display: inline-block;
+      margin: 0 0 5px 0;
+      padding: 4px 7px 3px;
+      line-height: 14px;
+      background-color: rgba(0,0,0,0.7);
+      .transition(background-color 0.3s ease);
+
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        font-size: 10px;
+        padding: 2px 5px 2px;
+        margin-bottom: 0;
+        line-height: 13px;
+      }
+    }
+  }
+
+  &:hover {
+    .td-icon-left,
+    .td-icon-right {
+      opacity: 1;
+      z-index: 1;
+    }
+
+    .slide-meta-cat a {
+      background-color: @td_theme_color;
+    }
+  }
+}
+
+// firefox fix
+@-moz-document url-prefix() {
+  .td-theme-slider .slide-meta-cat a {
+    padding: 3px 7px 4px;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+        line-height: 12px;
+    }
+  }
+}
+
+
+/* 3 column */
+.iosSlider-col-3 {
+  height: 580px;
+
+  /* responsive landscape tablet */
+  @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+    height: 532px;
+  }
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    height: 402px;
+  }
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    height: 298px;
+  }
+
+  /* responsive small portrait phone */
+  @media (max-width: 500px) {
+    height: 163px;
+  }
+
+  .td_module_slide {
+    height: 580px;
+
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      height: 532px;
+    }
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      height: 402px;
+    }
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      height: 298px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      height: 163px;
+    }
+  }
+
+  .td-module-meta-info {
+    padding-bottom: 12px;
+
+    /* responsive portrait tablet */
+    @media (max-width: @responsive_p_tablet_max) {
+      padding-bottom: 0;
+    }
+  }
+
+  .td-icon-left,
+  .td-icon-right {
+    font-size: 55px;
+
+    /* responsive portrait tablet */
+    @media (max-width: @responsive_p_tablet_max) {
+      font-size: 38px
+    }
+  }
+
+  .entry-title {
+    font-size: 48px;
+    line-height: 58px;
+
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      font-size: 42px;
+      line-height: 52px;
+    }
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      font-size: 34px;
+      line-height: 44px;
+    }
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      font-size: 26px;
+      line-height: 32px;
+    }
+
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  .entry-thumb {
+    width: 1068px;
+  }
+}
+
+
+/* 2 columns */
+.iosSlider-col-2 {
+  height: 385px;
+
+  /* responsive landscape tablet */
+  @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+    height: 354px;
+  }
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    height: 268px;
+  }
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    height: 303px;
+  }
+
+  /* responsive small portrait phone */
+  @media (max-width: 500px) {
+    height: 166px;
+  }
+
+  .td_module_slide {
+    height: 385px;
+
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      height: 354px;
+    }
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      height: 268px;
+    }
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      height: 303px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      height: 166px;
+    }
+  }
+
+  .entry-title {
+    font-size: 26px;
+    line-height: 32px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      font-size: 22px;
+      line-height: 28px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  .entry-thumb {
+    width: 696px;
+  }
+}
+
+
+/* 1 column */
+.iosSlider-col-1 {
+  height: 385px;
+
+  /* responsive landscape tablet */
+  @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+    height: 354px;
+  }
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    height: 268px;
+  }
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    height: 303px;
+  }
+
+  /* responsive small portrait phone */
+  @media (max-width: 500px) {
+    height: 200px;
+  }
+
+  .td_module_slide {
+    height: 385px;
+
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      height: 354px;
+    }
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      height: 268px;
+    }
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      height: 303px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      height: 200px;
+    }
+  }
+
+  .entry-title {
+    font-size: 18px;
+    line-height: 24px;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      font-size: 26px;
+      line-height: 32px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+
+  .entry-thumb {
+    width: 324px;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      width: 767px;
+    }
+
+    /* responsive small portrait phone */
+    @media (max-width: 500px) {
+      width: 500px;
+    }
+  }
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    .td-post-views,
+    .td-post-comments {
+      display: none;
+    }
+  }
+}
+
+//slider fix for this sizes if it's applying for any device
+@media (min-width: 500px) and (max-width: 584px) {
+  .iosSlider-col-2,
+  .iosSlider-col-3 {
+    img {
+      min-height: 303px;
+    }
+  }
+}
+
+
+// fix slider will appear only when js is loaded
+.td_block_slide .td_module_slide {
+  visibility: hidden !important;
+}
+.td_block_slide .td_module_slide:first-child {
+  visibility: visible !important;
+}
+.td-js-loaded .td_block_slide .td_module_slide {
+  visibility: visible !important;
+}

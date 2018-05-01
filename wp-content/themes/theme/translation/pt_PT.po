@@ -1,0 +1,467 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+
+#: no reference:
+msgid "View all results"
+msgstr "Todos os resultados"
+
+#: no reference:
+msgid "No results"
+msgstr "Nenhum resultado"
+
+#: no reference:
+msgid "Home"
+msgstr "Inicio"
+
+#: no reference:
+msgid "CLOSE"
+msgstr "FECHAR"
+
+#: no reference:
+msgid "Page"
+msgstr "Página"
+
+#: no reference:
+msgid "All"
+msgstr "Todos"
+
+#: no reference:
+msgid "By"
+msgstr "Por"
+
+#: no reference:
+msgid "Load more"
+msgstr "Carregar mais"
+
+#: no reference:
+msgid "View all posts in"
+msgstr "Ver todos os posts em"
+
+#: no reference:
+msgid "Tags"
+msgstr "Tags"
+
+#: no reference:
+msgid "Previous article"
+msgstr "Artigo anterior"
+
+#: no reference:
+msgid "Next article"
+msgstr "Próximo artigo"
+
+#: no reference:
+msgid "Authors"
+msgstr "Autores"
+
+#: no reference:
+msgid "Author"
+msgstr "Autor"
+
+#: no reference:
+msgid "RELATED ARTICLES"
+msgstr "ARTIGOS RELACIONADOS"
+
+#: no reference:
+msgid "MORE FROM AUTHOR"
+msgstr "MAIS DO MESMO AUTOR"
+
+#: no reference:
+msgid "VIA"
+msgstr "VIA"
+
+#: no reference:
+msgid "SOURCE"
+msgstr "FONTE"
+
+#: no reference:
+msgid "TAGS"
+msgstr "TAGS"
+
+#: no reference:
+msgid "SHARE"
+msgstr "COMPARTILHAR"
+
+#: no reference:
+msgid "Continue"
+msgstr "Continuar"
+
+#: no reference:
+msgid "Read more"
+msgstr "Leia mais"
+
+#: no reference:
+msgid "Name:"
+msgstr "Nome:"
+
+#: no reference:
+msgid "Email:"
+msgstr "Email:"
+
+#: no reference:
+msgid "Website:"
+msgstr "Site:"
+
+#: no reference:
+msgid "Comment:"
+msgstr "Comentário:"
+
+#: no reference:
+msgid "LEAVE A REPLY"
+msgstr "DEIXE UMA RESPOSTA"
+
+#: no reference:
+msgid "Post Comment"
+msgstr "Postar Comentário"
+
+#: no reference:
+msgid "Cancel reply"
+msgstr "Cancelar resposta"
+
+#: no reference:
+msgid "Reply"
+msgstr "Resposta"
+
+#: no reference:
+msgid "Log in to leave a comment"
+msgstr "Faça login para fazer um comentário"
+
+#: no reference:
+msgid "NO COMMENTS"
+msgstr "SEM COMENTÁRIO"
+
+#: no reference:
+msgid "1 COMMENT"
+msgstr "1 COMENTÁRIO"
+
+#: no reference:
+msgid "COMMENTS"
+msgstr "COMENTÁRIOS"
+
+#: no reference:
+msgid "REVIEW OVERVIEW"
+msgstr "REVIEW GERAL"
+
+#: no reference:
+msgid "SUMMARY"
+msgstr "RESUMO"
+
+#: no reference:
+msgid "OVERALL SCORE"
+msgstr "PONTUAÇÃO GERAL"
+
+#: no reference:
+msgid "Ooops... Error 404"
+msgstr "Ooops... Erro 404"
+
+#: no reference:
+msgid "Sorry, but the page you are looking for doesn't exist."
+msgstr "Desculpe, mas a página que você está procurando não existe."
+
+#: no reference:
+msgid "You can go to the"
+msgstr "Você pode ir para a"
+
+#: no reference:
+msgid "HOMEPAGE"
+msgstr "Página inicial"
+
+#: no reference:
+msgid "OUR LATEST POSTS"
+msgstr "NOSSOS POSTS MAIS RECENTES"
+
+#: no reference:
+msgid "Posts by"
+msgstr "Posts por"
+
+#: no reference:
+msgid "POSTS"
+msgstr "POSTS"
+
+#: no reference:
+msgid "Posts tagged with"
+msgstr "Post com a tag"
+
+#: no reference:
+msgid "Tag"
+msgstr "Tag"
+
+#: no reference:
+msgid "Daily Archives:"
+msgstr "Arquivos diários:"
+
+#: no reference:
+msgid "Monthly Archives:"
+msgstr "Arquivos mensais:"
+
+#: no reference:
+msgid "Yearly Archives:"
+msgstr "Arquivo anual:"
+
+#: no reference:
+msgid "Archives"
+msgstr "Arquivos"
+
+#: no reference:
+msgid "LATEST ARTICLES"
+msgstr "ÚLTIMOS ARTIGOS"
+
+#: no reference:
+msgid "search results"
+msgstr "resultado da pesquisa"
+
+#: no reference:
+msgid "Search"
+msgstr "Pesquisa"
+
+#: no reference:
+msgid "If you're not happy with the results, please do another search"
+msgstr "Se você não gostou dos resultados, por favor, faça outra pesquisa"
+
+#: no reference:
+msgid "Contact us"
+msgstr "Entre em contato"
+
+#: no reference:
+msgid "Page %CURRENT_PAGE% of %TOTAL_PAGES%"
+msgstr "Página %CURRENT_PAGE% de %TOTAL_PAGES%"
+
+#: no reference:
+msgid "Next"
+msgstr "Próximo"
+
+#: no reference:
+msgid "Prev"
+msgstr "Anterior"
+
+#: no reference:
+msgid "No results for your search"
+msgstr "Sem resultados para a sua pesquisa"
+
+#: no reference:
+msgid "No posts to display"
+msgstr "Não há posts para exibir"
+
+#: no reference:
+msgid "LOG IN"
+msgstr "ENTRAR"
+
+#: no reference:
+msgid "Sign in / Join"
+msgstr "Entrar / Cadastrar"
+
+#: no reference:
+msgid "Log In"
+msgstr "Entrar"
+
+#: no reference:
+msgid "REGISTER"
+msgstr "Cadastrar"
+
+#: no reference:
+msgid "Send My Pass"
+msgstr "Enviar minha senha"
+
+#: no reference:
+msgid "Forgot your password?"
+msgstr "Esqueceu sua senha ?"
+
+#: no reference:
+msgid "Please wait..."
+msgstr "Por favor espere..."
+
+#: no reference:
+msgid "User or password incorrect!"
+msgstr "Usuário ou senha incorretos!"
+
+#: no reference:
+msgid "Email or username incorrect!"
+msgstr "Email ou nome usuário incorretos!"
+
+#: no reference:
+msgid "Email incorrect!"
+msgstr "Email incorreto!"
+
+#: no reference:
+msgid "User or email already exists!"
+msgstr "Usuário ou e-mail já existe!"
+
+#: no reference:
+msgid "Please check your email (index or spam folder), the password was sent there."
+msgstr "Por favor, verifique no seu e-mails (Lixeira ou pasta de spam), a senha já foi enviada."
+
+#: no reference:
+msgid "Email address not found!"
+msgstr "Endereço de email não encontrado!"
+
+#: no reference:
+msgid "Your password is reset, check your email."
+msgstr "Sua senha foi redefinida, verifique seu e-mail."
+
+#: no reference:
+msgid "Welcome! Log into your account"
+msgstr "Bem-vindo! Entre na sua conta"
+
+#: no reference:
+msgid "Register for an account"
+msgstr "Crie uma conta"
+
+#: no reference:
+msgid "Recover your password"
+msgstr "Recuperar sua senha"
+
+#: no reference:
+msgid "your username"
+msgstr "seu nome de usuário"
+
+#: no reference:
+msgid "your password"
+msgstr "sua senha"
+
+#: no reference:
+msgid "your email"
+msgstr "seu email"
+
+#: no reference:
+msgid "A password will be e-mailed to you."
+msgstr "A senha será enviada para o seu email."
+
+#: no reference:
+msgid "Logout"
+msgstr "Sair"
+
+#: no reference:
+msgid "Like"
+msgstr "Curti"
+
+#: no reference:
+msgid "Fans"
+msgstr "Fans"
+
+#: no reference:
+msgid "Follow"
+msgstr "Seguir"
+
+#: no reference:
+msgid "Followers"
+msgstr "Seguidores"
+
+#: no reference:
+msgid "Subscribe"
+msgstr "Se inscrever"
+
+#: no reference:
+msgid "Subscribers"
+msgstr "Inscritos"
+
+#: no reference:
+msgid "MORE STORIES"
+msgstr "MAIS HISTÓRIAS"
+
+#: no reference:
+msgid "Latest"
+msgstr "Últimas"
+
+#: no reference:
+msgid "Featured posts"
+msgstr "Posts em Destaque"
+
+#: no reference:
+msgid "Most popular"
+msgstr "Mais popular"
+
+#: no reference:
+msgid "7 days popular"
+msgstr "Popular por 7 dias"
+
+#: no reference:
+msgid "By review score"
+msgstr "Por pontuação de review"
+
+#: no reference:
+msgid "Random"
+msgstr "Aleatório"
+
+#: no reference:
+msgid "Trending Now"
+msgstr "Tendência agora"
+
+#: no reference:
+msgid "POPULAR CATEGORY"
+msgstr "CATEGORIA POPULAR"
+
+#: no reference:
+msgid "EVEN MORE NEWS"
+msgstr "AINDA MAIS NOTÍCIAS"
+
+#: no reference:
+msgid "Previous (Left arrow key)"
+msgstr "Anterior (Seta a esquerda )"
+
+#: no reference:
+msgid "Next (Right arrow key)"
+msgstr "Avançar (Seta a direita)"
+
+#: no reference:
+msgid "%curr% of %total%"
+msgstr "%curr% de %total%"
+
+#: no reference:
+msgid "The content from %url% could not be loaded."
+msgstr "O conteúdo de% url% não pôde ser carregado."
+
+#: no reference:
+msgid "The image #%curr% could not be loaded."
+msgstr "A imagem #% curr% não pôde ser carregada."
+
+#: no reference:
+msgid "Blog"
+msgstr "Blog"
+
+#: no reference:
+msgid "Share on Facebook"
+msgstr "Compartilhar no Facebook"
+
+#: no reference:
+msgid "Tweet on Twitter"
+msgstr "Tweet no Twitter"
+
+#: no reference:
+msgid "EDITOR PICKS"
+msgstr "SELEÇÕES DO EDITOR"
+
+#: no reference:
+msgid "POPULAR POSTS"
+msgstr "POSTS MAIS POPULARES"
+
+#: no reference:
+msgid "FOLLOW US"
+msgstr "SIGA-NOS"
+
+#: no reference:
+msgid "ABOUT US"
+msgstr "SOBRE NÓS"
+
+#: no reference:
+msgid "More"
+msgstr "Mais"
+
+#: no reference:
+msgid "Featured"
+msgstr "Featured"
+
+#: no reference:
+msgid "All time popular"
+msgstr "Todos os tempos populares"
+
+#: no reference:
+msgid "Likes"
+msgstr "Gostos"
+
+#: no reference:
+msgid "Register"
+msgstr "Registrar"
+

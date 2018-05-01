@@ -1,0 +1,126 @@
+/*  ----------------------------------------------------------------------------
+    Module MX16
+*/
+.td_module_mx16 {
+  padding-bottom: 35px;
+
+  .entry-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      font-size: 19px;
+      line-height: 22px;
+      font-weight: 700;
+    }
+  }
+
+  .td-info-container {
+    position: relative;
+  }
+
+  .td-module-image {
+    width: 100px;
+    height: 140px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      width: 80px;
+    }
+  }
+
+  .entry-thumb {
+    max-width: none;
+    position: absolute;
+    margin: 0 auto;
+    left: -9999px;
+    right: -9999px;
+    width: auto;
+    height: 140px;
+  }
+
+  .td-post-category {
+    display: inline-block;
+    padding: 4px 7px;
+    margin-right: 0;
+    font-size: 9px;
+    bottom: 15px;
+    text-transform: uppercase;
+    line-height: 1;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+  }
+
+  .td-video-play-ico > img {
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    right: 10px;
+    bottom: auto;
+    left: auto;
+
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      width: 30px;
+      height: 30px;
+      top: 10px;
+      right: 10px;
+    }
+  }
+
+  .td-item-details {
+    margin-left: 120px;
+    min-height: 140px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      margin-left: 90px;
+    }
+  }
+
+  .td-module-meta-info {
+    position: relative;
+  }
+
+  .td-post-date {
+    font-size: 12px;
+  }
+
+  .td-module-comments {
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+  }
+
+  .td-excerpt {
+    font-size: 13px;
+    line-height: 19px;
+    margin: 0;
+  }
+
+  .td-read-more {
+    margin: 13px 0 0 0;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      display: none;
+    }
+  }
+
+  .td-read-more a {
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+    padding: 8px 11px;
+  }
+}

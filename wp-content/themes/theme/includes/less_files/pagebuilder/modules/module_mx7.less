@@ -1,0 +1,71 @@
+/*  ----------------------------------------------------------------------------
+    Module mx7
+*/
+.td_module_mx7 {
+
+  .td-module-thumb {
+    margin-bottom: 9px;
+  }
+
+  .entry-title {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+
+  .td-module-meta-info {
+    margin-bottom: 13px;
+  }
+
+  .td_quote_on_blocks {
+    margin-top: 10px;
+  }
+
+  /* responsive portrait tablet */
+  @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+    .td-post-author-name {
+      display: none;
+    }
+  }
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    .entry-thumb {
+      width: 100%;
+    }
+  }
+}
+
+//Module mx7 on 3 columns
+.td-column-3 .td_module_mx7 {
+
+  /* responsive portrait phone */
+  @media (max-width: @responsive_p_phone_max) {
+    .td-post-author-name {
+      display: none;
+    }
+
+    .entry-title {
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    .td-video-play-ico img {
+      width: 40px;
+    }
+  }
+}
+
+// fix module height for slow connection
+/* responsive portrait phone */
+@media (max-width: @responsive_p_phone_max) {
+  .td_block_16 .td-column-2 .td-module-thumb {
+    height: auto !important;
+  }
+}

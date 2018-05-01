@@ -1,0 +1,237 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: find-duplicates\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-26 17:20+0100\n"
+"PO-Revision-Date: 2013-09-26 17:22+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../find-duplicates.php:212 ../find-duplicates.php:220
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du hast keine ausreichenden Rechte für diese Seite."
+
+#: ../tpl/donation.php:2
+msgid "Say \"Thank you\""
+msgstr "Sag \"Danke\""
+
+#: ../tpl/donation.php:7
+msgid "Say \"Thank you\" and further more free plugins!"
+msgstr "Sag \"Danke\" und fördere damit weitere kostenlose Plugins!"
+
+#: ../tpl/metabox.php:3
+msgid "Similarity"
+msgstr "Ähnlichkeit"
+
+#: ../tpl/metabox.php:3
+msgid "Date"
+msgstr "Datum"
+
+#: ../tpl/metabox.php:3
+msgid "Status"
+msgstr "Status"
+
+#: ../tpl/metabox.php:3
+msgid "only compare title"
+msgstr "nur Titel vergleichen"
+
+#: ../tpl/metabox.php:4 ../tpl/search.php:85
+msgid "loading"
+msgstr "suche"
+
+#: ../tpl/options.php:5
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ../tpl/options.php:9
+msgid "Common Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: ../tpl/options.php:11
+msgid "Default target for duplicates"
+msgstr "Standardziel für Duplikate"
+
+#: ../tpl/options.php:12
+msgid "Trash"
+msgstr "Papierkorb"
+
+#: ../tpl/options.php:13
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: ../tpl/options.php:14
+msgid "Draft"
+msgstr "Entwurf"
+
+#: ../tpl/options.php:20
+msgid "Automatic duplicate handling"
+msgstr "Automatisch Behandlung von Duplikaten"
+
+#: ../tpl/options.php:24
+msgid "Activate automatic post handling"
+msgstr "Automatische Behandlung aktivieren"
+
+#: ../tpl/options.php:25
+msgid ""
+"Set all posts matching the following criteria as \"pending\" directly after "
+"publishing it."
+msgstr ""
+"Neu veröffentlichte Artikel mit folgenden Kriterien als \"Ausstehend\" "
+"kennzeichnen"
+
+#: ../tpl/options.php:28
+msgid ""
+"Delete all posts with an <strong>content-similarity</strong> of more than:"
+msgstr ""
+"Suche nach Artikeln mit einer <strong>Ähnlichkeit</strong> von mehr als:"
+
+#: ../tpl/options.php:34 ../tpl/options.php:124
+msgid "Activate for these <strong>types</strong>:"
+msgstr "Berücksichtige diese <strong>Typen</strong>:"
+
+#: ../tpl/options.php:46 ../tpl/options.php:136 ../tpl/search.php:36
+msgid "Include these <strong>statuses</strong>:"
+msgstr "Berücksichtige diesen <strong>Status</strong>:"
+
+#: ../tpl/options.php:59 ../tpl/options.php:149 ../tpl/search.php:52
+msgid "Limit by <strong>post date</strong>:"
+msgstr "Begrenze mit <strong>Datum</strong>:"
+
+#: ../tpl/options.php:60 ../tpl/options.php:150 ../tpl/search.php:53
+msgid "from"
+msgstr "von"
+
+#: ../tpl/options.php:63 ../tpl/options.php:153 ../tpl/search.php:53
+msgid "until"
+msgstr "bis"
+
+#: ../tpl/options.php:68 ../tpl/options.php:158
+msgid "or the last"
+msgstr "oder die letzten"
+
+#: ../tpl/options.php:68 ../tpl/options.php:158
+msgid "days"
+msgstr "Tage"
+
+#: ../tpl/options.php:72 ../tpl/options.php:162 ../tpl/search.php:59
+msgid "Compare"
+msgstr "Vergleiche"
+
+#: ../tpl/options.php:74 ../tpl/options.php:164 ../tpl/search.php:61
+msgid "content (post_content)"
+msgstr "Inhalt (post_content)"
+
+#: ../tpl/options.php:77 ../tpl/options.php:167 ../tpl/search.php:64
+msgid "title (post_title)"
+msgstr "Titel (post_title)"
+
+#: ../tpl/options.php:80 ../tpl/options.php:170 ../tpl/search.php:67
+msgid "content and title"
+msgstr "Inhalt und Titel"
+
+#: ../tpl/options.php:84 ../tpl/options.php:174 ../tpl/search.php:70
+msgid "Filter out HTML-Tags while comparing"
+msgstr "HTML-Tags beim Vergleich ignorieren"
+
+#: ../tpl/options.php:86 ../tpl/options.php:176 ../tpl/search.php:72
+msgid "Decode HTML-Entities before comparing"
+msgstr "HTML-Entities vor dem Vergleich entschlüsseln"
+
+#: ../tpl/options.php:90 ../tpl/options.php:184 ../tpl/search.php:77
+msgid "Ignore these words while comparing"
+msgstr "Diese Wörter ignorieren"
+
+#: ../tpl/options.php:109
+msgid "Manual duplicate handling"
+msgstr "Manuelle Überprüfung"
+
+#: ../tpl/options.php:113
+msgid "Activate manual post handling"
+msgstr "Manuelle Überprüfung aktivieren"
+
+#: ../tpl/options.php:114
+msgid "Allows you to check for similar entries before publishing an post."
+msgstr "Erlaubt die manuelle Prüfung auf Duplikate während der Bearbeitung"
+
+#: ../tpl/options.php:117
+msgid ""
+"Include all posts with an <strong>content-similarity</strong> of more than:"
+msgstr ""
+"Suche nach Artikeln mit einer <strong>Ähnlichkeit</strong> von mehr als:"
+
+#: ../tpl/options.php:178 ../tpl/search.php:74
+msgid "How much comparisons per Server-Request?"
+msgstr "Wie viele Vergleiche pro Server-Anfrage?"
+
+#: ../tpl/options.php:193
+msgid "Save settings"
+msgstr "Speichern"
+
+#: ../tpl/search.php:14
+msgid "Search settings"
+msgstr "Einstellungen"
+
+#: ../tpl/search.php:19
+msgid "Get all posts with an <strong>content-similarity</strong> of more than:"
+msgstr ""
+"Suche nach Artikeln mit einer <strong>Ähnlichkeit</strong> von mehr als:"
+
+#: ../tpl/search.php:25
+msgid "Compare this <strong>type</strong>:"
+msgstr "Berücksichtige diese <strong>Typen</strong>:"
+
+#: ../tpl/search.php:88
+msgid "Start new search"
+msgstr "Neue Suche"
+
+#: ../tpl/search.php:89
+msgid "cancel"
+msgstr "abbrechen"
+
+#: ../tpl/search.php:96
+msgid "Continue old search"
+msgstr "alte Suche fortsetzen"
+
+#: ../tpl/search.php:106
+#, php-format
+msgid "Compared %2$s of %3$s posts<br />Found %1$s duplicates"
+msgstr "%2$s von %3$s Elementen verglichen<br />%1$s Duplikate gefunden"
+
+#: ../tpl/search.php:111
+#, fuzzy
+msgid "Move selected posts to"
+msgstr "Ausgwählte Einträge löschen (Papierkorb)"
+
+#: ../tpl/search.php:117
+msgid "similarity"
+msgstr "Ähnlichkeit"
+
+#: ../tpl/search.php:118
+msgid "newer post"
+msgstr "Neuerer Artikel"
+
+#: ../tpl/search.php:120
+msgid "older post"
+msgstr "Älterer Artikel"
+
+#~ msgid "Compare post's titles instead of contents"
+#~ msgstr "Vergleiche Titel anstatt Inhalt"
+
+#~ msgid "Delete older posts (to trash)"
+#~ msgstr "Lösche ältere Artikel (Papierkorb)"
+
+#~ msgid "Save settings for post-editing"
+#~ msgstr "für Artikelbearbeitung speichern"
+
+#~ msgid "Compare posts of the following types:"
+#~ msgstr "Vergleiche Artikel der folgenden Typen:"
+
+#~ msgid "Found %1$s duplicates in %2$s of %3$s posts"
+#~ msgstr "%1$s Duplikate in %2$s von %3$s Artikeln gefunden"

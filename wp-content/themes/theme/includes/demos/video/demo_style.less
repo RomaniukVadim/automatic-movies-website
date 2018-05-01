@@ -1,0 +1,44 @@
+@import "../../less_files/variables.less";
+
+// Video Demo
+.import_video_slider_bg {
+  margin-top: -48px;
+  padding-top: 48px;
+  background-color: #222;
+}
+
+.import_video_ad_bg {
+  margin-bottom: 48px;
+  padding-top: 21px;
+  background-color: #e0e0e0;
+
+  img {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+.import_dont_miss {
+  margin-bottom: 48px;
+  padding-top: 48px;
+  background-color: #222;
+}
+
+// responsive portrait phone
+@media (max-width: @responsive_p_phone_max) {
+
+  .import_video_slider_bg {
+    margin-top: -32px;
+    padding-top: 0;
+
+    .td_block_wrap {
+      padding-bottom: 0 !important;
+    }
+  }
+}
+
+.td-video-demo {
+  // demos button
+  #td-theme-settings .td-skin-buy a {
+    background-color: #F8C900;
+  }
+}
