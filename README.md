@@ -1,16 +1,29 @@
-Авто наполняемый сайт онлайн фильмов и сериалов премиального класса. Отличный сайт, который будет 
-приносить прибыль, ведь многие любят читать новости в сфере кино индустрии, поэтому приобретая его, Вы 
-обеспечиваете себя лёгким пассивным заработком. Купив этот автонаполняемый сайт онлайн фильмов и сериалов 
-Вы сможете оценить все его преимущества. Сайт выполнен в тёмном стиле, имеет очень удобный и понятный для 
-любого пользователя интерфейс, а также все необходимые настройки для предотвращения санкций со стороны 
-поисковых систем благодаря ссылки на исходник. А сама технология авто наполнения обрабатывает большое 
-количество источников для предоставления читателю абсолютно любой новинки. Кроме этого, есть возможность 
-просматривать трейлеры фильмов, чтобы лучше заинтересовать и лучше определиться с выбором. А базовая 
-оптимизация настроена под поисковые сайты, которая контролируется All in One Seo Pack плагином. Блоки 
-рубрик расположены очень удобно, можно выбрать не только фильмы, но и сериалы, а также есть разбивка по 
-жанрам, что гораздо упрощает поиск читателю. Также произведена настройка ЧПУ и сайт локализован полностью 
-на русский язык. Если вы желаете не просто купить интересный портал, а также дополнительное средство 
-заработка, тогда этот сайт именно для Вас, так как он может приносит от 4000-10000 тысяч рублей в месяц.
+# Automatic Movies Website
 
-Данные для входа в админ панель после установки сайта - следует потом сменить: Логин: Top-Bit Пароль: demo
+Auto-filled site of online movies and serials of premium class.
 
+An excellent website that will make a profit, because many like to read news in the film industry, so acquiring it, you provide yourself with easy passive income.
+By purchasing this autocomplete online movie and TV series you will be able to appreciate all its advantages.
+The site is made in a dark style, has a very user-friendly and user-friendly interface, as well as all the necessary settings to prevent sanctions from the search engines through the link to the source.
+And the technology of auto filling processes a large number of sources to provide the reader with absolutely any novelty. In addition,
+it is possible to view movie trailers in order to better interest and better determine the choice.
+A basic optimization is configured for search sites, which is controlled by the All in One Seo Pack plug-in.
+The blocks of the headings are very convenient, you can choose not only films, but also serials, and there is also a breakdown by genre, which simplifies the search for the reader.
+The CNC has also been adjusted and the site is completely localized into Russian.
+If you want not only to buy an interesting portal, but also an additional means of earning, then this site is just for you, since it can bring in between 100 and 1,000 thousand dollars a month.
+
+The data for logging into the admin panel after installing the site - you should then change: Login: Top-Bit Password: demo
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* **Vadim Romaniuk** - *Initial work* - [glicOne](https://github.com/RomaniukVadim)
+
+See also the list of [contributors](https://github.com/RomaniukVadim/automatic-movie-website/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the Do What The F*ck You Want To Public License - see the [LICENSE.md](LICENSE.md) file for details
